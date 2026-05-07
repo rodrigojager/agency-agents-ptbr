@@ -51,6 +51,7 @@ Este documento registra o andamento da tradução **manual** dos agentes para po
 - [x] `academic/academic-geographer.md`
 - [x] `academic/academic-historian.md`
 - [x] `engineering/engineering-code-reviewer.md`
+- [x] `engineering/engineering-backend-architect.md`
 - [x] `engineering/engineering-ai-engineer.md`
 - [x] `engineering/engineering-ai-data-remediation-engineer.md`
 
