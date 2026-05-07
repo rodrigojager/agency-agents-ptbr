@@ -61,3 +61,4 @@ description: 威胁建模、安全代码审查与应用安全架构专家
 - Re-run after each `install.sh` update (which overwrites with English originals)
 - JSON file is the single source of truth for translations — add new agents there
 - Script is pure ASCII (avoids PowerShell encoding issues); all Chinese text lives in the JSON
+
