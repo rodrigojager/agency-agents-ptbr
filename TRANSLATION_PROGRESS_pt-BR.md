@@ -54,6 +54,11 @@ Este documento registra o andamento da tradução **manual** dos agentes para po
 - [x] `engineering/engineering-backend-architect.md`
 - [x] `engineering/engineering-ai-engineer.md`
 - [x] `engineering/engineering-ai-data-remediation-engineer.md`
+- [x] `engineering/engineering-database-optimizer.md`
+- [x] `engineering/engineering-software-architect.md`
+- [x] `engineering/engineering-git-workflow-master.md`
+- [x] `engineering/engineering-sre.md`
+- [x] `engineering/engineering-autonomous-optimization-architect.md`
 
 ### Em andamento
 - [ ] _(nenhum no momento)_
