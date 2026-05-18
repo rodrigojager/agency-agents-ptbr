@@ -1,278 +1,278 @@
-# ⚙️ Phase 2 Playbook — Foundation & Scaffolding
+# ⚙️ Playbook Fase 2 — Fundação & Scaffolding
 
-> **Duration**: 3-5 days | **Agents**: 6 | **Gate Keepers**: DevOps Automator + Evidence Collector
+> **Duração**: 3-5 dias | **Agentes**: 6 | **Gate Keepers**: DevOps Automator + Evidence Collector
 
 ---
 
-## Objective
+## Objetivo
 
-Build the technical and operational foundation that all subsequent work depends on. Get the skeleton standing before adding muscle. After this phase, every developer has a working environment, a deployable pipeline, and a design system to build with.
+Construir a fundação técnica e operacional da qual todo trabalho posterior depende. Levantar o esqueleto antes de adicionar músculo. Depois desta fase, todo developer terá um ambiente funcional, um pipeline deployável e um design system para construir.
 
-## Pre-Conditions
+## Pré-Condições
 
-- [ ] Phase 1 Quality Gate passed (Architecture Package approved)
-- [ ] Phase 1 Handoff Package received
-- [ ] All architecture documents finalized
+- [ ] Quality Gate da Fase 1 aprovado (Pacote de Arquitetura aprovado)
+- [ ] Pacote de Handoff da Fase 1 recebido
+- [ ] Todos os documentos de arquitetura finalizados
 
-## Agent Activation Sequence
+## Sequência de Ativação dos Agentes
 
-### Workstream A: Infrastructure (Day 1-3, Parallel)
+### Workstream A: Infraestrutura (Dia 1-3, Paralelo)
 
-#### 🚀 DevOps Automator — CI/CD Pipeline + Infrastructure
+#### 🚀 DevOps Automator — Pipeline CI/CD + Infraestrutura
 ```
-Activate DevOps Automator for infrastructure setup on [PROJECT].
+Ative DevOps Automator para setup de infraestrutura em [PROJETO].
 
-Input: Backend Architect system architecture + deployment requirements
-Deliverables required:
-1. CI/CD Pipeline (GitHub Actions / GitLab CI)
-   - Security scanning stage
-   - Automated testing stage
-   - Build and containerization stage
-   - Deployment stage (blue-green or canary)
-   - Automated rollback capability
+Input: arquitetura de sistema do Backend Architect + requisitos de deployment
+Entregáveis obrigatórios:
+1. Pipeline CI/CD (GitHub Actions / GitLab CI)
+   - Stage de security scanning
+   - Stage de testes automatizados
+   - Stage de build e containerização
+   - Stage de deployment (blue-green ou canary)
+   - Capacidade de rollback automatizado
 2. Infrastructure as Code
-   - Environment provisioning (dev, staging, production)
-   - Container orchestration setup
-   - Network and security configuration
-3. Environment Configuration
-   - Secrets management
-   - Environment variable management
-   - Multi-environment parity
+   - Provisionamento de ambientes (dev, staging, production)
+   - Setup de orquestração de containers
+   - Configuração de rede e segurança
+3. Configuração de Ambiente
+   - Gestão de secrets
+   - Gestão de variáveis de ambiente
+   - Paridade multiambiente
 
-Files to create:
-- .github/workflows/ci-cd.yml (or equivalent)
-- infrastructure/ (Terraform/CDK templates)
+Arquivos a criar:
+- .github/workflows/ci-cd.yml (ou equivalente)
+- infrastructure/ (templates Terraform/CDK)
 - docker-compose.yml
 - Dockerfile(s)
 
-Format: Working CI/CD pipeline with IaC templates
-Timeline: 3 days
+Formato: Pipeline CI/CD funcional com templates IaC
+Timeline: 3 dias
 ```
 
-#### 🏗️ Infrastructure Maintainer — Cloud Infrastructure + Monitoring
+#### 🏗️ Infrastructure Maintainer — Infraestrutura Cloud + Monitoramento
 ```
-Activate Infrastructure Maintainer for monitoring setup on [PROJECT].
+Ative Infrastructure Maintainer para setup de monitoramento em [PROJETO].
 
-Input: DevOps Automator infrastructure + Backend Architect architecture
-Deliverables required:
-1. Cloud Resource Provisioning
-   - Compute, storage, networking resources
-   - Auto-scaling configuration
-   - Load balancer setup
-2. Monitoring Stack
-   - Application metrics (Prometheus/DataDog)
-   - Infrastructure metrics
-   - Custom dashboards (Grafana)
-3. Logging and Alerting
-   - Centralized log aggregation
-   - Alert rules for critical thresholds
-   - On-call notification setup
+Input: infraestrutura do DevOps Automator + arquitetura do Backend Architect
+Entregáveis obrigatórios:
+1. Provisionamento de Recursos Cloud
+   - Recursos de compute, storage e networking
+   - Configuração de auto-scaling
+   - Setup de load balancer
+2. Stack de Monitoramento
+   - Métricas de aplicação (Prometheus/DataDog)
+   - Métricas de infraestrutura
+   - Dashboards customizados (Grafana)
+3. Logging e Alertas
+   - Agregação centralizada de logs
+   - Regras de alerta para thresholds críticos
+   - Setup de notificações on-call
 4. Security Hardening
-   - Firewall rules
-   - SSL/TLS configuration
-   - Access control policies
+   - Regras de firewall
+   - Configuração SSL/TLS
+   - Políticas de controle de acesso
 
-Format: Infrastructure Readiness Report with dashboard access
-Timeline: 3 days
+Formato: Relatório de Prontidão de Infraestrutura com acesso a dashboards
+Timeline: 3 dias
 ```
 
-#### ⚙️ Studio Operations — Process Setup
+#### ⚙️ Studio Operations — Setup de Processo
 ```
-Activate Studio Operations for process setup on [PROJECT].
+Ative Studio Operations para setup de processos em [PROJETO].
 
-Input: Sprint Prioritizer plan + Project Shepherd coordination needs
-Deliverables required:
-1. Git Workflow
-   - Branch strategy (GitFlow / trunk-based)
-   - PR review process
-   - Merge policies
-2. Communication Channels
-   - Team channels setup
-   - Notification routing
-   - Status update cadence
-3. Documentation Templates
-   - PR template
-   - Issue template
-   - Decision log template
-4. Collaboration Tools
-   - Project board setup
-   - Sprint tracking configuration
+Input: plano do Sprint Prioritizer + necessidades de coordenação do Project Shepherd
+Entregáveis obrigatórios:
+1. Workflow Git
+   - Estratégia de branch (GitFlow / trunk-based)
+   - Processo de PR review
+   - Políticas de merge
+2. Canais de Comunicação
+   - Setup de canais do time
+   - Roteamento de notificações
+   - Cadência de status update
+3. Templates de Documentação
+   - Template de PR
+   - Template de issue
+   - Template de decision log
+4. Ferramentas de Colaboração
+   - Setup de project board
+   - Configuração de sprint tracking
 
-Format: Operations Playbook
-Timeline: 2 days
+Formato: Playbook de Operações
+Timeline: 2 dias
 ```
 
-### Workstream B: Application Foundation (Day 1-4, Parallel)
+### Workstream B: Fundação da Aplicação (Dia 1-4, Paralelo)
 
-#### 🎨 Frontend Developer — Project Scaffolding + Component Library
+#### 🎨 Frontend Developer — Scaffolding do Projeto + Biblioteca de Componentes
 ```
-Activate Frontend Developer for project scaffolding on [PROJECT].
+Ative Frontend Developer para scaffolding do projeto em [PROJETO].
 
-Input: UX Architect CSS Design System + Brand Guardian identity
-Deliverables required:
-1. Project Scaffolding
-   - Framework setup (React/Vue/Angular per architecture)
-   - TypeScript configuration
+Input: CSS Design System do UX Architect + identidade do Brand Guardian
+Entregáveis obrigatórios:
+1. Scaffolding do Projeto
+   - Setup de framework (React/Vue/Angular conforme arquitetura)
+   - Configuração TypeScript
    - Build tooling (Vite/Webpack/Next.js)
-   - Testing framework (Jest/Vitest + Testing Library)
-2. Design System Implementation
-   - CSS design tokens from UX Architect
-   - Base component library (Button, Input, Card, Layout)
-   - Theme system (light/dark/system toggle)
-   - Responsive utilities
+   - Framework de testes (Jest/Vitest + Testing Library)
+2. Implementação do Design System
+   - Design tokens CSS do UX Architect
+   - Biblioteca de componentes base (Button, Input, Card, Layout)
+   - Theme system (toggle light/dark/system)
+   - Utilitários responsivos
 3. Application Shell
-   - Routing setup
-   - Layout components (Header, Footer, Sidebar)
-   - Error boundary implementation
+   - Setup de routing
+   - Componentes de layout (Header, Footer, Sidebar)
+   - Implementação de error boundary
    - Loading states
 
-Files to create:
-- src/ (application source)
-- src/components/ (component library)
+Arquivos a criar:
+- src/ (source da aplicação)
+- src/components/ (biblioteca de componentes)
 - src/styles/ (design tokens)
-- src/layouts/ (layout components)
+- src/layouts/ (componentes de layout)
 
-Format: Working application skeleton with component library
-Timeline: 3 days
+Formato: Esqueleto funcional da aplicação com biblioteca de componentes
+Timeline: 3 dias
 ```
 
-#### 🏗️ Backend Architect — Database + API Foundation
+#### 🏗️ Backend Architect — Fundação de Banco + API
 ```
-Activate Backend Architect for API foundation on [PROJECT].
+Ative Backend Architect para fundação de API em [PROJETO].
 
 Input: System Architecture Specification + Database Schema Design
-Deliverables required:
-1. Database Setup
-   - Schema deployment (migrations)
-   - Index creation
-   - Seed data for development
-   - Connection pooling configuration
-2. API Scaffold
-   - Framework setup (Express/FastAPI/etc.)
-   - Route structure matching architecture
-   - Middleware stack (auth, validation, error handling, CORS)
-   - Health check endpoints
-3. Authentication System
-   - Auth provider integration
-   - JWT/session management
-   - Role-based access control scaffold
-4. Service Communication
-   - API versioning setup
-   - Request/response serialization
-   - Error response standardization
+Entregáveis obrigatórios:
+1. Setup de Banco de Dados
+   - Deployment de schema (migrations)
+   - Criação de índices
+   - Seed data para desenvolvimento
+   - Configuração de connection pooling
+2. Scaffold de API
+   - Setup de framework (Express/FastAPI/etc.)
+   - Estrutura de rotas alinhada à arquitetura
+   - Stack de middleware (auth, validação, tratamento de erro, CORS)
+   - Endpoints de health check
+3. Sistema de Autenticação
+   - Integração com auth provider
+   - Gestão JWT/session
+   - Scaffold de controle de acesso baseado em roles
+4. Comunicação de Serviços
+   - Setup de versionamento de API
+   - Serialização de request/response
+   - Padronização de respostas de erro
 
-Files to create:
-- api/ or server/ (backend source)
-- migrations/ (database migrations)
-- docs/api-spec.yaml (OpenAPI specification)
+Arquivos a criar:
+- api/ ou server/ (source backend)
+- migrations/ (migrations de banco)
+- docs/api-spec.yaml (especificação OpenAPI)
 
-Format: Working API scaffold with database and auth
-Timeline: 4 days
+Formato: Scaffold funcional de API com banco de dados e auth
+Timeline: 4 dias
 ```
 
-#### 🏛️ UX Architect — CSS System Implementation
+#### 🏛️ UX Architect — Implementação do Sistema CSS
 ```
-Activate UX Architect for CSS system implementation on [PROJECT].
+Ative UX Architect para implementação do sistema CSS em [PROJETO].
 
-Input: Brand Guardian identity + own Phase 1 CSS Design System spec
-Deliverables required:
-1. Design Tokens Implementation
-   - CSS custom properties (colors, typography, spacing)
-   - Brand color palette with semantic naming
-   - Typography scale with responsive adjustments
+Input: identidade do Brand Guardian + própria spec de CSS Design System da Fase 1
+Entregáveis obrigatórios:
+1. Implementação de Design Tokens
+   - CSS custom properties (cores, tipografia, spacing)
+   - Paleta de cores de marca com nomenclatura semântica
+   - Escala tipográfica com ajustes responsivos
 2. Layout System
-   - Container system (responsive breakpoints)
-   - Grid patterns (2-col, 3-col, sidebar)
-   - Flexbox utilities
+   - Sistema de containers (breakpoints responsivos)
+   - Padrões de grid (2-col, 3-col, sidebar)
+   - Utilitários Flexbox
 3. Theme System
-   - Light theme variables
-   - Dark theme variables
-   - System preference detection
-   - Theme toggle component
-   - Smooth transition between themes
+   - Variáveis de tema claro
+   - Variáveis de tema escuro
+   - Detecção de preferência do sistema
+   - Componente de theme toggle
+   - Transição suave entre temas
 
-Files to create/update:
-- css/design-system.css (or equivalent in framework)
+Arquivos a criar/atualizar:
+- css/design-system.css (ou equivalente no framework)
 - css/layout.css
 - css/components.css
 - js/theme-manager.js
 
-Format: Implemented CSS design system with theme toggle
-Timeline: 2 days
+Formato: CSS design system implementado com theme toggle
+Timeline: 2 dias
 ```
 
-## Verification Checkpoint (Day 4-5)
+## Checkpoint de Verificação (Dia 4-5)
 
-### Evidence Collector Verification
+### Verificação do Evidence Collector
 ```
-Activate Evidence Collector for Phase 2 foundation verification.
+Ative Evidence Collector para verificação da fundação da Fase 2.
 
-Verify the following with screenshot evidence:
-1. CI/CD pipeline executes successfully (show pipeline logs)
-2. Application skeleton loads in browser (desktop screenshot)
-3. Application skeleton loads on mobile (mobile screenshot)
-4. Theme toggle works (light + dark screenshots)
-5. API health check responds (curl output)
-6. Database is accessible (migration status)
-7. Monitoring dashboards are active (dashboard screenshot)
-8. Component library renders (component demo page)
+Verifique o seguinte com evidência em screenshot:
+1. Pipeline CI/CD executa com sucesso (mostrar logs do pipeline)
+2. Esqueleto da aplicação carrega no browser (screenshot desktop)
+3. Esqueleto da aplicação carrega no mobile (screenshot mobile)
+4. Theme toggle funciona (screenshots light + dark)
+5. Health check da API responde (output curl)
+6. Banco de dados está acessível (status das migrations)
+7. Dashboards de monitoramento estão ativos (screenshot do dashboard)
+8. Biblioteca de componentes renderiza (página demo de componentes)
 
-Format: Evidence Package with screenshots
-Verdict: PASS / FAIL with specific issues
+Formato: Pacote de Evidências com screenshots
+Veredito: PASS / FAIL com issues específicas
 ```
 
-## Quality Gate Checklist
+## Checklist do Quality Gate
 
-| # | Criterion | Evidence Source | Status |
+| # | Critério | Fonte de Evidência | Status |
 |---|-----------|----------------|--------|
-| 1 | CI/CD pipeline builds, tests, and deploys | Pipeline execution logs | ☐ |
-| 2 | Database schema deployed with all tables/indexes | Migration success output | ☐ |
-| 3 | API scaffold responding on health check | curl response evidence | ☐ |
-| 4 | Frontend skeleton renders in browser | Evidence Collector screenshots | ☐ |
-| 5 | Monitoring dashboards showing metrics | Dashboard screenshots | ☐ |
-| 6 | Design system tokens implemented | Component library demo | ☐ |
-| 7 | Theme toggle functional (light/dark/system) | Before/after screenshots | ☐ |
-| 8 | Git workflow and processes documented | Studio Operations playbook | ☐ |
+| 1 | Pipeline CI/CD faz build, testes e deploy | Logs de execução do pipeline | ☐ |
+| 2 | Schema de banco implantado com todas as tabelas/índices | Output de sucesso das migrations | ☐ |
+| 3 | Scaffold de API responde no health check | Evidência de resposta curl | ☐ |
+| 4 | Esqueleto frontend renderiza no browser | Screenshots do Evidence Collector | ☐ |
+| 5 | Dashboards de monitoramento mostram métricas | Screenshots dos dashboards | ☐ |
+| 6 | Tokens do design system implementados | Demo da biblioteca de componentes | ☐ |
+| 7 | Theme toggle funcional (light/dark/system) | Screenshots before/after | ☐ |
+| 8 | Workflow Git e processos documentados | Playbook do Studio Operations | ☐ |
 
-## Gate Decision
+## Decisão de Gate
 
-**Dual sign-off required**: DevOps Automator (infrastructure) + Evidence Collector (visual)
+**Assinatura dupla obrigatória**: DevOps Automator (infraestrutura) + Evidence Collector (visual)
 
-- **PASS**: Working skeleton with full DevOps pipeline → Phase 3 activation
-- **FAIL**: Specific infrastructure or application issues → Fix and re-verify
+- **PASS**: Esqueleto funcional com pipeline DevOps completo → ativação da Fase 3
+- **FAIL**: Issues específicas de infraestrutura ou aplicação → corrigir e reverificar
 
-## Handoff to Phase 3
+## Handoff para Fase 3
 
 ```markdown
-## Phase 2 → Phase 3 Handoff Package
+## Pacote de Handoff Fase 2 → Fase 3
 
-### For all Developer Agents:
-- Working CI/CD pipeline (auto-deploys on merge)
-- Design system tokens and component library
-- API scaffold with auth and health checks
-- Database with schema and seed data
-- Git workflow and PR process
+### Para todos os Developer Agents:
+- Pipeline CI/CD funcional (auto-deploy em merge)
+- Design system tokens e biblioteca de componentes
+- Scaffold de API com auth e health checks
+- Banco de dados com schema e seed data
+- Workflow Git e processo de PR
 
-### For Evidence Collector (ongoing QA):
-- Application URLs (dev, staging)
-- Screenshot capture methodology
-- Component library reference
-- Brand guidelines for visual verification
+### Para Evidence Collector (QA contínuo):
+- URLs da aplicação (dev, staging)
+- Metodologia de captura de screenshots
+- Referência da biblioteca de componentes
+- Guidelines de marca para verificação visual
 
-### For Agents Orchestrator (Dev↔QA loop management):
-- Sprint Prioritizer backlog (from Phase 1)
-- Task list with acceptance criteria (from Phase 1)
-- Agent assignment matrix (from NEXUS strategy)
-- Quality thresholds for each task type
+### Para Agents Orchestrator (gestão do loop Dev↔QA):
+- Backlog do Sprint Prioritizer (da Fase 1)
+- Lista de tarefas com critérios de aceitação (da Fase 1)
+- Matriz de atribuição de agentes (da estratégia NEXUS)
+- Thresholds de qualidade para cada tipo de tarefa
 
-### Environment Access:
-- Dev environment: [URL]
-- Staging environment: [URL]
-- Monitoring dashboard: [URL]
-- CI/CD pipeline: [URL]
-- API documentation: [URL]
+### Acesso aos Ambientes:
+- Ambiente dev: [URL]
+- Ambiente staging: [URL]
+- Dashboard de monitoramento: [URL]
+- Pipeline CI/CD: [URL]
+- Documentação da API: [URL]
 ```
 
 ---
 
-*Phase 2 is complete when the skeleton application is running, the CI/CD pipeline is operational, and the Evidence Collector has verified all foundation elements with screenshots.*
+*A Fase 2 está completa quando o skeleton da aplicação está rodando, o pipeline CI/CD está operacional e o Evidence Collector verificou todos os elementos da fundação com screenshots.*

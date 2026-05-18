@@ -1,154 +1,154 @@
-# 🚀 Runbook: Startup MVP Build
+# 🚀 Runbook: Build de Startup MVP
 
-> **Mode**: NEXUS-Sprint | **Duration**: 4-6 weeks | **Agents**: 18-22
+> **Modo**: NEXUS-Sprint | **Duração**: 4-6 semanas | **Agentes**: 18-22
 
 ---
 
-## Scenario
+## Cenário
 
-You're building a startup MVP — a new product that needs to validate product-market fit quickly. Speed matters, but so does quality. You need to go from idea to live product with real users in 4-6 weeks.
+Você está construindo um MVP de startup — um novo produto que precisa validar product-market fit rapidamente. Velocidade importa, mas qualidade também. Você precisa sair da ideia para um produto live com usuários reais em 4-6 semanas.
 
-## Agent Roster
+## Roster de Agentes
 
-### Core Team (Always Active)
-| Agent | Role |
+### Time Core (Sempre Ativo)
+| Agente | Papel |
 |-------|------|
-| Agents Orchestrator | Pipeline controller |
-| Senior Project Manager | Spec-to-task conversion |
-| Sprint Prioritizer | Backlog management |
-| UX Architect | Technical foundation |
-| Frontend Developer | UI implementation |
-| Backend Architect | API and database |
-| DevOps Automator | CI/CD and deployment |
-| Evidence Collector | QA for every task |
-| Reality Checker | Final quality gate |
+| Agents Orchestrator | Controlador de pipeline |
+| Senior Project Manager | Conversão de spec em tarefas |
+| Sprint Prioritizer | Gestão de backlog |
+| UX Architect | Fundação técnica |
+| Frontend Developer | Implementação de UI |
+| Backend Architect | API e banco de dados |
+| DevOps Automator | CI/CD e deployment |
+| Evidence Collector | QA para cada tarefa |
+| Reality Checker | Quality gate final |
 
-### Growth Team (Activated Week 3+)
-| Agent | Role |
+### Time de Growth (Ativado na Semana 3+)
+| Agente | Papel |
 |-------|------|
-| Growth Hacker | Acquisition strategy |
-| Content Creator | Launch content |
-| Social Media Strategist | Social campaign |
+| Growth Hacker | Estratégia de aquisição |
+| Content Creator | Conteúdo de launch |
+| Social Media Strategist | Campanha social |
 
-### Support Team (As Needed)
-| Agent | Role |
+### Time de Support (Conforme Necessário)
+| Agente | Papel |
 |-------|------|
-| Brand Guardian | Brand identity |
-| Analytics Reporter | Metrics and dashboards |
-| Rapid Prototyper | Quick validation experiments |
-| AI Engineer | If product includes AI features |
-| Performance Benchmarker | Load testing before launch |
-| Infrastructure Maintainer | Production setup |
+| Brand Guardian | Identidade de marca |
+| Analytics Reporter | Métricas e dashboards |
+| Rapid Prototyper | Experimentos rápidos de validação |
+| AI Engineer | Se o produto incluir features de IA |
+| Performance Benchmarker | Load testing antes do launch |
+| Infrastructure Maintainer | Setup de produção |
 
-## Week-by-Week Execution
+## Execução Semana a Semana
 
-### Week 1: Discovery + Architecture (Phase 0 + Phase 1 compressed)
-
-```
-Day 1-2: Compressed Discovery
-├── Trend Researcher → Quick competitive scan (1 day, not full report)
-├── UX Architect → Wireframe key user flows
-└── Senior Project Manager → Convert spec to task list
-
-Day 3-4: Architecture
-├── UX Architect → CSS design system + component architecture
-├── Backend Architect → System architecture + database schema
-├── Brand Guardian → Quick brand foundation (colors, typography, voice)
-└── Sprint Prioritizer → RICE-scored backlog + sprint plan
-
-Day 5: Foundation Setup
-├── DevOps Automator → CI/CD pipeline + environments
-├── Frontend Developer → Project scaffolding
-├── Backend Architect → Database + API scaffold
-└── Quality Gate: Architecture Package approved
-```
-
-### Week 2-3: Core Build (Phase 2 + Phase 3)
+### Semana 1: Discovery + Arquitetura (Fase 0 + Fase 1 comprimidas)
 
 ```
-Sprint 1 (Week 2):
-├── Agents Orchestrator manages Dev↔QA loop
-├── Frontend Developer → Core UI (auth, main views, navigation)
-├── Backend Architect → Core API (auth, CRUD, business logic)
-├── Evidence Collector → QA every completed task
-├── AI Engineer → ML features if applicable
-└── Sprint Review at end of week
+Dia 1-2: Discovery Comprimido
+├── Trend Researcher → Scan competitivo rápido (1 dia, não relatório completo)
+├── UX Architect → Wireframe dos principais fluxos de usuário
+└── Senior Project Manager → Converter spec em lista de tarefas
 
-Sprint 2 (Week 3):
-├── Continue Dev↔QA loop for remaining features
-├── Growth Hacker → Design viral mechanics + referral system
-├── Content Creator → Begin launch content creation
-├── Analytics Reporter → Set up tracking and dashboards
-└── Sprint Review at end of week
+Dia 3-4: Arquitetura
+├── UX Architect → Design system CSS + arquitetura de componentes
+├── Backend Architect → Arquitetura de sistema + schema de banco
+├── Brand Guardian → Fundação rápida de marca (cores, tipografia, voz)
+└── Sprint Prioritizer → Backlog pontuado por RICE + plano de sprint
+
+Dia 5: Setup de Fundação
+├── DevOps Automator → Pipeline CI/CD + ambientes
+├── Frontend Developer → Scaffolding do projeto
+├── Backend Architect → Banco de dados + scaffold de API
+└── Quality Gate: Pacote de Arquitetura aprovado
 ```
 
-### Week 4: Polish + Hardening (Phase 4)
+### Semana 2-3: Core Build (Fase 2 + Fase 3)
 
 ```
-Day 1-2: Quality Sprint
-├── Evidence Collector → Full screenshot suite
+Sprint 1 (Semana 2):
+├── Agents Orchestrator gerencia o loop Dev↔QA
+├── Frontend Developer → UI core (auth, views principais, navegação)
+├── Backend Architect → API core (auth, CRUD, business logic)
+├── Evidence Collector → QA em toda tarefa concluída
+├── AI Engineer → Features de ML se aplicável
+└── Sprint Review no fim da semana
+
+Sprint 2 (Semana 3):
+├── Continuar loop Dev↔QA para features restantes
+├── Growth Hacker → Desenhar mecânicas virais + sistema de referral
+├── Content Creator → Começar criação de conteúdo de launch
+├── Analytics Reporter → Configurar tracking e dashboards
+└── Sprint Review no fim da semana
+```
+
+### Semana 4: Polish + Hardening (Fase 4)
+
+```
+Dia 1-2: Sprint de Qualidade
+├── Evidence Collector → Suite completa de screenshots
 ├── Performance Benchmarker → Load testing
-├── Frontend Developer → Fix QA issues
-├── Backend Architect → Fix API issues
-└── Brand Guardian → Brand consistency audit
+├── Frontend Developer → Corrigir issues de QA
+├── Backend Architect → Corrigir issues de API
+└── Brand Guardian → Auditoria de consistência de marca
 
-Day 3-4: Reality Check
-├── Reality Checker → Final integration testing
-├── Infrastructure Maintainer → Production readiness
-└── DevOps Automator → Production deployment prep
+Dia 3-4: Reality Check
+├── Reality Checker → Testes finais de integração
+├── Infrastructure Maintainer → Prontidão de produção
+└── DevOps Automator → Preparação de deployment em produção
 
-Day 5: Gate Decision
-├── Reality Checker verdict
-├── IF NEEDS WORK: Quick fix cycle (2-3 days)
-├── IF READY: Proceed to launch
-└── Executive Summary Generator → Stakeholder briefing
+Dia 5: Decisão de Gate
+├── Veredito do Reality Checker
+├── IF NEEDS WORK: Ciclo rápido de correção (2-3 dias)
+├── IF READY: Prosseguir para launch
+└── Executive Summary Generator → Briefing para stakeholders
 ```
 
-### Week 5-6: Launch + Growth (Phase 5)
+### Semana 5-6: Launch + Growth (Fase 5)
 
 ```
-Week 5: Launch
-├── DevOps Automator → Production deployment
-├── Growth Hacker → Activate acquisition channels
-├── Content Creator → Publish launch content
-├── Social Media Strategist → Cross-platform campaign
-├── Analytics Reporter → Real-time monitoring
-└── Support Responder → User support active
+Semana 5: Launch
+├── DevOps Automator → Deployment em produção
+├── Growth Hacker → Ativar canais de aquisição
+├── Content Creator → Publicar conteúdo de launch
+├── Social Media Strategist → Campanha cross-platform
+├── Analytics Reporter → Monitoramento em tempo real
+└── Support Responder → Suporte ao usuário ativo
 
-Week 6: Optimize
-├── Growth Hacker → Analyze and optimize channels
-├── Feedback Synthesizer → Collect early user feedback
-├── Experiment Tracker → Launch A/B tests
-├── Analytics Reporter → Week 1 analysis
-└── Sprint Prioritizer → Plan iteration sprint
+Semana 6: Otimizar
+├── Growth Hacker → Analisar e otimizar canais
+├── Feedback Synthesizer → Coletar feedback inicial de usuários
+├── Experiment Tracker → Lançar testes A/B
+├── Analytics Reporter → Análise da semana 1
+└── Sprint Prioritizer → Planejar sprint de iteração
 ```
 
-## Key Decisions
+## Decisões-Chave
 
-| Decision Point | When | Who Decides |
+| Ponto de Decisão | Quando | Quem Decide |
 |---------------|------|-------------|
-| Go/No-Go on concept | End of Day 2 | Studio Producer |
-| Architecture approval | End of Day 4 | Senior Project Manager |
-| Feature scope for MVP | Sprint planning | Sprint Prioritizer |
-| Production readiness | Week 4 Day 5 | Reality Checker |
-| Launch timing | After Reality Checker READY | Studio Producer |
+| Go/No-Go no conceito | Fim do Dia 2 | Studio Producer |
+| Aprovação de arquitetura | Fim do Dia 4 | Senior Project Manager |
+| Escopo de features para MVP | Sprint planning | Sprint Prioritizer |
+| Prontidão de produção | Semana 4 Dia 5 | Reality Checker |
+| Timing de launch | Após Reality Checker READY | Studio Producer |
 
-## Success Criteria
+## Critérios de Sucesso
 
-| Metric | Target |
+| Métrica | Meta |
 |--------|--------|
-| Time to live product | ≤ 6 weeks |
-| Core features complete | 100% of MVP scope |
-| First users onboarded | Within 48 hours of launch |
-| System uptime | > 99% in first week |
-| User feedback collected | ≥ 50 responses in first 2 weeks |
+| Tempo até produto live | ≤ 6 semanas |
+| Features core completas | 100% do escopo do MVP |
+| Primeiros usuários onboarded | Em até 48 horas após launch |
+| Uptime do sistema | > 99% na primeira semana |
+| Feedback de usuário coletado | ≥ 50 respostas nas primeiras 2 semanas |
 
-## Common Pitfalls & Mitigations
+## Armadilhas Comuns & Mitigações
 
-| Pitfall | Mitigation |
+| Armadilha | Mitigação |
 |---------|-----------|
-| Scope creep during build | Sprint Prioritizer enforces MoSCoW — "Won't" means won't |
-| Over-engineering for scale | Rapid Prototyper mindset — validate first, scale later |
-| Skipping QA for speed | Evidence Collector runs on EVERY task — no exceptions |
-| Launching without monitoring | Infrastructure Maintainer sets up monitoring in Week 1 |
-| No feedback mechanism | Analytics + feedback collection built into Sprint 1 |
+| Scope creep durante o build | Sprint Prioritizer reforça MoSCoW — "Won't" significa won't |
+| Over-engineering para escala | Mentalidade Rapid Prototyper — valide primeiro, escale depois |
+| Pular QA por velocidade | Evidence Collector roda em TODA tarefa — sem exceções |
+| Launch sem monitoramento | Infrastructure Maintainer configura monitoramento na Semana 1 |
+| Sem mecanismo de feedback | Analytics + coleta de feedback embutidos no Sprint 1 |

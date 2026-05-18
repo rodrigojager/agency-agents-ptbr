@@ -1,45 +1,45 @@
-# 🇨🇳 Chinese (zh-CN) Localization
+# Localização em Chinês (zh-CN)
 
-Localize agent `name` and `description` fields in YAML frontmatter to Simplified Chinese. This makes agent names readable in Copilot Chat's agent picker for Chinese-speaking users.
+Localiza os campos `name` e `description` dos agentes no YAML frontmatter para chinês simplificado. Isso torna os nomes dos agentes legíveis no seletor de agentes do Copilot Chat para usuários que falam chinês.
 
-## Files
+## Arquivos
 
-| File | Description |
+| Arquivo | Descrição |
 |------|-------------|
-| `agent-names-zh.json` | Mapping of English agent names → Chinese translations (130+ entries) |
-| `localize-agents-zh.ps1` | PowerShell script that reads the JSON and updates installed agent files |
+| `agent-names-zh.json` | Mapeamento de nomes de agentes em inglês -> traduções em chinês (130+ entradas) |
+| `localize-agents-zh.ps1` | Script PowerShell que lê o JSON e atualiza os arquivos de agentes instalados |
 
-## Usage
+## Uso
 
-After installing agents with `install.sh --tool copilot`:
+Depois de instalar os agentes com `install.sh --tool copilot`:
 
 ```powershell
-# Localize agent names to Chinese
+# Localiza os nomes dos agentes para chinês
 powershell -ExecutionPolicy Bypass -File scripts/i18n/localize-agents-zh.ps1
 ```
 
-By default, the script processes:
+Por padrão, o script processa:
 - `%USERPROFILE%\.github\agents\`
 - `%USERPROFILE%\.copilot\agents\`
 
-Pass custom paths if needed:
+Passe caminhos customizados se necessário:
 
 ```powershell
 powershell -File scripts/i18n/localize-agents-zh.ps1 -TargetDirs @("C:\custom\path\agents")
 ```
 
-## How It Works
+## Como Funciona
 
-1. Reads `agent-names-zh.json` (UTF-8 encoded) for the translation map
-2. For each `.md` file in the target directories:
-   - Extracts the `name:` field from YAML frontmatter
-   - Looks up the Chinese translation
-   - Replaces `name:` and `description:` fields
-   - Writes back as UTF-8
+1. Lê `agent-names-zh.json` (codificado em UTF-8) para obter o mapa de traduções
+2. Para cada arquivo `.md` nos diretórios de destino:
+   - Extrai o campo `name:` do YAML frontmatter
+   - Procura a tradução em chinês
+   - Substitui os campos `name:` e `description:`
+   - Grava de volta como UTF-8
 
-## Result
+## Resultado
 
-Before:
+Antes:
 ```yaml
 ---
 name: Security Engineer
@@ -47,7 +47,7 @@ description: Threat modeling, secure code review, security architecture
 ---
 ```
 
-After:
+Depois:
 ```yaml
 ---
 name: 安全工程师
@@ -55,10 +55,9 @@ description: 威胁建模、安全代码审查与应用安全架构专家
 ---
 ```
 
-## Notes
+## Observações
 
-- Only modifies **installed copies** (in `~/.github/agents/`), not source files
-- Re-run after each `install.sh` update (which overwrites with English originals)
-- JSON file is the single source of truth for translations — add new agents there
-- Script is pure ASCII (avoids PowerShell encoding issues); all Chinese text lives in the JSON
-
+- Modifica apenas **cópias instaladas** (em `~/.github/agents/`), não os arquivos fonte
+- Execute novamente após cada atualização com `install.sh` (que sobrescreve com os originais em inglês)
+- O arquivo JSON é a fonte única da verdade para traduções — adicione novos agentes nele
+- O script é puro ASCII (evita problemas de encoding no PowerShell); todo o texto em chinês fica no JSON

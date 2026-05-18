@@ -1,187 +1,187 @@
-# 📢 Runbook: Multi-Channel Marketing Campaign
+# 📢 Runbook: Campanha de Marketing Multicanal
 
-> **Mode**: NEXUS-Micro to NEXUS-Sprint | **Duration**: 2-4 weeks | **Agents**: 10-15
+> **Modo**: NEXUS-Micro a NEXUS-Sprint | **Duração**: 2-4 semanas | **Agentes**: 10-15
 
 ---
 
-## Scenario
+## Cenário
 
-You're launching a coordinated marketing campaign across multiple channels. Content needs to be platform-specific, brand-consistent, and data-driven. The campaign needs to drive measurable acquisition and engagement.
+Você está lançando uma campanha de marketing coordenada em múltiplos canais. O conteúdo precisa ser específico por plataforma, consistente com a marca e data-driven. A campanha precisa gerar aquisição e engajamento mensuráveis.
 
-## Agent Roster
+## Roster de Agentes
 
-### Campaign Core
-| Agent | Role |
+### Core da Campanha
+| Agente | Papel |
 |-------|------|
-| Social Media Strategist | Campaign lead, cross-platform strategy |
-| Content Creator | Content production across all formats |
-| Growth Hacker | Acquisition strategy, funnel optimization |
-| Brand Guardian | Brand consistency across all channels |
-| Analytics Reporter | Performance tracking and optimization |
+| Social Media Strategist | Lead da campanha, estratégia cross-platform |
+| Content Creator | Produção de conteúdo em todos os formatos |
+| Growth Hacker | Estratégia de aquisição, otimização de funil |
+| Brand Guardian | Consistência de marca em todos os canais |
+| Analytics Reporter | Tracking e otimização de performance |
 
-### Platform Specialists
-| Agent | Role |
+### Especialistas de Plataforma
+| Agente | Papel |
 |-------|------|
-| Twitter Engager | Twitter/X campaign execution |
-| TikTok Strategist | TikTok content and growth |
-| Instagram Curator | Instagram visual content |
-| Reddit Community Builder | Reddit authentic engagement |
-| App Store Optimizer | App store presence (if mobile) |
+| Twitter Engager | Execução de campanha no Twitter/X |
+| TikTok Strategist | Conteúdo e growth no TikTok |
+| Instagram Curator | Conteúdo visual para Instagram |
+| Reddit Community Builder | Engajamento autêntico no Reddit |
+| App Store Optimizer | Presença na app store (se mobile) |
 
 ### Support
-| Agent | Role |
+| Agente | Papel |
 |-------|------|
-| Trend Researcher | Market timing and trend alignment |
-| Experiment Tracker | A/B testing campaign variations |
-| Executive Summary Generator | Campaign reporting |
-| Legal Compliance Checker | Ad compliance, disclosure requirements |
+| Trend Researcher | Timing de mercado e alinhamento a tendências |
+| Experiment Tracker | Testes A/B de variações da campanha |
+| Executive Summary Generator | Reporting da campanha |
+| Legal Compliance Checker | Compliance de anúncios, requisitos de disclosure |
 
-## Execution Plan
+## Plano de Execução
 
-### Week 1: Strategy & Content Creation
+### Semana 1: Estratégia & Criação de Conteúdo
 
 ```
-Day 1-2: Campaign Strategy
-├── Social Media Strategist → Cross-platform campaign strategy
-│   ├── Campaign objectives and KPIs
-│   ├── Target audience definition
-│   ├── Platform selection and budget allocation
-│   ├── Content calendar (4-week plan)
-│   └── Engagement strategy per platform
+Dia 1-2: Estratégia de Campanha
+├── Social Media Strategist → Estratégia de campanha cross-platform
+│   ├── Objetivos e KPIs da campanha
+│   ├── Definição de público-alvo
+│   ├── Seleção de plataformas e alocação de orçamento
+│   ├── Calendário de conteúdo (plano de 4 semanas)
+│   └── Estratégia de engajamento por plataforma
 │
-├── Trend Researcher → Market timing analysis
-│   ├── Trending topics to align with
-│   ├── Competitor campaign analysis
-│   └── Optimal launch timing
+├── Trend Researcher → Análise de timing de mercado
+│   ├── Trending topics para alinhar
+│   ├── Análise de campanhas concorrentes
+│   └── Timing ideal de launch
 │
-├── Growth Hacker → Acquisition funnel design
-│   ├── Landing page optimization plan
-│   ├── Conversion funnel mapping
-│   ├── Viral mechanics (referral, sharing)
-│   └── Channel budget allocation
+├── Growth Hacker → Design de funil de aquisição
+│   ├── Plano de otimização de landing page
+│   ├── Mapeamento de funil de conversão
+│   ├── Mecânicas virais (referral, compartilhamento)
+│   └── Alocação de orçamento por canal
 │
-├── Brand Guardian → Campaign brand guidelines
-│   ├── Campaign-specific visual guidelines
-│   ├── Messaging framework
-│   ├── Tone and voice for campaign
+├── Brand Guardian → Guidelines de marca da campanha
+│   ├── Guidelines visuais específicas da campanha
+│   ├── Framework de messaging
+│   ├── Tom e voz da campanha
 │   └── Do's and don'ts
 │
-└── Legal Compliance Checker → Ad compliance review
-    ├── Disclosure requirements
-    ├── Platform-specific ad policies
-    └── Regulatory constraints
+└── Legal Compliance Checker → Revisão de compliance de anúncios
+    ├── Requisitos de disclosure
+    ├── Políticas de anúncios específicas por plataforma
+    └── Restrições regulatórias
 
-Day 3-5: Content Production
-├── Content Creator → Multi-format content creation
-│   ├── Blog posts / articles
-│   ├── Email sequences
-│   ├── Landing page copy
-│   ├── Video scripts
-│   └── Social media copy (platform-adapted)
+Dia 3-5: Produção de Conteúdo
+├── Content Creator → Criação de conteúdo multiformato
+│   ├── Posts de blog / artigos
+│   ├── Sequências de e-mail
+│   ├── Copy de landing page
+│   ├── Scripts de vídeo
+│   └── Copy de social media (adaptada por plataforma)
 │
-├── Twitter Engager → Twitter-specific content
-│   ├── Launch thread (10-15 tweets)
-│   ├── Daily engagement tweets
-│   ├── Reply templates
-│   └── Hashtag strategy
+├── Twitter Engager → Conteúdo específico para Twitter
+│   ├── Thread de launch (10-15 tweets)
+│   ├── Tweets diários de engajamento
+│   ├── Templates de resposta
+│   └── Estratégia de hashtags
 │
-├── TikTok Strategist → TikTok content plan
-│   ├── Video concepts (3-5 videos)
-│   ├── Hook strategies
-│   ├── Trending audio/format alignment
-│   └── Posting schedule
+├── TikTok Strategist → Plano de conteúdo TikTok
+│   ├── Conceitos de vídeo (3-5 vídeos)
+│   ├── Estratégias de hook
+│   ├── Alinhamento com áudio/formato em tendência
+│   └── Cronograma de postagem
 │
-├── Instagram Curator → Instagram content
-│   ├── Feed posts (carousel, single image)
-│   ├── Stories content
-│   ├── Reels concepts
-│   └── Visual aesthetic guidelines
+├── Instagram Curator → Conteúdo Instagram
+│   ├── Posts de feed (carrossel, imagem única)
+│   ├── Conteúdo de Stories
+│   ├── Conceitos de Reels
+│   └── Guidelines de estética visual
 │
-└── Reddit Community Builder → Reddit strategy
-    ├── Subreddit targeting
-    ├── Value-first post drafts
-    ├── Comment engagement plan
-    └── AMA preparation (if applicable)
+└── Reddit Community Builder → Estratégia Reddit
+    ├── Targeting de subreddits
+    ├── Rascunhos de posts value-first
+    ├── Plano de engajamento em comentários
+    └── Preparação de AMA (se aplicável)
 ```
 
-### Week 2: Launch & Activate
+### Semana 2: Launch & Ativação
 
 ```
-Day 1: Pre-Launch
-├── All content queued and scheduled
-├── Analytics tracking verified
-├── A/B test variants configured
-├── Landing pages live and tested
-└── Team briefed on engagement protocols
+Dia 1: Pré-Launch
+├── Todo conteúdo enfileirado e agendado
+├── Tracking de analytics verificado
+├── Variantes de teste A/B configuradas
+├── Landing pages live e testadas
+└── Time briefado nos protocolos de engajamento
 
-Day 2-3: Launch
-├── Twitter Engager → Launch thread + real-time engagement
-├── Instagram Curator → Launch posts + stories
-├── TikTok Strategist → Launch videos
-├── Reddit Community Builder → Authentic community posts
-├── Content Creator → Blog post published + email blast
-├── Growth Hacker → Paid campaigns activated
-└── Analytics Reporter → Real-time dashboard monitoring
+Dia 2-3: Launch
+├── Twitter Engager → Thread de launch + engajamento em tempo real
+├── Instagram Curator → Posts de launch + stories
+├── TikTok Strategist → Vídeos de launch
+├── Reddit Community Builder → Posts autênticos em comunidades
+├── Content Creator → Post de blog publicado + email blast
+├── Growth Hacker → Campanhas pagas ativadas
+└── Analytics Reporter → Monitoramento de dashboard em tempo real
 
-Day 4-5: Optimize
-├── Analytics Reporter → First 48-hour performance report
-├── Growth Hacker → Channel optimization based on data
-├── Experiment Tracker → A/B test early results
-├── Social Media Strategist → Engagement strategy adjustment
-└── Content Creator → Response content based on reception
+Dia 4-5: Otimizar
+├── Analytics Reporter → Primeiro relatório de performance de 48 horas
+├── Growth Hacker → Otimização de canais com base em dados
+├── Experiment Tracker → Resultados iniciais de teste A/B
+├── Social Media Strategist → Ajuste de estratégia de engajamento
+└── Content Creator → Conteúdo de resposta com base na recepção
 ```
 
-### Week 3-4: Sustain & Optimize
+### Semana 3-4: Sustentar & Otimizar
 
 ```
-Daily:
-├── Platform agents → Engagement and content posting
-├── Analytics Reporter → Daily performance snapshot
-└── Growth Hacker → Funnel optimization
+Diariamente:
+├── Agentes de plataforma → Engajamento e postagem de conteúdo
+├── Analytics Reporter → Snapshot diário de performance
+└── Growth Hacker → Otimização de funil
 
-Weekly:
-├── Social Media Strategist → Campaign performance review
-├── Experiment Tracker → A/B test results and new tests
-├── Content Creator → New content based on performance data
-└── Analytics Reporter → Weekly campaign report
+Semanalmente:
+├── Social Media Strategist → Review de performance da campanha
+├── Experiment Tracker → Resultados de teste A/B e novos testes
+├── Content Creator → Novo conteúdo baseado em dados de performance
+└── Analytics Reporter → Relatório semanal da campanha
 
-End of Campaign:
-├── Analytics Reporter → Comprehensive campaign analysis
-├── Growth Hacker → ROI analysis and channel effectiveness
-├── Executive Summary Generator → Campaign executive summary
-└── Social Media Strategist → Lessons learned and recommendations
+Fim da Campanha:
+├── Analytics Reporter → Análise abrangente da campanha
+├── Growth Hacker → Análise de ROI e efetividade de canais
+├── Executive Summary Generator → Sumário executivo da campanha
+└── Social Media Strategist → Lições aprendidas e recomendações
 ```
 
-## Campaign Metrics
+## Métricas da Campanha
 
-| Metric | Target | Owner |
+| Métrica | Meta | Owner |
 |--------|--------|-------|
-| Total reach | [Target based on budget] | Social Media Strategist |
-| Engagement rate | > 3% average across platforms | Platform agents |
-| Click-through rate | > 2% on CTAs | Growth Hacker |
-| Conversion rate | > 5% landing page | Growth Hacker |
-| Cost per acquisition | < [Target CAC] | Growth Hacker |
-| Brand sentiment | Net positive | Brand Guardian |
-| Content pieces published | [Target count] | Content Creator |
-| A/B tests completed | ≥ 5 | Experiment Tracker |
+| Alcance total | [Meta baseada no orçamento] | Social Media Strategist |
+| Taxa de engajamento | > 3% em média nas plataformas | Agentes de plataforma |
+| Click-through rate | > 2% nos CTAs | Growth Hacker |
+| Taxa de conversão | > 5% na landing page | Growth Hacker |
+| Custo por aquisição | < [CAC alvo] | Growth Hacker |
+| Sentimento de marca | Net positive | Brand Guardian |
+| Peças de conteúdo publicadas | [Quantidade alvo] | Content Creator |
+| Testes A/B concluídos | ≥ 5 | Experiment Tracker |
 
-## Platform-Specific KPIs
+## KPIs Específicos por Plataforma
 
-| Platform | Primary KPI | Secondary KPI | Agent |
+| Plataforma | KPI Primário | KPI Secundário | Agente |
 |----------|------------|---------------|-------|
-| Twitter/X | Impressions + engagement rate | Follower growth | Twitter Engager |
-| TikTok | Views + completion rate | Follower growth | TikTok Strategist |
-| Instagram | Reach + saves | Profile visits | Instagram Curator |
-| Reddit | Upvotes + comment quality | Referral traffic | Reddit Community Builder |
-| Email | Open rate + CTR | Unsubscribe rate | Content Creator |
-| Blog | Organic traffic + time on page | Backlinks | Content Creator |
+| Twitter/X | Impressões + taxa de engajamento | Crescimento de seguidores | Twitter Engager |
+| TikTok | Views + taxa de conclusão | Crescimento de seguidores | TikTok Strategist |
+| Instagram | Alcance + saves | Visitas ao perfil | Instagram Curator |
+| Reddit | Upvotes + qualidade dos comentários | Tráfego de referral | Reddit Community Builder |
+| Email | Taxa de abertura + CTR | Taxa de unsubscribe | Content Creator |
+| Blog | Tráfego orgânico + tempo na página | Backlinks | Content Creator |
 | Paid ads | ROAS + CPA | Quality score | Growth Hacker |
 
-## Brand Consistency Checkpoints
+## Checkpoints de Consistência de Marca
 
-| Checkpoint | When | Agent |
+| Checkpoint | Quando | Agente |
 |-----------|------|-------|
-| Content review before publishing | Every piece | Brand Guardian |
-| Visual consistency audit | Weekly | Brand Guardian |
-| Voice and tone check | Weekly | Brand Guardian |
-| Compliance review | Before launch + weekly | Legal Compliance Checker |
+| Review de conteúdo antes da publicação | Toda peça | Brand Guardian |
+| Auditoria de consistência visual | Semanal | Brand Guardian |
+| Checagem de voz e tom | Semanal | Brand Guardian |
+| Review de compliance | Antes do launch + semanal | Legal Compliance Checker |

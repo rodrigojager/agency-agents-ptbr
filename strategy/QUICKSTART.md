@@ -1,26 +1,26 @@
-# ⚡ NEXUS Quick-Start Guide
+# ⚡ Guia Quick-Start NEXUS
 
-> **Get from zero to orchestrated multi-agent pipeline in 5 minutes.**
+> **Saia do zero para um pipeline multiagente orquestrado em 5 minutos.**
 
 ---
 
-## What is NEXUS?
+## O que é NEXUS?
 
-**NEXUS** (Network of EXperts, Unified in Strategy) turns The Agency's AI specialists into a coordinated pipeline. Instead of activating agents one at a time and hoping they work together, NEXUS defines exactly who does what, when, and how quality is verified at every step.
+**NEXUS** (Network of EXperts, Unified in Strategy) transforma os especialistas de IA da The Agency em um pipeline coordenado. Em vez de ativar agentes um por vez e esperar que trabalhem juntos, NEXUS define exatamente quem faz o quê, quando e como a qualidade é verificada em cada etapa.
 
-## Choose Your Mode
+## Escolha Seu Modo
 
-| I want to... | Use | Agents | Time |
+| Eu quero... | Use | Agentes | Tempo |
 |-------------|-----|--------|------|
-| Build a complete product from scratch | **NEXUS-Full** | All | 12-24 weeks |
-| Build a feature or MVP | **NEXUS-Sprint** | 15-25 | 2-6 weeks |
-| Do a specific task (bug fix, campaign, audit) | **NEXUS-Micro** | 5-10 | 1-5 days |
+| Construir um produto completo do zero | **NEXUS-Full** | Todos | 12-24 semanas |
+| Construir uma feature ou MVP | **NEXUS-Sprint** | 15-25 | 2-6 semanas |
+| Fazer uma tarefa específica (bug fix, campanha, auditoria) | **NEXUS-Micro** | 5-10 | 1-5 dias |
 
 ---
 
-## 🚀 NEXUS-Full: Start a Complete Project
+## 🚀 NEXUS-Full: Começar um Projeto Completo
 
-**Copy this prompt to activate the full pipeline:**
+**Copie este prompt para ativar o pipeline completo:**
 
 ```
 Activate Agents Orchestrator in NEXUS-Full mode.
@@ -43,9 +43,9 @@ Maximum 3 retries per task before escalation.
 
 ---
 
-## 🏃 NEXUS-Sprint: Build a Feature or MVP
+## 🏃 NEXUS-Sprint: Construir uma Feature ou MVP
 
-**Copy this prompt:**
+**Copie este prompt:**
 
 ```
 Activate Agents Orchestrator in NEXUS-Sprint mode.
@@ -68,18 +68,18 @@ Reality Checker approval required before launch.
 
 ---
 
-## 🎯 NEXUS-Micro: Do a Specific Task
+## 🎯 NEXUS-Micro: Fazer uma Tarefa Específica
 
-**Pick your scenario and copy the prompt:**
+**Escolha seu cenário e copie o prompt:**
 
-### Fix a Bug
+### Corrigir um Bug
 ```
 Activate Backend Architect to investigate and fix [BUG DESCRIPTION].
 After fix, activate API Tester to verify the fix.
 Then activate Evidence Collector to confirm no visual regressions.
 ```
 
-### Run a Marketing Campaign
+### Rodar uma Campanha de Marketing
 ```
 Activate Social Media Strategist as campaign lead for [CAMPAIGN DESCRIPTION].
 Team: Content Creator, Twitter Engager, Instagram Curator, Reddit Community Builder.
@@ -88,14 +88,14 @@ Analytics Reporter tracks performance daily.
 Growth Hacker optimizes channels weekly.
 ```
 
-### Conduct a Compliance Audit
+### Conduzir uma Auditoria de Compliance
 ```
 Activate Legal Compliance Checker for comprehensive compliance audit.
 Scope: [GDPR / CCPA / HIPAA / ALL]
 After audit, activate Executive Summary Generator to create stakeholder report.
 ```
 
-### Investigate Performance Issues
+### Investigar Problemas de Performance
 ```
 Activate Performance Benchmarker to diagnose performance issues.
 Scope: [API response times / Page load / Database queries / All]
@@ -103,14 +103,14 @@ After diagnosis, activate Infrastructure Maintainer for optimization.
 DevOps Automator deploys any infrastructure changes.
 ```
 
-### Market Research
+### Pesquisa de Mercado
 ```
 Activate Trend Researcher for market intelligence on [DOMAIN].
 Deliverables: Competitive landscape, market sizing, trend forecast.
 After research, activate Executive Summary Generator for executive brief.
 ```
 
-### UX Improvement
+### Melhoria de UX
 ```
 Activate UX Researcher to identify usability issues in [FEATURE/PRODUCT].
 After research, activate UX Architect to design improvements.
@@ -120,39 +120,39 @@ Evidence Collector verifies improvements.
 
 ---
 
-## 📁 Strategy Documents
+## 📁 Documentos de Estratégia
 
-| Document | Purpose | Location |
+| Documento | Finalidade | Localização |
 |----------|---------|----------|
-| **Master Strategy** | Complete NEXUS doctrine | `strategy/nexus-strategy.md` |
-| **Phase 0 Playbook** | Discovery & intelligence | `strategy/playbooks/phase-0-discovery.md` |
-| **Phase 1 Playbook** | Strategy & architecture | `strategy/playbooks/phase-1-strategy.md` |
-| **Phase 2 Playbook** | Foundation & scaffolding | `strategy/playbooks/phase-2-foundation.md` |
-| **Phase 3 Playbook** | Build & iterate | `strategy/playbooks/phase-3-build.md` |
-| **Phase 4 Playbook** | Quality & hardening | `strategy/playbooks/phase-4-hardening.md` |
-| **Phase 5 Playbook** | Launch & growth | `strategy/playbooks/phase-5-launch.md` |
-| **Phase 6 Playbook** | Operate & evolve | `strategy/playbooks/phase-6-operate.md` |
-| **Activation Prompts** | Ready-to-use agent prompts | `strategy/coordination/agent-activation-prompts.md` |
-| **Handoff Templates** | Standardized handoff formats | `strategy/coordination/handoff-templates.md` |
-| **Startup MVP Runbook** | 4-6 week MVP build | `strategy/runbooks/scenario-startup-mvp.md` |
-| **Enterprise Feature Runbook** | Enterprise feature development | `strategy/runbooks/scenario-enterprise-feature.md` |
-| **Marketing Campaign Runbook** | Multi-channel campaign | `strategy/runbooks/scenario-marketing-campaign.md` |
-| **Incident Response Runbook** | Production incident handling | `strategy/runbooks/scenario-incident-response.md` |
+| **Estratégia Mestre** | Doutrina NEXUS completa | `strategy/nexus-strategy.md` |
+| **Playbook Fase 0** | Discovery & inteligência | `strategy/playbooks/phase-0-discovery.md` |
+| **Playbook Fase 1** | Estratégia & arquitetura | `strategy/playbooks/phase-1-strategy.md` |
+| **Playbook Fase 2** | Fundação & scaffolding | `strategy/playbooks/phase-2-foundation.md` |
+| **Playbook Fase 3** | Build & iterar | `strategy/playbooks/phase-3-build.md` |
+| **Playbook Fase 4** | Qualidade & hardening | `strategy/playbooks/phase-4-hardening.md` |
+| **Playbook Fase 5** | Launch & growth | `strategy/playbooks/phase-5-launch.md` |
+| **Playbook Fase 6** | Operar & evoluir | `strategy/playbooks/phase-6-operate.md` |
+| **Prompts de Ativação** | Prompts de agentes prontos para uso | `strategy/coordination/agent-activation-prompts.md` |
+| **Templates de Handoff** | Formatos de handoff padronizados | `strategy/coordination/handoff-templates.md` |
+| **Runbook Startup MVP** | Build de MVP em 4-6 semanas | `strategy/runbooks/scenario-startup-mvp.md` |
+| **Runbook Enterprise Feature** | Desenvolvimento de feature enterprise | `strategy/runbooks/scenario-enterprise-feature.md` |
+| **Runbook Marketing Campaign** | Campanha multicanal | `strategy/runbooks/scenario-marketing-campaign.md` |
+| **Runbook Incident Response** | Tratamento de incidente em produção | `strategy/runbooks/scenario-incident-response.md` |
 
 ---
 
-## 🔑 Key Concepts in 30 Seconds
+## 🔑 Conceitos-Chave em 30 Segundos
 
-1. **Quality Gates** — No phase advances without evidence-based approval
-2. **Dev↔QA Loop** — Every task is built then tested; PASS to proceed, FAIL to retry (max 3)
-3. **Handoffs** — Structured context transfer between agents (never start cold)
-4. **Reality Checker** — Final quality authority; defaults to "NEEDS WORK"
-5. **Agents Orchestrator** — Pipeline controller managing the entire flow
-6. **Evidence Over Claims** — Screenshots, test results, and data — not assertions
+1. **Quality Gates** — Nenhuma fase avança sem aprovação baseada em evidências
+2. **Loop Dev↔QA** — Toda tarefa é construída e depois testada; PASS para prosseguir, FAIL para tentar de novo (máx. 3)
+3. **Handoffs** — Transferência estruturada de contexto entre agentes (nunca começar frio)
+4. **Reality Checker** — Autoridade final de qualidade; default para "NEEDS WORK"
+5. **Agents Orchestrator** — Controlador de pipeline que gerencia o fluxo inteiro
+6. **Evidence Over Claims** — Screenshots, resultados de testes e dados — não afirmações
 
 ---
 
-## 🎭 The Agents at a Glance
+## 🎭 Os Agentes em uma Visão Rápida
 
 ```
 ENGINEERING         │ DESIGN              │ MARKETING
@@ -187,8 +187,8 @@ Exec Summary Gen.   │ Terminal Integration│ Report Distribution
 
 <div align="center">
 
-**Start with a mode. Follow the playbook. Trust the pipeline.**
+**Comece com um modo. Siga o playbook. Confie no pipeline.**
 
-`strategy/nexus-strategy.md` — The complete doctrine
+`strategy/nexus-strategy.md` — A doutrina completa
 
 </div>

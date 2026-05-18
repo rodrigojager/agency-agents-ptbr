@@ -1,277 +1,277 @@
-# 🚀 Phase 5 Playbook — Launch & Growth
+# 🚀 Playbook Fase 5 — Launch & Growth
 
-> **Duration**: 2-4 weeks (T-7 through T+14) | **Agents**: 12 | **Gate Keepers**: Studio Producer + Analytics Reporter
+> **Duração**: 2-4 semanas (T-7 até T+14) | **Agentes**: 12 | **Gate Keepers**: Studio Producer + Analytics Reporter
 
 ---
 
-## Objective
+## Objetivo
 
-Coordinate go-to-market execution across all channels simultaneously. Maximum impact at launch. Every marketing agent fires in concert while engineering ensures stability.
+Coordenar execução go-to-market em todos os canais simultaneamente. Máximo impacto no launch. Todo agente de marketing atua em concerto enquanto engenharia garante estabilidade.
 
-## Pre-Conditions
+## Pré-Condições
 
-- [ ] Phase 4 Quality Gate passed (Reality Checker READY verdict)
-- [ ] Phase 4 Handoff Package received
-- [ ] Production deployment plan approved
-- [ ] Marketing content pipeline ready (from Phase 3 Track B)
+- [ ] Quality Gate da Fase 4 aprovado (veredito READY do Reality Checker)
+- [ ] Pacote de Handoff da Fase 4 recebido
+- [ ] Plano de deployment em produção aprovado
+- [ ] Pipeline de conteúdo de marketing pronto (da Track B da Fase 3)
 
-## Launch Timeline
+## Timeline de Launch
 
-### T-7: Pre-Launch Week
+### T-7: Semana de Pré-Launch
 
-#### Content & Campaign Preparation (Parallel)
-
-```
-ACTIVATE Content Creator:
-- Finalize all launch content (blog posts, landing pages, email sequences)
-- Queue content in publishing platforms
-- Prepare response templates for anticipated questions
-- Create launch day real-time content plan
-
-ACTIVATE Social Media Strategist:
-- Finalize cross-platform campaign assets
-- Schedule pre-launch teaser content
-- Coordinate influencer partnerships
-- Prepare platform-specific content variations
-
-ACTIVATE Growth Hacker:
-- Arm viral mechanics (referral codes, sharing incentives)
-- Configure growth experiment tracking
-- Set up funnel analytics
-- Prepare acquisition channel budgets
-
-ACTIVATE App Store Optimizer (if mobile):
-- Finalize store listing (title, description, keywords, screenshots)
-- Submit app for review (if applicable)
-- Prepare launch day ASO adjustments
-- Configure in-app review prompts
-```
-
-#### Technical Preparation (Parallel)
+#### Preparação de Conteúdo & Campanha (Paralelo)
 
 ```
-ACTIVATE DevOps Automator:
-- Prepare blue-green deployment
-- Verify rollback procedures
-- Configure feature flags for gradual rollout
-- Test deployment pipeline end-to-end
+ATIVE Content Creator:
+- Finalizar todo conteúdo de launch (posts de blog, landing pages, sequências de e-mail)
+- Enfileirar conteúdo nas plataformas de publicação
+- Preparar templates de resposta para perguntas esperadas
+- Criar plano de conteúdo em tempo real para o dia do launch
 
-ACTIVATE Infrastructure Maintainer:
-- Configure auto-scaling for 10x expected traffic
-- Verify monitoring and alerting thresholds
-- Test disaster recovery procedures
-- Prepare incident response runbook
+ATIVE Social Media Strategist:
+- Finalizar assets de campanha cross-platform
+- Agendar conteúdo teaser pré-launch
+- Coordenar parcerias com influencers
+- Preparar variações de conteúdo específicas por plataforma
 
-ACTIVATE Project Shepherd:
-- Distribute launch checklist to all agents
-- Confirm all dependencies resolved
-- Set up launch day communication channel
-- Brief stakeholders on launch plan
+ATIVE Growth Hacker:
+- Armar mecânicas virais (referral codes, incentivos de compartilhamento)
+- Configurar tracking de experimentos de growth
+- Configurar analytics de funil
+- Preparar orçamentos de canais de aquisição
+
+ATIVE App Store Optimizer (se mobile):
+- Finalizar store listing (título, descrição, keywords, screenshots)
+- Submeter app para review (se aplicável)
+- Preparar ajustes de ASO para o dia do launch
+- Configurar prompts de review in-app
 ```
 
-### T-1: Launch Eve
+#### Preparação Técnica (Paralelo)
 
 ```
-FINAL CHECKLIST (Project Shepherd coordinates):
+ATIVE DevOps Automator:
+- Preparar deployment blue-green
+- Verificar procedimentos de rollback
+- Configurar feature flags para rollout gradual
+- Testar pipeline de deployment end-to-end
 
-Technical:
-☐ Blue-green deployment tested
-☐ Rollback procedure verified
-☐ Auto-scaling configured
-☐ Monitoring dashboards live
-☐ Incident response team on standby
-☐ Feature flags configured
+ATIVE Infrastructure Maintainer:
+- Configurar auto-scaling para 10x o tráfego esperado
+- Verificar thresholds de monitoramento e alertas
+- Testar procedimentos de disaster recovery
+- Preparar runbook de incident response
 
-Content:
-☐ All content queued and scheduled
-☐ Email sequences armed
-☐ Social media posts scheduled
-☐ Blog posts ready to publish
-☐ Press materials distributed
+ATIVE Project Shepherd:
+- Distribuir checklist de launch para todos os agentes
+- Confirmar que todas as dependências foram resolvidas
+- Configurar canal de comunicação para o dia do launch
+- Briefar stakeholders sobre o plano de launch
+```
+
+### T-1: Véspera do Launch
+
+```
+CHECKLIST FINAL (Project Shepherd coordena):
+
+Técnico:
+☐ Deployment blue-green testado
+☐ Procedimento de rollback verificado
+☐ Auto-scaling configurado
+☐ Dashboards de monitoramento live
+☐ Time de incident response em standby
+☐ Feature flags configuradas
+
+Conteúdo:
+☐ Todo conteúdo enfileirado e agendado
+☐ Sequências de e-mail armadas
+☐ Posts de social media agendados
+☐ Posts de blog prontos para publicar
+☐ Materiais de imprensa distribuídos
 
 Marketing:
-☐ Viral mechanics tested
-☐ Referral system operational
-☐ Analytics tracking verified
-☐ Ad campaigns ready to activate
-☐ Community engagement plan ready
+☐ Mecânicas virais testadas
+☐ Sistema de referral operacional
+☐ Tracking de analytics verificado
+☐ Campanhas de ads prontas para ativar
+☐ Plano de engajamento comunitário pronto
 
 Support:
-☐ Support team briefed
-☐ FAQ and help docs published
-☐ Escalation procedures confirmed
-☐ Feedback collection active
+☐ Time de support briefado
+☐ FAQ e help docs publicados
+☐ Procedimentos de escalonamento confirmados
+☐ Coleta de feedback ativa
 ```
 
-### T-0: Launch Day
+### T-0: Dia do Launch
 
-#### Hour 0: Deployment
-
-```
-ACTIVATE DevOps Automator:
-1. Execute blue-green deployment to production
-2. Run health checks on all services
-3. Verify database migrations complete
-4. Confirm all endpoints responding
-5. Switch traffic to new deployment
-6. Monitor error rates for 15 minutes
-7. Confirm: DEPLOYMENT SUCCESSFUL or ROLLBACK
-
-ACTIVATE Infrastructure Maintainer:
-1. Monitor all system metrics in real-time
-2. Watch for traffic spikes and scaling events
-3. Track error rates and response times
-4. Alert on any threshold breaches
-5. Confirm: SYSTEMS STABLE
-```
-
-#### Hour 1-2: Marketing Activation
+#### Hora 0: Deployment
 
 ```
-ACTIVATE Twitter Engager:
-- Publish launch thread
-- Engage with early responses
-- Monitor brand mentions
-- Amplify positive reactions
-- Real-time conversation participation
+ATIVE DevOps Automator:
+1. Executar deployment blue-green para produção
+2. Rodar health checks em todos os serviços
+3. Verificar que migrations de banco concluíram
+4. Confirmar que todos os endpoints respondem
+5. Mudar tráfego para o novo deployment
+6. Monitorar taxas de erro por 15 minutos
+7. Confirmar: DEPLOYMENT SUCCESSFUL ou ROLLBACK
 
-ACTIVATE Reddit Community Builder:
-- Post authentic launch announcement in relevant subreddits
-- Engage with comments (value-first, not promotional)
-- Monitor community sentiment
-- Respond to technical questions
-
-ACTIVATE Instagram Curator:
-- Publish launch visual content
-- Stories with product demos
-- Engage with early followers
-- Cross-promote with other channels
-
-ACTIVATE TikTok Strategist:
-- Publish launch videos
-- Monitor for viral potential
-- Engage with comments
-- Adjust content based on early performance
+ATIVE Infrastructure Maintainer:
+1. Monitorar todas as métricas do sistema em tempo real
+2. Observar picos de tráfego e eventos de scaling
+3. Acompanhar taxas de erro e tempos de resposta
+4. Alertar em qualquer breach de threshold
+5. Confirmar: SYSTEMS STABLE
 ```
 
-#### Hour 2-8: Monitoring & Response
+#### Hora 1-2: Ativação de Marketing
 
 ```
-ACTIVATE Support Responder:
-- Handle incoming user inquiries
-- Document common issues
-- Escalate technical problems to engineering
-- Collect early user feedback
+ATIVE Twitter Engager:
+- Publicar thread de launch
+- Engajar com respostas iniciais
+- Monitorar menções à marca
+- Amplificar reações positivas
+- Participar da conversa em tempo real
 
-ACTIVATE Analytics Reporter:
-- Real-time metrics dashboard
-- Hourly traffic and conversion reports
-- Channel attribution tracking
-- User behavior flow analysis
+ATIVE Reddit Community Builder:
+- Postar anúncio autêntico de launch em subreddits relevantes
+- Engajar com comentários (value-first, não promocional)
+- Monitorar sentimento da comunidade
+- Responder perguntas técnicas
 
-ACTIVATE Feedback Synthesizer:
-- Monitor all feedback channels
-- Categorize incoming feedback
-- Identify critical issues
-- Prioritize user-reported problems
+ATIVE Instagram Curator:
+- Publicar conteúdo visual de launch
+- Stories com demos do produto
+- Engajar com seguidores iniciais
+- Fazer cross-promotion com outros canais
+
+ATIVE TikTok Strategist:
+- Publicar vídeos de launch
+- Monitorar potencial viral
+- Engajar com comentários
+- Ajustar conteúdo com base na performance inicial
 ```
 
-### T+1 to T+7: Post-Launch Week
+#### Hora 2-8: Monitoramento & Resposta
 
 ```
-DAILY CADENCE:
+ATIVE Support Responder:
+- Lidar com consultas de usuários recebidas
+- Documentar issues comuns
+- Escalonar problemas técnicos para engenharia
+- Coletar feedback inicial de usuários
 
-Morning:
-├── Analytics Reporter → Daily metrics report
-├── Feedback Synthesizer → Feedback summary
-├── Infrastructure Maintainer → System health report
-└── Growth Hacker → Channel performance analysis
+ATIVE Analytics Reporter:
+- Dashboard de métricas em tempo real
+- Relatórios horários de tráfego e conversão
+- Tracking de atribuição por canal
+- Análise de fluxo de comportamento de usuários
 
-Afternoon:
-├── Content Creator → Response content based on reception
-├── Social Media Strategist → Engagement optimization
-├── Experiment Tracker → Launch A/B test results
-└── Support Responder → Issue resolution summary
-
-Evening:
-├── Executive Summary Generator → Daily stakeholder briefing
-├── Project Shepherd → Cross-team coordination
-└── DevOps Automator → Deployment of hotfixes (if needed)
+ATIVE Feedback Synthesizer:
+- Monitorar todos os canais de feedback
+- Categorizar feedback recebido
+- Identificar issues críticas
+- Priorizar problemas reportados por usuários
 ```
 
-### T+7 to T+14: Optimization Week
+### T+1 a T+7: Semana Pós-Launch
 
 ```
-ACTIVATE Growth Hacker:
-- Analyze first-week acquisition data
-- Optimize conversion funnels based on data
-- Scale winning channels, cut losing ones
-- Refine viral mechanics based on K-factor data
+CADÊNCIA DIÁRIA:
 
-ACTIVATE Analytics Reporter:
-- Week 1 comprehensive analysis
-- Cohort analysis of launch users
-- Retention curve analysis
-- Revenue/engagement metrics
+Manhã:
+├── Analytics Reporter → Relatório diário de métricas
+├── Feedback Synthesizer → Sumário de feedback
+├── Infrastructure Maintainer → Relatório de saúde do sistema
+└── Growth Hacker → Análise de performance de canais
 
-ACTIVATE Experiment Tracker:
-- Launch systematic A/B tests
-- Test onboarding variations
-- Test pricing/packaging (if applicable)
-- Test feature discovery flows
+Tarde:
+├── Content Creator → Conteúdo de resposta baseado na recepção
+├── Social Media Strategist → Otimização de engajamento
+├── Experiment Tracker → Resultados de testes A/B do launch
+└── Support Responder → Sumário de resolução de issues
 
-ACTIVATE Executive Summary Generator:
-- Week 1 executive summary (SCQA format)
-- Key metrics vs. targets
-- Recommendations for Week 2+
-- Resource reallocation suggestions
+Noite:
+├── Executive Summary Generator → Briefing diário para stakeholders
+├── Project Shepherd → Coordenação cross-team
+└── DevOps Automator → Deployment de hotfixes (se necessário)
 ```
 
-## Quality Gate Checklist
+### T+7 a T+14: Semana de Otimização
 
-| # | Criterion | Evidence Source | Status |
+```
+ATIVE Growth Hacker:
+- Analisar dados de aquisição da primeira semana
+- Otimizar funis de conversão com base em dados
+- Escalar canais vencedores, cortar canais perdedores
+- Refinar mecânicas virais com base em dados de K-factor
+
+ATIVE Analytics Reporter:
+- Análise abrangente da semana 1
+- Análise de cohort dos usuários de launch
+- Análise da curva de retenção
+- Métricas de receita/engajamento
+
+ATIVE Experiment Tracker:
+- Lançar testes A/B sistemáticos
+- Testar variações de onboarding
+- Testar pricing/packaging (se aplicável)
+- Testar fluxos de descoberta de features
+
+ATIVE Executive Summary Generator:
+- Sumário executivo da semana 1 (formato SCQA)
+- Métricas-chave vs. metas
+- Recomendações para Semana 2+
+- Sugestões de realocação de recursos
+```
+
+## Checklist do Quality Gate
+
+| # | Critério | Fonte de Evidência | Status |
 |---|-----------|----------------|--------|
-| 1 | Deployment successful (zero-downtime) | DevOps Automator deployment logs | ☐ |
-| 2 | Systems stable (no P0/P1 in 48 hours) | Infrastructure Maintainer monitoring | ☐ |
-| 3 | User acquisition channels active | Analytics Reporter dashboard | ☐ |
-| 4 | Feedback loop operational | Feedback Synthesizer report | ☐ |
-| 5 | Stakeholders informed | Executive Summary Generator output | ☐ |
-| 6 | Support operational | Support Responder metrics | ☐ |
-| 7 | Growth metrics tracking | Growth Hacker channel reports | ☐ |
+| 1 | Deployment bem-sucedido (zero-downtime) | Logs de deployment do DevOps Automator | ☐ |
+| 2 | Sistemas estáveis (nenhum P0/P1 em 48 horas) | Monitoramento do Infrastructure Maintainer | ☐ |
+| 3 | Canais de aquisição de usuários ativos | Dashboard do Analytics Reporter | ☐ |
+| 4 | Loop de feedback operacional | Relatório do Feedback Synthesizer | ☐ |
+| 5 | Stakeholders informados | Output do Executive Summary Generator | ☐ |
+| 6 | Support operacional | Métricas do Support Responder | ☐ |
+| 7 | Métricas de growth sendo rastreadas | Relatórios de canal do Growth Hacker | ☐ |
 
-## Gate Decision
+## Decisão de Gate
 
-**Dual sign-off**: Studio Producer (strategic) + Analytics Reporter (data)
+**Assinatura dupla**: Studio Producer (estratégica) + Analytics Reporter (dados)
 
-- **STABLE**: Product launched, systems stable, growth active → Phase 6 activation
-- **CRITICAL**: Major issues requiring immediate engineering response → Hotfix cycle
-- **ROLLBACK**: Fundamental problems → Revert deployment, return to Phase 4
+- **STABLE**: Produto lançado, sistemas estáveis, growth ativo → ativação da Fase 6
+- **CRITICAL**: Issues grandes exigindo resposta imediata de engenharia → ciclo de hotfix
+- **ROLLBACK**: Problemas fundamentais → reverter deployment, retornar à Fase 4
 
-## Handoff to Phase 6
+## Handoff para Fase 6
 
 ```markdown
-## Phase 5 → Phase 6 Handoff Package
+## Pacote de Handoff Fase 5 → Fase 6
 
-### For Ongoing Operations:
-- Launch metrics baseline (Analytics Reporter)
-- User feedback themes (Feedback Synthesizer)
-- System performance baseline (Infrastructure Maintainer)
-- Growth channel performance (Growth Hacker)
-- Support issue patterns (Support Responder)
+### Para Operações Contínuas:
+- Baseline de métricas de launch (Analytics Reporter)
+- Temas de feedback de usuários (Feedback Synthesizer)
+- Baseline de performance do sistema (Infrastructure Maintainer)
+- Performance dos canais de growth (Growth Hacker)
+- Padrões de issues de support (Support Responder)
 
-### For Continuous Improvement:
-- A/B test results and learnings (Experiment Tracker)
-- Process improvement recommendations (Workflow Optimizer)
-- Financial performance vs. projections (Finance Tracker)
-- Compliance monitoring status (Legal Compliance Checker)
+### Para Melhoria Contínua:
+- Resultados e aprendizados de testes A/B (Experiment Tracker)
+- Recomendações de melhoria de processo (Workflow Optimizer)
+- Performance financeira vs. projeções (Finance Tracker)
+- Status de monitoramento de compliance (Legal Compliance Checker)
 
-### Operational Cadences Established:
-- Daily: System monitoring, support, analytics
-- Weekly: Analytics report, feedback synthesis, sprint planning
-- Monthly: Executive summary, financial review, compliance check
-- Quarterly: Strategic review, process optimization, market intelligence
+### Cadências Operacionais Estabelecidas:
+- Diário: Monitoramento do sistema, support, analytics
+- Semanal: Relatório de analytics, síntese de feedback, sprint planning
+- Mensal: Sumário executivo, revisão financeira, checagem de compliance
+- Trimestral: Revisão estratégica, otimização de processo, inteligência de mercado
 ```
 
 ---
 
-*Phase 5 is complete when the product is deployed, systems are stable for 48+ hours, growth channels are active, and the feedback loop is operational.*
+*A Fase 5 está completa quando o produto está deployado, os sistemas estão estáveis por 48+ horas, os canais de growth estão ativos e o loop de feedback está operacional.*

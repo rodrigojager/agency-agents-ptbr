@@ -1,48 +1,48 @@
-# Examples
+# Exemplos
 
-This directory contains example outputs demonstrating how the agency's agents can be orchestrated together to tackle real-world tasks.
+Este diretório contém saídas de exemplo que demonstram como os agentes da agência podem ser orquestrados em conjunto para enfrentar tarefas do mundo real.
 
-## Why This Exists
+## Por Que Isso Existe
 
-The agency-agents repo defines dozens of specialized agents across engineering, design, marketing, product, support, spatial computing, and project management. But agent definitions alone don't show what happens when you **deploy them all at once** on a single mission.
+O repo agency-agents define dezenas de agentes especializados em engenharia, design, marketing, produto, suporte, spatial computing e project management. Mas as definições dos agentes, sozinhas, não mostram o que acontece quando você **aciona todos de uma vez** em uma única missão.
 
-These examples answer the question: *"What does it actually look like when the full agency collaborates?"*
+Estes exemplos respondem à pergunta: *"Como realmente se parece quando a agência inteira colabora?"*
 
-## Contents
+## Conteúdo
 
 ### [nexus-spatial-discovery.md](./nexus-spatial-discovery.md)
 
-**What:** A complete product discovery exercise where 8 agents worked in parallel to evaluate a software opportunity and produce a unified plan.
+**O que:** Um exercício completo de product discovery em que 8 agentes trabalharam em paralelo para avaliar uma oportunidade de software e produzir um plano unificado.
 
-**The scenario:** Web research identified an opportunity at the intersection of AI agent orchestration and spatial computing. The entire agency was then deployed simultaneously to produce:
+**O cenário:** Pesquisa web identificou uma oportunidade na interseção entre orquestração de agentes de IA e spatial computing. A agência inteira foi então acionada simultaneamente para produzir:
 
-- Market validation and competitive analysis
-- Technical architecture (8-service system design with full SQL schema)
-- Brand strategy and visual identity
-- Go-to-market and growth plan
-- Customer support operations blueprint
-- UX research plan with personas and journey maps
-- 35-week project execution plan with 65 sprint tickets
-- Spatial interface architecture specification
+- Validação de mercado e análise competitiva
+- Arquitetura técnica (design de sistema com 8 serviços e schema SQL completo)
+- Estratégia de marca e identidade visual
+- Plano de go-to-market e crescimento
+- Blueprint de operações de customer support
+- Plano de pesquisa UX com personas e journey maps
+- Plano de execução de projeto de 35 semanas com 65 sprint tickets
+- Especificação de arquitetura de interface espacial
 
-**Agents used:**
-| Agent | Role |
+**Agentes usados:**
+| Agente | Função |
 |-------|------|
-| Product Trend Researcher | Market validation, competitive landscape |
-| Backend Architect | System architecture, data model, API design |
-| Brand Guardian | Positioning, visual identity, naming |
-| Growth Hacker | GTM strategy, pricing, launch plan |
-| Support Responder | Support tiers, onboarding, community |
-| UX Researcher | Personas, journey maps, design principles |
-| Project Shepherd | Phase plan, sprints, risk register |
-| XR Interface Architect | Spatial UI specification |
+| Product Trend Researcher | Validação de mercado, cenário competitivo |
+| Backend Architect | Arquitetura de sistema, modelo de dados, design de API |
+| Brand Guardian | Posicionamento, identidade visual, naming |
+| Growth Hacker | Estratégia GTM, pricing, plano de lançamento |
+| Support Responder | Tiers de suporte, onboarding, comunidade |
+| UX Researcher | Personas, journey maps, princípios de design |
+| Project Shepherd | Plano por fases, sprints, risk register |
+| XR Interface Architect | Especificação de UI espacial |
 
-**Key takeaway:** All 8 agents ran in parallel and produced coherent, cross-referencing plans without coordination overhead. The output demonstrates the agency's ability to go from "find an opportunity" to "here's the full blueprint" in a single session.
+**Principal takeaway:** Todos os 8 agentes rodaram em paralelo e produziram planos coerentes e com referências cruzadas sem overhead de coordenação. A saída demonstra a capacidade da agência de ir de "encontre uma oportunidade" para "aqui está o blueprint completo" em uma única sessão.
 
-## Adding New Examples
+## Adicionando Novos Exemplos
 
-If you run an interesting multi-agent exercise, consider adding it here. Good examples show:
+Se você executar um exercício multi-agent interessante, considere adicioná-lo aqui. Bons exemplos mostram:
 
-- Multiple agents collaborating on a shared objective
-- The breadth of the agency's capabilities
-- Real-world applicability of the agent definitions
+- Múltiplos agentes colaborando em um objetivo compartilhado
+- A amplitude das capacidades da agência
+- Aplicabilidade real das definições de agentes

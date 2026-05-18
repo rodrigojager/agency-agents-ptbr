@@ -1,157 +1,157 @@
-# 🏢 Runbook: Enterprise Feature Development
+# 🏢 Runbook: Desenvolvimento de Feature Enterprise
 
-> **Mode**: NEXUS-Sprint | **Duration**: 6-12 weeks | **Agents**: 20-30
+> **Modo**: NEXUS-Sprint | **Duração**: 6-12 semanas | **Agentes**: 20-30
 
 ---
 
-## Scenario
+## Cenário
 
-You're adding a major feature to an existing enterprise product. Compliance, security, and quality gates are non-negotiable. Multiple stakeholders need alignment. The feature must integrate seamlessly with existing systems.
+Você está adicionando uma feature importante a um produto enterprise existente. Compliance, segurança e quality gates são inegociáveis. Múltiplos stakeholders precisam de alinhamento. A feature deve se integrar perfeitamente aos sistemas existentes.
 
-## Agent Roster
+## Roster de Agentes
 
-### Core Team
-| Agent | Role |
+### Time Core
+| Agente | Papel |
 |-------|------|
-| Agents Orchestrator | Pipeline controller |
-| Project Shepherd | Cross-functional coordination |
-| Senior Project Manager | Spec-to-task conversion |
-| Sprint Prioritizer | Backlog management |
-| UX Architect | Technical foundation |
-| UX Researcher | User validation |
-| UI Designer | Component design |
-| Frontend Developer | UI implementation |
-| Backend Architect | API and system integration |
-| Senior Developer | Complex implementation |
-| DevOps Automator | CI/CD and deployment |
-| Evidence Collector | Visual QA |
-| API Tester | Endpoint validation |
-| Reality Checker | Final quality gate |
+| Agents Orchestrator | Controlador de pipeline |
+| Project Shepherd | Coordenação cross-functional |
+| Senior Project Manager | Conversão de spec em tarefas |
+| Sprint Prioritizer | Gestão de backlog |
+| UX Architect | Fundação técnica |
+| UX Researcher | Validação com usuários |
+| UI Designer | Design de componentes |
+| Frontend Developer | Implementação de UI |
+| Backend Architect | API e integração de sistemas |
+| Senior Developer | Implementação complexa |
+| DevOps Automator | CI/CD e deployment |
+| Evidence Collector | QA visual |
+| API Tester | Validação de endpoints |
+| Reality Checker | Quality gate final |
 | Performance Benchmarker | Load testing |
 
-### Compliance & Governance
-| Agent | Role |
+### Compliance & Governança
+| Agente | Papel |
 |-------|------|
-| Legal Compliance Checker | Regulatory compliance |
-| Brand Guardian | Brand consistency |
-| Finance Tracker | Budget tracking |
-| Executive Summary Generator | Stakeholder reporting |
+| Legal Compliance Checker | Conformidade regulatória |
+| Brand Guardian | Consistência de marca |
+| Finance Tracker | Tracking de orçamento |
+| Executive Summary Generator | Reporting para stakeholders |
 
 ### Quality Assurance
-| Agent | Role |
+| Agente | Papel |
 |-------|------|
-| Test Results Analyzer | Quality metrics |
-| Workflow Optimizer | Process improvement |
-| Experiment Tracker | A/B testing |
+| Test Results Analyzer | Métricas de qualidade |
+| Workflow Optimizer | Melhoria de processo |
+| Experiment Tracker | Testes A/B |
 
-## Execution Plan
+## Plano de Execução
 
-### Phase 1: Requirements & Architecture (Week 1-2)
+### Fase 1: Requisitos & Arquitetura (Semana 1-2)
 
 ```
-Week 1: Stakeholder Alignment
-├── Project Shepherd → Stakeholder analysis + communication plan
-├── UX Researcher → User research on feature need
-├── Legal Compliance Checker → Compliance requirements scan
-├── Senior Project Manager → Spec-to-task conversion
-└── Finance Tracker → Budget framework
+Semana 1: Alinhamento de Stakeholders
+├── Project Shepherd → Análise de stakeholders + plano de comunicação
+├── UX Researcher → Pesquisa com usuários sobre necessidade da feature
+├── Legal Compliance Checker → Scan de requisitos de compliance
+├── Senior Project Manager → Conversão de spec em tarefas
+└── Finance Tracker → Framework de orçamento
 
-Week 2: Technical Architecture
-├── UX Architect → UX foundation + component architecture
-├── Backend Architect → System architecture + integration plan
-├── UI Designer → Component design + design system updates
-├── Sprint Prioritizer → RICE-scored backlog
-├── Brand Guardian → Brand impact assessment
+Semana 2: Arquitetura Técnica
+├── UX Architect → Fundação de UX + arquitetura de componentes
+├── Backend Architect → Arquitetura de sistema + plano de integração
+├── UI Designer → Design de componentes + updates no design system
+├── Sprint Prioritizer → Backlog pontuado por RICE
+├── Brand Guardian → Avaliação de impacto na marca
 └── Quality Gate: Architecture Review (Project Shepherd + Reality Checker)
 ```
 
-### Phase 2: Foundation (Week 3)
+### Fase 2: Fundação (Semana 3)
 
 ```
-├── DevOps Automator → Feature branch pipeline + feature flags
-├── Frontend Developer → Component scaffolding
-├── Backend Architect → API scaffold + database migrations
-├── Infrastructure Maintainer → Staging environment setup
-└── Quality Gate: Foundation verified (Evidence Collector)
+├── DevOps Automator → Pipeline de feature branch + feature flags
+├── Frontend Developer → Scaffolding de componentes
+├── Backend Architect → Scaffold de API + migrações de banco
+├── Infrastructure Maintainer → Setup de ambiente staging
+└── Quality Gate: Fundação verificada (Evidence Collector)
 ```
 
-### Phase 3: Build (Week 4-9)
+### Fase 3: Build (Semana 4-9)
 
 ```
-Sprint 1-3 (Week 4-9):
-├── Agents Orchestrator → Dev↔QA loop management
-├── Frontend Developer → UI implementation (task by task)
-├── Backend Architect → API implementation (task by task)
-├── Senior Developer → Complex/premium features
-├── Evidence Collector → QA every task (screenshots)
-├── API Tester → Endpoint validation every API task
-├── Experiment Tracker → A/B test setup for key features
+Sprint 1-3 (Semana 4-9):
+├── Agents Orchestrator → Gestão do loop Dev↔QA
+├── Frontend Developer → Implementação de UI (tarefa por tarefa)
+├── Backend Architect → Implementação de API (tarefa por tarefa)
+├── Senior Developer → Features complexas/premium
+├── Evidence Collector → QA de toda tarefa (screenshots)
+├── API Tester → Validação de endpoint a cada tarefa de API
+├── Experiment Tracker → Setup de teste A/B para features-chave
 │
-├── Bi-weekly:
-│   ├── Project Shepherd → Stakeholder status update
-│   ├── Executive Summary Generator → Executive briefing
-│   └── Finance Tracker → Budget tracking
+├── Quinzenal:
+│   ├── Project Shepherd → Update de status para stakeholders
+│   ├── Executive Summary Generator → Briefing executivo
+│   └── Finance Tracker → Tracking de orçamento
 │
-└── Sprint Reviews with stakeholder demos
+└── Sprint Reviews com demos para stakeholders
 ```
 
-### Phase 4: Hardening (Week 10-11)
+### Fase 4: Hardening (Semana 10-11)
 
 ```
-Week 10: Evidence Collection
-├── Evidence Collector → Full screenshot suite
-├── API Tester → Complete regression suite
-├── Performance Benchmarker → Load test at 10x traffic
-├── Legal Compliance Checker → Final compliance audit
-├── Test Results Analyzer → Quality metrics dashboard
-└── Infrastructure Maintainer → Production readiness
+Semana 10: Coleta de Evidências
+├── Evidence Collector → Suite completa de screenshots
+├── API Tester → Suite completa de regressão
+├── Performance Benchmarker → Load test com 10x tráfego
+├── Legal Compliance Checker → Auditoria final de compliance
+├── Test Results Analyzer → Dashboard de métricas de qualidade
+└── Infrastructure Maintainer → Prontidão de produção
 
-Week 11: Final Judgment
-├── Reality Checker → Integration testing (default: NEEDS WORK)
-├── Fix cycle if needed (2-3 days)
-├── Re-verification
-└── Executive Summary Generator → Go/No-Go recommendation
+Semana 11: Julgamento Final
+├── Reality Checker → Testes de integração (default: NEEDS WORK)
+├── Ciclo de correção se necessário (2-3 dias)
+├── Reverificação
+└── Executive Summary Generator → Recomendação Go/No-Go
 ```
 
-### Phase 5: Rollout (Week 12)
+### Fase 5: Rollout (Semana 12)
 
 ```
 ├── DevOps Automator → Canary deployment (5% → 25% → 100%)
-├── Infrastructure Maintainer → Real-time monitoring
-├── Analytics Reporter → Feature adoption tracking
-├── Support Responder → User support for new feature
-├── Feedback Synthesizer → Early feedback collection
-└── Executive Summary Generator → Launch report
+├── Infrastructure Maintainer → Monitoramento em tempo real
+├── Analytics Reporter → Tracking de adoção da feature
+├── Support Responder → Suporte ao usuário para nova feature
+├── Feedback Synthesizer → Coleta de feedback inicial
+└── Executive Summary Generator → Relatório de launch
 ```
 
-## Stakeholder Communication Cadence
+## Cadência de Comunicação com Stakeholders
 
-| Audience | Frequency | Agent | Format |
+| Audiência | Frequência | Agente | Formato |
 |----------|-----------|-------|--------|
-| Executive sponsors | Bi-weekly | Executive Summary Generator | SCQA summary (≤500 words) |
-| Product team | Weekly | Project Shepherd | Status report |
-| Engineering team | Daily | Agents Orchestrator | Pipeline status |
-| Compliance team | Monthly | Legal Compliance Checker | Compliance status |
-| Finance | Monthly | Finance Tracker | Budget report |
+| Sponsors executivos | Quinzenal | Executive Summary Generator | Resumo SCQA (≤500 palavras) |
+| Time de produto | Semanal | Project Shepherd | Relatório de status |
+| Time de engenharia | Diário | Agents Orchestrator | Status do pipeline |
+| Time de compliance | Mensal | Legal Compliance Checker | Status de compliance |
+| Finance | Mensal | Finance Tracker | Relatório de orçamento |
 
-## Quality Requirements
+## Requisitos de Qualidade
 
-| Requirement | Threshold | Verification |
+| Requisito | Threshold | Verificação |
 |-------------|-----------|-------------|
-| Code coverage | > 80% | Test Results Analyzer |
-| API response time | P95 < 200ms | Performance Benchmarker |
-| Accessibility | WCAG 2.1 AA | Evidence Collector |
-| Security | Zero critical vulnerabilities | Legal Compliance Checker |
-| Brand consistency | 95%+ adherence | Brand Guardian |
-| Spec compliance | 100% | Reality Checker |
-| Load handling | 10x current traffic | Performance Benchmarker |
+| Cobertura de código | > 80% | Test Results Analyzer |
+| Tempo de resposta de API | P95 < 200ms | Performance Benchmarker |
+| Acessibilidade | WCAG 2.1 AA | Evidence Collector |
+| Segurança | Zero vulnerabilidades críticas | Legal Compliance Checker |
+| Consistência de marca | 95%+ aderência | Brand Guardian |
+| Conformidade com spec | 100% | Reality Checker |
+| Suporte a carga | 10x tráfego atual | Performance Benchmarker |
 
-## Risk Management
+## Gestão de Risco
 
-| Risk | Probability | Impact | Mitigation | Owner |
+| Risco | Probabilidade | Impacto | Mitigação | Owner |
 |------|------------|--------|-----------|-------|
-| Integration complexity | High | High | Early integration testing, API Tester in every sprint | Backend Architect |
-| Scope creep | Medium | High | Sprint Prioritizer enforces MoSCoW, Project Shepherd manages changes | Sprint Prioritizer |
-| Compliance issues | Medium | Critical | Legal Compliance Checker involved from Day 1 | Legal Compliance Checker |
-| Performance regression | Medium | High | Performance Benchmarker tests every sprint | Performance Benchmarker |
-| Stakeholder misalignment | Low | High | Bi-weekly executive briefings, Project Shepherd coordination | Project Shepherd |
+| Complexidade de integração | Alta | Alto | Teste de integração antecipado, API Tester em todo sprint | Backend Architect |
+| Scope creep | Média | Alto | Sprint Prioritizer reforça MoSCoW, Project Shepherd gerencia mudanças | Sprint Prioritizer |
+| Issues de compliance | Média | Crítico | Legal Compliance Checker envolvido desde o Dia 1 | Legal Compliance Checker |
+| Regressão de performance | Média | Alto | Performance Benchmarker testa todo sprint | Performance Benchmarker |
+| Desalinhamento de stakeholders | Baixa | Alto | Briefings executivos quinzenais, coordenação do Project Shepherd | Project Shepherd |

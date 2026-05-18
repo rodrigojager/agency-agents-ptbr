@@ -1,18 +1,18 @@
-# Workflow Example: Book Chapter Development
+# Exemplo de Workflow: Desenvolvimento de Capítulo de Livro
 
-> A focused single-agent workflow for turning rough source material into a strategic first-person chapter draft with explicit revision loops.
+> Um workflow focado de agente único para transformar material-fonte bruto em um rascunho estratégico de capítulo em primeira pessoa, com loops explícitos de revisão.
 
-## When to Use This
+## Quando Usar Isto
 
-Use this workflow when an author has voice notes, fragments, or strategic notes, but not yet a clean chapter draft. The goal is not generic ghostwriting. The goal is to produce a chapter that strengthens category positioning, preserves the author's voice, and exposes open editorial decisions clearly.
+Use este workflow quando um autor tem notas de voz, fragmentos ou notas estratégicas, mas ainda não tem um rascunho limpo de capítulo. O objetivo não é ghostwriting genérico. O objetivo é produzir um capítulo que fortaleça o posicionamento de categoria, preserve a voz do autor e exponha claramente decisões editoriais abertas.
 
-## Agent Used
+## Agente Usado
 
-| Agent | Role |
+| Agente | Função |
 |-------|------|
-| Book Co-Author | Converts source material into a versioned chapter draft with editorial notes and next-step questions |
+| Book Co-Author | Converte material-fonte em um rascunho versionado de capítulo com notas editoriais e perguntas de próximos passos |
 
-## Example Activation
+## Exemplo de Ativação
 
 ```text
 Activate Book Co-Author.
@@ -36,9 +36,9 @@ Produce:
 5. Specific next-step revision requests
 ```
 
-## Expected Output Shape
+## Formato Esperado da Saída
 
-The Book Co-Author should respond in five parts:
+O Book Co-Author deve responder em cinco partes:
 
 1. `Target Outcome`
 2. `Chapter Draft`
@@ -46,10 +46,10 @@ The Book Co-Author should respond in five parts:
 4. `Feedback Loop`
 5. `Next Step`
 
-## Quality Bar
+## Barra de Qualidade
 
-- The draft stays in first-person voice
-- The chapter has one clear promise and internal logic
-- Claims are tied to source material or flagged as assumptions
-- Generic motivational language is removed
-- The output ends with explicit revision questions, not a vague handoff
+- O rascunho permanece em voz de primeira pessoa
+- O capítulo tem uma promessa clara e lógica interna
+- Afirmações são conectadas ao material-fonte ou sinalizadas como premissas
+- Linguagem motivacional genérica é removida
+- A saída termina com perguntas explícitas de revisão, não um handoff vago

@@ -1,357 +1,357 @@
-# 📋 NEXUS Handoff Templates
+# 📋 Templates de Handoff NEXUS
 
-> Standardized templates for every type of agent-to-agent handoff in the NEXUS pipeline. Consistent handoffs prevent context loss — the #1 cause of multi-agent coordination failure.
+> Templates padronizados para todo tipo de handoff agente-para-agente no pipeline NEXUS. Handoffs consistentes previnem perda de contexto — a causa nº 1 de falha em coordenação multiagente.
 
 ---
 
-## 1. Standard Handoff Template
+## 1. Template Padrão de Handoff
 
-Use for any agent-to-agent work transfer.
+Use para qualquer transferência de trabalho entre agentes.
 
 ```markdown
-# NEXUS Handoff Document
+# Documento de Handoff NEXUS
 
-## Metadata
-| Field | Value |
+## Metadados
+| Campo | Valor |
 |-------|-------|
-| **From** | [Agent Name] ([Division]) |
-| **To** | [Agent Name] ([Division]) |
-| **Phase** | Phase [N] — [Phase Name] |
-| **Task Reference** | [Task ID from Sprint Prioritizer backlog] |
-| **Priority** | [Critical / High / Medium / Low] |
+| **De** | [Nome do Agente] ([Divisão]) |
+| **Para** | [Nome do Agente] ([Divisão]) |
+| **Fase** | Fase [N] — [Nome da Fase] |
+| **Referência da Tarefa** | [ID da tarefa no backlog do Sprint Prioritizer] |
+| **Prioridade** | [Crítica / Alta / Média / Baixa] |
 | **Timestamp** | [YYYY-MM-DDTHH:MM:SSZ] |
 
-## Context
-**Project**: [Project name]
-**Current State**: [What has been completed so far — be specific]
-**Relevant Files**:
-- [file/path/1] — [what it contains]
-- [file/path/2] — [what it contains]
-**Dependencies**: [What this work depends on being complete]
-**Constraints**: [Technical, timeline, or resource constraints]
+## Contexto
+**Projeto**: [Nome do projeto]
+**Estado Atual**: [O que foi concluído até agora — seja específico]
+**Arquivos Relevantes**:
+- [file/path/1] — [o que contém]
+- [file/path/2] — [o que contém]
+**Dependências**: [Do que este trabalho depende para estar completo]
+**Restrições**: [Restrições técnicas, de timeline ou de recursos]
 
-## Deliverable Request
-**What is needed**: [Specific, measurable deliverable description]
-**Acceptance criteria**:
-- [ ] [Criterion 1 — measurable]
-- [ ] [Criterion 2 — measurable]
-- [ ] [Criterion 3 — measurable]
-**Reference materials**: [Links to specs, designs, previous work]
+## Solicitação de Entregável
+**O que é necessário**: [Descrição específica e mensurável do entregável]
+**Critérios de aceitação**:
+- [ ] [Critério 1 — mensurável]
+- [ ] [Critério 2 — mensurável]
+- [ ] [Critério 3 — mensurável]
+**Materiais de referência**: [Links para specs, designs, trabalho anterior]
 
-## Quality Expectations
-**Must pass**: [Specific quality criteria for this deliverable]
-**Evidence required**: [What proof of completion looks like]
-**Handoff to next**: [Who receives the output and what format they need]
+## Expectativas de Qualidade
+**Precisa passar**: [Critérios específicos de qualidade para este entregável]
+**Evidência obrigatória**: [Como é a prova de conclusão]
+**Handoff para o próximo**: [Quem recebe o output e em qual formato precisa]
 ```
 
 ---
 
-## 2. QA Feedback Loop — PASS
+## 2. Loop de Feedback de QA — PASS
 
-Use when Evidence Collector or other QA agent approves a task.
+Use quando Evidence Collector ou outro agente de QA aprovar uma tarefa.
 
 ```markdown
-# NEXUS QA Verdict: PASS ✅
+# Veredito QA NEXUS: PASS ✅
 
-## Task
-| Field | Value |
+## Tarefa
+| Campo | Valor |
 |-------|-------|
 | **Task ID** | [ID] |
-| **Task Description** | [Description] |
-| **Developer Agent** | [Agent Name] |
-| **QA Agent** | [Agent Name] |
-| **Attempt** | [N] of 3 |
+| **Descrição da Tarefa** | [Descrição] |
+| **Developer Agent** | [Nome do Agente] |
+| **QA Agent** | [Nome do Agente] |
+| **Tentativa** | [N] de 3 |
 | **Timestamp** | [YYYY-MM-DDTHH:MM:SSZ] |
 
-## Verdict: PASS
+## Veredito: PASS
 
-## Evidence
+## Evidência
 **Screenshots**:
 - Desktop (1920x1080): [filename/path]
 - Tablet (768x1024): [filename/path]
 - Mobile (375x667): [filename/path]
 
-**Functional Verification**:
-- [x] [Acceptance criterion 1] — verified
-- [x] [Acceptance criterion 2] — verified
-- [x] [Acceptance criterion 3] — verified
+**Verificação Funcional**:
+- [x] [Critério de aceitação 1] — verificado
+- [x] [Critério de aceitação 2] — verificado
+- [x] [Critério de aceitação 3] — verificado
 
-**Brand Consistency**: Verified — colors, typography, spacing match design system
-**Accessibility**: Verified — keyboard navigation, contrast ratios, semantic HTML
-**Performance**: [Load time measured] — within acceptable range
+**Consistência de Marca**: Verificada — cores, tipografia, spacing batem com o design system
+**Acessibilidade**: Verificada — navegação por teclado, contrast ratios, HTML semântico
+**Performance**: [Tempo de carregamento medido] — dentro da faixa aceitável
 
-## Notes
-[Any observations, minor suggestions for future improvement, or positive callouts]
+## Observações
+[Quaisquer observações, sugestões menores para melhoria futura ou destaques positivos]
 
-## Next Action
-→ Agents Orchestrator: Mark task complete, advance to next task in backlog
+## Próxima Ação
+→ Agents Orchestrator: Marcar tarefa como completa, avançar para a próxima tarefa no backlog
 ```
 
 ---
 
-## 3. QA Feedback Loop — FAIL
+## 3. Loop de Feedback de QA — FAIL
 
-Use when Evidence Collector or other QA agent rejects a task.
+Use quando Evidence Collector ou outro agente de QA rejeitar uma tarefa.
 
 ```markdown
-# NEXUS QA Verdict: FAIL ❌
+# Veredito QA NEXUS: FAIL ❌
 
-## Task
-| Field | Value |
+## Tarefa
+| Campo | Valor |
 |-------|-------|
 | **Task ID** | [ID] |
-| **Task Description** | [Description] |
-| **Developer Agent** | [Agent Name] |
-| **QA Agent** | [Agent Name] |
-| **Attempt** | [N] of 3 |
+| **Descrição da Tarefa** | [Descrição] |
+| **Developer Agent** | [Nome do Agente] |
+| **QA Agent** | [Nome do Agente] |
+| **Tentativa** | [N] de 3 |
 | **Timestamp** | [YYYY-MM-DDTHH:MM:SSZ] |
 
-## Verdict: FAIL
+## Veredito: FAIL
 
-## Issues Found
+## Issues Encontradas
 
-### Issue 1: [Category] — [Severity: Critical/High/Medium/Low]
-**Description**: [Exact description of the problem]
-**Expected**: [What should happen according to acceptance criteria]
-**Actual**: [What actually happens]
-**Evidence**: [Screenshot filename or test output]
-**Fix instruction**: [Specific, actionable instruction to resolve]
-**File(s) to modify**: [Exact file paths]
+### Issue 1: [Categoria] — [Severidade: Crítica/Alta/Média/Baixa]
+**Descrição**: [Descrição exata do problema]
+**Esperado**: [O que deveria acontecer segundo os critérios de aceitação]
+**Atual**: [O que realmente acontece]
+**Evidência**: [Nome do arquivo de screenshot ou output de teste]
+**Instrução de fix**: [Instrução específica e acionável para resolver]
+**Arquivo(s) a modificar**: [Paths exatos dos arquivos]
 
-### Issue 2: [Category] — [Severity]
-**Description**: [...]
-**Expected**: [...]
-**Actual**: [...]
-**Evidence**: [...]
-**Fix instruction**: [...]
-**File(s) to modify**: [...]
+### Issue 2: [Categoria] — [Severidade]
+**Descrição**: [...]
+**Esperado**: [...]
+**Atual**: [...]
+**Evidência**: [...]
+**Instrução de fix**: [...]
+**Arquivo(s) a modificar**: [...]
 
-[Continue for all issues found]
+[Continue para todas as issues encontradas]
 
-## Acceptance Criteria Status
-- [x] [Criterion 1] — passed
-- [ ] [Criterion 2] — FAILED (see Issue 1)
-- [ ] [Criterion 3] — FAILED (see Issue 2)
+## Status dos Critérios de Aceitação
+- [x] [Critério 1] — passou
+- [ ] [Critério 2] — FALHOU (ver Issue 1)
+- [ ] [Critério 3] — FALHOU (ver Issue 2)
 
-## Retry Instructions
-**For Developer Agent**:
-1. Fix ONLY the issues listed above
-2. Do NOT introduce new features or changes
-3. Re-submit for QA when all issues are addressed
-4. This is attempt [N] of 3 maximum
+## Instruções de Retry
+**Para Developer Agent**:
+1. Corrija APENAS as issues listadas acima
+2. NÃO introduza novas features ou mudanças
+3. Reenvie para QA quando todas as issues forem tratadas
+4. Esta é a tentativa [N] de 3 no máximo
 
-**If attempt 3 fails**: Task will be escalated to Agents Orchestrator
+**Se a tentativa 3 falhar**: A tarefa será escalada para Agents Orchestrator
 ```
 
 ---
 
-## 4. Escalation Report
+## 4. Relatório de Escalonamento
 
-Use when a task exceeds 3 retry attempts.
+Use quando uma tarefa exceder 3 tentativas de retry.
 
 ```markdown
-# NEXUS Escalation Report 🚨
+# Relatório de Escalonamento NEXUS 🚨
 
-## Task
-| Field | Value |
+## Tarefa
+| Campo | Valor |
 |-------|-------|
 | **Task ID** | [ID] |
-| **Task Description** | [Description] |
-| **Developer Agent** | [Agent Name] |
-| **QA Agent** | [Agent Name] |
-| **Attempts Exhausted** | 3/3 |
-| **Escalation To** | [Agents Orchestrator / Studio Producer] |
+| **Descrição da Tarefa** | [Descrição] |
+| **Developer Agent** | [Nome do Agente] |
+| **QA Agent** | [Nome do Agente] |
+| **Tentativas Esgotadas** | 3/3 |
+| **Escalonamento Para** | [Agents Orchestrator / Studio Producer] |
 | **Timestamp** | [YYYY-MM-DDTHH:MM:SSZ] |
 
-## Failure History
+## Histórico de Falhas
 
-### Attempt 1
-- **Issues found**: [Summary]
-- **Fixes applied**: [What the developer changed]
-- **Result**: FAIL — [Why it still failed]
+### Tentativa 1
+- **Issues encontradas**: [Resumo]
+- **Fixes aplicados**: [O que o developer mudou]
+- **Resultado**: FAIL — [Por que ainda falhou]
 
-### Attempt 2
-- **Issues found**: [Summary]
-- **Fixes applied**: [What the developer changed]
-- **Result**: FAIL — [Why it still failed]
+### Tentativa 2
+- **Issues encontradas**: [Resumo]
+- **Fixes aplicados**: [O que o developer mudou]
+- **Resultado**: FAIL — [Por que ainda falhou]
 
-### Attempt 3
-- **Issues found**: [Summary]
-- **Fixes applied**: [What the developer changed]
-- **Result**: FAIL — [Why it still failed]
+### Tentativa 3
+- **Issues encontradas**: [Resumo]
+- **Fixes aplicados**: [O que o developer mudou]
+- **Resultado**: FAIL — [Por que ainda falhou]
 
-## Root Cause Analysis
-**Why the task keeps failing**: [Analysis of the underlying problem]
-**Systemic issue**: [Is this a one-off or pattern?]
-**Complexity assessment**: [Was the task properly scoped?]
+## Análise de Causa Raiz
+**Por que a tarefa continua falhando**: [Análise do problema subjacente]
+**Issue sistêmica**: [Isso é pontual ou um padrão?]
+**Avaliação de complexidade**: [A tarefa foi escopada adequadamente?]
 
-## Recommended Resolution
-- [ ] **Reassign** to different developer agent ([recommended agent])
-- [ ] **Decompose** into smaller sub-tasks ([proposed breakdown])
-- [ ] **Revise approach** — architecture/design change needed
-- [ ] **Accept** current state with documented limitations
-- [ ] **Defer** to future sprint
+## Resolução Recomendada
+- [ ] **Reatribuir** a outro developer agent ([agente recomendado])
+- [ ] **Decompor** em subtarefas menores ([breakdown proposto])
+- [ ] **Revisar abordagem** — mudança de arquitetura/design necessária
+- [ ] **Aceitar** estado atual com limitações documentadas
+- [ ] **Adiar** para sprint futuro
 
-## Impact Assessment
-**Blocking**: [What other tasks are blocked by this]
-**Timeline Impact**: [How this affects the overall schedule]
-**Quality Impact**: [What quality compromises exist if we accept current state]
+## Avaliação de Impacto
+**Bloqueio**: [Quais outras tarefas são bloqueadas por isso]
+**Impacto na Timeline**: [Como isso afeta o cronograma geral]
+**Impacto de Qualidade**: [Quais compromissos de qualidade existem se aceitarmos o estado atual]
 
-## Decision Required
-**Decision maker**: [Agents Orchestrator / Studio Producer]
-**Deadline**: [When decision is needed to avoid further delays]
+## Decisão Obrigatória
+**Decisor**: [Agents Orchestrator / Studio Producer]
+**Prazo**: [Quando a decisão é necessária para evitar mais atraso]
 ```
 
 ---
 
-## 5. Phase Gate Handoff
+## 5. Handoff de Phase Gate
 
-Use when transitioning between NEXUS phases.
+Use ao transicionar entre fases NEXUS.
 
 ```markdown
-# NEXUS Phase Gate Handoff
+# Handoff de Phase Gate NEXUS
 
-## Transition
-| Field | Value |
+## Transição
+| Campo | Valor |
 |-------|-------|
-| **From Phase** | Phase [N] — [Name] |
-| **To Phase** | Phase [N+1] — [Name] |
-| **Gate Keeper(s)** | [Agent Name(s)] |
-| **Gate Result** | [PASSED / FAILED] |
+| **Da Fase** | Fase [N] — [Nome] |
+| **Para a Fase** | Fase [N+1] — [Nome] |
+| **Gate Keeper(s)** | [Nome(s) do(s) Agente(s)] |
+| **Resultado do Gate** | [PASSED / FAILED] |
 | **Timestamp** | [YYYY-MM-DDTHH:MM:SSZ] |
 
-## Gate Criteria Results
-| # | Criterion | Threshold | Result | Evidence |
+## Resultados dos Critérios do Gate
+| # | Critério | Threshold | Resultado | Evidência |
 |---|-----------|-----------|--------|----------|
-| 1 | [Criterion] | [Threshold] | ✅ PASS / ❌ FAIL | [Evidence reference] |
-| 2 | [Criterion] | [Threshold] | ✅ PASS / ❌ FAIL | [Evidence reference] |
-| 3 | [Criterion] | [Threshold] | ✅ PASS / ❌ FAIL | [Evidence reference] |
+| 1 | [Critério] | [Threshold] | ✅ PASS / ❌ FAIL | [Referência de evidência] |
+| 2 | [Critério] | [Threshold] | ✅ PASS / ❌ FAIL | [Referência de evidência] |
+| 3 | [Critério] | [Threshold] | ✅ PASS / ❌ FAIL | [Referência de evidência] |
 
-## Documents Carried Forward
-1. [Document name] — [Purpose for next phase]
-2. [Document name] — [Purpose for next phase]
-3. [Document name] — [Purpose for next phase]
+## Documentos Carregados Adiante
+1. [Nome do documento] — [Finalidade para a próxima fase]
+2. [Nome do documento] — [Finalidade para a próxima fase]
+3. [Nome do documento] — [Finalidade para a próxima fase]
 
-## Key Constraints for Next Phase
-- [Constraint 1 from this phase's findings]
-- [Constraint 2 from this phase's findings]
+## Restrições-Chave para a Próxima Fase
+- [Restrição 1 a partir dos findings desta fase]
+- [Restrição 2 a partir dos findings desta fase]
 
-## Agent Activation for Next Phase
-| Agent | Role | Priority |
+## Ativação de Agentes para a Próxima Fase
+| Agente | Papel | Prioridade |
 |-------|------|----------|
-| [Agent 1] | [Role in next phase] | [Immediate / Day 2 / As needed] |
-| [Agent 2] | [Role in next phase] | [Immediate / Day 2 / As needed] |
+| [Agente 1] | [Papel na próxima fase] | [Imediato / Dia 2 / Conforme necessário] |
+| [Agente 2] | [Papel na próxima fase] | [Imediato / Dia 2 / Conforme necessário] |
 
-## Risks Carried Forward
-| Risk | Severity | Mitigation | Owner |
+## Riscos Carregados Adiante
+| Risco | Severidade | Mitigação | Owner |
 |------|----------|------------|-------|
-| [Risk] | [P0-P3] | [Mitigation plan] | [Agent] |
+| [Risco] | [P0-P3] | [Plano de mitigação] | [Agente] |
 ```
 
 ---
 
-## 6. Sprint Handoff
+## 6. Handoff de Sprint
 
-Use at sprint boundaries.
+Use nas fronteiras de sprint.
 
 ```markdown
-# NEXUS Sprint Handoff
+# Handoff de Sprint NEXUS
 
-## Sprint Summary
-| Field | Value |
+## Sumário do Sprint
+| Campo | Valor |
 |-------|-------|
-| **Sprint** | [Number] |
-| **Duration** | [Start date] → [End date] |
-| **Sprint Goal** | [Goal statement] |
-| **Velocity** | [Planned] / [Actual] story points |
+| **Sprint** | [Número] |
+| **Duração** | [Data de início] → [Data final] |
+| **Objetivo do Sprint** | [Declaração do objetivo] |
+| **Velocity** | [Planejada] / [Real] story points |
 
-## Completion Status
-| Task ID | Description | Status | QA Attempts | Notes |
+## Status de Conclusão
+| Task ID | Descrição | Status | Tentativas de QA | Observações |
 |---------|-------------|--------|-------------|-------|
-| [ID] | [Description] | ✅ Complete | [N] | [Notes] |
-| [ID] | [Description] | ✅ Complete | [N] | [Notes] |
-| [ID] | [Description] | ⚠️ Carried Over | [N] | [Reason] |
+| [ID] | [Descrição] | ✅ Complete | [N] | [Observações] |
+| [ID] | [Descrição] | ✅ Complete | [N] | [Observações] |
+| [ID] | [Descrição] | ⚠️ Carried Over | [N] | [Motivo] |
 
-## Quality Metrics
-- **First-pass QA rate**: [X]%
-- **Average retries**: [N]
-- **Tasks completed**: [X/Y]
-- **Story points delivered**: [N]
+## Métricas de Qualidade
+- **Taxa de QA first-pass**: [X]%
+- **Média de retries**: [N]
+- **Tarefas concluídas**: [X/Y]
+- **Story points entregues**: [N]
 
-## Carried Over to Next Sprint
-| Task ID | Description | Reason | Priority |
+## Carregado para o Próximo Sprint
+| Task ID | Descrição | Motivo | Prioridade |
 |---------|-------------|--------|----------|
-| [ID] | [Description] | [Why not completed] | [RICE score] |
+| [ID] | [Descrição] | [Por que não foi concluída] | [Score RICE] |
 
-## Retrospective Insights
-**What went well**: [Key successes]
-**What to improve**: [Key improvements]
-**Action items**: [Specific changes for next sprint]
+## Insights da Retrospectiva
+**O que foi bem**: [Principais sucessos]
+**O que melhorar**: [Principais melhorias]
+**Itens de ação**: [Mudanças específicas para o próximo sprint]
 
-## Next Sprint Preview
-**Sprint goal**: [Proposed goal]
-**Key tasks**: [Top priority items]
-**Dependencies**: [Cross-team dependencies]
+## Preview do Próximo Sprint
+**Objetivo do sprint**: [Objetivo proposto]
+**Tarefas-chave**: [Itens de maior prioridade]
+**Dependências**: [Dependências cross-team]
 ```
 
 ---
 
-## 7. Incident Handoff
+## 7. Handoff de Incidente
 
-Use during incident response.
+Use durante incident response.
 
 ```markdown
-# NEXUS Incident Handoff
+# Handoff de Incidente NEXUS
 
-## Incident
-| Field | Value |
+## Incidente
+| Campo | Valor |
 |-------|-------|
-| **Severity** | [P0 / P1 / P2 / P3] |
-| **Detected by** | [Agent or system] |
-| **Detection time** | [Timestamp] |
-| **Assigned to** | [Agent Name] |
+| **Severidade** | [P0 / P1 / P2 / P3] |
+| **Detectado por** | [Agente ou sistema] |
+| **Horário de detecção** | [Timestamp] |
+| **Atribuído a** | [Nome do Agente] |
 | **Status** | [Investigating / Mitigating / Resolved / Post-mortem] |
 
-## Description
-**What happened**: [Clear description of the incident]
-**Impact**: [Who/what is affected and how severely]
+## Descrição
+**O que aconteceu**: [Descrição clara do incidente]
+**Impacto**: [Quem/o que foi afetado e com qual severidade]
 **Timeline**:
-- [HH:MM] — [Event]
-- [HH:MM] — [Event]
-- [HH:MM] — [Event]
+- [HH:MM] — [Evento]
+- [HH:MM] — [Evento]
+- [HH:MM] — [Evento]
 
-## Current State
-**Systems affected**: [List]
-**Workaround available**: [Yes/No — describe if yes]
-**Estimated resolution**: [Time estimate]
+## Estado Atual
+**Sistemas afetados**: [Lista]
+**Workaround disponível**: [Sim/Não — descreva se sim]
+**Estimativa de resolução**: [Estimativa de tempo]
 
-## Actions Taken
-1. [Action taken and result]
-2. [Action taken and result]
+## Ações Tomadas
+1. [Ação tomada e resultado]
+2. [Ação tomada e resultado]
 
-## Handoff Context
-**For next responder**:
-- [What's been tried]
-- [What hasn't been tried yet]
-- [Suspected root cause]
-- [Relevant logs/metrics to check]
+## Contexto de Handoff
+**Para o próximo responder**:
+- [O que já foi tentado]
+- [O que ainda não foi tentado]
+- [Causa raiz suspeita]
+- [Logs/métricas relevantes a checar]
 
-## Stakeholder Communication
-**Last update sent**: [Timestamp]
-**Next update due**: [Timestamp]
-**Communication channel**: [Where updates are posted]
+## Comunicação com Stakeholders
+**Último update enviado**: [Timestamp]
+**Próximo update até**: [Timestamp]
+**Canal de comunicação**: [Onde updates são publicados]
 ```
 
 ---
 
-## Usage Guide
+## Guia de Uso
 
-| Situation | Template to Use |
+| Situação | Template a Usar |
 |-----------|----------------|
-| Assigning work to another agent | Standard Handoff (#1) |
-| QA approves a task | QA PASS (#2) |
-| QA rejects a task | QA FAIL (#3) |
-| Task exceeds 3 retries | Escalation Report (#4) |
-| Moving between phases | Phase Gate Handoff (#5) |
-| End of sprint | Sprint Handoff (#6) |
-| System incident | Incident Handoff (#7) |
+| Atribuir trabalho a outro agente | Handoff Padrão (#1) |
+| QA aprova uma tarefa | QA PASS (#2) |
+| QA rejeita uma tarefa | QA FAIL (#3) |
+| Tarefa excede 3 retries | Relatório de Escalonamento (#4) |
+| Mover entre fases | Handoff de Phase Gate (#5) |
+| Fim de sprint | Handoff de Sprint (#6) |
+| Incidente de sistema | Handoff de Incidente (#7) |

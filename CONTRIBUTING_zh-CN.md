@@ -1,263 +1,263 @@
-# 🤝 为 The Agency 贡献代码
-首先，非常感谢你愿意为 The Agency 贡献力量！正是有像你这样的参与者，才能让这套 AI 智能体集合变得越来越好。
+# 🤝 Contribuindo para The Agency
+Antes de tudo, muito obrigado por querer contribuir para The Agency! É com participantes como você que esta coleção de agentes de IA fica cada vez melhor.
 
-## 📋 **目录**
-- [行为准则](#📜-行为准则)
-- [我能如何贡献？](#🎯-我能如何贡献)
-- [智能体设计规范](#🎨-智能体设计规范)
-- [Pull Request (PR) 流程](#🔄-pull-request-流程)
-- [风格指南](#📐-风格指南)
-- [社区](#🤔-疑问)
-
----
-
-## 📜 行为准则
-本项目及所有参与者均受《行为准则》约束。参与即代表你同意遵守以下准则：
-
-- **保持尊重**：友善对待每一个人。鼓励理性讨论，但严禁人身攻击。
-- **包容多元**：欢迎并支持来自不同背景、不同身份的参与者。
-- **乐于协作**：我们共同创造的成果，远胜于单打独斗。
-- **专业严谨**：讨论请聚焦于优化智能体与建设社区。
+## 📋 **Sumário**
+- [Código de Conduta](#-código-de-conduta)
+- [Como Posso Contribuir?](#-como-posso-contribuir)
+- [Diretrizes de Design de Agentes](#-diretrizes-de-design-de-agentes)
+- [Processo de Pull Request (PR)](#-processo-de-pull-request-pr)
+- [Guia de Estilo](#-guia-de-estilo)
+- [Comunidade](#-dúvidas)
 
 ---
 
-## 🎯 如何贡献？
+## 📜 Código de Conduta
+Este projeto e todas as pessoas participantes são regidos pelo Código de Conduta. Ao participar, você concorda em seguir estas diretrizes:
 
-### 1. 创建全新智能体
-有专属智能体的创意？太棒了！按以下步骤添加：
-
-1. Fork 本仓库
-2. 选择合适的分类（或提议新增分类）：
-   - `engineering/` —— 软件开发专家
-   - `design/` —— UX/UI 与创意设计专家
-   - `marketing/` —— 增长与营销专家
-   - `product/` —— 产品管理专家
-   - `project-management/` —— 项目管理与协调专家
-   - `testing/` —— 质量保证与测试专家
-   - `support/` —— 运营与支持专家
-   - `spatial-computing/` —— AR/VR/XR 专家
-   - `specialized/` —— 无法归入其他分类的独特专家
-3. 按照下方模板创建智能体文件
-4. 在真实场景中测试你的智能体
-5. 提交 Pull Request（拉取请求）
-
-### 2. 优化现有智能体
-找到优化现有智能体的方法？非常欢迎贡献：
-- 补充真实案例与使用场景
-- 用现代模式完善代码示例
-- 基于最新最佳实践更新工作流
-- 增加成功指标与基准
-- 修正错别字、提升清晰度、完善文档
-
-### 3. 分享成功案例
-如果你成功使用了这些智能体：
-- 在 [GitHub Discussions](https://github.com/msitarzewski/agency-agents/discussions) 发布心得
-- 在 README 中补充案例研究
-- 撰写博客文章并附上链接
-- 制作视频教程
-
-### 4. 反馈问题
-发现问题？请告诉我们：
-- 先检查是否已有相同 issue
-- 提供清晰的复现步骤
-- 说明你的使用场景与上下文
-- 如有思路，可以提出潜在解决方案
+- **Mantenha o respeito**: Trate todas as pessoas com gentileza. Discussões racionais são incentivadas, mas ataques pessoais são proibidos.
+- **Inclua a diversidade**: Acolha e apoie participantes de diferentes origens e identidades.
+- **Colabore**: O resultado que criamos juntos é muito melhor do que o trabalho individual isolado.
+- **Seja profissional**: Mantenha as conversas focadas em otimizar os agentes e fortalecer a comunidade.
 
 ---
 
-# 🎨 智能体设计规范
+## 🎯 Como Contribuir?
 
-### 智能体文件结构
-每个智能体都应遵循以下结构：
+### 1. Crie um Agente Novo
+Tem uma ideia para um agente específico? Excelente! Adicione seguindo estes passos:
+
+1. Faça fork deste repositório
+2. Escolha a categoria adequada (ou proponha uma nova categoria):
+   - `engineering/` —— Especialistas em desenvolvimento de software
+   - `design/` —— Especialistas em UX/UI e design criativo
+   - `marketing/` —— Especialistas em growth e marketing
+   - `product/` —— Especialistas em gestão de produto
+   - `project-management/` —— Especialistas em gestão de projetos e coordenação
+   - `testing/` —— Especialistas em QA e testes
+   - `support/` —— Especialistas em operações e suporte
+   - `spatial-computing/` —— Especialistas em AR/VR/XR
+   - `specialized/` —— Especialistas únicos que não entram em outras categorias
+3. Crie o arquivo do agente seguindo o template abaixo
+4. Teste seu agente em cenários reais
+5. Envie um Pull Request
+
+### 2. Otimize Agentes Existentes
+Encontrou uma forma de melhorar um agente existente? Contribuições são muito bem-vindas:
+- Acrescente casos reais e cenários de uso
+- Melhore exemplos de código usando padrões modernos
+- Atualize workflows com base nas melhores práticas mais recentes
+- Adicione métricas de sucesso e benchmarks
+- Corrija erros de escrita, melhore a clareza e complete a documentação
+
+### 3. Compartilhe Casos de Sucesso
+Se você usou estes agentes com sucesso:
+- Publique sua experiência em [GitHub Discussions](https://github.com/msitarzewski/agency-agents/discussions)
+- Adicione um case study ao README
+- Escreva um post de blog e inclua o link
+- Crie um tutorial em vídeo
+
+### 4. Reporte Problemas
+Encontrou um problema? Conte para nós:
+- Primeiro verifique se já existe uma issue igual
+- Forneça passos claros para reprodução
+- Explique seu cenário de uso e o contexto
+- Se tiver ideias, proponha possíveis soluções
+
+---
+
+# 🎨 Diretrizes de Design de Agentes
+
+### Estrutura do Arquivo de Agente
+Cada agente deve seguir esta estrutura:
 
 ```yaml
 ---
-name: 智能体名称
-description: 一句话描述该智能体的专长与定位
-color: 颜色名 或 "#十六进制色值"
+name: Nome do Agente
+description: Uma frase descrevendo a especialidade e o posicionamento do agente
+color: Nome da cor ou "#valor-hexadecimal"
 ---
 ```
 
-## 智能体名称
+## Nome do Agente
 
-### 🧠 身份与记忆
-- **角色**：清晰的角色描述
-- **性格**：性格特点与沟通风格
-- **记忆**：智能体需要记住与学习的内容
-- **经验**：领域专业能力与视角
+### 🧠 Identidade e Memória
+- **Papel**: Descrição clara do papel
+- **Personalidade**: Traços de personalidade e estilo de comunicação
+- **Memória**: O que o agente precisa lembrar e aprender
+- **Experiência**: Competência de domínio e perspectiva
 
-### 🎯 核心使命
-- 核心职责 1（含明确交付物）
-- 核心职责 2（含明确交付物）
-- 核心职责 3（含明确交付物）
-- **默认要求**：始终遵循最佳实践
+### 🎯 Missão Principal
+- Responsabilidade principal 1, com entregável claro
+- Responsabilidade principal 2, com entregável claro
+- Responsabilidade principal 3, com entregável claro
+- **Requisito padrão**: Seguir sempre as melhores práticas
 
-### 🚨 必须遵守的关键规则
-领域专属规则与约束，定义智能体的工作方式。
+### 🚨 Regras Críticas que Devem Ser Seguidas
+Regras e restrições específicas do domínio que definem como o agente trabalha.
 
-### 📋 技术交付物
-智能体实际产出的具体内容：
-- 代码示例
-- 模板
-- 框架
-- 文档
+### 📋 Entregáveis Técnicos
+Conteúdos concretos que o agente produz:
+- Exemplos de código
+- Templates
+- Frameworks
+- Documentos
 
-### 🔄 工作流程
-智能体遵循的分步流程：
-1. 阶段 1：探索与调研
-2. 阶段 2：规划与策略
-3. 阶段 3：执行与落地
-4. 阶段 4：评审与优化
+### 🔄 Workflow
+Processo passo a passo seguido pelo agente:
+1. Fase 1: descoberta e pesquisa
+2. Fase 2: planejamento e estratégia
+3. Fase 3: execução e implementação
+4. Fase 4: revisão e otimização
 
-### 💭 沟通风格
-- 智能体如何沟通
-- 示例话术与表达模式
-- 语气与风格
+### 💭 Estilo de Comunicação
+- Como o agente se comunica
+- Frases e padrões de expressão de exemplo
+- Tom e estilo
 
-### 🔄 学习与记忆
-智能体从以下内容中持续学习：
-- 成功模式
-- 失败案例
-- 用户反馈
-- 领域演进
+### 🔄 Aprendizado e Memória
+O agente aprende continuamente a partir de:
+- Padrões bem-sucedidos
+- Casos que falharam
+- Feedback do usuário
+- Evolução do domínio
 
-### 🎯 成功指标
-可量化的成果：
-- 量化指标（带具体数值）
-- 质性指标
-- 性能基准
+### 🎯 Métricas de Sucesso
+Resultados mensuráveis:
+- Métricas quantitativas (com valores específicos)
+- Indicadores qualitativos
+- Benchmarks de performance
 
-### 🚀 高级能力
-该智能体掌握的高级技巧与方法。
-
----
-
-## 智能体设计原则
- 1. 🎭 **鲜明性格**
-- 赋予智能体独特语气与人设
-- 避免“我是一个有用的助手”，要具体、让人印象深刻
-- 示例：“我默认会找出 3–5 个问题，并要求提供视觉证据”（证据收集专家）
-
- 2. 📋 **明确交付物**
-- 提供可落地的代码示例
-- 包含模板与框架
-- 展示真实输出，而非模糊描述
-
- 3. ✅ **成功指标**
-- 包含具体、可量化的指标
-- 示例：“3G 网络下页面加载时间低于 3 秒”
-- 示例：“全账号合计 karma 积分 10,000+”
-
- 4. 🔄 **经过验证的工作流**
-- 分步流程清晰
-- 经过真实场景验证
-- 拒绝纯理论、纸上谈兵
-
- 5. 💡 **学习记忆**
-- 智能体能识别哪些模式
-- 如何随时间迭代优化
-- 会话之间会记住什么
-
-### 优秀智能体的标准
- - ✅ 专精、深入的领域定位
- - ✅ 独特性格与语气
- - ✅ 具体的代码/模板示例
- - ✅ 可量化的成功指标
- - ✅ 分步工作流
- - ✅ 真实场景测试与迭代
-
-**避免：**
- - ❌ 通用型“有用助手”人设
- - ❌ 模糊的“我会帮你……”描述
- - ❌ 无代码示例、无交付物
- - ❌ 范围过宽（样样通样样松）
- - ❌ 未经测试的理论方案
+### 🚀 Capacidades Avançadas
+Técnicas e métodos avançados dominados pelo agente.
 
 ---
 
-## 🔄 拉取请求（PR）流程
+## Princípios de Design de Agentes
+ 1. 🎭 **Personalidade Marcante**
+- Dê ao agente um tom e uma persona únicos
+- Evite "sou um assistente útil"; seja específico e memorável
+- Exemplo: "Por padrão, encontro 3-5 problemas e exijo evidência visual" (especialista em coleta de evidências)
 
-### 提交前
-- **测试智能体**：在真实场景使用，根据反馈迭代
-- **遵循模板**：与现有智能体结构保持一致
-- **补充示例**：至少包含 2–3 个代码/模板示例
-- **定义指标**：包含具体、可量化的成功标准
-- **校对检查**：检查错别字、格式、清晰度
+ 2. 📋 **Entregáveis Claros**
+- Forneça exemplos de código aplicáveis
+- Inclua templates e frameworks
+- Mostre outputs reais, não descrições vagas
 
-### 提交 PR
-1. Fork 仓库
-2. 创建分支：
+ 3. ✅ **Métricas de Sucesso**
+- Inclua métricas específicas e quantificáveis
+- Exemplo: "Tempo de carregamento abaixo de 3 segundos em rede 3G"
+- Exemplo: "10.000+ pontos de karma somados entre contas"
+
+ 4. 🔄 **Workflows Validados**
+- Processo passo a passo claro
+- Validado em cenários reais
+- Nada de teoria pura ou solução só no papel
+
+ 5. 💡 **Memória de Aprendizado**
+- Quais padrões o agente consegue reconhecer
+- Como ele evolui e melhora com o tempo
+- O que ele lembra entre sessões
+
+### Critérios de um Excelente Agente
+ - ✅ Posicionamento especializado e profundo
+ - ✅ Personalidade e tom únicos
+ - ✅ Exemplos concretos de código/template
+ - ✅ Métricas de sucesso quantificáveis
+ - ✅ Workflow passo a passo
+ - ✅ Testes e iteração em cenários reais
+
+**Evite:**
+ - ❌ Persona genérica de "assistente útil"
+ - ❌ Descrições vagas como "vou ajudar você..."
+ - ❌ Ausência de exemplos de código e entregáveis
+ - ❌ Escopo amplo demais
+ - ❌ Soluções teóricas não testadas
+
+---
+
+## 🔄 Processo de Pull Request (PR)
+
+### Antes de Enviar
+- **Teste o agente**: Use em cenários reais e itere com base no feedback
+- **Siga o template**: Mantenha consistência com a estrutura dos agentes existentes
+- **Adicione exemplos**: Inclua pelo menos 2-3 exemplos de código/template
+- **Defina métricas**: Inclua padrões de sucesso específicos e mensuráveis
+- **Revise**: Verifique erros de escrita, formatação e clareza
+
+### Enviando o PR
+1. Faça fork do repositório
+2. Crie uma branch:
    ```bash
    git checkout -b add-agent-name
    ```
-3. 完成修改：添加智能体文件
-4. 提交：
+3. Conclua as alterações: adicione o arquivo do agente
+4. Faça commit:
    ```bash
-   git commit -m "Add [智能体名称] specialist"
+   git commit -m "Add [Nome do Agente] specialist"
    ```
-5. 推送：
+5. Faça push:
    ```bash
    git push origin add-agent-name
    ```
-6. 发起 Pull Request，包含：
-   - 清晰标题：`Add [智能体名称] - [分类]`
-   - 智能体功能描述
-   - 该智能体的必要性（使用场景）
-   - 已做的测试
+6. Abra um Pull Request contendo:
+   - Título claro: `Add [Nome do Agente] - [Categoria]`
+   - Descrição da função do agente
+   - Por que este agente é necessário (cenário de uso)
+   - Testes realizados
 
-### PR 审核流程
-- **社区评审**：其他贡献者可提供反馈
-- **迭代优化**：根据反馈修改完善
-- **通过审核**：维护者确认无误后通过
-- **合并上线**：你的贡献正式加入 The Agency！
+### Processo de Revisão de PR
+- **Revisão da comunidade**: Outras pessoas contribuidoras podem fornecer feedback
+- **Iteração e melhoria**: Ajuste conforme o feedback recebido
+- **Aprovação**: Mantenedores aprovam quando tudo estiver correto
+- **Merge**: Sua contribuição entra oficialmente em The Agency!
 
-### PR 模板
+### Template de PR
 ```markdown
-## 智能体信息
-**智能体名称**：[名称]
-**分类**：[engineering/design/marketing 等]
-**专长**：一句话描述
+## Informações do Agente
+**Nome do Agente**: [Nome]
+**Categoria**: [engineering/design/marketing etc.]
+**Especialidade**: Uma frase descritiva
 
-## 创作动机
-[为什么需要这个智能体？解决了什么空白？]
+## Motivação
+[Por que este agente é necessário? Que lacuna ele cobre?]
 
-## 测试情况
-[你如何测试该智能体？有哪些真实场景？]
+## Testes
+[Como você testou este agente? Quais cenários reais?]
 
-## 检查清单
-- [ ] 遵循智能体模板结构
-- [ ] 包含性格与语气
-- [ ] 有具体代码/模板示例
-- [ ] 定义成功指标
-- [ ] 包含分步工作流
-- [ ] 已校对并正确格式化
-- [ ] 在真实场景测试过
+## Checklist
+- [ ] Segue a estrutura do template de agente
+- [ ] Inclui personalidade e tom
+- [ ] Tem exemplos concretos de código/template
+- [ ] Define métricas de sucesso
+- [ ] Inclui workflow passo a passo
+- [ ] Foi revisado e formatado corretamente
+- [ ] Foi testado em cenários reais
 ```
 
 ---
 
-## 📐 风格指南
+## 📐 Guia de Estilo
 
-### 写作风格
-- **具体明确**：写“页面加载速度降低 60%”，而非“让它更快”
-- **落地务实**：写“用 TypeScript 编写 React 组件”，而非“做界面”
-- **让人记住**：给智能体赋予性格，避免通用官话
-- **实用可用**：提供真实代码，而非伪代码
+### Estilo de Escrita
+- **Seja específico**: escreva "reduzir o tempo de carregamento da página em 60%" em vez de "deixar mais rápido"
+- **Seja prático**: escreva "criar componentes React com TypeScript" em vez de "fazer interfaces"
+- **Seja memorável**: dê personalidade ao agente, evitando linguagem corporativa genérica
+- **Seja útil de verdade**: forneça código real, não pseudo-code
 
-### 格式规范
-- 统一使用 Markdown 格式
-- 章节标题使用表情符号 🎯🧠📋 方便快速浏览
-- 所有代码示例使用代码块并开启语法高亮
-- 用表格对比选项或展示指标
-- 用**粗体**强调重点，用 `` `代码` `` 表示技术术语
+### Formatação
+- Use Markdown de forma consistente
+- Use emojis nos títulos de seção 🎯🧠📋 para facilitar a leitura rápida
+- Use blocos de código com syntax highlighting para todos os exemplos
+- Use tabelas para comparar opções ou exibir métricas
+- Use **negrito** para ênfase e `` `código` `` para termos técnicos
 
-### 代码示例
+### Exemplo de Código
 ```typescript
-// 务必包含：
-// 1. 语言标注以支持语法高亮
-// 2. 关键逻辑注释
-// 3. 真实可运行代码（非伪代码）
-// 4. 现代最佳实践
+// Sempre inclua:
+// 1. Indicação da linguagem para syntax highlighting
+// 2. Comentários sobre a lógica principal
+// 3. Código real executável (não pseudo-code)
+// 4. Melhores práticas modernas
 
 interface AgentExample {
   name: string;
@@ -266,53 +266,53 @@ interface AgentExample {
 }
 ```
 
-### 语气
-- 专业且亲和：不过于正式，也不过于随意
-- 自信不自大：用“这是最佳方案”，而非“或许你可以试试……”
-- 有助但不包办：默认用户具备基础能力，提供深度内容
-- 性格鲜明：每个智能体都有独特语气
+### Tom
+- Profissional e próximo: nem formal demais, nem casual demais
+- Confiante sem arrogância: use "esta é a melhor solução" em vez de "talvez você possa tentar..."
+- Útil sem conduzir cada passo: presuma capacidade básica do usuário e ofereça profundidade
+- Personalidade clara: cada agente deve ter um tom próprio
 
 ---
 
-## 🌟 贡献表彰
-做出重要贡献的参与者将获得：
-- 在 README 致谢区署名
-- 在版本发布说明中重点提及
-- 入选“每周智能体”展示（如适用）
-- 在智能体文件中标注作者信息
+## 🌟 Reconhecimento aos Contribuidores
+Participantes que fizerem contribuições importantes receberão:
+- Nome na área de agradecimentos do README
+- Destaque nas release notes
+- Inclusão na vitrine "Agente da Semana" (quando aplicável)
+- Crédito no próprio arquivo do agente
 
 ---
 
-## 🤔 有疑问？
-- 常规问题：[GitHub Discussions](https://github.com/msitarzewski/agency-agents/discussions)
-- Bug 反馈：[GitHub Issues](https://github.com/msitarzewski/agency-agents/issues)
-- 功能需求：[GitHub Issues](https://github.com/msitarzewski/agency-agents/issues)
-- 社区交流：参与 [Discussions](https://github.com/msitarzewski/agency-agents/discussions)
+## 🤔 Dúvidas?
+- Perguntas gerais: [GitHub Discussions](https://github.com/msitarzewski/agency-agents/discussions)
+- Bug reports: [GitHub Issues](https://github.com/msitarzewski/agency-agents/issues)
+- Feature requests: [GitHub Issues](https://github.com/msitarzewski/agency-agents/issues)
+- Comunidade: participe das [Discussions](https://github.com/msitarzewski/agency-agents/discussions)
 
 ---
 
-## 📚 资源
+## 📚 Recursos
 
-### 新贡献者指南
-- [README.md](https://github.com/msitarzewski/agency-agents/blob/main/README.md) —— 项目概览与智能体目录
-- [示例：前端开发者](https://github.com/msitarzewski/agency-agents/blob/main/engineering/engineering-frontend-developer.md ) —— 结构规范的智能体示例
-- [示例：Reddit 社区运营者](https://github.com/msitarzewski/agency-agents/blob/main/marketing/marketing-reddit-community-builder.md) —— 性格塑造优秀示例
-- [示例：趣味注入器](https://github.com/msitarzewski/agency-agents/blob/main/design/design-whimsy-injector.md) —— 创意型专家示例
+### Guia para Novos Contribuidores
+- [README.md](https://github.com/msitarzewski/agency-agents/blob/main/README.md) —— Visão geral do projeto e catálogo de agentes
+- [Exemplo: Frontend Developer](https://github.com/msitarzewski/agency-agents/blob/main/engineering/engineering-frontend-developer.md ) —— Exemplo de agente com boa estrutura
+- [Exemplo: Reddit Community Builder](https://github.com/msitarzewski/agency-agents/blob/main/marketing/marketing-reddit-community-builder.md) —— Ótimo exemplo de construção de personalidade
+- [Exemplo: Whimsy Injector](https://github.com/msitarzewski/agency-agents/blob/main/design/design-whimsy-injector.md) —— Exemplo de especialista criativo
 
-### 智能体设计参考
-- 阅读现有智能体获取灵感
-- 学习已验证的有效模式
-- 在真实场景测试你的智能体
-- 根据反馈持续迭代
+### Referência para Design de Agentes
+- Leia agentes existentes para buscar inspiração
+- Estude padrões que já foram validados
+- Teste seus agentes em cenários reais
+- Itere continuamente com base no feedback
 
 ---
 
-## 🎉 再次感谢！
-你的每一份贡献都在让 The Agency 变得更好。无论你是：
-- 新增智能体
-- 完善文档
-- 修复错误
-- 分享成功案例
-- 帮助其他贡献者
+## 🎉 Obrigado Novamente!
+Cada contribuição sua torna The Agency melhor. Seja você alguém que:
+- Adiciona um novo agente
+- Melhora a documentação
+- Corrige bugs
+- Compartilha casos de sucesso
+- Ajuda outras pessoas contribuidoras
 
-你都在创造真实价值。感谢你！
+Você está criando valor real. Obrigado!

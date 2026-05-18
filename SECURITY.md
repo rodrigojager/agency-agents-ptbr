@@ -1,31 +1,31 @@
-# Security Policy
+# Política de Segurança
 
-## Reporting a Vulnerability
+## Reportando uma Vulnerabilidade
 
-If you discover a security vulnerability in this project, please report it responsibly. Do NOT open a public GitHub issue for security vulnerabilities. Open a private security advisory via GitHub Security tab.
+Se você descobrir uma vulnerabilidade de segurança neste projeto, reporte-a de forma responsável. NÃO abra uma issue pública no GitHub para vulnerabilidades de segurança. Abra um advisory privado de segurança pela aba Security do GitHub.
 
-## Response Timeline
+## Prazo de Resposta
 
-- Acknowledgment: within 48 hours
-- Initial assessment: within 7 days
-- Fix or mitigation: depends on severity
+- Confirmação de recebimento: em até 48 horas
+- Avaliação inicial: em até 7 dias
+- Correção ou mitigação: depende da severidade
 
-## Scope
+## Escopo
 
-This repository contains Markdown-based agent definitions and shell scripts for installation and conversion.
+Este repositório contém definições de agentes baseadas em Markdown e shell scripts para instalação e conversão.
 
-### Agent files (.md)
-- Non-executable prompt definitions
-- No API keys, secrets, or credentials should be stored in agent files
+### Arquivos de agentes (.md)
+- Definições de prompt não executáveis
+- Nenhuma API key, secret ou credencial deve ser armazenada nos arquivos de agentes
 
 ### Shell scripts (scripts/)
-- install.sh, convert.sh, and lint-agents.sh are executable
-- Contributors should review scripts for unintended behavior before running
+- install.sh, convert.sh e lint-agents.sh são executáveis
+- Contribuidores devem revisar os scripts para identificar comportamento indesejado antes de executá-los
 
-## Best Practices for Contributors
+## Boas Práticas para Contribuidores
 
-- Never commit API keys, tokens, or credentials
-- Never add executable code inside agent Markdown files
-- Shell scripts must be reviewed before merging
-- Report suspicious agent definitions that attempt prompt injection
+- Nunca faça commit de API keys, tokens ou credenciais
+- Nunca adicione código executável dentro dos arquivos Markdown de agentes
+- Shell scripts devem ser revisados antes do merge
+- Reporte definições suspeitas de agentes que tentem prompt injection
 EOFcat SECURITY.md

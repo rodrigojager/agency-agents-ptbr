@@ -1,18 +1,18 @@
-# MCP Memory Integration
+# Integração MCP Memory
 
-> Give any agent persistent memory across sessions using the Model Context Protocol (MCP).
+> Dê a qualquer agente memória persistente entre sessões usando o Model Context Protocol (MCP).
 
-## What It Does
+## O que Ela Faz
 
-By default, agents in The Agency start every session from scratch. Context is passed manually via copy-paste between agents and sessions. An MCP memory server changes that:
+Por padrão, agentes em The Agency começam cada sessão do zero. O contexto é passado manualmente via copy-paste entre agentes e sessões. Um servidor MCP de memória muda isso:
 
-- **Cross-session memory**: An agent remembers decisions, deliverables, and context from previous sessions
-- **Handoff continuity**: When one agent hands off to another, the receiving agent can recall exactly what was done — no copy-paste required
-- **Rollback on failure**: When a QA check fails or an architecture decision turns out wrong, roll back to a known-good state instead of starting over
+- **Memória entre sessões**: Um agente lembra decisões, entregáveis e contexto de sessões anteriores
+- **Continuidade de handoff**: Quando um agente faz handoff para outro, o agente recebedor consegue lembrar exatamente o que foi feito — sem copy-paste
+- **Rollback em falhas**: Quando uma checagem de QA falha ou uma decisão de arquitetura se mostra errada, volte para um estado conhecido como bom em vez de recomeçar
 
 ## Setup
 
-You need an MCP server that provides memory tools: `remember`, `recall`, `rollback`, and `search`. Add it to your MCP client config (Claude Code, Cursor, etc.):
+Você precisa de um servidor MCP que forneça tools de memória: `remember`, `recall`, `rollback` e `search`. Adicione-o à configuração do seu cliente MCP (Claude Code, Cursor etc.):
 
 ```json
 {
@@ -25,13 +25,13 @@ You need an MCP server that provides memory tools: `remember`, `recall`, `rollba
 }
 ```
 
-Any MCP server that exposes `remember`, `recall`, `rollback`, and `search` tools will work. Check the [MCP ecosystem](https://modelcontextprotocol.io) for available implementations.
+Qualquer servidor MCP que exponha as tools `remember`, `recall`, `rollback` e `search` funcionará. Consulte o [ecossistema MCP](https://modelcontextprotocol.io) para implementações disponíveis.
 
-## How to Add Memory to Any Agent
+## Como Adicionar Memória a Qualquer Agente
 
-To enhance an existing agent with persistent memory, add a **Memory Integration** section to the agent's prompt. This section instructs the agent to use MCP memory tools at key moments.
+Para aprimorar um agente existente com memória persistente, adicione uma seção **Memory Integration** ao prompt do agente. Essa seção instrui o agente a usar tools de memória MCP em momentos-chave.
 
-### The Pattern
+### O Padrão
 
 ```markdown
 ## Memory Integration
@@ -53,27 +53,27 @@ When something fails and you need to recover:
 - Use rollback to restore to that point rather than rebuilding from scratch
 ```
 
-### What the Agent Does With This
+### O que o Agente Faz com Isso
 
-The LLM will use MCP memory tools automatically when given these instructions:
+O LLM usará as tools MCP de memória automaticamente quando receber estas instruções:
 
-- `remember` — store a decision, deliverable, or context snapshot with tags
-- `recall` — search for relevant memories by keyword, tag, or semantic similarity
-- `rollback` — revert to a previous state when something goes wrong
-- `search` — find specific memories across sessions and agents
+- `remember` — armazenar uma decisão, entregável ou snapshot de contexto com tags
+- `recall` — buscar memórias relevantes por keyword, tag ou similaridade semântica
+- `rollback` — reverter para um estado anterior quando algo dá errado
+- `search` — encontrar memórias específicas entre sessões e agentes
 
-No code changes to the agent files. No API calls to write. The MCP tools handle everything.
+Sem mudanças de código nos arquivos de agentes. Sem chamadas de API para escrever. As tools MCP cuidam de tudo.
 
-## Example: Enhancing the Backend Architect
+## Exemplo: Aprimorando o Backend Architect
 
-See [backend-architect-with-memory.md](backend-architect-with-memory.md) for a complete example — the standard Backend Architect agent with a Memory Integration section added.
+Veja [backend-architect-with-memory.md](backend-architect-with-memory.md) para um exemplo completo — o agente Backend Architect padrão com uma seção Memory Integration adicionada.
 
-## Example: Memory-Powered Workflow
+## Exemplo: Workflow com Memória
 
-See [../../examples/workflow-with-memory.md](../../examples/workflow-with-memory.md) for the Startup MVP workflow enhanced with persistent memory, showing how agents pass context through memory instead of copy-paste.
+Veja [../../examples/workflow-with-memory.md](../../examples/workflow-with-memory.md) para o workflow Startup MVP aprimorado com memória persistente, mostrando como agentes passam contexto pela memória em vez de copy-paste.
 
-## Tips
+## Dicas
 
-- **Tag consistently**: Use the agent name and project name as tags on every memory. This makes recall reliable.
-- **Let the LLM decide what's important**: The memory instructions are guidance, not rigid rules. The LLM will figure out when to remember and what to recall.
-- **Rollback is the killer feature**: When a Reality Checker fails a deliverable, the original agent can roll back to its last checkpoint instead of trying to manually undo changes.
+- **Use tags de forma consistente**: Use o nome do agente e o nome do projeto como tags em toda memória. Isso torna o recall confiável.
+- **Deixe o LLM decidir o que é importante**: As instruções de memória são orientação, não regras rígidas. O LLM descobrirá quando lembrar e o que recuperar.
+- **Rollback é a killer feature**: Quando um Reality Checker reprova um entregável, o agente original pode voltar ao último checkpoint em vez de tentar desfazer manualmente as mudanças.

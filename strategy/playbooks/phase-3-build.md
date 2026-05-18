@@ -1,286 +1,286 @@
-# 🔨 Phase 3 Playbook — Build & Iterate
+# 🔨 Playbook Fase 3 — Build & Iterar
 
-> **Duration**: 2-12 weeks (varies by scope) | **Agents**: 15-30+ | **Gate Keeper**: Agents Orchestrator
+> **Duração**: 2-12 semanas (varia conforme o escopo) | **Agentes**: 15-30+ | **Gate Keeper**: Agents Orchestrator
 
 ---
 
-## Objective
+## Objetivo
 
-Implement all features through continuous Dev↔QA loops. Every task is validated before the next begins. This is where the bulk of the work happens — and where NEXUS's orchestration delivers the most value.
+Implementar todas as features por loops contínuos Dev↔QA. Toda tarefa é validada antes de a próxima começar. É aqui que a maior parte do trabalho acontece — e onde a orquestração do NEXUS entrega mais valor.
 
-## Pre-Conditions
+## Pré-Condições
 
-- [ ] Phase 2 Quality Gate passed (foundation verified)
-- [ ] Sprint Prioritizer backlog available with RICE scores
-- [ ] CI/CD pipeline operational
-- [ ] Design system and component library ready
-- [ ] API scaffold with auth system ready
+- [ ] Quality Gate da Fase 2 aprovado (fundação verificada)
+- [ ] Backlog do Sprint Prioritizer disponível com scores RICE
+- [ ] Pipeline CI/CD operacional
+- [ ] Design system e biblioteca de componentes prontos
+- [ ] Scaffold de API com sistema de auth pronto
 
-## The Dev↔QA Loop — Core Mechanic
+## O Loop Dev↔QA — Mecânica Core
 
-The Agents Orchestrator manages every task through this cycle:
+O Agents Orchestrator gerencia toda tarefa por este ciclo:
 
 ```
-FOR EACH task IN sprint_backlog (ordered by RICE score):
+PARA CADA tarefa EM sprint_backlog (ordenado por score RICE):
 
-  1. ASSIGN task to appropriate Developer Agent (see assignment matrix)
-  2. Developer IMPLEMENTS task
-  3. Evidence Collector TESTS task
-     - Visual screenshots (desktop, tablet, mobile)
-     - Functional verification against acceptance criteria
-     - Brand consistency check
-  4. IF verdict == PASS:
-       Mark task complete
-       Move to next task
-     ELIF verdict == FAIL AND attempts < 3:
-       Send QA feedback to Developer
-       Developer FIXES specific issues
-       Return to step 3
-     ELIF attempts >= 3:
-       ESCALATE to Agents Orchestrator
-       Orchestrator decides: reassign, decompose, defer, or accept
-  5. UPDATE pipeline status report
+  1. ATRIBUIR tarefa ao Developer Agent apropriado (ver matriz de atribuição)
+  2. Developer IMPLEMENTA a tarefa
+  3. Evidence Collector TESTA a tarefa
+     - Screenshots visuais (desktop, tablet, mobile)
+     - Verificação funcional contra critérios de aceitação
+     - Checagem de consistência de marca
+  4. IF veredito == PASS:
+       Marcar tarefa como completa
+       Mover para a próxima tarefa
+     ELIF veredito == FAIL AND tentativas < 3:
+       Enviar feedback de QA ao Developer
+       Developer CORRIGE issues específicas
+       Retornar ao passo 3
+     ELIF tentativas >= 3:
+       ESCALONAR para Agents Orchestrator
+       Orchestrator decide: reatribuir, decompor, adiar ou aceitar
+  5. ATUALIZAR relatório de status do pipeline
 ```
 
-## Agent Assignment Matrix
+## Matriz de Atribuição de Agentes
 
-### Primary Developer Assignment
+### Atribuição Primária de Developer
 
-| Task Category | Primary Agent | Backup Agent | QA Agent |
+| Categoria de Tarefa | Agente Primário | Agente Backup | Agente de QA |
 |--------------|--------------|-------------|----------|
-| **React/Vue/Angular UI** | Frontend Developer | Rapid Prototyper | Evidence Collector |
-| **REST/GraphQL API** | Backend Architect | Senior Developer | API Tester |
-| **Database operations** | Backend Architect | — | API Tester |
+| **UI React/Vue/Angular** | Frontend Developer | Rapid Prototyper | Evidence Collector |
+| **API REST/GraphQL** | Backend Architect | Senior Developer | API Tester |
+| **Operações de banco de dados** | Backend Architect | — | API Tester |
 | **Mobile (iOS/Android)** | Mobile App Builder | — | Evidence Collector |
-| **ML model/pipeline** | AI Engineer | — | Test Results Analyzer |
-| **CI/CD/Infrastructure** | DevOps Automator | Infrastructure Maintainer | Performance Benchmarker |
-| **Premium/complex feature** | Senior Developer | Backend Architect | Evidence Collector |
-| **Quick prototype/POC** | Rapid Prototyper | Frontend Developer | Evidence Collector |
-| **WebXR/immersive** | XR Immersive Developer | — | Evidence Collector |
+| **Modelo/pipeline de ML** | AI Engineer | — | Test Results Analyzer |
+| **CI/CD/Infraestrutura** | DevOps Automator | Infrastructure Maintainer | Performance Benchmarker |
+| **Feature premium/complexa** | Senior Developer | Backend Architect | Evidence Collector |
+| **Protótipo rápido/POC** | Rapid Prototyper | Frontend Developer | Evidence Collector |
+| **WebXR/imersivo** | XR Immersive Developer | — | Evidence Collector |
 | **visionOS** | visionOS Spatial Engineer | macOS Spatial/Metal Engineer | Evidence Collector |
-| **Cockpit controls** | XR Cockpit Interaction Specialist | XR Interface Architect | Evidence Collector |
-| **CLI/terminal tools** | Terminal Integration Specialist | — | API Tester |
-| **Code intelligence** | LSP/Index Engineer | — | Test Results Analyzer |
-| **Performance optimization** | Performance Benchmarker | Infrastructure Maintainer | Performance Benchmarker |
+| **Controles de cockpit** | XR Cockpit Interaction Specialist | XR Interface Architect | Evidence Collector |
+| **Tools CLI/terminal** | Terminal Integration Specialist | — | API Tester |
+| **Inteligência de código** | LSP/Index Engineer | — | Test Results Analyzer |
+| **Otimização de performance** | Performance Benchmarker | Infrastructure Maintainer | Performance Benchmarker |
 
-### Specialist Support (activated as needed)
+### Suporte Especialista (ativado conforme necessário)
 
-| Specialist | When to Activate | Trigger |
+| Especialista | Quando Ativar | Trigger |
 |-----------|-----------------|---------|
-| UI Designer | Component needs visual refinement | Developer requests design guidance |
-| Whimsy Injector | Feature needs delight/personality | UX review identifies opportunity |
-| Visual Storyteller | Visual narrative content needed | Content requires visual assets |
-| Brand Guardian | Brand consistency concern | QA finds brand deviation |
-| XR Interface Architect | Spatial interaction design needed | XR feature requires UX guidance |
-| Analytics Reporter | Deep data analysis needed | Feature requires analytics integration |
+| UI Designer | Componente precisa de refinamento visual | Developer solicita orientação de design |
+| Whimsy Injector | Feature precisa de delight/personalidade | UX review identifica oportunidade |
+| Visual Storyteller | Conteúdo narrativo visual necessário | Conteúdo exige assets visuais |
+| Brand Guardian | Preocupação com consistência de marca | QA encontra desvio de marca |
+| XR Interface Architect | Design de interação espacial necessário | Feature XR exige orientação de UX |
+| Analytics Reporter | Análise profunda de dados necessária | Feature exige integração de analytics |
 
-## Parallel Build Tracks
+## Tracks Paralelas de Build
 
-For NEXUS-Full deployments, four tracks run simultaneously:
+Para deployments NEXUS-Full, quatro tracks rodam simultaneamente:
 
-### Track A: Core Product Development
+### Track A: Desenvolvimento Core do Produto
 ```
-Managed by: Agents Orchestrator (Dev↔QA loop)
-Agents: Frontend Developer, Backend Architect, AI Engineer,
+Gerenciado por: Agents Orchestrator (loop Dev↔QA)
+Agentes: Frontend Developer, Backend Architect, AI Engineer,
         Mobile App Builder, Senior Developer
 QA: Evidence Collector, API Tester, Test Results Analyzer
 
-Sprint cadence: 2-week sprints
-Daily: Task implementation + QA validation
-End of sprint: Sprint review + retrospective
+Cadência de sprint: sprints de 2 semanas
+Diariamente: Implementação de tarefas + validação de QA
+Fim do sprint: Sprint review + retrospectiva
 ```
 
-### Track B: Growth & Marketing Preparation
+### Track B: Preparação de Growth & Marketing
 ```
-Managed by: Project Shepherd
-Agents: Growth Hacker, Content Creator, Social Media Strategist,
+Gerenciado por: Project Shepherd
+Agentes: Growth Hacker, Content Creator, Social Media Strategist,
         App Store Optimizer
 
-Sprint cadence: Aligned with Track A milestones
-Activities:
-- Growth Hacker → Design viral loops and referral mechanics
-- Content Creator → Build launch content pipeline
-- Social Media Strategist → Plan cross-platform campaign
-- App Store Optimizer → Prepare store listing (if mobile)
+Cadência de sprint: Alinhada aos milestones da Track A
+Atividades:
+- Growth Hacker → Desenhar viral loops e mecânicas de referral
+- Content Creator → Construir pipeline de conteúdo de launch
+- Social Media Strategist → Planejar campanha cross-platform
+- App Store Optimizer → Preparar store listing (se mobile)
 ```
 
-### Track C: Quality & Operations
+### Track C: Qualidade & Operações
 ```
-Managed by: Agents Orchestrator
-Agents: Evidence Collector, API Tester, Performance Benchmarker,
+Gerenciado por: Agents Orchestrator
+Agentes: Evidence Collector, API Tester, Performance Benchmarker,
         Workflow Optimizer, Experiment Tracker
 
-Continuous activities:
-- Evidence Collector → Screenshot QA for every task
-- API Tester → Endpoint validation for every API task
-- Performance Benchmarker → Periodic load testing
-- Workflow Optimizer → Process improvement identification
-- Experiment Tracker → A/B test setup for validated features
+Atividades contínuas:
+- Evidence Collector → QA com screenshots para toda tarefa
+- API Tester → Validação de endpoint para toda tarefa de API
+- Performance Benchmarker → Load testing periódico
+- Workflow Optimizer → Identificação de melhoria de processo
+- Experiment Tracker → Setup de teste A/B para features validadas
 ```
 
-### Track D: Brand & Experience Polish
+### Track D: Polish de Marca & Experiência
 ```
-Managed by: Brand Guardian
-Agents: UI Designer, Brand Guardian, Visual Storyteller,
+Gerenciado por: Brand Guardian
+Agentes: UI Designer, Brand Guardian, Visual Storyteller,
         Whimsy Injector
 
-Triggered activities:
-- UI Designer → Component refinement when QA identifies visual issues
-- Brand Guardian → Periodic brand consistency audit
-- Visual Storyteller → Visual narrative assets as features complete
-- Whimsy Injector → Micro-interactions and delight moments
+Atividades disparadas:
+- UI Designer → Refinamento de componentes quando QA identifica issues visuais
+- Brand Guardian → Auditoria periódica de consistência de marca
+- Visual Storyteller → Assets narrativos visuais conforme features são concluídas
+- Whimsy Injector → Microinterações e momentos de delight
 ```
 
-## Sprint Execution Template
+## Template de Execução de Sprint
 
-### Sprint Planning (Day 1)
-
-```
-Sprint Prioritizer activates:
-1. Review backlog with updated RICE scores
-2. Select tasks for sprint based on team velocity
-3. Assign tasks to developer agents
-4. Identify dependencies and ordering
-5. Set sprint goal and success criteria
-
-Output: Sprint Plan with task assignments
-```
-
-### Daily Execution (Day 2 to Day N-1)
+### Sprint Planning (Dia 1)
 
 ```
-Agents Orchestrator manages:
-1. Current task status check
-2. Dev↔QA loop execution
-3. Blocker identification and resolution
-4. Progress tracking and reporting
+Sprint Prioritizer ativa:
+1. Revisar backlog com scores RICE atualizados
+2. Selecionar tarefas para o sprint com base na velocity do time
+3. Atribuir tarefas a developer agents
+4. Identificar dependências e ordenação
+5. Definir objetivo do sprint e critérios de sucesso
 
-Status report format:
-- Tasks completed today: [list]
-- Tasks in QA: [list]
-- Tasks in development: [list]
-- Blocked tasks: [list with reason]
-- QA pass rate: [X/Y]
+Output: Plano de Sprint com atribuições de tarefas
 ```
 
-### Sprint Review (Day N)
+### Execução Diária (Dia 2 até Dia N-1)
 
 ```
-Project Shepherd facilitates:
-1. Demo completed features
-2. Review QA evidence for each task
-3. Collect stakeholder feedback
-4. Update backlog based on learnings
+Agents Orchestrator gerencia:
+1. Checagem de status da tarefa atual
+2. Execução do loop Dev↔QA
+3. Identificação e resolução de blockers
+4. Tracking e reporting de progresso
 
-Participants: All active agents + stakeholders
-Output: Sprint Review Summary
+Formato do relatório de status:
+- Tarefas concluídas hoje: [lista]
+- Tarefas em QA: [lista]
+- Tarefas em desenvolvimento: [lista]
+- Tarefas bloqueadas: [lista com motivo]
+- Taxa de aprovação de QA: [X/Y]
+```
+
+### Sprint Review (Dia N)
+
+```
+Project Shepherd facilita:
+1. Demo das features concluídas
+2. Review das evidências de QA para cada tarefa
+3. Coletar feedback de stakeholders
+4. Atualizar backlog com base nos aprendizados
+
+Participantes: Todos os agentes ativos + stakeholders
+Output: Sumário de Sprint Review
 ```
 
 ### Sprint Retrospective
 
 ```
-Workflow Optimizer facilitates:
-1. What went well?
-2. What could improve?
-3. What will we change next sprint?
-4. Process efficiency metrics
+Workflow Optimizer facilita:
+1. O que foi bem?
+2. O que pode melhorar?
+3. O que vamos mudar no próximo sprint?
+4. Métricas de eficiência do processo
 
-Output: Retrospective Action Items
+Output: Itens de Ação da Retrospectiva
 ```
 
-## Orchestrator Decision Logic
+## Lógica de Decisão do Orchestrator
 
-### Task Failure Handling
+### Tratamento de Falhas de Tarefa
 
 ```
-WHEN task fails QA:
-  IF attempt == 1:
-    → Send specific QA feedback to developer
-    → Developer fixes ONLY the identified issues
-    → Re-submit for QA
+QUANDO a tarefa falha no QA:
+  IF tentativa == 1:
+    → Enviar feedback específico de QA ao developer
+    → Developer corrige APENAS as issues identificadas
+    → Reenviar para QA
     
-  IF attempt == 2:
-    → Send accumulated QA feedback
-    → Consider: Is the developer agent the right fit?
-    → Developer fixes with additional context
-    → Re-submit for QA
+  IF tentativa == 2:
+    → Enviar feedback acumulado de QA
+    → Considerar: o developer agent é o mais adequado?
+    → Developer corrige com contexto adicional
+    → Reenviar para QA
     
-  IF attempt == 3:
-    → ESCALATE
-    → Options:
-      a) Reassign to different developer agent
-      b) Decompose task into smaller sub-tasks
-      c) Revise approach/architecture
-      d) Accept with known limitations (document)
-      e) Defer to future sprint
-    → Document decision and rationale
+  IF tentativa == 3:
+    → ESCALONAR
+    → Opções:
+      a) Reatribuir a outro developer agent
+      b) Decompor tarefa em subtarefas menores
+      c) Revisar abordagem/arquitetura
+      d) Aceitar com limitações conhecidas (documentar)
+      e) Adiar para sprint futuro
+    → Documentar decisão e racional
 ```
 
-### Parallel Task Management
+### Gestão de Tarefas Paralelas
 
 ```
-WHEN multiple tasks have no dependencies:
-  → Assign to different developer agents simultaneously
-  → Each runs independent Dev↔QA loop
-  → Orchestrator tracks all loops concurrently
-  → Merge completed tasks in dependency order
+QUANDO múltiplas tarefas não têm dependências:
+  → Atribuir simultaneamente a developer agents diferentes
+  → Cada uma roda um loop Dev↔QA independente
+  → Orchestrator acompanha todos os loops em paralelo
+  → Fazer merge das tarefas concluídas na ordem de dependência
 
-WHEN task has dependencies:
-  → Wait for dependency to pass QA
-  → Then assign dependent task
-  → Include dependency context in handoff
+QUANDO a tarefa tem dependências:
+  → Aguardar dependência passar no QA
+  → Então atribuir tarefa dependente
+  → Incluir contexto da dependência no handoff
 ```
 
-## Quality Gate Checklist
+## Checklist do Quality Gate
 
-| # | Criterion | Evidence Source | Status |
+| # | Critério | Fonte de Evidência | Status |
 |---|-----------|----------------|--------|
-| 1 | All sprint tasks pass QA (100% completion) | Evidence Collector screenshots per task | ☐ |
-| 2 | All API endpoints validated | API Tester regression report | ☐ |
-| 3 | Performance baselines met (P95 < 200ms) | Performance Benchmarker report | ☐ |
-| 4 | Brand consistency verified (95%+ adherence) | Brand Guardian audit | ☐ |
-| 5 | No critical bugs (zero P0/P1 open) | Test Results Analyzer summary | ☐ |
-| 6 | All acceptance criteria met | Task-by-task verification | ☐ |
-| 7 | Code review completed for all PRs | Git history evidence | ☐ |
+| 1 | Todas as tarefas do sprint passam no QA (100% concluídas) | Screenshots do Evidence Collector por tarefa | ☐ |
+| 2 | Todos os endpoints de API validados | Relatório de regressão do API Tester | ☐ |
+| 3 | Baselines de performance atingidos (P95 < 200ms) | Relatório do Performance Benchmarker | ☐ |
+| 4 | Consistência de marca verificada (95%+ aderência) | Auditoria do Brand Guardian | ☐ |
+| 5 | Nenhum bug crítico (zero P0/P1 aberto) | Sumário do Test Results Analyzer | ☐ |
+| 6 | Todos os critérios de aceitação atendidos | Verificação tarefa por tarefa | ☐ |
+| 7 | Code review concluído para todos os PRs | Evidência no histórico Git | ☐ |
 
-## Gate Decision
+## Decisão de Gate
 
 **Gate Keeper**: Agents Orchestrator
 
-- **PASS**: Feature-complete application → Phase 4 activation
-- **CONTINUE**: More sprints needed → Continue Phase 3
-- **ESCALATE**: Systemic issues → Studio Producer intervention
+- **PASS**: Aplicação feature-complete → ativação da Fase 4
+- **CONTINUE**: Mais sprints necessários → continuar Fase 3
+- **ESCALATE**: Issues sistêmicas → intervenção do Studio Producer
 
-## Handoff to Phase 4
+## Handoff para Fase 4
 
 ```markdown
-## Phase 3 → Phase 4 Handoff Package
+## Pacote de Handoff Fase 3 → Fase 4
 
-### For Reality Checker:
-- Complete application (all features implemented)
-- All QA evidence from Dev↔QA loops
-- API Tester regression results
-- Performance Benchmarker baseline data
-- Brand Guardian consistency audit
-- Known issues list (if any accepted limitations)
+### Para Reality Checker:
+- Aplicação completa (todas as features implementadas)
+- Todas as evidências de QA dos loops Dev↔QA
+- Resultados de regressão do API Tester
+- Dados baseline do Performance Benchmarker
+- Auditoria de consistência do Brand Guardian
+- Lista de issues conhecidas (se houver limitações aceitas)
 
-### For Legal Compliance Checker:
-- Data handling implementation details
-- Privacy policy implementation
-- Consent management implementation
-- Security measures implemented
+### Para Legal Compliance Checker:
+- Detalhes de implementação de tratamento de dados
+- Implementação de privacy policy
+- Implementação de gestão de consentimento
+- Medidas de segurança implementadas
 
-### For Performance Benchmarker:
-- Application URLs for load testing
-- Expected traffic patterns
-- Performance budgets from architecture
+### Para Performance Benchmarker:
+- URLs da aplicação para load testing
+- Padrões de tráfego esperados
+- Performance budgets da arquitetura
 
-### For Infrastructure Maintainer:
-- Production environment requirements
-- Scaling configuration needs
-- Monitoring alert thresholds
+### Para Infrastructure Maintainer:
+- Requisitos de ambiente de produção
+- Necessidades de configuração de escala
+- Thresholds de alerta de monitoramento
 ```
 
 ---
 
-*Phase 3 is complete when all sprint tasks pass QA, all API endpoints are validated, performance baselines are met, and no critical bugs remain open.*
+*A Fase 3 está completa quando todas as tarefas do sprint passam no QA, todos os endpoints de API são validados, os baselines de performance são atingidos e nenhum bug crítico permanece aberto.*

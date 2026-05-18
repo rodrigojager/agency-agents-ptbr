@@ -1,17 +1,17 @@
-## What does this PR do?
+## O que este PR faz?
 
-<!-- Brief description of the change -->
+<!-- Breve descrição da mudança -->
 
-## Agent Information (if adding/modifying an agent)
+## Informações do Agente (se estiver adicionando/modificando um agente)
 
-- **Agent Name**:
-- **Category**:
-- **Specialty**:
+- **Nome do Agente**:
+- **Categoria**:
+- **Especialidade**:
 
 ## Checklist
 
-- [ ] Follows the agent template structure from CONTRIBUTING.md
-- [ ] Includes YAML frontmatter with `name`, `description`, `color`
-- [ ] Has concrete code/template examples (for new agents)
-- [ ] Tested in real scenarios
-- [ ] Proofread and formatted correctly
+- [ ] Segue a estrutura de template de agente de CONTRIBUTING.md
+- [ ] Inclui YAML frontmatter com `name`, `description`, `color`
+- [ ] Tem exemplos concretos de código/template (para novos agentes)
+- [ ] Testado em cenários reais
+- [ ] Revisado e formatado corretamente

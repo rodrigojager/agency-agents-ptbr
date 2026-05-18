@@ -1,25 +1,25 @@
-# Multi-Agent Workflow: Landing Page Sprint
+# Workflow Multi-Agent: Sprint de Landing Page
 
-> Ship a conversion-optimized landing page in one day using 4 agents.
+> Lance uma landing page otimizada para conversão em um dia usando 4 agentes.
 
-## The Scenario
+## O Cenário
 
-You need a landing page for a new product launch. It needs to look great, convert visitors, and be live by end of day.
+Você precisa de uma landing page para o lançamento de um novo produto. Ela precisa ter boa aparência, converter visitantes e estar no ar até o fim do dia.
 
-## Agent Team
+## Time de Agentes
 
-| Agent | Role in this workflow |
+| Agente | Função neste workflow |
 |-------|---------------------|
-| Content Creator | Write the copy |
-| UI Designer | Design the layout and component specs |
-| Frontend Developer | Build it |
-| Growth Hacker | Optimize for conversion |
+| Content Creator | Escrever a copy |
+| UI Designer | Desenhar o layout e as especificações dos componentes |
+| Frontend Developer | Construir a página |
+| Growth Hacker | Otimizar para conversão |
 
-## The Workflow
+## O Workflow
 
-### Morning: Copy + Design (parallel)
+### Manhã: Copy + Design (paralelo)
 
-**Step 1a — Activate Content Creator**
+**Etapa 1a — Ativar Content Creator**
 
 ```
 Activate Content Creator.
@@ -41,7 +41,7 @@ Sections needed:
 Keep it scannable. No fluff.
 ```
 
-**Step 1b — Activate UI Designer (in parallel)**
+**Etapa 1b — Ativar UI Designer (em paralelo)**
 
 ```
 Activate UI Designer.
@@ -57,9 +57,9 @@ Deliver:
 5. Responsive breakpoints (mobile, tablet, desktop)
 ```
 
-### Midday: Build
+### Meio do Dia: Build
 
-**Step 2 — Activate Frontend Developer**
+**Etapa 2 — Ativar Frontend Developer**
 
 ```
 Activate Frontend Developer.
@@ -79,9 +79,9 @@ Requirements:
 Deliver a single index.html file ready to deploy.
 ```
 
-### Afternoon: Optimize
+### Tarde: Otimizar
 
-**Step 3 — Activate Growth Hacker**
+**Etapa 3 — Ativar Growth Hacker**
 
 ```
 Activate Growth Hacker.
@@ -102,18 +102,18 @@ Give me specific changes, not general advice.
 
 ## Timeline
 
-| Time | Activity | Agent |
+| Horário | Atividade | Agente |
 |------|----------|-------|
-| 9:00 | Copy + design kick off (parallel) | Content Creator + UI Designer |
-| 11:00 | Build starts | Frontend Developer |
-| 14:00 | First version ready | — |
-| 14:30 | Conversion review | Growth Hacker |
-| 15:30 | Apply feedback | Frontend Developer |
-| 16:30 | Ship | Deploy to Vercel/Netlify |
+| 9:00 | Início de copy + design (paralelo) | Content Creator + UI Designer |
+| 11:00 | Build começa | Frontend Developer |
+| 14:00 | Primeira versão pronta | — |
+| 14:30 | Revisão de conversão | Growth Hacker |
+| 15:30 | Aplicar feedback | Frontend Developer |
+| 16:30 | Lançar | Deploy para Vercel/Netlify |
 
-## Key Patterns
+## Padrões-Chave
 
-1. **Parallel kickoff**: Copy and design happen at the same time since they're independent
-2. **Merge point**: Frontend Developer needs both outputs before starting
-3. **Feedback loop**: Growth Hacker reviews, then Frontend Developer applies changes
-4. **Time-boxed**: Each step has a clear timebox to prevent scope creep
+1. **Kickoff paralelo**: Copy e design acontecem ao mesmo tempo porque são independentes
+2. **Ponto de merge**: Frontend Developer precisa das duas saídas antes de começar
+3. **Loop de feedback**: Growth Hacker revisa, depois Frontend Developer aplica mudanças
+4. **Time-boxed**: Cada etapa tem um timebox claro para evitar scope creep

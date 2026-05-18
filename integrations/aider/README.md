@@ -1,19 +1,19 @@
-# Aider Integration
+# Integração com Aider
 
-The full Agency roster is consolidated into a single `CONVENTIONS.md` file.
-Aider reads this file automatically when it's present in your project root.
+O roster completo da Agency é consolidado em um único arquivo `CONVENTIONS.md`.
+O Aider lê esse arquivo automaticamente quando ele está presente na raiz do seu projeto.
 
-## Install
+## Instalação
 
 ```bash
-# Run from your project root
+# Execute a partir da raiz do seu projeto
 cd /your/project
 /path/to/agency-agents/scripts/install.sh --tool aider
 ```
 
-## Activate an Agent
+## Ativar um Agente
 
-In your Aider session, reference the agent by name:
+Na sua sessão do Aider, referencie o agente pelo nome:
 
 ```
 Use the Frontend Developer agent to refactor this component.
@@ -23,15 +23,15 @@ Use the Frontend Developer agent to refactor this component.
 Apply the Reality Checker agent to verify this is production-ready.
 ```
 
-## Manual Usage
+## Uso Manual
 
-You can also pass the conventions file directly:
+Você também pode passar o arquivo de convenções diretamente:
 
 ```bash
 aider --read CONVENTIONS.md
 ```
 
-## Regenerate
+## Regenerar
 
 ```bash
 ./scripts/convert.sh --tool aider

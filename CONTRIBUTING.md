@@ -1,342 +1,332 @@
-# 🤝 Contributing to The Agency
+# 🤝 Contribuindo para The Agency
 
-First off, thank you for considering contributing to The Agency! It's people like you who make this collection of AI agents better for everyone.
+Antes de tudo, obrigado por considerar contribuir para The Agency! Pessoas como você tornam esta coleção de agentes de IA melhor para todo mundo.
 
-## 📋 Table of Contents
+## 📋 Sumário
 
-- [Code of Conduct](#code-of-conduct)
-- [How Can I Contribute?](#how-can-i-contribute)
-- [Agent Design Guidelines](#agent-design-guidelines)
-- [Pull Request Process](#pull-request-process)
-- [Style Guide](#style-guide)
-- [Community](#community)
-
----
-
-## 📜 Code of Conduct
-
-This project and everyone participating in it is governed by our Code of Conduct. By participating, you are expected to uphold this code:
-
-- **Be Respectful**: Treat everyone with respect. Healthy debate is encouraged, but personal attacks are not tolerated.
-- **Be Inclusive**: Welcome and support people of all backgrounds and identities.
-- **Be Collaborative**: What we create together is better than what we create alone.
-- **Be Professional**: Keep discussions focused on improving the agents and the community.
+- [Código de Conduta](#código-de-conduta)
+- [Como Posso Contribuir?](#como-posso-contribuir)
+- [Diretrizes de Design de Agentes](#diretrizes-de-design-de-agentes)
+- [Processo de Pull Request](#processo-de-pull-request)
+- [Guia de Estilo](#guia-de-estilo)
+- [Comunidade](#comunidade)
 
 ---
 
-## 🎯 How Can I Contribute?
+## 📜 Código de Conduta
 
-### 1. Create a New Agent
+Este projeto e todas as pessoas que participam dele são regidos pelo nosso Código de Conduta. Ao participar, espera-se que você siga este código:
 
-Have an idea for a specialized agent? Great! Here's how to add one:
-
-1. **Fork the repository**
-2. **Choose the appropriate category** (or propose a new one):
-   - `engineering/` - Software development specialists
-   - `design/` - UX/UI and creative specialists
-   - `finance/` - Financial planning, accounting, and investment specialists
-   - `game-development/` - Game design and development specialists
-   - `marketing/` - Growth and marketing specialists
-   - `paid-media/` - Paid acquisition and media specialists
-   - `product/` - Product management specialists
-   - `project-management/` - PM and coordination specialists
-   - `testing/` - QA and testing specialists
-   - `support/` - Operations and support specialists
-   - `spatial-computing/` - AR/VR/XR specialists
-   - `specialized/` - Unique specialists that don't fit elsewhere
-
-3. **Create your agent file** following the template below
-4. **Test your agent** in real scenarios
-5. **Submit a Pull Request** with your agent
-
-### 2. Improve Existing Agents
-
-Found a way to make an agent better? Contributions welcome:
-
-- Add real-world examples and use cases
-- Enhance code samples with modern patterns
-- Update workflows based on new best practices
-- Add success metrics and benchmarks
-- Fix typos, improve clarity, enhance documentation
-
-### 3. Share Success Stories
-
-Used these agents successfully? Share your story:
-
-- Post in [GitHub Discussions](https://github.com/msitarzewski/agency-agents/discussions)
-- Add a case study to the README
-- Write a blog post and link it
-- Create a video tutorial
-
-### 4. Report Issues
-
-Found a problem? Let us know:
-
-- Check if the issue already exists
-- Provide clear reproduction steps
-- Include context about your use case
-- Suggest potential solutions if you have ideas
+- **Seja respeitoso**: Trate todos com respeito. Debates saudáveis são incentivados, mas ataques pessoais não são tolerados.
+- **Seja inclusivo**: Acolha e apoie pessoas de todas as origens e identidades.
+- **Seja colaborativo**: O que criamos juntos é melhor do que o que criamos sozinhos.
+- **Seja profissional**: Mantenha as discussões focadas em melhorar os agentes e a comunidade.
 
 ---
 
-## 🎨 Agent Design Guidelines
+## 🎯 Como Posso Contribuir?
 
-### Agent File Structure
+### 1. Crie um Novo Agente
 
-Every agent should follow this structure:
+Tem uma ideia para um agente especializado? Ótimo! Veja como adicionar um:
+
+1. **Faça um fork do repositório**
+2. **Escolha a categoria apropriada** (ou proponha uma nova):
+   - `engineering/` - Especialistas em desenvolvimento de software
+   - `design/` - Especialistas em UX/UI e criação
+   - `finance/` - Especialistas em planejamento financeiro, contabilidade e investimentos
+   - `game-development/` - Especialistas em design e desenvolvimento de games
+   - `marketing/` - Especialistas em growth e marketing
+   - `paid-media/` - Especialistas em mídia e aquisição paga
+   - `product/` - Especialistas em gestão de produto
+   - `project-management/` - Especialistas em PM e coordenação
+   - `testing/` - Especialistas em QA e testes
+   - `support/` - Especialistas em operações e suporte
+   - `spatial-computing/` - Especialistas em AR/VR/XR
+   - `specialized/` - Especialistas únicos que não se encaixam em outras categorias
+
+3. **Crie seu arquivo de agente** seguindo o template abaixo
+4. **Teste seu agente** em cenários reais
+5. **Envie um Pull Request** com seu agente
+
+### 2. Melhore Agentes Existentes
+
+Encontrou uma forma de melhorar um agente? Contribuições são bem-vindas:
+
+- Adicione exemplos e casos de uso do mundo real
+- Aprimore exemplos de código com padrões modernos
+- Atualize workflows com base em novas boas práticas
+- Adicione métricas de sucesso e benchmarks
+- Corrija typos, melhore a clareza e aprimore a documentação
+
+### 3. Compartilhe Histórias de Sucesso
+
+Usou estes agentes com sucesso? Compartilhe sua história:
+
+- Publique em [GitHub Discussions](https://github.com/msitarzewski/agency-agents/discussions)
+- Adicione um case study ao README
+- Escreva um post de blog e coloque o link
+- Crie um tutorial em vídeo
+
+### 4. Reporte Issues
+
+Encontrou um problema? Avise:
+
+- Verifique se a issue já existe
+- Forneça passos claros de reprodução
+- Inclua contexto sobre seu caso de uso
+- Sugira soluções possíveis, se tiver ideias
+
+---
+
+## 🎨 Diretrizes de Design de Agentes
+
+### Estrutura do Arquivo de Agente
+
+Todo agente deve seguir esta estrutura:
 
 ```markdown
 ---
-name: Agent Name
-description: One-line description of the agent's specialty and focus
-color: colorname or "#hexcode"
+name: Nome do Agente
+description: Descrição em uma linha da especialidade e do foco do agente
+color: nome-da-cor ou "#hexcode"
 emoji: 🎯
-vibe: One-line personality hook — what makes this agent memorable
-services:                              # optional — only if the agent requires external services
-  - name: Service Name
+vibe: Gancho de personalidade em uma linha - o que torna este agente memorável
+services:                              # opcional - apenas se o agente exigir serviços externos
+  - name: Nome do Serviço
     url: https://service-url.com
-    tier: free                         # free, freemium, or paid
+    tier: free                         # free, freemium ou paid
 ---
 
-# Agent Name
+# Nome do Agente
 
-## 🧠 Your Identity & Memory
-- **Role**: Clear role description
-- **Personality**: Personality traits and communication style
-- **Memory**: What the agent remembers and learns
-- **Experience**: Domain expertise and perspective
+## 🧠 Sua Identidade & Memória
+- **Papel**: Descrição clara do papel
+- **Personalidade**: Traços de personalidade e estilo de comunicação
+- **Memória**: O que o agente lembra e aprende
+- **Experiência**: Expertise e perspectiva no domínio
 
-## 🎯 Your Core Mission
-- Primary responsibility 1 with clear deliverables
-- Primary responsibility 2 with clear deliverables
-- Primary responsibility 3 with clear deliverables
-- **Default requirement**: Always-on best practices
+## 🎯 Sua Missão Principal
+- Responsabilidade primária 1 com entregáveis claros
+- Responsabilidade primária 2 com entregáveis claros
+- Responsabilidade primária 3 com entregáveis claros
+- **Requisito padrão**: Boas práticas sempre ativas
 
-## 🚨 Critical Rules You Must Follow
-Domain-specific rules and constraints that define the agent's approach
+## 🚨 Regras Críticas que Você Deve Seguir
+Regras e restrições específicas do domínio que definem a abordagem do agente
 
-## 📋 Your Technical Deliverables
-Concrete examples of what the agent produces:
-- Code samples
+## 📋 Seus Entregáveis Técnicos
+Exemplos concretos do que o agente produz:
+- Exemplos de código
 - Templates
 - Frameworks
-- Documents
+- Documentos
 
-## 🔄 Your Workflow Process
-Step-by-step process the agent follows:
-1. Phase 1: Discovery and research
-2. Phase 2: Planning and strategy
-3. Phase 3: Execution and implementation
-4. Phase 4: Review and optimization
+## 🔄 Seu Processo de Workflow
+Processo passo a passo que o agente segue:
+1. Fase 1: Descoberta e pesquisa
+2. Fase 2: Planejamento e estratégia
+3. Fase 3: Execução e implementação
+4. Fase 4: Revisão e otimização
 
-## 💭 Your Communication Style
-- How the agent communicates
-- Example phrases and patterns
-- Tone and approach
+## 💭 Seu Estilo de Comunicação
+- Como o agente se comunica
+- Frases e padrões de exemplo
+- Tom e abordagem
 
-## 🔄 Learning & Memory
-What the agent learns from:
-- Successful patterns
-- Failed approaches
-- User feedback
-- Domain evolution
+## 🔄 Aprendizado & Memória
+Do que o agente aprende:
+- Padrões bem-sucedidos
+- Abordagens que falharam
+- Feedback do usuário
+- Evolução do domínio
 
-## 🎯 Your Success Metrics
-Measurable outcomes:
-- Quantitative metrics (with numbers)
-- Qualitative indicators
-- Performance benchmarks
+## 🎯 Suas Métricas de Sucesso
+Resultados mensuráveis:
+- Métricas quantitativas (com números)
+- Indicadores qualitativos
+- Benchmarks de performance
 
-## 🚀 Advanced Capabilities
-Advanced techniques and approaches the agent masters
+## 🚀 Capacidades Avançadas
+Técnicas e abordagens avançadas que o agente domina
 ```
 
-### Agent Structure
+### Estrutura do Agente
 
-Agent files are organized into two semantic groups that map to
-OpenClaw's workspace format and help other tools parse your agent:
+Arquivos de agentes são organizados em dois grupos semânticos que mapeiam para o formato de workspace do OpenClaw e ajudam outras ferramentas a interpretar seu agente:
 
-#### Persona (who the agent is)
-- **Identity & Memory** — role, personality, background
-- **Communication Style** — tone, voice, approach
-- **Critical Rules** — boundaries and constraints
+#### Persona (quem o agente é)
+- **Identidade & Memória** - papel, personalidade, background
+- **Estilo de Comunicação** - tom, voz, abordagem
+- **Regras Críticas** - limites e restrições
 
-#### Operations (what the agent does)
-- **Core Mission** — primary responsibilities
-- **Technical Deliverables** — concrete outputs and templates
-- **Workflow Process** — step-by-step methodology
-- **Success Metrics** — measurable outcomes
-- **Advanced Capabilities** — specialized techniques
+#### Operações (o que o agente faz)
+- **Missão Principal** - responsabilidades primárias
+- **Entregáveis Técnicos** - outputs concretos e templates
+- **Processo de Workflow** - metodologia passo a passo
+- **Métricas de Sucesso** - resultados mensuráveis
+- **Capacidades Avançadas** - técnicas especializadas
 
-No special formatting is required — just keep persona-related sections
-(identity, communication, rules) grouped separately from operational
-sections (mission, deliverables, workflow, metrics). The `convert.sh`
-script uses these section headers to automatically split agents into
-tool-specific formats.
+Nenhuma formatação especial é exigida - apenas mantenha seções relacionadas à persona (identidade, comunicação, regras) agrupadas separadamente das seções operacionais (missão, entregáveis, workflow, métricas). O script `convert.sh` usa esses cabeçalhos de seção para dividir automaticamente agentes em formatos específicos de ferramentas.
 
-### Agent Design Principles
+### Princípios de Design de Agentes
 
-1. **🎭 Strong Personality**
-   - Give the agent a distinct voice and character
-   - Not "I am a helpful assistant" - be specific and memorable
-   - Example: "I default to finding 3-5 issues and require visual proof" (Evidence Collector)
+1. **🎭 Personalidade Forte**
+   - Dê ao agente uma voz e um caráter distintos
+   - Não use "I am a helpful assistant" - seja específico e memorável
+   - Exemplo: "I default to finding 3-5 issues and require visual proof" (Evidence Collector)
 
-2. **📋 Clear Deliverables**
-   - Provide concrete code examples
-   - Include templates and frameworks
-   - Show real outputs, not vague descriptions
+2. **📋 Entregáveis Claros**
+   - Forneça exemplos concretos de código
+   - Inclua templates e frameworks
+   - Mostre outputs reais, não descrições vagas
 
-3. **✅ Success Metrics**
-   - Include specific, measurable metrics
-   - Example: "Page load times under 3 seconds on 3G"
-   - Example: "10,000+ combined karma across accounts"
+3. **✅ Métricas de Sucesso**
+   - Inclua métricas específicas e mensuráveis
+   - Exemplo: "Page load times under 3 seconds on 3G"
+   - Exemplo: "10,000+ combined karma across accounts"
 
-4. **🔄 Proven Workflows**
-   - Step-by-step processes
-   - Real-world tested approaches
-   - Not theoretical - battle-tested
+4. **🔄 Workflows Comprovados**
+   - Processos passo a passo
+   - Abordagens testadas no mundo real
+   - Nada teórico - precisa ser battle-tested
 
-5. **💡 Learning Memory**
-   - What patterns the agent recognizes
-   - How it improves over time
-   - What it remembers between sessions
+5. **💡 Memória de Aprendizado**
+   - Quais padrões o agente reconhece
+   - Como ele melhora com o tempo
+   - O que ele lembra entre sessões
 
-### External Services
+### Serviços Externos
 
-Agents may depend on external services (APIs, platforms, SaaS tools) when
-those services are essential to the agent's function. When they do:
+Agentes podem depender de serviços externos (APIs, plataformas, ferramentas SaaS) quando esses serviços são essenciais para a função do agente. Quando dependerem:
 
-1. **Declare dependencies** in frontmatter using the `services` field
-2. **The agent must stand on its own** — strip the API calls and there
-   should still be a useful persona, workflow, and expertise underneath
-3. **Don't duplicate vendor docs** — reference them, don't reproduce them.
-   The agent file should read like an agent, not a getting-started guide
-4. **Prefer services with free tiers** so contributors can test the agent
+1. **Declare as dependências** no frontmatter usando o campo `services`
+2. **O agente deve se sustentar sozinho** - remova as chamadas de API e ainda deve existir uma persona, um workflow e uma expertise úteis por baixo
+3. **Não duplique a documentação do vendor** - referencie, não reproduza. O arquivo do agente deve parecer um agente, não um guia de getting started
+4. **Prefira serviços com tiers gratuitos** para que contribuidores consigam testar o agente
 
-The test: *is this agent for the user, or for the vendor?* An agent that
-solves the user's problem using a service belongs here. A service's
-quickstart guide wearing an agent costume does not.
+O teste: *este agente é para o usuário ou para o vendor?* Um agente que resolve o problema do usuário usando um serviço pertence aqui. Um guia de quickstart de um serviço vestido de agente, não.
 
-### Tool-Specific Compatibility
+### Compatibilidade Específica de Ferramentas
 
-**Qwen Code Compatibility**: Agent bodies support `${variable}` templating for dynamic context (e.g., `${project_name}`, `${task_description}`). Qwen SubAgents use minimal frontmatter: only `name` and `description` are required; `color`, `emoji`, and `version` fields are omitted as Qwen doesn't use them.
+**Compatibilidade com Qwen Code**: Os corpos dos agentes suportam templates `${variable}` para contexto dinâmico (por exemplo, `${project_name}`, `${task_description}`). Qwen SubAgents usam frontmatter mínimo: apenas `name` e `description` são obrigatórios; os campos `color`, `emoji` e `version` são omitidos porque o Qwen não os utiliza.
 
-### What Makes a Great Agent?
+### O que Faz um Ótimo Agente?
 
-**Great agents have**:
-- ✅ Narrow, deep specialization
-- ✅ Distinct personality and voice
-- ✅ Concrete code/template examples
-- ✅ Measurable success metrics
-- ✅ Step-by-step workflows
-- ✅ Real-world testing and iteration
+**Ótimos agentes têm**:
+- ✅ Especialização estreita e profunda
+- ✅ Personalidade e voz distintas
+- ✅ Exemplos concretos de código/template
+- ✅ Métricas de sucesso mensuráveis
+- ✅ Workflows passo a passo
+- ✅ Testes e iteração no mundo real
 
-**Avoid**:
-- ❌ Generic "helpful assistant" personality
-- ❌ Vague "I will help you with..." descriptions
-- ❌ No code examples or deliverables
-- ❌ Overly broad scope (jack of all trades)
-- ❌ Untested theoretical approaches
+**Evite**:
+- ❌ Personalidade genérica de "helpful assistant"
+- ❌ Descrições vagas como "I will help you with..."
+- ❌ Ausência de exemplos de código ou entregáveis
+- ❌ Escopo amplo demais (jack of all trades)
+- ❌ Abordagens teóricas não testadas
 
 ---
 
-## 🔄 Pull Request Process
+## 🔄 Processo de Pull Request
 
-### What Belongs in a PR (and What Doesn't)
+### O que Pertence em um PR (e o que Não Pertence)
 
-The fastest path to a merged PR is **one markdown file** — a new or improved agent. That's the sweet spot.
+O caminho mais rápido para um PR aceito é **um arquivo markdown** - um agente novo ou melhorado. Esse é o ponto ideal.
 
-For anything beyond that, here's how we keep things smooth:
+Para qualquer coisa além disso, veja como mantemos o processo fluido:
 
-#### Always welcome as a PR
-- Adding a new agent (one `.md` file)
-- Improving an existing agent's content, examples, or personality
-- Fixing typos or clarifying docs
+#### Sempre bem-vindo como PR
+- Adicionar um novo agente (um arquivo `.md`)
+- Melhorar conteúdo, exemplos ou personalidade de um agente existente
+- Corrigir typos ou clarificar documentação
 
-#### Start a Discussion first
-- New tooling, build systems, or CI workflows
-- Architectural changes (new directories, new scripts, site generators)
-- Changes that touch many files across the repo
-- New integration formats or platforms
+#### Comece com uma Discussion primeiro
+- Novas ferramentas, sistemas de build ou workflows de CI
+- Mudanças arquiteturais (novos diretórios, novos scripts, site generators)
+- Mudanças que tocam muitos arquivos no repo
+- Novos formatos ou plataformas de integração
 
-We love ambitious ideas — a [Discussion](https://github.com/msitarzewski/agency-agents/discussions) just gives the community a chance to align on approach before code gets written. It saves everyone time, especially yours.
+Gostamos de ideias ambiciosas - uma [Discussion](https://github.com/msitarzewski/agency-agents/discussions) apenas dá à comunidade a chance de alinhar a abordagem antes de código ser escrito. Isso economiza tempo de todo mundo, especialmente o seu.
 
-#### Things we'll always close
-- **Committed build output**: Generated files (`_site/`, compiled assets, converted agent files) should never be checked in. Users run `convert.sh` locally; all output is gitignored.
-- **PRs that bulk-modify existing agents** without a prior discussion — even well-intentioned reformatting can create merge conflicts for other contributors.
+#### Coisas que sempre fecharemos
+- **Output de build commitado**: Arquivos gerados (`_site/`, assets compilados, arquivos de agentes convertidos) nunca devem entrar no repo. Usuários executam `convert.sh` localmente; todo output fica no gitignore.
+- **PRs que modificam agentes existentes em massa** sem uma discussion prévia - até uma reformatação bem-intencionada pode criar conflitos de merge para outros contribuidores.
 
-### Before Submitting
+### Antes de Enviar
 
-1. **Test Your Agent**: Use it in real scenarios, iterate on feedback
-2. **Follow the Template**: Match the structure of existing agents
-3. **Add Examples**: Include at least 2-3 code/template examples
-4. **Define Metrics**: Include specific, measurable success criteria
-5. **Proofread**: Check for typos, formatting issues, clarity
+1. **Teste Seu Agente**: Use-o em cenários reais e itere com base no feedback
+2. **Siga o Template**: Mantenha a estrutura dos agentes existentes
+3. **Adicione Exemplos**: Inclua pelo menos 2-3 exemplos de código/template
+4. **Defina Métricas**: Inclua critérios de sucesso específicos e mensuráveis
+5. **Revise**: Verifique typos, problemas de formatação e clareza
 
-### Submitting Your PR
+### Enviando Seu PR
 
-1. **Fork** the repository
-2. **Create a branch**: `git checkout -b add-agent-name`
-3. **Make your changes**: Add your agent file(s)
+1. **Faça um fork** do repositório
+2. **Crie uma branch**: `git checkout -b add-agent-name`
+3. **Faça suas mudanças**: Adicione seu(s) arquivo(s) de agente
 4. **Commit**: `git commit -m "Add [Agent Name] specialist"`
 5. **Push**: `git push origin add-agent-name`
-6. **Open a Pull Request** with:
-   - Clear title: "Add [Agent Name] - [Category]"
-   - Description of what the agent does
-   - Why this agent is needed (use case)
-   - Any testing you've done
+6. **Abra um Pull Request** com:
+   - Título claro: "Add [Agent Name] - [Category]"
+   - Descrição do que o agente faz
+   - Por que esse agente é necessário (caso de uso)
+   - Qualquer teste que você tenha feito
 
-### PR Review Process
+### Processo de Revisão de PR
 
-1. **Community Review**: Other contributors may provide feedback
-2. **Iteration**: Address feedback and make improvements
-3. **Approval**: Maintainers will approve when ready
-4. **Merge**: Your contribution becomes part of The Agency!
+1. **Revisão da Comunidade**: Outros contribuidores podem fornecer feedback
+2. **Iteração**: Responda ao feedback e faça melhorias
+3. **Aprovação**: Mantenedores aprovarão quando estiver pronto
+4. **Merge**: Sua contribuição passa a fazer parte de The Agency!
 
-### PR Template
+### Template de PR
 
 ```markdown
-## Agent Information
-**Agent Name**: [Name]
-**Category**: [engineering/design/marketing/etc.]
-**Specialty**: [One-line description]
+## Informações do Agente
+**Nome do Agente**: [Nome]
+**Categoria**: [engineering/design/marketing/etc.]
+**Especialidade**: [Descrição em uma linha]
 
-## Motivation
-[Why is this agent needed? What gap does it fill?]
+## Motivação
+[Por que este agente é necessário? Que lacuna ele preenche?]
 
-## Testing
-[How have you tested this agent? Real-world use cases?]
+## Testes
+[Como você testou este agente? Casos de uso do mundo real?]
 
 ## Checklist
-- [ ] Follows agent template structure
-- [ ] Includes personality and voice
-- [ ] Has concrete code/template examples
-- [ ] Defines success metrics
-- [ ] Includes step-by-step workflow
-- [ ] Proofread and formatted correctly
-- [ ] Tested in real scenarios
+- [ ] Segue a estrutura do template de agente
+- [ ] Inclui personalidade e voz
+- [ ] Tem exemplos concretos de código/template
+- [ ] Define métricas de sucesso
+- [ ] Inclui workflow passo a passo
+- [ ] Revisado e formatado corretamente
+- [ ] Testado em cenários reais
 ```
 
 ---
 
-## 📐 Style Guide
+## 📐 Guia de Estilo
 
-### Writing Style
+### Estilo de Escrita
 
-- **Be specific**: "Reduce page load by 60%" not "Make it faster"
-- **Be concrete**: "Create React components with TypeScript" not "Build UIs"
-- **Be memorable**: Give agents personality, not generic corporate speak
-- **Be practical**: Include real code, not pseudo-code
+- **Seja específico**: "Reduce page load by 60%" em vez de "Make it faster"
+- **Seja concreto**: "Create React components with TypeScript" em vez de "Build UIs"
+- **Seja memorável**: Dê personalidade aos agentes, não corporate speak genérico
+- **Seja prático**: Inclua código real, não pseudo-code
 
-### Formatting
+### Formatação
 
-- Use **Markdown formatting** consistently
-- Include **emojis** for section headers (makes scanning easier)
-- Use **code blocks** for all code examples with proper syntax highlighting
-- Use **tables** for comparing options or showing metrics
-- Use **bold** for emphasis, `code` for technical terms
+- Use **formatação Markdown** de forma consistente
+- Inclua **emojis** nos cabeçalhos de seção (facilita a leitura rápida)
+- Use **blocos de código** para todos os exemplos de código, com syntax highlighting adequado
+- Use **tabelas** para comparar opções ou mostrar métricas
+- Use **negrito** para ênfase, `code` para termos técnicos
 
-### Code Examples
+### Exemplos de Código
 
 ```markdown
 ## Example Code Block
@@ -356,73 +346,73 @@ interface AgentExample {
 \`\`\`
 ```
 
-### Tone
+### Tom
 
-- **Professional but approachable**: Not overly formal or casual
-- **Confident but not arrogant**: "Here's the best approach" not "Maybe you could try..."
-- **Helpful but not hand-holding**: Assume competence, provide depth
-- **Personality-driven**: Each agent should have a unique voice
-
----
-
-## 🌟 Recognition
-
-Contributors who make significant contributions will be:
-
-- Listed in the README acknowledgments section
-- Highlighted in release notes
-- Featured in "Agent of the Week" showcases (if applicable)
-- Given credit in the agent file itself
+- **Profissional, mas acessível**: Nem formal demais, nem casual demais
+- **Confiante, mas não arrogante**: "Here's the best approach" em vez de "Maybe you could try..."
+- **Útil, mas sem tratar como iniciante**: Presuma competência e ofereça profundidade
+- **Guiado por personalidade**: Cada agente deve ter uma voz única
 
 ---
 
-## 🤔 Questions?
+## 🌟 Reconhecimento
 
-- **General Questions**: [GitHub Discussions](https://github.com/msitarzewski/agency-agents/discussions)
+Contribuidores que fizerem contribuições significativas serão:
+
+- Listados na seção de agradecimentos do README
+- Destacados nas release notes
+- Apresentados nos showcases "Agent of the Week" (se aplicável)
+- Creditados no próprio arquivo do agente
+
+---
+
+## 🤔 Perguntas?
+
+- **Perguntas Gerais**: [GitHub Discussions](https://github.com/msitarzewski/agency-agents/discussions)
 - **Bug Reports**: [GitHub Issues](https://github.com/msitarzewski/agency-agents/issues)
 - **Feature Requests**: [GitHub Issues](https://github.com/msitarzewski/agency-agents/issues)
-- **Community Chat**: [Join our discussions](https://github.com/msitarzewski/agency-agents/discussions)
+- **Chat da Comunidade**: [Participe das discussões](https://github.com/msitarzewski/agency-agents/discussions)
 
 ---
 
-## 📚 Resources
+## 📚 Recursos
 
-### For New Contributors
+### Para Novos Contribuidores
 
-- [README.md](README.md) - Overview and agent catalog
-- [Example: Frontend Developer](engineering/engineering-frontend-developer.md) - Well-structured agent example
-- [Example: Reddit Community Builder](marketing/marketing-reddit-community-builder.md) - Great personality example
-- [Example: Whimsy Injector](design/design-whimsy-injector.md) - Creative specialist example
+- [README.md](README.md) - Visão geral e catálogo de agentes
+- [Exemplo: Frontend Developer](engineering/engineering-frontend-developer.md) - Exemplo de agente bem estruturado
+- [Exemplo: Reddit Community Builder](marketing/marketing-reddit-community-builder.md) - Ótimo exemplo de personalidade
+- [Exemplo: Whimsy Injector](design/design-whimsy-injector.md) - Exemplo de especialista criativo
 
-### For Agent Design
+### Para Design de Agentes
 
-- Read existing agents for inspiration
-- Study the patterns that work well
-- Test your agents in real scenarios
-- Iterate based on feedback
+- Leia agentes existentes para se inspirar
+- Estude os padrões que funcionam bem
+- Teste seus agentes em cenários reais
+- Itere com base em feedback
 
 ---
 
-## 🎉 Thank You!
+## 🎉 Obrigado!
 
-Your contributions make The Agency better for everyone. Whether you're:
+Suas contribuições tornam The Agency melhor para todo mundo. Seja você alguém que está:
 
-- Adding a new agent
-- Improving documentation
-- Fixing bugs
-- Sharing success stories
-- Helping other contributors
+- Adicionando um novo agente
+- Melhorando a documentação
+- Corrigindo bugs
+- Compartilhando histórias de sucesso
+- Ajudando outros contribuidores
 
-**You're making a difference. Thank you!**
+**Você está fazendo a diferença. Obrigado!**
 
 ---
 
 <div align="center">
 
-**Questions? Ideas? Feedback?**
+**Perguntas? Ideias? Feedback?**
 
-[Open an Issue](https://github.com/msitarzewski/agency-agents/issues) • [Start a Discussion](https://github.com/msitarzewski/agency-agents/discussions) • [Submit a PR](https://github.com/msitarzewski/agency-agents/pulls)
+[Abra uma Issue](https://github.com/msitarzewski/agency-agents/issues) • [Inicie uma Discussion](https://github.com/msitarzewski/agency-agents/discussions) • [Envie um PR](https://github.com/msitarzewski/agency-agents/pulls)
 
-Made with ❤️ by the community
+Feito com ❤️ pela comunidade
 
 </div>

@@ -1,27 +1,27 @@
-# Gemini CLI Integration
+# Integração com Gemini CLI
 
-Packages all 61 Agency agents as a Gemini CLI extension. The extension
-installs to `~/.gemini/extensions/agency-agents/`.
+Empacota todos os 61 agentes da Agency como uma extensão do Gemini CLI. A extensão
+é instalada em `~/.gemini/extensions/agency-agents/`.
 
-## Install
+## Instalação
 
 ```bash
-# Generate the Gemini CLI integration files first
+# Gere primeiro os arquivos de integração do Gemini CLI
 ./scripts/convert.sh --tool gemini-cli
 
-# Then install the extension
+# Depois instale a extensão
 ./scripts/install.sh --tool gemini-cli
 ```
 
-## Activate a Skill
+## Ativar uma Skill
 
-In Gemini CLI, reference an agent by name:
+No Gemini CLI, referencie um agente pelo nome:
 
 ```
 Use the frontend-developer skill to help me build this UI.
 ```
 
-## Extension Structure
+## Estrutura da Extensão
 
 ```
 ~/.gemini/extensions/agency-agents/
@@ -33,7 +33,7 @@ Use the frontend-developer skill to help me build this UI.
     ...
 ```
 
-## Regenerate
+## Regenerar
 
 ```bash
 ./scripts/convert.sh --tool gemini-cli

@@ -1,166 +1,166 @@
-# 🏗️ Phase 1 Playbook — Strategy & Architecture
+# 🏗️ Playbook Fase 1 — Estratégia & Arquitetura
 
-> **Duration**: 5-10 days | **Agents**: 8 | **Gate Keepers**: Studio Producer + Reality Checker
+> **Duração**: 5-10 dias | **Agentes**: 8 | **Gate Keepers**: Studio Producer + Reality Checker
 
 ---
 
-## Objective
+## Objetivo
 
-Define what we're building, how it's structured, and what success looks like — before writing a single line of code. Every architectural decision is documented. Every feature is prioritized. Every dollar is accounted for.
+Definir o que estamos construindo, como será estruturado e como o sucesso será medido — antes de escrever uma única linha de código. Toda decisão arquitetural é documentada. Toda feature é priorizada. Todo dólar é contabilizado.
 
-## Pre-Conditions
+## Pré-Condições
 
-- [ ] Phase 0 Quality Gate passed (GO decision)
-- [ ] Phase 0 Handoff Package received
-- [ ] Stakeholder alignment on project scope
+- [ ] Quality Gate da Fase 0 aprovado (decisão GO)
+- [ ] Pacote de Handoff da Fase 0 recebido
+- [ ] Alinhamento de stakeholders sobre o escopo do projeto
 
-## Agent Activation Sequence
+## Sequência de Ativação dos Agentes
 
-### Step 1: Strategic Framing (Day 1-3, Parallel)
+### Passo 1: Enquadramento Estratégico (Dia 1-3, Paralelo)
 
-#### 🎬 Studio Producer — Strategic Portfolio Alignment
+#### 🎬 Studio Producer — Alinhamento Estratégico de Portfólio
 ```
-Activate Studio Producer for strategic portfolio alignment on [PROJECT].
+Ative Studio Producer para alinhamento estratégico de portfólio em [PROJETO].
 
-Input: Phase 0 Executive Summary + Market Analysis Report
-Deliverables required:
-1. Strategic Portfolio Plan with project positioning
-2. Vision, objectives, and ROI targets
-3. Resource allocation strategy
-4. Risk/reward assessment
-5. Success criteria and milestone definitions
+Input: Executive Summary da Fase 0 + Market Analysis Report
+Entregáveis obrigatórios:
+1. Strategic Portfolio Plan com posicionamento do projeto
+2. Visão, objetivos e metas de ROI
+3. Estratégia de alocação de recursos
+4. Avaliação de risco/recompensa
+5. Critérios de sucesso e definições de milestones
 
-Align with: Organizational strategic objectives
-Format: Strategic Portfolio Plan Template
-Timeline: 3 days
-```
-
-#### 🎭 Brand Guardian — Brand Identity System
-```
-Activate Brand Guardian for brand identity development on [PROJECT].
-
-Input: Phase 0 UX Research (personas, journey maps)
-Deliverables required:
-1. Brand Foundation (purpose, vision, mission, values, personality)
-2. Visual Identity System (colors, typography, spacing as CSS variables)
-3. Brand Voice and Messaging Architecture
-4. Logo system specifications (if new brand)
-5. Brand usage guidelines
-
-Format: Brand Identity System Document
-Timeline: 3 days
+Alinhar com: objetivos estratégicos organizacionais
+Formato: Template de Strategic Portfolio Plan
+Timeline: 3 dias
 ```
 
-#### 💰 Finance Tracker — Budget and Resource Planning
+#### 🎭 Brand Guardian — Sistema de Identidade de Marca
 ```
-Activate Finance Tracker for financial planning on [PROJECT].
+Ative Brand Guardian para desenvolvimento de identidade de marca em [PROJETO].
 
-Input: Studio Producer strategic plan + Phase 0 Tech Stack Assessment
-Deliverables required:
-1. Comprehensive project budget with category breakdown
-2. Resource cost projections (agents, infrastructure, tools)
-3. ROI model with break-even analysis
-4. Cash flow timeline
-5. Financial risk assessment with contingency reserves
+Input: UX Research da Fase 0 (personas, journey maps)
+Entregáveis obrigatórios:
+1. Fundação de Marca (propósito, visão, missão, valores, personalidade)
+2. Sistema de Identidade Visual (cores, tipografia, spacing como variáveis CSS)
+3. Voz de Marca e Arquitetura de Messaging
+4. Especificações do sistema de logo (se for uma marca nova)
+5. Guidelines de uso de marca
 
-Format: Financial Plan with ROI Projections
-Timeline: 2 days
+Formato: Documento de Sistema de Identidade de Marca
+Timeline: 3 dias
 ```
 
-### Step 2: Technical Architecture (Day 3-7, Parallel, after Step 1 outputs available)
-
-#### 🏛️ UX Architect — Technical Architecture + UX Foundation
+#### 💰 Finance Tracker — Planejamento de Orçamento e Recursos
 ```
-Activate UX Architect for technical architecture on [PROJECT].
+Ative Finance Tracker para planejamento financeiro em [PROJETO].
 
-Input: Brand Guardian visual identity + Phase 0 UX Research
-Deliverables required:
-1. CSS Design System (variables, tokens, scales)
-2. Layout Framework (Grid/Flexbox patterns, responsive breakpoints)
-3. Component Architecture (naming conventions, hierarchy)
-4. Information Architecture (page flow, content hierarchy)
-5. Theme System (light/dark/system toggle)
-6. Accessibility Foundation (WCAG 2.1 AA baseline)
+Input: plano estratégico do Studio Producer + Tech Stack Assessment da Fase 0
+Entregáveis obrigatórios:
+1. Orçamento abrangente do projeto com breakdown por categoria
+2. Projeções de custo de recursos (agentes, infraestrutura, tools)
+3. Modelo de ROI com análise de break-even
+4. Timeline de cash flow
+5. Avaliação de risco financeiro com reservas de contingência
 
-Files to create:
+Formato: Plano Financeiro com Projeções de ROI
+Timeline: 2 dias
+```
+
+### Passo 2: Arquitetura Técnica (Dia 3-7, Paralelo, depois dos outputs do Passo 1 disponíveis)
+
+#### 🏛️ UX Architect — Arquitetura Técnica + Fundação de UX
+```
+Ative UX Architect para arquitetura técnica em [PROJETO].
+
+Input: identidade visual do Brand Guardian + UX Research da Fase 0
+Entregáveis obrigatórios:
+1. CSS Design System (variáveis, tokens, escalas)
+2. Layout Framework (padrões Grid/Flexbox, breakpoints responsivos)
+3. Component Architecture (convenções de nomenclatura, hierarquia)
+4. Information Architecture (fluxo de páginas, hierarquia de conteúdo)
+5. Theme System (toggle light/dark/system)
+6. Accessibility Foundation (baseline WCAG 2.1 AA)
+
+Arquivos a criar:
 - css/design-system.css
 - css/layout.css
 - css/components.css
 - docs/ux-architecture.md
 
-Format: Developer-Ready Foundation Package
-Timeline: 4 days
+Formato: Pacote de Fundação Developer-Ready
+Timeline: 4 dias
 ```
 
-#### 🏗️ Backend Architect — System Architecture
+#### 🏗️ Backend Architect — Arquitetura de Sistema
 ```
-Activate Backend Architect for system architecture on [PROJECT].
+Ative Backend Architect para arquitetura de sistema em [PROJETO].
 
-Input: Phase 0 Tech Stack Assessment + Compliance Requirements
-Deliverables required:
+Input: Tech Stack Assessment da Fase 0 + Compliance Requirements
+Entregáveis obrigatórios:
 1. System Architecture Specification
-   - Architecture pattern (microservices/monolith/serverless/hybrid)
-   - Communication pattern (REST/GraphQL/gRPC/event-driven)
-   - Data pattern (CQRS/Event Sourcing/CRUD)
-2. Database Schema Design with indexing strategy
-3. API Design Specification with versioning
-4. Authentication and Authorization Architecture
-5. Security Architecture (defense in depth)
-6. Scalability Plan (horizontal scaling strategy)
+   - Padrão de arquitetura (microservices/monolith/serverless/hybrid)
+   - Padrão de comunicação (REST/GraphQL/gRPC/event-driven)
+   - Padrão de dados (CQRS/Event Sourcing/CRUD)
+2. Design de Schema de Banco com estratégia de indexação
+3. Especificação de Design de API com versionamento
+4. Arquitetura de Autenticação e Autorização
+5. Arquitetura de Segurança (defense in depth)
+6. Plano de Escalabilidade (estratégia de escala horizontal)
 
-Format: System Architecture Specification
-Timeline: 4 days
+Formato: System Architecture Specification
+Timeline: 4 dias
 ```
 
-#### 🤖 AI Engineer — ML Architecture (if applicable)
+#### 🤖 AI Engineer — Arquitetura de ML (se aplicável)
 ```
-Activate AI Engineer for ML system architecture on [PROJECT].
+Ative AI Engineer para arquitetura de sistema de ML em [PROJETO].
 
-Input: Backend Architect system architecture + Phase 0 Data Audit
-Deliverables required:
+Input: arquitetura de sistema do Backend Architect + Data Audit da Fase 0
+Entregáveis obrigatórios:
 1. ML System Design
-   - Model selection and training strategy
-   - Data pipeline architecture
-   - Inference strategy (real-time/batch/edge)
-2. AI Ethics and Safety Framework
-3. Model monitoring and retraining plan
-4. Integration points with main application
-5. Cost projections for ML infrastructure
+   - Seleção de modelo e estratégia de treinamento
+   - Arquitetura de data pipeline
+   - Estratégia de inferência (real-time/batch/edge)
+2. Framework de Ética e Segurança de IA
+3. Plano de monitoramento e retreinamento de modelo
+4. Pontos de integração com a aplicação principal
+5. Projeções de custo para infraestrutura de ML
 
-Condition: Only activate if project includes AI/ML features
-Format: ML System Design Document
-Timeline: 3 days
+Condição: ativar apenas se o projeto incluir features de IA/ML
+Formato: Documento de ML System Design
+Timeline: 3 dias
 ```
 
-#### 👔 Senior Project Manager — Spec-to-Task Conversion
+#### 👔 Senior Project Manager — Conversão de Spec em Tarefas
 ```
-Activate Senior Project Manager for task list creation on [PROJECT].
+Ative Senior Project Manager para criação de lista de tarefas em [PROJETO].
 
-Input: ALL Phase 0 documents + Architecture specs (as available)
-Deliverables required:
-1. Comprehensive Task List
-   - Quote EXACT requirements from spec (no luxury features)
-   - Each task has clear acceptance criteria
-   - Dependencies mapped between tasks
-   - Effort estimates (story points or hours)
+Input: TODOS os documentos da Fase 0 + specs de arquitetura (conforme disponíveis)
+Entregáveis obrigatórios:
+1. Lista de Tarefas Abrangente
+   - Citar requisitos EXATOS da spec (sem features de luxo)
+   - Cada tarefa tem critérios de aceitação claros
+   - Dependências mapeadas entre tarefas
+   - Estimativas de esforço (story points ou horas)
 2. Work Breakdown Structure
-3. Critical path identification
-4. Risk register for implementation
+3. Identificação do caminho crítico
+4. Registro de riscos para implementação
 
-Rules:
-- Do NOT add features not in the specification
-- Quote exact text from requirements
-- Be realistic about effort estimates
+Regras:
+- NÃO adicione features que não estejam na especificação
+- Cite o texto exato dos requisitos
+- Seja realista nas estimativas de esforço
 
-Format: Task List with acceptance criteria
-Timeline: 3 days
+Formato: Lista de Tarefas com critérios de aceitação
+Timeline: 3 dias
 ```
 
-### Step 3: Prioritization (Day 7-10, Sequential, after Step 2)
+### Passo 3: Priorização (Dia 7-10, Sequencial, depois do Passo 2)
 
-#### 🎯 Sprint Prioritizer — Feature Prioritization
+#### 🎯 Sprint Prioritizer — Priorização de Features
 ```
-Activate Sprint Prioritizer for backlog prioritization on [PROJECT].
+Ative Sprint Prioritizer para priorização de backlog em [PROJETO].
 
 Input:
 - Senior Project Manager → Task List
@@ -169,44 +169,44 @@ Input:
 - Finance Tracker → Budget Framework
 - Studio Producer → Strategic Plan
 
-Deliverables required:
-1. RICE-scored backlog (Reach, Impact, Confidence, Effort)
-2. Sprint assignments with velocity-based estimation
-3. Dependency map with critical path
-4. MoSCoW classification (Must/Should/Could/Won't)
-5. Release plan with milestone mapping
+Entregáveis obrigatórios:
+1. Backlog pontuado por RICE (Reach, Impact, Confidence, Effort)
+2. Atribuições de sprint com estimativa baseada em velocity
+3. Mapa de dependências com caminho crítico
+4. Classificação MoSCoW (Must/Should/Could/Won't)
+5. Plano de release com mapeamento de milestones
 
-Validation: Studio Producer confirms strategic alignment
-Format: Prioritized Sprint Plan
-Timeline: 2 days
+Validação: Studio Producer confirma alinhamento estratégico
+Formato: Plano de Sprint Priorizado
+Timeline: 2 dias
 ```
 
-## Quality Gate Checklist
+## Checklist do Quality Gate
 
-| # | Criterion | Evidence Source | Status |
+| # | Critério | Fonte de Evidência | Status |
 |---|-----------|----------------|--------|
-| 1 | Architecture covers 100% of spec requirements | Senior PM task list cross-referenced with architecture | ☐ |
-| 2 | Brand system complete (logo, colors, typography, voice) | Brand Guardian deliverable | ☐ |
-| 3 | All technical components have implementation path | Backend Architect + UX Architect specs | ☐ |
-| 4 | Budget approved and within constraints | Finance Tracker plan | ☐ |
-| 5 | Sprint plan is velocity-based and realistic | Sprint Prioritizer backlog | ☐ |
-| 6 | Security architecture defined | Backend Architect security spec | ☐ |
-| 7 | Compliance requirements integrated into architecture | Legal requirements mapped to technical decisions | ☐ |
+| 1 | Arquitetura cobre 100% dos requisitos da spec | Lista de tarefas do Senior PM cruzada com arquitetura | ☐ |
+| 2 | Sistema de marca completo (logo, cores, tipografia, voz) | Entregável do Brand Guardian | ☐ |
+| 3 | Todos os componentes técnicos têm caminho de implementação | Specs do Backend Architect + UX Architect | ☐ |
+| 4 | Orçamento aprovado e dentro das restrições | Plano do Finance Tracker | ☐ |
+| 5 | Plano de sprint é baseado em velocidade e realista | Backlog do Sprint Prioritizer | ☐ |
+| 6 | Arquitetura de segurança definida | Spec de segurança do Backend Architect | ☐ |
+| 7 | Requisitos de compliance integrados à arquitetura | Requisitos legais mapeados para decisões técnicas | ☐ |
 
-## Gate Decision
+## Decisão de Gate
 
-**Dual sign-off required**: Studio Producer (strategic) + Reality Checker (technical)
+**Assinatura dupla obrigatória**: Studio Producer (estratégica) + Reality Checker (técnica)
 
-- **APPROVED**: Proceed to Phase 2 with full Architecture Package
-- **REVISE**: Specific items need rework (return to relevant Step)
-- **RESTRUCTURE**: Fundamental architecture issues (restart Phase 1)
+- **APPROVED**: Prosseguir para Fase 2 com o Pacote de Arquitetura completo
+- **REVISE**: Itens específicos precisam de retrabalho (retornar ao Passo relevante)
+- **RESTRUCTURE**: Issues fundamentais de arquitetura (reiniciar Fase 1)
 
-## Handoff to Phase 2
+## Handoff para Fase 2
 
 ```markdown
-## Phase 1 → Phase 2 Handoff Package
+## Pacote de Handoff Fase 1 → Fase 2
 
-### Architecture Package:
+### Pacote de Arquitetura:
 1. Strategic Portfolio Plan (Studio Producer)
 2. Brand Identity System (Brand Guardian)
 3. Financial Plan (Finance Tracker)
@@ -216,23 +216,23 @@ Timeline: 2 days
 7. Comprehensive Task List (Senior Project Manager)
 8. Prioritized Sprint Plan (Sprint Prioritizer)
 
-### For DevOps Automator:
-- Deployment architecture from Backend Architect
-- Environment requirements from System Architecture
-- Monitoring requirements from Infrastructure needs
+### Para DevOps Automator:
+- Arquitetura de deployment do Backend Architect
+- Requisitos de ambiente da System Architecture
+- Requisitos de monitoramento das necessidades de infraestrutura
 
-### For Frontend Developer:
-- CSS Design System from UX Architect
-- Brand Identity from Brand Guardian
-- Component architecture from UX Architect
-- API specification from Backend Architect
+### Para Frontend Developer:
+- CSS Design System do UX Architect
+- Brand Identity do Brand Guardian
+- Arquitetura de componentes do UX Architect
+- Especificação de API do Backend Architect
 
-### For Backend Architect (continuing):
-- Database schema ready for deployment
-- API scaffold ready for implementation
-- Auth system architecture defined
+### Para Backend Architect (continuação):
+- Schema de banco pronto para deployment
+- Scaffold de API pronto para implementação
+- Arquitetura do sistema de auth definida
 ```
 
 ---
 
-*Phase 1 is complete when Studio Producer and Reality Checker both sign off on the Architecture Package.*
+*A Fase 1 está completa quando Studio Producer e Reality Checker assinam o Pacote de Arquitetura.*

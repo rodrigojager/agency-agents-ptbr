@@ -1,217 +1,217 @@
 # 🚨 Runbook: Incident Response
 
-> **Mode**: NEXUS-Micro | **Duration**: Minutes to hours | **Agents**: 3-8
+> **Modo**: NEXUS-Micro | **Duração**: Minutos a horas | **Agentes**: 3-8
 
 ---
 
-## Scenario
+## Cenário
 
-Something is broken in production. Users are affected. Speed of response matters, but so does doing it right. This runbook covers detection through post-mortem.
+Algo quebrou em produção. Usuários foram afetados. Velocidade de resposta importa, mas fazer do jeito certo também. Este runbook cobre da detecção ao post-mortem.
 
-## Severity Classification
+## Classificação de Severidade
 
-| Level | Definition | Examples | Response Time |
+| Nível | Definição | Exemplos | Tempo de Resposta |
 |-------|-----------|----------|--------------|
-| **P0 — Critical** | Service completely down, data loss, security breach | Database corruption, DDoS attack, auth system failure | Immediate (all hands) |
-| **P1 — High** | Major feature broken, significant performance degradation | Payment processing down, 50%+ error rate, 10x latency | < 1 hour |
-| **P2 — Medium** | Minor feature broken, workaround available | Search not working, non-critical API errors | < 4 hours |
-| **P3 — Low** | Cosmetic issue, minor inconvenience | Styling bug, typo, minor UI glitch | Next sprint |
+| **P0 — Crítico** | Serviço completamente fora, perda de dados, breach de segurança | Corrupção de banco de dados, ataque DDoS, falha no sistema de auth | Imediato (all hands) |
+| **P1 — Alto** | Feature principal quebrada, degradação significativa de performance | Processamento de pagamento fora, taxa de erro 50%+, latência 10x | < 1 hora |
+| **P2 — Médio** | Feature menor quebrada, workaround disponível | Busca não funciona, erros de API não críticos | < 4 horas |
+| **P3 — Baixo** | Issue cosmética, inconveniente menor | Bug de estilo, typo, glitch menor de UI | Próximo sprint |
 
-## Response Teams by Severity
+## Times de Resposta por Severidade
 
-### P0 — Critical Response Team
-| Agent | Role | Action |
+### P0 — Time de Resposta Crítica
+| Agente | Papel | Ação |
 |-------|------|--------|
-| **Infrastructure Maintainer** | Incident commander | Assess scope, coordinate response |
-| **DevOps Automator** | Deployment/rollback | Execute rollback if needed |
-| **Backend Architect** | Root cause investigation | Diagnose system issues |
-| **Frontend Developer** | UI-side investigation | Diagnose client-side issues |
-| **Support Responder** | User communication | Status page updates, user notifications |
-| **Executive Summary Generator** | Stakeholder communication | Real-time executive updates |
+| **Infrastructure Maintainer** | Incident commander | Avaliar escopo, coordenar resposta |
+| **DevOps Automator** | Deployment/rollback | Executar rollback se necessário |
+| **Backend Architect** | Investigação de causa raiz | Diagnosticar issues de sistema |
+| **Frontend Developer** | Investigação no lado da UI | Diagnosticar issues client-side |
+| **Support Responder** | Comunicação com usuários | Updates na status page, notificações para usuários |
+| **Executive Summary Generator** | Comunicação com stakeholders | Updates executivos em tempo real |
 
-### P1 — High Response Team
-| Agent | Role |
+### P1 — Time de Resposta Alta
+| Agente | Papel |
 |-------|------|
 | **Infrastructure Maintainer** | Incident commander |
-| **DevOps Automator** | Deployment support |
-| **Relevant Developer Agent** | Fix implementation |
-| **Support Responder** | User communication |
+| **DevOps Automator** | Suporte a deployment |
+| **Relevant Developer Agent** | Implementação de fix |
+| **Support Responder** | Comunicação com usuários |
 
-### P2 — Medium Response
-| Agent | Role |
+### P2 — Resposta Média
+| Agente | Papel |
 |-------|------|
-| **Relevant Developer Agent** | Fix implementation |
-| **Evidence Collector** | Verify fix |
+| **Relevant Developer Agent** | Implementação de fix |
+| **Evidence Collector** | Verificar fix |
 
-### P3 — Low Response
-| Agent | Role |
+### P3 — Resposta Baixa
+| Agente | Papel |
 |-------|------|
-| **Sprint Prioritizer** | Add to backlog |
+| **Sprint Prioritizer** | Adicionar ao backlog |
 
-## Incident Response Sequence
+## Sequência de Incident Response
 
-### Step 1: Detection & Triage (0-5 minutes)
+### Passo 1: Detecção & Triagem (0-5 minutos)
 
 ```
-TRIGGER: Alert from monitoring / User report / Agent detection
+TRIGGER: Alerta de monitoramento / Relato de usuário / Detecção por agente
 
 Infrastructure Maintainer:
-1. Acknowledge alert
-2. Assess scope and impact
-   - How many users affected?
-   - Which services are impacted?
-   - Is data at risk?
-3. Classify severity (P0/P1/P2/P3)
-4. Activate appropriate response team
-5. Create incident channel/thread
+1. Confirmar alerta
+2. Avaliar escopo e impacto
+   - Quantos usuários afetados?
+   - Quais serviços foram impactados?
+   - Há dados em risco?
+3. Classificar severidade (P0/P1/P2/P3)
+4. Ativar time de resposta apropriado
+5. Criar canal/thread de incidente
 
-Output: Incident classification + response team activated
+Output: Classificação do incidente + time de resposta ativado
 ```
 
-### Step 2: Investigation (5-30 minutes)
+### Passo 2: Investigação (5-30 minutos)
 
 ```
-PARALLEL INVESTIGATION:
+INVESTIGAÇÃO PARALELA:
 
 Infrastructure Maintainer:
-├── Check system metrics (CPU, memory, network, disk)
-├── Review error logs
-├── Check recent deployments
-└── Verify external dependencies
+├── Checar métricas de sistema (CPU, memória, rede, disco)
+├── Revisar logs de erro
+├── Checar deployments recentes
+└── Verificar dependências externas
 
-Backend Architect (if P0/P1):
-├── Check database health
-├── Review API error rates
-├── Check service communication
-└── Identify failing component
+Backend Architect (se P0/P1):
+├── Checar saúde do banco de dados
+├── Revisar taxas de erro de API
+├── Checar comunicação entre serviços
+└── Identificar componente em falha
 
 DevOps Automator:
-├── Review recent deployment history
-├── Check CI/CD pipeline status
-├── Prepare rollback if needed
-└── Verify infrastructure state
+├── Revisar histórico de deployment recente
+├── Checar status do pipeline CI/CD
+├── Preparar rollback se necessário
+└── Verificar estado da infraestrutura
 
-Output: Root cause identified (or narrowed to component)
+Output: Causa raiz identificada (ou reduzida a um componente)
 ```
 
-### Step 3: Mitigation (15-60 minutes)
+### Passo 3: Mitigação (15-60 minutos)
 
 ```
-DECISION TREE:
+ÁRVORE DE DECISÃO:
 
-IF caused by recent deployment:
-  → DevOps Automator: Execute rollback
-  → Infrastructure Maintainer: Verify recovery
-  → Evidence Collector: Confirm fix
+IF causado por deployment recente:
+  → DevOps Automator: Executar rollback
+  → Infrastructure Maintainer: Verificar recuperação
+  → Evidence Collector: Confirmar fix
 
-IF caused by infrastructure issue:
-  → Infrastructure Maintainer: Scale/restart/failover
-  → DevOps Automator: Support infrastructure changes
-  → Verify recovery
+IF causado por issue de infraestrutura:
+  → Infrastructure Maintainer: Escalar/reiniciar/failover
+  → DevOps Automator: Apoiar mudanças de infraestrutura
+  → Verificar recuperação
 
-IF caused by code bug:
-  → Relevant Developer Agent: Implement hotfix
-  → Evidence Collector: Verify fix
+IF causado por bug de código:
+  → Relevant Developer Agent: Implementar hotfix
+  → Evidence Collector: Verificar fix
   → DevOps Automator: Deploy hotfix
-  → Infrastructure Maintainer: Monitor recovery
+  → Infrastructure Maintainer: Monitorar recuperação
 
-IF caused by external dependency:
-  → Infrastructure Maintainer: Activate fallback/cache
-  → Support Responder: Communicate to users
-  → Monitor for external recovery
+IF causado por dependência externa:
+  → Infrastructure Maintainer: Ativar fallback/cache
+  → Support Responder: Comunicar aos usuários
+  → Monitorar recuperação externa
 
-THROUGHOUT:
-  → Support Responder: Update status page every 15 minutes
-  → Executive Summary Generator: Brief stakeholders (P0 only)
+DURANTE TODO O PROCESSO:
+  → Support Responder: Atualizar status page a cada 15 minutos
+  → Executive Summary Generator: Briefar stakeholders (somente P0)
 ```
 
-### Step 4: Resolution Verification (Post-fix)
+### Passo 4: Verificação de Resolução (Pós-fix)
 
 ```
 Evidence Collector:
-1. Verify the fix resolves the issue
-2. Screenshot evidence of working state
-3. Confirm no new issues introduced
+1. Verificar que o fix resolve a issue
+2. Capturar evidência em screenshot do estado funcional
+3. Confirmar que nenhuma nova issue foi introduzida
 
 Infrastructure Maintainer:
-1. Verify all metrics returning to normal
-2. Confirm no cascading failures
-3. Monitor for 30 minutes post-fix
+1. Verificar que todas as métricas voltaram ao normal
+2. Confirmar ausência de cascading failures
+3. Monitorar por 30 minutos pós-fix
 
-API Tester (if API-related):
-1. Run regression on affected endpoints
-2. Verify response times normalized
-3. Confirm error rates at baseline
+API Tester (se relacionado a API):
+1. Rodar regressão nos endpoints afetados
+2. Verificar que tempos de resposta normalizaram
+3. Confirmar taxas de erro no baseline
 
-Output: Incident resolved confirmation
+Output: Confirmação de incidente resolvido
 ```
 
-### Step 5: Post-Mortem (Within 48 hours)
+### Passo 5: Post-Mortem (Em até 48 horas)
 
 ```
-Workflow Optimizer leads post-mortem:
+Workflow Optimizer lidera o post-mortem:
 
-1. Timeline reconstruction
-   - When was the issue introduced?
-   - When was it detected?
-   - When was it resolved?
-   - Total user impact duration
+1. Reconstrução da timeline
+   - Quando a issue foi introduzida?
+   - Quando foi detectada?
+   - Quando foi resolvida?
+   - Duração total do impacto em usuários
 
-2. Root cause analysis
-   - What failed?
-   - Why did it fail?
-   - Why wasn't it caught earlier?
-   - 5 Whys analysis
+2. Análise de causa raiz
+   - O que falhou?
+   - Por que falhou?
+   - Por que não foi capturado antes?
+   - Análise dos 5 Whys
 
-3. Impact assessment
-   - Users affected
-   - Revenue impact
-   - Reputation impact
-   - Data impact
+3. Avaliação de impacto
+   - Usuários afetados
+   - Impacto em receita
+   - Impacto em reputação
+   - Impacto em dados
 
-4. Prevention measures
-   - What monitoring would have caught this sooner?
-   - What testing would have prevented this?
-   - What process changes are needed?
-   - What infrastructure changes are needed?
+4. Medidas de prevenção
+   - Que monitoramento teria capturado isso antes?
+   - Que teste teria prevenido isso?
+   - Que mudanças de processo são necessárias?
+   - Que mudanças de infraestrutura são necessárias?
 
-5. Action items
-   - [Action] → [Owner] → [Deadline]
-   - [Action] → [Owner] → [Deadline]
-   - [Action] → [Owner] → [Deadline]
+5. Itens de ação
+   - [Ação] → [Owner] → [Prazo]
+   - [Ação] → [Owner] → [Prazo]
+   - [Ação] → [Owner] → [Prazo]
 
-Output: Post-Mortem Report → Sprint Prioritizer adds prevention tasks to backlog
+Output: Relatório de Post-Mortem → Sprint Prioritizer adiciona tarefas de prevenção ao backlog
 ```
 
-## Communication Templates
+## Templates de Comunicação
 
-### Status Page Update (Support Responder)
+### Update de Status Page (Support Responder)
 ```
-[TIMESTAMP] — [SERVICE NAME] Incident
+[TIMESTAMP] — Incidente em [SERVICE NAME]
 
 Status: [Investigating / Identified / Monitoring / Resolved]
-Impact: [Description of user impact]
-Current action: [What we're doing about it]
-Next update: [When to expect the next update]
+Impacto: [Descrição do impacto no usuário]
+Ação atual: [O que estamos fazendo sobre isso]
+Próximo update: [Quando esperar o próximo update]
 ```
 
-### Executive Update (Executive Summary Generator — P0 only)
+### Update Executivo (Executive Summary Generator — somente P0)
 ```
-INCIDENT BRIEF — [TIMESTAMP]
+BRIEF DE INCIDENTE — [TIMESTAMP]
 
-SITUATION: [Service] is [down/degraded] affecting [N users/% of traffic]
-CAUSE: [Known/Under investigation] — [Brief description if known]
-ACTION: [What's being done] — ETA [time estimate]
-IMPACT: [Business impact — revenue, users, reputation]
-NEXT UPDATE: [Timestamp]
+SITUAÇÃO: [Service] está [fora/degradado] afetando [N usuários/% do tráfego]
+CAUSA: [Conhecida/Em investigação] — [Breve descrição se conhecida]
+AÇÃO: [O que está sendo feito] — ETA [estimativa de tempo]
+IMPACTO: [Impacto no negócio — receita, usuários, reputação]
+PRÓXIMO UPDATE: [Timestamp]
 ```
 
-## Escalation Matrix
+## Matriz de Escalonamento
 
-| Condition | Escalate To | Action |
+| Condição | Escalar Para | Ação |
 |-----------|------------|--------|
-| P0 not resolved in 30 min | Studio Producer | Additional resources, vendor escalation |
-| P1 not resolved in 2 hours | Project Shepherd | Resource reallocation |
-| Data breach suspected | Legal Compliance Checker | Regulatory notification assessment |
-| User data affected | Legal Compliance Checker + Executive Summary Generator | GDPR/CCPA notification |
-| Revenue impact > $X | Finance Tracker + Studio Producer | Business impact assessment |
+| P0 não resolvido em 30 min | Studio Producer | Recursos adicionais, escalonamento com vendor |
+| P1 não resolvido em 2 horas | Project Shepherd | Realocação de recursos |
+| Suspeita de data breach | Legal Compliance Checker | Avaliação de notificação regulatória |
+| Dados de usuários afetados | Legal Compliance Checker + Executive Summary Generator | Notificação GDPR/CCPA |
+| Impacto em receita > $X | Finance Tracker + Studio Producer | Avaliação de impacto de negócio |

@@ -1,102 +1,102 @@
 # 🌐 NEXUS — Network of EXperts, Unified in Strategy
 
-## The Agency's Complete Operational Playbook for Multi-Agent Orchestration
+## O Playbook Operacional Completo da The Agency para Orquestração Multiagente
 
-> **NEXUS** transforms The Agency's independent AI specialists into a synchronized intelligence network. This is not a prompt collection — it is a **deployment doctrine** that turns The Agency into a force multiplier for any project, product, or organization.
+> **NEXUS** transforma os especialistas independentes de IA da The Agency em uma rede de inteligência sincronizada. Isto não é uma coleção de prompts — é uma **doutrina de deployment** que transforma The Agency em um multiplicador de força para qualquer projeto, produto ou organização.
 
 ---
 
-## Table of Contents
+## Sumário
 
-1. [Strategic Foundation](#1-strategic-foundation)
-2. [The NEXUS Operating Model](#2-the-nexus-operating-model)
-3. [Phase 0 — Intelligence & Discovery](#3-phase-0--intelligence--discovery)
-4. [Phase 1 — Strategy & Architecture](#4-phase-1--strategy--architecture)
-5. [Phase 2 — Foundation & Scaffolding](#5-phase-2--foundation--scaffolding)
-6. [Phase 3 — Build & Iterate](#6-phase-3--build--iterate)
-7. [Phase 4 — Quality & Hardening](#7-phase-4--quality--hardening)
-8. [Phase 5 — Launch & Growth](#8-phase-5--launch--growth)
-9. [Phase 6 — Operate & Evolve](#9-phase-6--operate--evolve)
-10. [Agent Coordination Matrix](#10-agent-coordination-matrix)
-11. [Handoff Protocols](#11-handoff-protocols)
+1. [Fundação Estratégica](#1-fundação-estratégica)
+2. [O Modelo Operacional NEXUS](#2-o-modelo-operacional-nexus)
+3. [Fase 0 — Inteligência & Discovery](#3-fase-0--inteligência--discovery)
+4. [Fase 1 — Estratégia & Arquitetura](#4-fase-1--estratégia--arquitetura)
+5. [Fase 2 — Fundação & Scaffolding](#5-fase-2--fundação--scaffolding)
+6. [Fase 3 — Build & Iterar](#6-fase-3--build--iterar)
+7. [Fase 4 — Qualidade & Hardening](#7-fase-4--qualidade--hardening)
+8. [Fase 5 — Launch & Growth](#8-fase-5--launch--growth)
+9. [Fase 6 — Operar & Evoluir](#9-fase-6--operar--evoluir)
+10. [Matriz de Coordenação de Agentes](#10-matriz-de-coordenação-de-agentes)
+11. [Protocolos de Handoff](#11-protocolos-de-handoff)
 12. [Quality Gates](#12-quality-gates)
-13. [Risk Management](#13-risk-management)
-14. [Success Metrics](#14-success-metrics)
-15. [Quick-Start Activation Guide](#15-quick-start-activation-guide)
+13. [Gestão de Risco](#13-gestão-de-risco)
+14. [Métricas de Sucesso](#14-métricas-de-sucesso)
+15. [Guia de Ativação Quick-Start](#15-guia-de-ativação-quick-start)
 
 ---
 
-## 1. Strategic Foundation
+## 1. Fundação Estratégica
 
-### 1.1 What NEXUS Solves
+### 1.1 O que o NEXUS Resolve
 
-Individual agents are powerful. But without coordination, they produce:
-- Conflicting architectural decisions
-- Duplicated effort across divisions
-- Quality gaps at handoff boundaries
-- No shared context or institutional memory
+Agentes individuais são poderosos. Mas sem coordenação, eles produzem:
+- Decisões arquiteturais conflitantes
+- Esforço duplicado entre divisões
+- Gaps de qualidade nas fronteiras de handoff
+- Nenhum contexto compartilhado ou memória institucional
 
-**NEXUS eliminates these failure modes** by defining:
-- **Who** activates at each phase
-- **What** they produce and for whom
-- **When** they hand off and to whom
-- **How** quality is verified before advancement
-- **Why** each agent exists in the pipeline (no passengers)
+**NEXUS elimina esses modos de falha** ao definir:
+- **Quem** ativa em cada fase
+- **O que** cada agente produz e para quem
+- **Quando** faz handoff e para quem
+- **Como** a qualidade é verificada antes do avanço
+- **Por que** cada agente existe no pipeline (sem passageiros)
 
-### 1.2 Core Principles
+### 1.2 Princípios Core
 
-| Principle | Description |
+| Princípio | Descrição |
 |-----------|-------------|
-| **Pipeline Integrity** | No phase advances without passing its quality gate |
-| **Context Continuity** | Every handoff carries full context — no agent starts cold |
-| **Parallel Execution** | Independent workstreams run concurrently to compress timelines |
-| **Evidence Over Claims** | All quality assessments require proof, not assertions |
-| **Fail Fast, Fix Fast** | Maximum 3 retries per task before escalation |
-| **Single Source of Truth** | One canonical spec, one task list, one architecture doc |
+| **Integridade de Pipeline** | Nenhuma fase avança sem passar pelo seu quality gate |
+| **Continuidade de Contexto** | Todo handoff carrega contexto completo — nenhum agente começa frio |
+| **Execução Paralela** | Workstreams independentes rodam simultaneamente para comprimir timelines |
+| **Evidência acima de Afirmações** | Toda avaliação de qualidade exige prova, não declarações |
+| **Falhe Rápido, Corrija Rápido** | Máximo de 3 retries por tarefa antes de escalonamento |
+| **Fonte Única da Verdade** | Uma spec canônica, uma lista de tarefas, um documento de arquitetura |
 
-### 1.3 The Agent Roster by Division
+### 1.3 Roster de Agentes por Divisão
 
-| Division | Agents | Primary NEXUS Role |
+| Divisão | Agentes | Papel Primário no NEXUS |
 |----------|--------|--------------------|
-| **Engineering** | Frontend Developer, Backend Architect, Mobile App Builder, AI Engineer, DevOps Automator, Rapid Prototyper, Senior Developer | Build, deploy, and maintain all technical systems |
-| **Design** | UI Designer, UX Researcher, UX Architect, Brand Guardian, Visual Storyteller, Whimsy Injector, Image Prompt Engineer | Define visual identity, user experience, and brand consistency |
-| **Marketing** | Growth Hacker, Content Creator, Twitter Engager, TikTok Strategist, Instagram Curator, Reddit Community Builder, App Store Optimizer, Social Media Strategist | Drive acquisition, engagement, and market presence |
-| **Product** | Sprint Prioritizer, Trend Researcher, Feedback Synthesizer | Define what to build, when, and why |
-| **Project Management** | Studio Producer, Project Shepherd, Studio Operations, Experiment Tracker, Senior Project Manager | Orchestrate timelines, resources, and cross-functional coordination |
-| **Testing** | Evidence Collector, Reality Checker, Test Results Analyzer, Performance Benchmarker, API Tester, Tool Evaluator, Workflow Optimizer | Verify quality through evidence-based assessment |
-| **Support** | Support Responder, Analytics Reporter, Finance Tracker, Infrastructure Maintainer, Legal Compliance Checker, Executive Summary Generator | Sustain operations, compliance, and business intelligence |
-| **Spatial Computing** | XR Interface Architect, macOS Spatial/Metal Engineer, XR Immersive Developer, XR Cockpit Interaction Specialist, visionOS Spatial Engineer, Terminal Integration Specialist | Build immersive and spatial computing experiences |
-| **Specialized** | Agents Orchestrator, Analytics Reporter, LSP/Index Engineer, Sales Data Extraction Agent, Data Consolidation Agent, Report Distribution Agent | Cross-cutting coordination, deep analytics, and code intelligence |
+| **Engineering** | Frontend Developer, Backend Architect, Mobile App Builder, AI Engineer, DevOps Automator, Rapid Prototyper, Senior Developer | Construir, deployar e manter todos os sistemas técnicos |
+| **Design** | UI Designer, UX Researcher, UX Architect, Brand Guardian, Visual Storyteller, Whimsy Injector, Image Prompt Engineer | Definir identidade visual, experiência do usuário e consistência de marca |
+| **Marketing** | Growth Hacker, Content Creator, Twitter Engager, TikTok Strategist, Instagram Curator, Reddit Community Builder, App Store Optimizer, Social Media Strategist | Impulsionar aquisição, engajamento e presença de mercado |
+| **Product** | Sprint Prioritizer, Trend Researcher, Feedback Synthesizer | Definir o que construir, quando e por quê |
+| **Project Management** | Studio Producer, Project Shepherd, Studio Operations, Experiment Tracker, Senior Project Manager | Orquestrar timelines, recursos e coordenação cross-functional |
+| **Testing** | Evidence Collector, Reality Checker, Test Results Analyzer, Performance Benchmarker, API Tester, Tool Evaluator, Workflow Optimizer | Verificar qualidade por avaliação baseada em evidências |
+| **Support** | Support Responder, Analytics Reporter, Finance Tracker, Infrastructure Maintainer, Legal Compliance Checker, Executive Summary Generator | Sustentar operações, compliance e business intelligence |
+| **Spatial Computing** | XR Interface Architect, macOS Spatial/Metal Engineer, XR Immersive Developer, XR Cockpit Interaction Specialist, visionOS Spatial Engineer, Terminal Integration Specialist | Construir experiências imersivas e de spatial computing |
+| **Specialized** | Agents Orchestrator, Analytics Reporter, LSP/Index Engineer, Sales Data Extraction Agent, Data Consolidation Agent, Report Distribution Agent | Coordenação transversal, analytics profundo e inteligência de código |
 
 ---
 
-## 2. The NEXUS Operating Model
+## 2. O Modelo Operacional NEXUS
 
-### 2.1 The Seven-Phase Pipeline
+### 2.1 O Pipeline de Sete Fases
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
-│                        NEXUS PIPELINE                                   │
+│                        PIPELINE NEXUS                                   │
 │                                                                         │
-│  Phase 0        Phase 1         Phase 2          Phase 3                │
+│  Fase 0         Fase 1          Fase 2           Fase 3                 │
 │  DISCOVER  ───▶ STRATEGIZE ───▶ SCAFFOLD   ───▶  BUILD                 │
-│  Intelligence   Architecture    Foundation       Dev ↔ QA Loop          │
+│  Inteligência   Arquitetura     Fundação         Loop Dev ↔ QA          │
 │                                                                         │
-│  Phase 4        Phase 5         Phase 6                                 │
+│  Fase 4         Fase 5          Fase 6                                  │
 │  HARDEN   ───▶  LAUNCH    ───▶  OPERATE                                │
-│  Quality Gate   Go-to-Market    Sustained Ops                           │
+│  Quality Gate   Go-to-Market    Operações Sustentadas                   │
 │                                                                         │
-│  ◆ Quality Gate between every phase                                     │
-│  ◆ Parallel tracks within phases                                        │
-│  ◆ Feedback loops at every boundary                                     │
+│  ◆ Quality Gate entre toda fase                                         │
+│  ◆ Tracks paralelas dentro das fases                                    │
+│  ◆ Loops de feedback em toda fronteira                                  │
 └─────────────────────────────────────────────────────────────────────────┘
 ```
 
-### 2.2 Command Structure
+### 2.2 Estrutura de Comando
 
 ```
                     ┌──────────────────────┐
-                    │  Agents Orchestrator  │  ◄── Pipeline Controller
+                    │  Agents Orchestrator  │  ◄── Controlador de Pipeline
                     │  (Specialized)        │
                     └──────────┬───────────┘
                                │
@@ -105,457 +105,457 @@ Individual agents are powerful. But without coordination, they produce:
      ┌────────▼──────┐ ┌──────▼───────┐ ┌──────▼──────────┐
      │ Studio        │ │ Project      │ │ Senior Project   │
      │ Producer      │ │ Shepherd     │ │ Manager          │
-     │ (Portfolio)   │ │ (Execution)  │ │ (Task Scoping)   │
+     │ (Portfólio)   │ │ (Execução)   │ │ (Escopo Tarefas) │
      └───────────────┘ └──────────────┘ └─────────────────┘
               │                │                │
               ▼                ▼                ▼
      ┌─────────────────────────────────────────────────┐
-     │           Division Leads (per phase)             │
+     │           Leads de Divisão (por fase)            │
      │  Engineering │ Design │ Marketing │ Product │ QA │
      └─────────────────────────────────────────────────┘
 ```
 
-### 2.3 Activation Modes
+### 2.3 Modos de Ativação
 
-NEXUS supports three deployment configurations:
+NEXUS suporta três configurações de deployment:
 
-| Mode | Agents Active | Use Case | Timeline |
+| Modo | Agentes Ativos | Caso de Uso | Timeline |
 |------|--------------|----------|----------|
-| **NEXUS-Full** | All | Enterprise product launch, full lifecycle | 12-24 weeks |
-| **NEXUS-Sprint** | 15-25 | Feature development, MVP build | 2-6 weeks |
-| **NEXUS-Micro** | 5-10 | Bug fix, content campaign, single deliverable | 1-5 days |
+| **NEXUS-Full** | Todos | Launch de produto enterprise, ciclo de vida completo | 12-24 semanas |
+| **NEXUS-Sprint** | 15-25 | Desenvolvimento de feature, build de MVP | 2-6 semanas |
+| **NEXUS-Micro** | 5-10 | Bug fix, campanha de conteúdo, entregável único | 1-5 dias |
 
 ---
 
-## 3. Phase 0 — Intelligence & Discovery
+## 3. Fase 0 — Inteligência & Discovery
 
-> **Objective**: Understand the landscape before committing resources. No building until the problem is validated.
+> **Objetivo**: Entender o cenário antes de comprometer recursos. Nada de construir até que o problema esteja validado.
 
-### 3.1 Active Agents
+### 3.1 Agentes Ativos
 
-| Agent | Role in Phase | Primary Output |
+| Agente | Papel na Fase | Output Primário |
 |-------|--------------|----------------|
-| **Trend Researcher** | Market intelligence lead | Market Analysis Report with TAM/SAM/SOM |
-| **Feedback Synthesizer** | User needs analysis | Synthesized Feedback Report with pain points |
-| **UX Researcher** | User behavior analysis | Research Findings with personas and journey maps |
-| **Analytics Reporter** | Data landscape assessment | Data Audit Report with available signals |
-| **Legal Compliance Checker** | Regulatory scan | Compliance Requirements Matrix |
-| **Tool Evaluator** | Technology landscape | Tech Stack Assessment |
+| **Trend Researcher** | Lead de inteligência de mercado | Market Analysis Report com TAM/SAM/SOM |
+| **Feedback Synthesizer** | Análise de necessidades de usuários | Synthesized Feedback Report com pain points |
+| **UX Researcher** | Análise de comportamento de usuários | Research Findings com personas e journey maps |
+| **Analytics Reporter** | Avaliação do cenário de dados | Data Audit Report com sinais disponíveis |
+| **Legal Compliance Checker** | Scan regulatório | Compliance Requirements Matrix |
+| **Tool Evaluator** | Cenário tecnológico | Tech Stack Assessment |
 
-### 3.2 Parallel Workstreams
+### 3.2 Workstreams Paralelas
 
 ```
-WORKSTREAM A: Market Intelligence          WORKSTREAM B: User Intelligence
+WORKSTREAM A: Inteligência de Mercado      WORKSTREAM B: Inteligência de Usuário
 ├── Trend Researcher                       ├── Feedback Synthesizer
-│   ├── Competitive landscape              │   ├── Multi-channel feedback collection
-│   ├── Market sizing (TAM/SAM/SOM)        │   ├── Sentiment analysis
-│   └── Trend lifecycle mapping            │   └── Pain point prioritization
+│   ├── Cenário competitivo                │   ├── Coleta multicanal de feedback
+│   ├── Market sizing (TAM/SAM/SOM)        │   ├── Análise de sentimento
+│   └── Mapeamento de ciclo de tendência   │   └── Priorização de pain points
 │                                          │
 ├── Analytics Reporter                     ├── UX Researcher
-│   ├── Existing data audit                │   ├── User interviews/surveys
-│   ├── Signal identification              │   ├── Persona development
-│   └── Baseline metrics                   │   └── Journey mapping
+│   ├── Auditoria de dados existentes      │   ├── Entrevistas/surveys com usuários
+│   ├── Identificação de sinais            │   ├── Desenvolvimento de personas
+│   └── Métricas baseline                  │   └── Journey mapping
 │                                          │
 └── Legal Compliance Checker               └── Tool Evaluator
-    ├── Regulatory requirements                ├── Technology assessment
-    ├── Data handling constraints               ├── Build vs. buy analysis
-    └── Jurisdiction mapping                   └── Integration feasibility
+    ├── Requisitos regulatórios                ├── Avaliação tecnológica
+    ├── Restrições de tratamento de dados       ├── Análise build vs. buy
+    └── Mapeamento de jurisdição                └── Viabilidade de integração
 ```
 
-### 3.3 Phase 0 Quality Gate
+### 3.3 Quality Gate da Fase 0
 
 **Gate Keeper**: Executive Summary Generator
 
-| Criterion | Threshold | Evidence Required |
+| Critério | Threshold | Evidência Obrigatória |
 |-----------|-----------|-------------------|
-| Market opportunity validated | TAM > minimum viable threshold | Trend Researcher report with sources |
-| User need confirmed | ≥3 validated pain points | Feedback Synthesizer + UX Researcher data |
-| Regulatory path clear | No blocking compliance issues | Legal Compliance Checker matrix |
-| Data foundation assessed | Key metrics identified | Analytics Reporter audit |
-| Technology feasibility confirmed | Stack validated | Tool Evaluator assessment |
+| Oportunidade de mercado validada | TAM > threshold mínimo viável | Relatório do Trend Researcher com fontes |
+| Necessidade de usuário confirmada | ≥3 pain points validados | Dados do Feedback Synthesizer + UX Researcher |
+| Caminho regulatório claro | Nenhuma issue bloqueante de compliance | Matriz do Legal Compliance Checker |
+| Fundação de dados avaliada | Métricas-chave identificadas | Auditoria do Analytics Reporter |
+| Viabilidade tecnológica confirmada | Stack validada | Avaliação do Tool Evaluator |
 
-**Output**: Executive Summary (≤500 words, SCQA format) → Decision: GO / NO-GO / PIVOT
+**Output**: Executive Summary (≤500 palavras, formato SCQA) → Decisão: GO / NO-GO / PIVOT
 
 ---
 
-## 4. Phase 1 — Strategy & Architecture
+## 4. Fase 1 — Estratégia & Arquitetura
 
-> **Objective**: Define what we're building, how it's structured, and what success looks like — before writing a single line of code.
+> **Objetivo**: Definir o que estamos construindo, como será estruturado e como o sucesso será medido — antes de escrever uma única linha de código.
 
-### 4.1 Active Agents
+### 4.1 Agentes Ativos
 
-| Agent | Role in Phase | Primary Output |
+| Agente | Papel na Fase | Output Primário |
 |-------|--------------|----------------|
-| **Studio Producer** | Strategic portfolio alignment | Strategic Portfolio Plan |
-| **Senior Project Manager** | Spec-to-task conversion | Comprehensive Task List |
-| **Sprint Prioritizer** | Feature prioritization | Prioritized Backlog (RICE scored) |
-| **UX Architect** | Technical architecture + UX foundation | Architecture Spec + CSS Design System |
-| **Brand Guardian** | Brand identity system | Brand Foundation Document |
-| **Backend Architect** | System architecture | System Architecture Specification |
-| **AI Engineer** | AI/ML architecture (if applicable) | ML System Design |
-| **Finance Tracker** | Budget and resource planning | Financial Plan with ROI projections |
+| **Studio Producer** | Alinhamento estratégico de portfólio | Strategic Portfolio Plan |
+| **Senior Project Manager** | Conversão de spec em tarefas | Comprehensive Task List |
+| **Sprint Prioritizer** | Priorização de features | Prioritized Backlog (pontuado por RICE) |
+| **UX Architect** | Arquitetura técnica + fundação de UX | Architecture Spec + CSS Design System |
+| **Brand Guardian** | Sistema de identidade de marca | Brand Foundation Document |
+| **Backend Architect** | Arquitetura de sistema | System Architecture Specification |
+| **AI Engineer** | Arquitetura de IA/ML (se aplicável) | ML System Design |
+| **Finance Tracker** | Planejamento de orçamento e recursos | Financial Plan com projeções de ROI |
 
-### 4.2 Execution Sequence
+### 4.2 Sequência de Execução
 
 ```
-STEP 1: Strategic Framing (Parallel)
-├── Studio Producer → Strategic Portfolio Plan (vision, objectives, ROI targets)
-├── Brand Guardian → Brand Foundation (purpose, values, visual identity system)
-└── Finance Tracker → Budget Framework (resource allocation, cost projections)
+PASSO 1: Enquadramento Estratégico (Paralelo)
+├── Studio Producer → Strategic Portfolio Plan (visão, objetivos, metas de ROI)
+├── Brand Guardian → Brand Foundation (propósito, valores, sistema de identidade visual)
+└── Finance Tracker → Budget Framework (alocação de recursos, projeções de custo)
 
-STEP 2: Technical Architecture (Parallel, after Step 1)
-├── UX Architect → CSS Design System + Layout Framework + UX Structure
-├── Backend Architect → System Architecture (services, databases, APIs)
-├── AI Engineer → ML Architecture (models, pipelines, inference strategy)
-└── Senior Project Manager → Task List (spec → tasks, exact requirements)
+PASSO 2: Arquitetura Técnica (Paralelo, depois do Passo 1)
+├── UX Architect → CSS Design System + Layout Framework + Estrutura de UX
+├── Backend Architect → System Architecture (serviços, bancos, APIs)
+├── AI Engineer → ML Architecture (modelos, pipelines, estratégia de inferência)
+└── Senior Project Manager → Task List (spec → tarefas, requisitos exatos)
 
-STEP 3: Prioritization (Sequential, after Step 2)
-└── Sprint Prioritizer → RICE-scored backlog with sprint assignments
+PASSO 3: Priorização (Sequencial, depois do Passo 2)
+└── Sprint Prioritizer → Backlog pontuado por RICE com atribuições de sprint
     ├── Input: Task List + Architecture Spec + Budget Framework
-    ├── Output: Prioritized sprint plan with dependency map
-    └── Validation: Studio Producer confirms strategic alignment
+    ├── Output: Plano de sprint priorizado com mapa de dependências
+    └── Validação: Studio Producer confirma alinhamento estratégico
 ```
 
-### 4.3 Phase 1 Quality Gate
+### 4.3 Quality Gate da Fase 1
 
-**Gate Keeper**: Studio Producer + Reality Checker (dual sign-off)
+**Gate Keeper**: Studio Producer + Reality Checker (assinatura dupla)
 
-| Criterion | Threshold | Evidence Required |
+| Critério | Threshold | Evidência Obrigatória |
 |-----------|-----------|-------------------|
-| Architecture covers all requirements | 100% spec coverage | Senior PM task list cross-referenced |
-| Brand system complete | Logo, colors, typography, voice defined | Brand Guardian deliverable |
-| Technical feasibility validated | All components have implementation path | Backend Architect + UX Architect specs |
-| Budget approved | Within organizational constraints | Finance Tracker plan |
-| Sprint plan realistic | Velocity-based estimation | Sprint Prioritizer backlog |
+| Arquitetura cobre todos os requisitos | 100% de cobertura da spec | Lista de tarefas do Senior PM cruzada |
+| Sistema de marca completo | Logo, cores, tipografia, voz definidos | Entregável do Brand Guardian |
+| Viabilidade técnica validada | Todos os componentes têm caminho de implementação | Specs do Backend Architect + UX Architect |
+| Orçamento aprovado | Dentro das restrições organizacionais | Plano do Finance Tracker |
+| Plano de sprint realista | Estimativa baseada em velocity | Backlog do Sprint Prioritizer |
 
-**Output**: Approved Architecture Package → Phase 2 activation
+**Output**: Pacote de Arquitetura Aprovado → ativação da Fase 2
 
 ---
 
-## 5. Phase 2 — Foundation & Scaffolding
+## 5. Fase 2 — Fundação & Scaffolding
 
-> **Objective**: Build the technical and operational foundation that all subsequent work depends on. Get the skeleton standing before adding muscle.
+> **Objetivo**: Construir a fundação técnica e operacional da qual todo trabalho posterior depende. Levantar o esqueleto antes de adicionar músculo.
 
-### 5.1 Active Agents
+### 5.1 Agentes Ativos
 
-| Agent | Role in Phase | Primary Output |
+| Agente | Papel na Fase | Output Primário |
 |-------|--------------|----------------|
-| **DevOps Automator** | CI/CD pipeline + infrastructure | Deployment Pipeline + IaC Templates |
-| **Frontend Developer** | Project scaffolding + component library | App Skeleton + Design System Implementation |
-| **Backend Architect** | Database + API foundation | Schema + API Scaffold + Auth System |
-| **UX Architect** | CSS system implementation | Design Tokens + Layout Framework |
-| **Infrastructure Maintainer** | Cloud infrastructure setup | Monitoring + Logging + Alerting |
-| **Studio Operations** | Process setup | Collaboration tools + workflows |
+| **DevOps Automator** | Pipeline CI/CD + infraestrutura | Deployment Pipeline + Templates IaC |
+| **Frontend Developer** | Scaffolding do projeto + biblioteca de componentes | App Skeleton + Implementação do Design System |
+| **Backend Architect** | Fundação de banco + API | Schema + API Scaffold + Auth System |
+| **UX Architect** | Implementação do sistema CSS | Design Tokens + Layout Framework |
+| **Infrastructure Maintainer** | Setup de infraestrutura cloud | Monitoramento + Logging + Alertas |
+| **Studio Operations** | Setup de processo | Ferramentas de colaboração + workflows |
 
-### 5.2 Parallel Workstreams
+### 5.2 Workstreams Paralelas
 
 ```
-WORKSTREAM A: Infrastructure              WORKSTREAM B: Application Foundation
+WORKSTREAM A: Infraestrutura              WORKSTREAM B: Fundação da Aplicação
 ├── DevOps Automator                      ├── Frontend Developer
-│   ├── CI/CD pipeline (GitHub Actions)   │   ├── Project scaffolding
-│   ├── Container orchestration           │   ├── Component library setup
-│   └── Environment provisioning          │   └── Design system integration
+│   ├── Pipeline CI/CD (GitHub Actions)   │   ├── Scaffolding do projeto
+│   ├── Orquestração de containers        │   ├── Setup da biblioteca de componentes
+│   └── Provisionamento de ambientes      │   └── Integração do design system
 │                                         │
 ├── Infrastructure Maintainer             ├── Backend Architect
-│   ├── Cloud resource provisioning       │   ├── Database schema deployment
-│   ├── Monitoring (Prometheus/Grafana)   │   ├── API scaffold + auth
-│   └── Security hardening               │   └── Service communication layer
+│   ├── Provisionamento de recursos cloud │   ├── Deployment do schema de banco
+│   ├── Monitoramento (Prometheus/Grafana)│   ├── API scaffold + auth
+│   └── Security hardening                │   └── Camada de comunicação de serviços
 │                                         │
 └── Studio Operations                     └── UX Architect
-    ├── Git workflow + branch strategy        ├── CSS design tokens
-    ├── Communication channels                ├── Responsive layout system
-    └── Documentation templates               └── Theme system (light/dark/system)
+    ├── Workflow Git + estratégia branch      ├── CSS design tokens
+    ├── Canais de comunicação                 ├── Sistema de layout responsivo
+    └── Templates de documentação             └── Theme system (light/dark/system)
 ```
 
-### 5.3 Phase 2 Quality Gate
+### 5.3 Quality Gate da Fase 2
 
 **Gate Keeper**: DevOps Automator + Evidence Collector
 
-| Criterion | Threshold | Evidence Required |
+| Critério | Threshold | Evidência Obrigatória |
 |-----------|-----------|-------------------|
-| CI/CD pipeline operational | Build + test + deploy working | Pipeline execution logs |
-| Database schema deployed | All tables/indexes created | Migration success + schema dump |
-| API scaffold responding | Health check endpoints live | curl response screenshots |
-| Frontend rendering | Skeleton app loads in browser | Evidence Collector screenshots |
-| Monitoring active | Dashboards showing metrics | Grafana/monitoring screenshots |
-| Design system implemented | Tokens + components available | Component library demo |
+| Pipeline CI/CD operacional | Build + test + deploy funcionando | Logs de execução do pipeline |
+| Schema de banco deployado | Todas as tabelas/índices criados | Sucesso de migration + schema dump |
+| API scaffold respondendo | Endpoints de health check live | Screenshots de resposta curl |
+| Frontend renderizando | Skeleton app carrega no browser | Screenshots do Evidence Collector |
+| Monitoramento ativo | Dashboards mostrando métricas | Screenshots Grafana/monitoramento |
+| Design system implementado | Tokens + componentes disponíveis | Demo da biblioteca de componentes |
 
-**Output**: Working skeleton application with full DevOps pipeline → Phase 3 activation
+**Output**: Aplicação skeleton funcional com pipeline DevOps completo → ativação da Fase 3
 
 ---
 
-## 6. Phase 3 — Build & Iterate
+## 6. Fase 3 — Build & Iterar
 
-> **Objective**: Implement features through continuous Dev↔QA loops. Every task is validated before the next begins. This is where the bulk of the work happens.
+> **Objetivo**: Implementar features por loops contínuos Dev↔QA. Toda tarefa é validada antes de a próxima começar. É aqui que a maior parte do trabalho acontece.
 
-### 6.1 The Dev↔QA Loop
+### 6.1 O Loop Dev↔QA
 
-This is the heart of NEXUS. The Agents Orchestrator manages a **task-by-task quality loop**:
+Este é o coração do NEXUS. O Agents Orchestrator gerencia um **loop de qualidade tarefa por tarefa**:
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│                   DEV ↔ QA LOOP                          │
+│                   LOOP DEV ↔ QA                         │
 │                                                          │
 │  ┌──────────┐    ┌──────────┐    ┌──────────────────┐   │
-│  │ Developer │───▶│ Evidence │───▶│ Decision Logic    │   │
-│  │ Agent     │    │ Collector│    │                   │   │
-│  │           │    │ (QA)     │    │ PASS → Next Task  │   │
-│  │ Implements│    │          │    │ FAIL → Retry (≤3) │   │
-│  │ Task N    │    │ Tests    │    │ BLOCKED → Escalate│   │
-│  │           │◀───│ Task N   │◀───│                   │   │
+│  │ Developer │───▶│ Evidence │───▶│ Lógica Decisão   │   │
+│  │ Agent     │    │ Collector│    │                  │   │
+│  │           │    │ (QA)     │    │ PASS → Próxima   │   │
+│  │ Implementa│    │          │    │ FAIL → Retry (≤3)│   │
+│  │ Tarefa N  │    │ Testa    │    │ BLOCKED → Escala │   │
+│  │           │◀───│ Tarefa N │◀───│                  │   │
 │  └──────────┘    └──────────┘    └──────────────────┘   │
 │       ▲                                    │             │
-│       │            QA Feedback             │             │
+│       │            Feedback QA             │             │
 │       └────────────────────────────────────┘             │
 │                                                          │
-│  Orchestrator tracks: attempt count, QA feedback,        │
-│  task status, cumulative quality metrics                 │
+│  Orchestrator acompanha: contagem de tentativas,         │
+│  feedback de QA, status da tarefa, métricas acumuladas   │
 └─────────────────────────────────────────────────────────┘
 ```
 
-### 6.2 Agent Assignment by Task Type
+### 6.2 Atribuição de Agentes por Tipo de Tarefa
 
-| Task Type | Primary Developer | QA Agent | Specialist Support |
+| Tipo de Tarefa | Developer Primário | Agente de QA | Suporte Especialista |
 |-----------|------------------|----------|-------------------|
-| Frontend UI | Frontend Developer | Evidence Collector | UI Designer, Whimsy Injector |
-| Backend API | Backend Architect | API Tester | Performance Benchmarker |
-| Database | Backend Architect | API Tester | Analytics Reporter |
+| UI Frontend | Frontend Developer | Evidence Collector | UI Designer, Whimsy Injector |
+| API Backend | Backend Architect | API Tester | Performance Benchmarker |
+| Banco de dados | Backend Architect | API Tester | Analytics Reporter |
 | Mobile | Mobile App Builder | Evidence Collector | UX Researcher |
-| AI/ML Feature | AI Engineer | Test Results Analyzer | Analytics Reporter |
-| Infrastructure | DevOps Automator | Performance Benchmarker | Infrastructure Maintainer |
+| Feature IA/ML | AI Engineer | Test Results Analyzer | Analytics Reporter |
+| Infraestrutura | DevOps Automator | Performance Benchmarker | Infrastructure Maintainer |
 | Premium Polish | Senior Developer | Evidence Collector | Visual Storyteller |
-| Rapid Prototype | Rapid Prototyper | Evidence Collector | Experiment Tracker |
+| Protótipo rápido | Rapid Prototyper | Evidence Collector | Experiment Tracker |
 | Spatial/XR | XR Immersive Developer | Evidence Collector | XR Interface Architect |
 | visionOS | visionOS Spatial Engineer | Evidence Collector | macOS Spatial/Metal Engineer |
-| Cockpit UI | XR Cockpit Interaction Specialist | Evidence Collector | XR Interface Architect |
+| UI Cockpit | XR Cockpit Interaction Specialist | Evidence Collector | XR Interface Architect |
 | CLI/Terminal | Terminal Integration Specialist | API Tester | LSP/Index Engineer |
-| Code Intelligence | LSP/Index Engineer | Test Results Analyzer | Senior Developer |
+| Inteligência de Código | LSP/Index Engineer | Test Results Analyzer | Senior Developer |
 
-### 6.3 Parallel Build Tracks
+### 6.3 Tracks Paralelas de Build
 
-For complex projects, multiple tracks run simultaneously:
+Para projetos complexos, múltiplas tracks rodam simultaneamente:
 
 ```
-TRACK A: Core Product                    TRACK B: Growth & Marketing
-├── Frontend Developer                   ├── Growth Hacker
-│   └── UI implementation                │   └── Viral loops + referral system
-├── Backend Architect                    ├── Content Creator
-│   └── API + business logic             │   └── Launch content + editorial calendar
-├── AI Engineer                          ├── Social Media Strategist
-│   └── ML features + pipelines          │   └── Cross-platform campaign
-│                                        ├── App Store Optimizer (if mobile)
-│                                        │   └── ASO strategy + metadata
-│                                        │
-TRACK C: Quality & Operations            TRACK D: Brand & Experience
-├── Evidence Collector                   ├── UI Designer
-│   └── Continuous QA screenshots        │   └── Component refinement
-├── API Tester                           ├── Brand Guardian
-│   └── Endpoint validation              │   └── Brand consistency audit
-├── Performance Benchmarker              ├── Visual Storyteller
-│   └── Load testing + optimization      │   └── Visual narrative assets
-├── Workflow Optimizer                   └── Whimsy Injector
-│   └── Process improvement                  └── Delight moments + micro-interactions
+TRACK A: Produto Core                     TRACK B: Growth & Marketing
+├── Frontend Developer                    ├── Growth Hacker
+│   └── Implementação de UI               │   └── Viral loops + sistema referral
+├── Backend Architect                     ├── Content Creator
+│   └── API + business logic              │   └── Conteúdo launch + calendário editorial
+├── AI Engineer                           ├── Social Media Strategist
+│   └── Features ML + pipelines           │   └── Campanha cross-platform
+│                                         ├── App Store Optimizer (se mobile)
+│                                         │   └── Estratégia ASO + metadata
+│                                         │
+TRACK C: Qualidade & Operações            TRACK D: Marca & Experiência
+├── Evidence Collector                    ├── UI Designer
+│   └── QA contínuo com screenshots       │   └── Refinamento de componentes
+├── API Tester                            ├── Brand Guardian
+│   └── Validação de endpoints            │   └── Auditoria de consistência de marca
+├── Performance Benchmarker               ├── Visual Storyteller
+│   └── Load testing + otimização         │   └── Assets de narrativa visual
+├── Workflow Optimizer                    └── Whimsy Injector
+│   └── Melhoria de processo                  └── Momentos de delight + microinterações
 └── Experiment Tracker
-    └── A/B test management
+    └── Gestão de testes A/B
 ```
 
-### 6.4 Phase 3 Quality Gate
+### 6.4 Quality Gate da Fase 3
 
 **Gate Keeper**: Agents Orchestrator
 
-| Criterion | Threshold | Evidence Required |
+| Critério | Threshold | Evidência Obrigatória |
 |-----------|-----------|-------------------|
-| All tasks pass QA | 100% task completion | Evidence Collector screenshots per task |
-| API endpoints validated | All endpoints tested | API Tester report |
-| Performance baselines met | P95 < 200ms, LCP < 2.5s | Performance Benchmarker report |
-| Brand consistency verified | 95%+ adherence | Brand Guardian audit |
-| No critical bugs | Zero P0/P1 open issues | Test Results Analyzer summary |
+| Todas as tarefas passam no QA | 100% de conclusão de tarefas | Screenshots do Evidence Collector por tarefa |
+| Endpoints de API validados | Todos os endpoints testados | Relatório do API Tester |
+| Baselines de performance atingidos | P95 < 200ms, LCP < 2.5s | Relatório do Performance Benchmarker |
+| Consistência de marca verificada | 95%+ aderência | Auditoria do Brand Guardian |
+| Nenhum bug crítico | Zero issues P0/P1 abertas | Sumário do Test Results Analyzer |
 
-**Output**: Feature-complete application → Phase 4 activation
+**Output**: Aplicação feature-complete → ativação da Fase 4
 
 ---
 
-## 7. Phase 4 — Quality & Hardening
+## 7. Fase 4 — Qualidade & Hardening
 
-> **Objective**: The final quality gauntlet. The Reality Checker defaults to "NEEDS WORK" — you must prove production readiness with overwhelming evidence.
+> **Objetivo**: O desafio final de qualidade. O Reality Checker assume "NEEDS WORK" por padrão — você precisa provar prontidão para produção com evidência esmagadora.
 
-### 7.1 Active Agents
+### 7.1 Agentes Ativos
 
-| Agent | Role in Phase | Primary Output |
+| Agente | Papel na Fase | Output Primário |
 |-------|--------------|----------------|
-| **Reality Checker** | Final integration testing (defaults to NEEDS WORK) | Reality-Based Integration Report |
-| **Evidence Collector** | Comprehensive visual evidence | Screenshot Evidence Package |
-| **Performance Benchmarker** | Load testing + optimization | Performance Certification |
-| **API Tester** | Full API regression suite | API Test Report |
-| **Test Results Analyzer** | Aggregate quality metrics | Quality Metrics Dashboard |
-| **Legal Compliance Checker** | Final compliance audit | Compliance Certification |
-| **Infrastructure Maintainer** | Production readiness check | Infrastructure Readiness Report |
-| **Workflow Optimizer** | Process efficiency review | Optimization Recommendations |
+| **Reality Checker** | Teste final de integração (default NEEDS WORK) | Reality-Based Integration Report |
+| **Evidence Collector** | Evidência visual abrangente | Screenshot Evidence Package |
+| **Performance Benchmarker** | Load testing + otimização | Performance Certification |
+| **API Tester** | Suite completa de regressão de API | API Test Report |
+| **Test Results Analyzer** | Métricas agregadas de qualidade | Quality Metrics Dashboard |
+| **Legal Compliance Checker** | Auditoria final de compliance | Compliance Certification |
+| **Infrastructure Maintainer** | Checagem de prontidão de produção | Infrastructure Readiness Report |
+| **Workflow Optimizer** | Review de eficiência de processo | Optimization Recommendations |
 
-### 7.2 The Hardening Sequence
+### 7.2 Sequência de Hardening
 
 ```
-STEP 1: Evidence Collection (Parallel)
-├── Evidence Collector → Full screenshot suite (desktop, tablet, mobile)
-├── API Tester → Complete endpoint regression
-├── Performance Benchmarker → Load test at 10x expected traffic
-└── Legal Compliance Checker → Final regulatory audit
+PASSO 1: Coleta de Evidências (Paralelo)
+├── Evidence Collector → Suite completa de screenshots (desktop, tablet, mobile)
+├── API Tester → Regressão completa de endpoints
+├── Performance Benchmarker → Load test com 10x o tráfego esperado
+└── Legal Compliance Checker → Auditoria regulatória final
 
-STEP 2: Analysis (Parallel, after Step 1)
-├── Test Results Analyzer → Aggregate all test data into quality dashboard
-├── Workflow Optimizer → Identify remaining process inefficiencies
-└── Infrastructure Maintainer → Production environment validation
+PASSO 2: Análise (Paralelo, depois do Passo 1)
+├── Test Results Analyzer → Agrega todos os dados de teste em dashboard de qualidade
+├── Workflow Optimizer → Identifica ineficiências restantes de processo
+└── Infrastructure Maintainer → Validação do ambiente de produção
 
-STEP 3: Final Judgment (Sequential, after Step 2)
-└── Reality Checker → Integration Report
-    ├── Cross-validates ALL previous QA findings
-    ├── Tests complete user journeys with screenshot evidence
-    ├── Verifies specification compliance point-by-point
-    ├── Default verdict: NEEDS WORK
-    └── READY only with overwhelming evidence across all criteria
+PASSO 3: Julgamento Final (Sequencial, depois do Passo 2)
+└── Reality Checker → Relatório de Integração
+    ├── Cruza TODOS os findings anteriores de QA
+    ├── Testa jornadas completas de usuário com evidência em screenshot
+    ├── Verifica conformidade com a especificação ponto a ponto
+    ├── Veredito default: NEEDS WORK
+    └── READY apenas com evidência esmagadora em todos os critérios
 ```
 
-### 7.3 Phase 4 Quality Gate (THE FINAL GATE)
+### 7.3 Quality Gate da Fase 4 (O GATE FINAL)
 
-**Gate Keeper**: Reality Checker (sole authority)
+**Gate Keeper**: Reality Checker (autoridade única)
 
-| Criterion | Threshold | Evidence Required |
+| Critério | Threshold | Evidência Obrigatória |
 |-----------|-----------|-------------------|
-| User journeys complete | All critical paths working | End-to-end screenshots |
-| Cross-device consistency | Desktop + Tablet + Mobile | Responsive screenshots |
-| Performance certified | P95 < 200ms, uptime > 99.9% | Load test results |
-| Security validated | Zero critical vulnerabilities | Security scan report |
-| Compliance certified | All regulatory requirements met | Legal Compliance Checker report |
-| Specification compliance | 100% of spec requirements | Point-by-point verification |
+| Jornadas de usuário completas | Todos os caminhos críticos funcionando | Screenshots end-to-end |
+| Consistência cross-device | Desktop + Tablet + Mobile | Screenshots responsivos |
+| Performance certificada | P95 < 200ms, uptime > 99.9% | Resultados de load test |
+| Segurança validada | Zero vulnerabilidades críticas | Relatório de security scan |
+| Compliance certificado | Todos os requisitos regulatórios atendidos | Relatório do Legal Compliance Checker |
+| Conformidade com especificação | 100% dos requisitos da spec | Verificação ponto a ponto |
 
-**Verdict Options**:
-- **READY** — Proceed to launch (rare on first pass)
-- **NEEDS WORK** — Return to Phase 3 with specific fix list (expected)
-- **NOT READY** — Major architectural issues, return to Phase 1/2
+**Opções de Veredito**:
+- **READY** — Prosseguir para launch (raro na primeira passada)
+- **NEEDS WORK** — Retornar à Fase 3 com lista específica de fixes (esperado)
+- **NOT READY** — Grandes issues arquiteturais, retornar à Fase 1/2
 
-**Expected**: First implementations typically require 2-3 revision cycles. A B/B+ rating is normal and healthy.
+**Esperado**: Primeiras implementações normalmente exigem 2-3 ciclos de revisão. Uma nota B/B+ é normal e saudável.
 
 ---
 
-## 8. Phase 5 — Launch & Growth
+## 8. Fase 5 — Launch & Growth
 
-> **Objective**: Coordinate the go-to-market execution across all channels simultaneously. Maximum impact at launch.
+> **Objetivo**: Coordenar a execução go-to-market em todos os canais simultaneamente. Máximo impacto no launch.
 
-### 8.1 Active Agents
+### 8.1 Agentes Ativos
 
-| Agent | Role in Phase | Primary Output |
+| Agente | Papel na Fase | Output Primário |
 |-------|--------------|----------------|
-| **Growth Hacker** | Launch strategy lead | Growth Playbook with viral loops |
-| **Content Creator** | Launch content | Blog posts, videos, social content |
-| **Social Media Strategist** | Cross-platform campaign | Campaign Calendar + Content |
-| **Twitter Engager** | Twitter/X launch campaign | Thread strategy + engagement plan |
-| **TikTok Strategist** | TikTok viral content | Short-form video strategy |
-| **Instagram Curator** | Visual launch campaign | Visual content + stories |
-| **Reddit Community Builder** | Authentic community launch | Community engagement plan |
-| **App Store Optimizer** | Store optimization (if mobile) | ASO Package |
-| **Executive Summary Generator** | Stakeholder communication | Launch Executive Summary |
-| **Project Shepherd** | Launch coordination | Launch Checklist + Timeline |
-| **DevOps Automator** | Deployment execution | Zero-downtime deployment |
-| **Infrastructure Maintainer** | Launch monitoring | Real-time dashboards |
+| **Growth Hacker** | Lead de estratégia de launch | Growth Playbook com viral loops |
+| **Content Creator** | Conteúdo de launch | Posts de blog, vídeos, conteúdo social |
+| **Social Media Strategist** | Campanha cross-platform | Calendário de Campanha + Conteúdo |
+| **Twitter Engager** | Campanha de launch Twitter/X | Estratégia de thread + plano de engajamento |
+| **TikTok Strategist** | Conteúdo viral TikTok | Estratégia de vídeo short-form |
+| **Instagram Curator** | Campanha visual de launch | Conteúdo visual + stories |
+| **Reddit Community Builder** | Launch comunitário autêntico | Plano de engajamento comunitário |
+| **App Store Optimizer** | Otimização de loja (se mobile) | Pacote ASO |
+| **Executive Summary Generator** | Comunicação com stakeholders | Launch Executive Summary |
+| **Project Shepherd** | Coordenação de launch | Checklist + Timeline de Launch |
+| **DevOps Automator** | Execução de deployment | Deployment zero-downtime |
+| **Infrastructure Maintainer** | Monitoramento de launch | Dashboards em tempo real |
 
-### 8.2 Launch Sequence
+### 8.2 Sequência de Launch
 
 ```
-T-7 DAYS: Pre-Launch
-├── Content Creator → Launch content queued and scheduled
-├── Social Media Strategist → Campaign assets finalized
-├── Growth Hacker → Viral mechanics tested and armed
-├── App Store Optimizer → Store listing optimized
-├── DevOps Automator → Blue-green deployment prepared
-└── Infrastructure Maintainer → Auto-scaling configured for 10x
+T-7 DIAS: Pré-Launch
+├── Content Creator → Conteúdo de launch enfileirado e agendado
+├── Social Media Strategist → Assets de campanha finalizados
+├── Growth Hacker → Mecânicas virais testadas e armadas
+├── App Store Optimizer → Store listing otimizado
+├── DevOps Automator → Deployment blue-green preparado
+└── Infrastructure Maintainer → Auto-scaling configurado para 10x
 
-T-0: Launch Day
-├── DevOps Automator → Execute deployment
-├── Infrastructure Maintainer → Monitor all systems
-├── Twitter Engager → Launch thread + real-time engagement
-├── Reddit Community Builder → Authentic community posts
-├── Instagram Curator → Visual launch content
-├── TikTok Strategist → Launch videos published
-├── Support Responder → Customer support active
-└── Analytics Reporter → Real-time metrics dashboard
+T-0: Dia do Launch
+├── DevOps Automator → Executar deployment
+├── Infrastructure Maintainer → Monitorar todos os sistemas
+├── Twitter Engager → Thread de launch + engajamento em tempo real
+├── Reddit Community Builder → Posts autênticos em comunidades
+├── Instagram Curator → Conteúdo visual de launch
+├── TikTok Strategist → Vídeos de launch publicados
+├── Support Responder → Customer support ativo
+└── Analytics Reporter → Dashboard de métricas em tempo real
 
-T+1 TO T+7: Post-Launch
-├── Growth Hacker → Analyze acquisition data, optimize funnels
-├── Feedback Synthesizer → Collect and analyze early user feedback
-├── Analytics Reporter → Daily metrics reports
-├── Content Creator → Response content based on reception
-├── Experiment Tracker → Launch A/B tests
-└── Executive Summary Generator → Daily stakeholder briefings
+T+1 A T+7: Pós-Launch
+├── Growth Hacker → Analisar dados de aquisição, otimizar funis
+├── Feedback Synthesizer → Coletar e analisar feedback inicial de usuários
+├── Analytics Reporter → Relatórios diários de métricas
+├── Content Creator → Conteúdo de resposta baseado na recepção
+├── Experiment Tracker → Lançar testes A/B
+└── Executive Summary Generator → Briefings diários para stakeholders
 ```
 
-### 8.3 Phase 5 Quality Gate
+### 8.3 Quality Gate da Fase 5
 
 **Gate Keeper**: Studio Producer + Analytics Reporter
 
-| Criterion | Threshold | Evidence Required |
+| Critério | Threshold | Evidência Obrigatória |
 |-----------|-----------|-------------------|
-| Deployment successful | Zero-downtime, all health checks pass | DevOps deployment logs |
-| Systems stable | No P0/P1 incidents in first 48 hours | Infrastructure monitoring |
-| User acquisition active | Channels driving traffic | Analytics Reporter dashboard |
-| Feedback loop operational | User feedback being collected | Feedback Synthesizer report |
-| Stakeholders informed | Executive summary delivered | Executive Summary Generator output |
+| Deployment bem-sucedido | Zero-downtime, todos os health checks passam | Logs de deployment DevOps |
+| Sistemas estáveis | Nenhum incidente P0/P1 nas primeiras 48 horas | Monitoramento de infraestrutura |
+| Aquisição de usuários ativa | Canais gerando tráfego | Dashboard do Analytics Reporter |
+| Loop de feedback operacional | Feedback de usuários sendo coletado | Relatório do Feedback Synthesizer |
+| Stakeholders informados | Sumário executivo entregue | Output do Executive Summary Generator |
 
-**Output**: Stable launched product with active growth channels → Phase 6 activation
+**Output**: Produto lançado e estável com canais de growth ativos → ativação da Fase 6
 
 ---
 
-## 9. Phase 6 — Operate & Evolve
+## 9. Fase 6 — Operar & Evoluir
 
-> **Objective**: Sustained operations with continuous improvement. The product is live — now make it thrive.
+> **Objetivo**: Operações sustentadas com melhoria contínua. O produto está live — agora faça ele prosperar.
 
-### 9.1 Active Agents (Ongoing)
+### 9.1 Agentes Ativos (Contínuo)
 
-| Agent | Cadence | Responsibility |
+| Agente | Cadência | Responsabilidade |
 |-------|---------|---------------|
-| **Infrastructure Maintainer** | Continuous | System reliability, uptime, performance |
-| **Support Responder** | Continuous | Customer support and issue resolution |
-| **Analytics Reporter** | Weekly | KPI tracking, dashboards, insights |
-| **Feedback Synthesizer** | Bi-weekly | User feedback analysis and synthesis |
-| **Finance Tracker** | Monthly | Financial performance, budget tracking |
-| **Legal Compliance Checker** | Monthly | Regulatory monitoring and compliance |
-| **Trend Researcher** | Monthly | Market intelligence and competitive analysis |
-| **Executive Summary Generator** | Monthly | C-suite reporting |
-| **Sprint Prioritizer** | Per sprint | Backlog grooming and sprint planning |
-| **Experiment Tracker** | Per experiment | A/B test management and analysis |
-| **Growth Hacker** | Ongoing | Acquisition optimization and growth experiments |
-| **Workflow Optimizer** | Quarterly | Process improvement and efficiency gains |
+| **Infrastructure Maintainer** | Contínua | Confiabilidade, uptime, performance do sistema |
+| **Support Responder** | Contínua | Customer support e resolução de issues |
+| **Analytics Reporter** | Semanal | Tracking de KPIs, dashboards, insights |
+| **Feedback Synthesizer** | Quinzenal | Análise e síntese de feedback de usuários |
+| **Finance Tracker** | Mensal | Performance financeira, tracking de orçamento |
+| **Legal Compliance Checker** | Mensal | Monitoramento regulatório e compliance |
+| **Trend Researcher** | Mensal | Inteligência de mercado e análise competitiva |
+| **Executive Summary Generator** | Mensal | Reporting para C-suite |
+| **Sprint Prioritizer** | Por sprint | Backlog grooming e sprint planning |
+| **Experiment Tracker** | Por experimento | Gestão e análise de testes A/B |
+| **Growth Hacker** | Contínuo | Otimização de aquisição e experimentos de growth |
+| **Workflow Optimizer** | Trimestral | Melhoria de processo e ganhos de eficiência |
 
-### 9.2 Continuous Improvement Cycle
+### 9.2 Ciclo de Melhoria Contínua
 
 ```
 ┌──────────────────────────────────────────────────────────┐
-│              CONTINUOUS IMPROVEMENT LOOP                   │
-│                                                           │
-│  MEASURE          ANALYZE           PLAN          ACT     │
+│              LOOP DE MELHORIA CONTÍNUA                   │
+│                                                          │
+│  MEDIR           ANALISAR         PLANEJAR       AGIR    │
 │  ┌─────────┐     ┌──────────┐     ┌─────────┐   ┌─────┐ │
 │  │Analytics │────▶│Feedback  │────▶│Sprint   │──▶│Build│ │
-│  │Reporter  │     │Synthesizer│    │Prioritizer│  │Loop │ │
+│  │Reporter  │     │Synthesizer│    │Prioritizer│ │Loop │ │
 │  └─────────┘     └──────────┘     └─────────┘   └─────┘ │
 │       ▲                                            │      │
 │       │              Experiment                    │      │
 │       │              Tracker                       │      │
 │       └────────────────────────────────────────────┘      │
-│                                                           │
-│  Monthly: Executive Summary Generator → C-suite report    │
-│  Monthly: Finance Tracker → Financial performance         │
-│  Monthly: Legal Compliance Checker → Regulatory update    │
-│  Monthly: Trend Researcher → Market intelligence          │
-│  Quarterly: Workflow Optimizer → Process improvements     │
+│                                                          │
+│  Mensal: Executive Summary Generator → relatório C-suite │
+│  Mensal: Finance Tracker → performance financeira        │
+│  Mensal: Legal Compliance Checker → update regulatório   │
+│  Mensal: Trend Researcher → inteligência de mercado      │
+│  Trimestral: Workflow Optimizer → melhorias processo     │
 └──────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## 10. Agent Coordination Matrix
+## 10. Matriz de Coordenação de Agentes
 
-### 10.1 Full Cross-Division Dependency Map
+### 10.1 Mapa Completo de Dependências Cross-Division
 
-This matrix shows which agents produce outputs consumed by other agents. Read as: **Row agent produces → Column agent consumes**.
+Esta matriz mostra quais agentes produzem outputs consumidos por outros agentes. Leia como: **agente da linha produz → agente da coluna consome**.
 
 ```
 PRODUCER →          │ ENG │ DES │ MKT │ PRD │ PM  │ TST │ SUP │ SPC │ SPZ
@@ -570,283 +570,283 @@ Support             │  ●  │     │  ●  │  ●  │  ●  │     │ 
 Spatial Computing   │  ●  │  ●  │     │     │     │  ●  │     │  ●  │
 Specialized         │  ●  │     │     │  ●  │  ●  │  ●  │  ●  │     │  ●
 
-● = Active dependency (producer creates artifacts consumed by this division)
+● = Dependência ativa (producer cria artefatos consumidos por esta divisão)
 ```
 
-### 10.2 Critical Handoff Pairs
+### 10.2 Pares Críticos de Handoff
 
-These are the highest-traffic handoff relationships in NEXUS:
+Estas são as relações de handoff com maior tráfego no NEXUS:
 
-| From | To | Artifact | Frequency |
+| De | Para | Artefato | Frequência |
 |------|----|----------|-----------|
-| Senior Project Manager | All Developers | Task List | Per sprint |
-| UX Architect | Frontend Developer | CSS Design System + Layout Spec | Per project |
-| Backend Architect | Frontend Developer | API Specification | Per feature |
-| Frontend Developer | Evidence Collector | Implemented Feature | Per task |
-| Evidence Collector | Agents Orchestrator | QA Verdict (PASS/FAIL) | Per task |
-| Agents Orchestrator | Developer (any) | QA Feedback + Retry Instructions | Per failure |
-| Brand Guardian | All Design + Marketing | Brand Guidelines | Per project |
-| Analytics Reporter | Sprint Prioritizer | Performance Data | Per sprint |
-| Feedback Synthesizer | Sprint Prioritizer | User Insights | Per sprint |
-| Trend Researcher | Studio Producer | Market Intelligence | Monthly |
-| Reality Checker | Agents Orchestrator | Integration Verdict | Per phase |
-| Executive Summary Generator | Studio Producer | Executive Brief | Per milestone |
+| Senior Project Manager | Todos os Developers | Task List | Por sprint |
+| UX Architect | Frontend Developer | CSS Design System + Layout Spec | Por projeto |
+| Backend Architect | Frontend Developer | API Specification | Por feature |
+| Frontend Developer | Evidence Collector | Feature Implementada | Por tarefa |
+| Evidence Collector | Agents Orchestrator | Veredito de QA (PASS/FAIL) | Por tarefa |
+| Agents Orchestrator | Developer (qualquer) | Feedback de QA + Instruções de Retry | Por falha |
+| Brand Guardian | Todo Design + Marketing | Brand Guidelines | Por projeto |
+| Analytics Reporter | Sprint Prioritizer | Dados de Performance | Por sprint |
+| Feedback Synthesizer | Sprint Prioritizer | Insights de Usuário | Por sprint |
+| Trend Researcher | Studio Producer | Market Intelligence | Mensal |
+| Reality Checker | Agents Orchestrator | Veredito de Integração | Por fase |
+| Executive Summary Generator | Studio Producer | Executive Brief | Por milestone |
 
 ---
 
-## 11. Handoff Protocols
+## 11. Protocolos de Handoff
 
-### 11.1 Standard Handoff Template
+### 11.1 Template Padrão de Handoff
 
-Every agent-to-agent handoff must include:
+Todo handoff agente-para-agente deve incluir:
 
 ```markdown
-## NEXUS Handoff Document
+## Documento de Handoff NEXUS
 
-### Metadata
-- **From**: [Agent Name] ([Division])
-- **To**: [Agent Name] ([Division])
-- **Phase**: [Current NEXUS Phase]
-- **Task Reference**: [Task ID from Sprint Prioritizer backlog]
-- **Priority**: [Critical / High / Medium / Low]
+### Metadados
+- **De**: [Nome do Agente] ([Divisão])
+- **Para**: [Nome do Agente] ([Divisão])
+- **Fase**: [Fase NEXUS atual]
+- **Referência da Tarefa**: [ID da tarefa no backlog do Sprint Prioritizer]
+- **Prioridade**: [Crítica / Alta / Média / Baixa]
 - **Timestamp**: [ISO 8601]
 
-### Context
-- **Project**: [Project name and brief description]
-- **Current State**: [What has been completed so far]
-- **Relevant Files**: [List of files/artifacts to review]
-- **Dependencies**: [What this work depends on]
+### Contexto
+- **Projeto**: [Nome do projeto e breve descrição]
+- **Estado Atual**: [O que foi concluído até agora]
+- **Arquivos Relevantes**: [Lista de arquivos/artefatos a revisar]
+- **Dependências**: [Do que este trabalho depende]
 
-### Deliverable Request
-- **What is needed**: [Specific, measurable deliverable]
-- **Acceptance criteria**: [How success will be measured]
-- **Constraints**: [Technical, timeline, or resource constraints]
-- **Reference materials**: [Links to specs, designs, previous work]
+### Solicitação de Entregável
+- **O que é necessário**: [Entregável específico e mensurável]
+- **Critérios de aceitação**: [Como o sucesso será medido]
+- **Restrições**: [Restrições técnicas, de timeline ou de recursos]
+- **Materiais de referência**: [Links para specs, designs, trabalho anterior]
 
-### Quality Expectations
-- **Must pass**: [Specific quality criteria]
-- **Evidence required**: [What proof of completion looks like]
-- **Handoff to next**: [Who receives the output and what they need]
+### Expectativas de Qualidade
+- **Precisa passar**: [Critérios específicos de qualidade]
+- **Evidência obrigatória**: [Como é a prova de conclusão]
+- **Handoff para o próximo**: [Quem recebe o output e do que precisa]
 ```
 
-### 11.2 QA Feedback Loop Protocol
+### 11.2 Protocolo de Loop de Feedback de QA
 
-When a task fails QA, the feedback must be actionable:
+Quando uma tarefa falha no QA, o feedback deve ser acionável:
 
 ```markdown
-## QA Failure Feedback
+## Feedback de Falha de QA
 
-### Task: [Task ID and description]
-### Attempt: [1/2/3] of 3 maximum
-### Verdict: FAIL
+### Tarefa: [ID e descrição da tarefa]
+### Tentativa: [1/2/3] de 3 no máximo
+### Veredito: FAIL
 
-### Specific Issues Found
-1. **[Issue Category]**: [Exact description with screenshot reference]
-   - Expected: [What should happen]
-   - Actual: [What actually happens]
-   - Evidence: [Screenshot filename or test output]
+### Issues Específicas Encontradas
+1. **[Categoria da Issue]**: [Descrição exata com referência de screenshot]
+   - Esperado: [O que deveria acontecer]
+   - Atual: [O que realmente acontece]
+   - Evidência: [Nome do arquivo de screenshot ou output de teste]
 
-2. **[Issue Category]**: [Exact description]
-   - Expected: [...]
-   - Actual: [...]
-   - Evidence: [...]
+2. **[Categoria da Issue]**: [Descrição exata]
+   - Esperado: [...]
+   - Atual: [...]
+   - Evidência: [...]
 
-### Fix Instructions
-- [Specific, actionable fix instruction 1]
-- [Specific, actionable fix instruction 2]
+### Instruções de Fix
+- [Instrução de fix específica e acionável 1]
+- [Instrução de fix específica e acionável 2]
 
-### Files to Modify
-- [file path 1]: [what needs to change]
-- [file path 2]: [what needs to change]
+### Arquivos a Modificar
+- [file path 1]: [o que precisa mudar]
+- [file path 2]: [o que precisa mudar]
 
-### Retry Expectations
-- Fix the above issues and re-submit for QA
-- Do NOT introduce new features — fix only
-- Attempt [N+1] of 3 maximum
+### Expectativas de Retry
+- Corrija as issues acima e reenvie para QA
+- NÃO introduza novas features — apenas corrija
+- Tentativa [N+1] de 3 no máximo
 ```
 
-### 11.3 Escalation Protocol
+### 11.3 Protocolo de Escalonamento
 
-When a task exceeds 3 retry attempts:
+Quando uma tarefa exceder 3 tentativas de retry:
 
 ```markdown
-## Escalation Report
+## Relatório de Escalonamento
 
-### Task: [Task ID]
-### Attempts Exhausted: 3/3
-### Escalation Level: [To Agents Orchestrator / To Studio Producer]
+### Tarefa: [Task ID]
+### Tentativas Esgotadas: 3/3
+### Nível de Escalonamento: [Para Agents Orchestrator / Para Studio Producer]
 
-### Failure History
-- Attempt 1: [Summary of issues and fixes attempted]
-- Attempt 2: [Summary of issues and fixes attempted]
-- Attempt 3: [Summary of issues and fixes attempted]
+### Histórico de Falhas
+- Tentativa 1: [Resumo das issues e fixes tentados]
+- Tentativa 2: [Resumo das issues e fixes tentados]
+- Tentativa 3: [Resumo das issues e fixes tentados]
 
-### Root Cause Analysis
-- [Why the task keeps failing]
-- [What systemic issue is preventing resolution]
+### Análise de Causa Raiz
+- [Por que a tarefa continua falhando]
+- [Qual issue sistêmica impede a resolução]
 
-### Recommended Resolution
-- [ ] Reassign to different developer agent
-- [ ] Decompose task into smaller sub-tasks
-- [ ] Revise architecture/approach
-- [ ] Accept current state with known limitations
-- [ ] Defer to future sprint
+### Resolução Recomendada
+- [ ] Reatribuir a outro developer agent
+- [ ] Decompor tarefa em subtarefas menores
+- [ ] Revisar arquitetura/abordagem
+- [ ] Aceitar estado atual com limitações conhecidas
+- [ ] Adiar para sprint futuro
 
-### Impact Assessment
-- **Blocking**: [What other tasks are blocked by this]
-- **Timeline Impact**: [How this affects the overall schedule]
-- **Quality Impact**: [What quality compromises exist]
+### Avaliação de Impacto
+- **Bloqueio**: [Quais outras tarefas são bloqueadas por isso]
+- **Impacto na Timeline**: [Como isso afeta o cronograma geral]
+- **Impacto de Qualidade**: [Quais compromissos de qualidade existem]
 ```
 
 ---
 
 ## 12. Quality Gates
 
-### 12.1 Gate Summary
+### 12.1 Sumário dos Gates
 
-| Phase | Gate Name | Gate Keeper | Pass Criteria |
+| Fase | Nome do Gate | Gate Keeper | Critérios de Passagem |
 |-------|-----------|-------------|---------------|
-| 0 → 1 | Discovery Gate | Executive Summary Generator | Market validated, user need confirmed, regulatory path clear |
-| 1 → 2 | Architecture Gate | Studio Producer + Reality Checker | Architecture complete, brand defined, budget approved, sprint plan realistic |
-| 2 → 3 | Foundation Gate | DevOps Automator + Evidence Collector | CI/CD working, skeleton app running, monitoring active |
-| 3 → 4 | Feature Gate | Agents Orchestrator | All tasks pass QA, no critical bugs, performance baselines met |
-| 4 → 5 | Production Gate | Reality Checker (sole authority) | User journeys complete, cross-device consistent, security validated, spec compliant |
-| 5 → 6 | Launch Gate | Studio Producer + Analytics Reporter | Deployment successful, systems stable, growth channels active |
+| 0 → 1 | Discovery Gate | Executive Summary Generator | Mercado validado, necessidade de usuário confirmada, caminho regulatório claro |
+| 1 → 2 | Architecture Gate | Studio Producer + Reality Checker | Arquitetura completa, marca definida, orçamento aprovado, plano de sprint realista |
+| 2 → 3 | Foundation Gate | DevOps Automator + Evidence Collector | CI/CD funcionando, skeleton app rodando, monitoramento ativo |
+| 3 → 4 | Feature Gate | Agents Orchestrator | Todas as tarefas passam no QA, nenhum bug crítico, baselines de performance atingidos |
+| 4 → 5 | Production Gate | Reality Checker (autoridade única) | Jornadas de usuário completas, cross-device consistente, segurança validada, spec compliant |
+| 5 → 6 | Launch Gate | Studio Producer + Analytics Reporter | Deployment bem-sucedido, sistemas estáveis, canais de growth ativos |
 
-### 12.2 Gate Failure Handling
+### 12.2 Tratamento de Falha em Gate
 
 ```
-IF gate FAILS:
-  ├── Gate Keeper produces specific failure report
-  ├── Agents Orchestrator routes failures to responsible agents
-  ├── Failed items enter Dev↔QA loop (Phase 3 mechanics)
-  ├── Maximum 3 gate re-attempts before escalation to Studio Producer
-  └── Studio Producer decides: fix, descope, or accept with risk
+IF gate FALHA:
+  ├── Gate Keeper produz relatório específico de falha
+  ├── Agents Orchestrator roteia falhas aos agentes responsáveis
+  ├── Itens falhos entram no loop Dev↔QA (mecânica da Fase 3)
+  ├── Máximo de 3 novas tentativas de gate antes de escalar ao Studio Producer
+  └── Studio Producer decide: corrigir, reduzir escopo ou aceitar com risco
 ```
 
 ---
 
-## 13. Risk Management
+## 13. Gestão de Risco
 
-### 13.1 Risk Categories and Owners
+### 13.1 Categorias de Risco e Owners
 
-| Risk Category | Primary Owner | Mitigation Agent | Escalation Path |
+| Categoria de Risco | Owner Primário | Agente de Mitigação | Caminho de Escalonamento |
 |---------------|--------------|-------------------|-----------------|
 | Technical Debt | Backend Architect | Workflow Optimizer | Senior Developer |
-| Security Vulnerability | Legal Compliance Checker | Infrastructure Maintainer | DevOps Automator |
-| Performance Degradation | Performance Benchmarker | Infrastructure Maintainer | Backend Architect |
-| Brand Inconsistency | Brand Guardian | UI Designer | Studio Producer |
+| Vulnerabilidade de Segurança | Legal Compliance Checker | Infrastructure Maintainer | DevOps Automator |
+| Degradação de Performance | Performance Benchmarker | Infrastructure Maintainer | Backend Architect |
+| Inconsistência de Marca | Brand Guardian | UI Designer | Studio Producer |
 | Scope Creep | Senior Project Manager | Sprint Prioritizer | Project Shepherd |
 | Budget Overrun | Finance Tracker | Studio Operations | Studio Producer |
-| Regulatory Non-Compliance | Legal Compliance Checker | Support Responder | Studio Producer |
-| Market Shift | Trend Researcher | Growth Hacker | Studio Producer |
-| Team Bottleneck | Project Shepherd | Studio Operations | Studio Producer |
-| Quality Regression | Reality Checker | Evidence Collector | Agents Orchestrator |
+| Não Conformidade Regulatória | Legal Compliance Checker | Support Responder | Studio Producer |
+| Mudança de Mercado | Trend Researcher | Growth Hacker | Studio Producer |
+| Bottleneck de Time | Project Shepherd | Studio Operations | Studio Producer |
+| Regressão de Qualidade | Reality Checker | Evidence Collector | Agents Orchestrator |
 
-### 13.2 Risk Response Matrix
+### 13.2 Matriz de Resposta a Risco
 
-| Severity | Response Time | Decision Authority | Action |
+| Severidade | Tempo de Resposta | Autoridade de Decisão | Ação |
 |----------|--------------|-------------------|--------|
-| **Critical** (P0) | Immediate | Studio Producer | All-hands, stop other work |
-| **High** (P1) | < 4 hours | Project Shepherd | Dedicated agent assignment |
-| **Medium** (P2) | < 24 hours | Agents Orchestrator | Next sprint priority |
-| **Low** (P3) | < 1 week | Sprint Prioritizer | Backlog item |
+| **Crítica** (P0) | Imediato | Studio Producer | All-hands, parar outros trabalhos |
+| **Alta** (P1) | < 4 horas | Project Shepherd | Atribuição dedicada de agente |
+| **Média** (P2) | < 24 horas | Agents Orchestrator | Prioridade no próximo sprint |
+| **Baixa** (P3) | < 1 semana | Sprint Prioritizer | Item de backlog |
 
 ---
 
-## 14. Success Metrics
+## 14. Métricas de Sucesso
 
-### 14.1 Pipeline Metrics
+### 14.1 Métricas de Pipeline
 
-| Metric | Target | Measurement Agent |
+| Métrica | Meta | Agente de Medição |
 |--------|--------|-------------------|
-| Phase completion rate | 95% on first attempt | Agents Orchestrator |
-| Task first-pass QA rate | 70%+ | Evidence Collector |
-| Average retries per task | < 1.5 | Agents Orchestrator |
-| Pipeline cycle time | Within sprint estimate ±15% | Project Shepherd |
-| Quality gate pass rate | 80%+ on first attempt | Reality Checker |
+| Taxa de conclusão de fase | 95% na primeira tentativa | Agents Orchestrator |
+| Taxa de QA first-pass por tarefa | 70%+ | Evidence Collector |
+| Média de retries por tarefa | < 1.5 | Agents Orchestrator |
+| Cycle time do pipeline | Dentro da estimativa de sprint ±15% | Project Shepherd |
+| Taxa de aprovação de quality gate | 80%+ na primeira tentativa | Reality Checker |
 
-### 14.2 Product Metrics
+### 14.2 Métricas de Produto
 
-| Metric | Target | Measurement Agent |
+| Métrica | Meta | Agente de Medição |
 |--------|--------|-------------------|
-| API response time (P95) | < 200ms | Performance Benchmarker |
-| Page load time (LCP) | < 2.5s | Performance Benchmarker |
-| System uptime | > 99.9% | Infrastructure Maintainer |
-| Lighthouse score | > 90 (Performance + Accessibility) | Frontend Developer |
-| Security vulnerabilities | Zero critical | Legal Compliance Checker |
-| Spec compliance | 100% | Reality Checker |
+| Tempo de resposta de API (P95) | < 200ms | Performance Benchmarker |
+| Tempo de carregamento de página (LCP) | < 2.5s | Performance Benchmarker |
+| Uptime do sistema | > 99.9% | Infrastructure Maintainer |
+| Score Lighthouse | > 90 (Performance + Accessibility) | Frontend Developer |
+| Vulnerabilidades de segurança | Zero críticas | Legal Compliance Checker |
+| Conformidade com spec | 100% | Reality Checker |
 
-### 14.3 Business Metrics
+### 14.3 Métricas de Negócio
 
-| Metric | Target | Measurement Agent |
+| Métrica | Meta | Agente de Medição |
 |--------|--------|-------------------|
-| User acquisition (MoM) | 20%+ growth | Growth Hacker |
-| Activation rate | 60%+ in first week | Analytics Reporter |
-| Retention (Day 7 / Day 30) | 40% / 20% | Analytics Reporter |
-| LTV:CAC ratio | > 3:1 | Finance Tracker |
-| NPS score | > 50 | Feedback Synthesizer |
-| Portfolio ROI | > 25% | Studio Producer |
+| Aquisição de usuários (MoM) | Crescimento 20%+ | Growth Hacker |
+| Taxa de ativação | 60%+ na primeira semana | Analytics Reporter |
+| Retenção (Day 7 / Day 30) | 40% / 20% | Analytics Reporter |
+| Ratio LTV:CAC | > 3:1 | Finance Tracker |
+| Score NPS | > 50 | Feedback Synthesizer |
+| ROI de portfólio | > 25% | Studio Producer |
 
-### 14.4 Operational Metrics
+### 14.4 Métricas Operacionais
 
-| Metric | Target | Measurement Agent |
+| Métrica | Meta | Agente de Medição |
 |--------|--------|-------------------|
-| Deployment frequency | Multiple per day | DevOps Automator |
-| Mean time to recovery | < 30 minutes | Infrastructure Maintainer |
-| Compliance adherence | 98%+ | Legal Compliance Checker |
-| Stakeholder satisfaction | 4.5/5 | Executive Summary Generator |
-| Process efficiency gain | 20%+ per quarter | Workflow Optimizer |
+| Frequência de deployment | Múltiplos por dia | DevOps Automator |
+| Mean time to recovery | < 30 minutos | Infrastructure Maintainer |
+| Aderência de compliance | 98%+ | Legal Compliance Checker |
+| Satisfação de stakeholders | 4.5/5 | Executive Summary Generator |
+| Ganho de eficiência de processo | 20%+ por trimestre | Workflow Optimizer |
 
 ---
 
-## 15. Quick-Start Activation Guide
+## 15. Guia de Ativação Quick-Start
 
-### 15.1 NEXUS-Full Activation (Enterprise)
+### 15.1 Ativação NEXUS-Full (Enterprise)
 
 ```bash
-# Step 1: Initialize NEXUS pipeline
-"Activate Agents Orchestrator in NEXUS-Full mode for [PROJECT NAME].
- Project specification: [path to spec file].
- Execute complete 7-phase pipeline with all quality gates."
+# Passo 1: Inicializar pipeline NEXUS
+"Ative Agents Orchestrator em modo NEXUS-Full para [PROJECT NAME].
+ Especificação do projeto: [path to spec file].
+ Execute o pipeline completo de 7 fases com todos os quality gates."
 
-# The Orchestrator will:
-# 1. Read the project specification
-# 2. Activate Phase 0 agents for discovery
-# 3. Progress through all phases with quality gates
-# 4. Manage Dev↔QA loops automatically
-# 5. Report status at each phase boundary
+# O Orchestrator irá:
+# 1. Ler a especificação do projeto
+# 2. Ativar agentes da Fase 0 para discovery
+# 3. Avançar por todas as fases com quality gates
+# 4. Gerenciar loops Dev↔QA automaticamente
+# 5. Reportar status em cada fronteira de fase
 ```
 
-### 15.2 NEXUS-Sprint Activation (Feature/MVP)
+### 15.2 Ativação NEXUS-Sprint (Feature/MVP)
 
 ```bash
-# Step 1: Initialize sprint pipeline
-"Activate Agents Orchestrator in NEXUS-Sprint mode for [FEATURE/MVP NAME].
- Requirements: [brief description or path to spec].
- Skip Phase 0 (market already validated).
- Begin at Phase 1 with architecture and sprint planning."
+# Passo 1: Inicializar pipeline de sprint
+"Ative Agents Orchestrator em modo NEXUS-Sprint para [FEATURE/MVP NAME].
+ Requisitos: [breve descrição ou path para spec].
+ Pule a Fase 0 (mercado já validado).
+ Comece na Fase 1 com arquitetura e sprint planning."
 
-# Recommended agent subset (15-25):
+# Subconjunto recomendado de agentes (15-25):
 # PM: Senior Project Manager, Sprint Prioritizer, Project Shepherd
 # Design: UX Architect, UI Designer, Brand Guardian
 # Engineering: Frontend Developer, Backend Architect, DevOps Automator
-# + AI Engineer or Mobile App Builder (if applicable)
+# + AI Engineer ou Mobile App Builder (se aplicável)
 # Testing: Evidence Collector, Reality Checker, API Tester, Performance Benchmarker
 # Support: Analytics Reporter, Infrastructure Maintainer
 # Specialized: Agents Orchestrator
 ```
 
-### 15.3 NEXUS-Micro Activation (Targeted Task)
+### 15.3 Ativação NEXUS-Micro (Tarefa Direcionada)
 
 ```bash
-# Step 1: Direct agent activation
-"Activate [SPECIFIC AGENT] for [TASK DESCRIPTION].
- Context: [relevant background].
- Deliverable: [specific output expected].
+# Passo 1: Ativação direta de agente
+"Ative [SPECIFIC AGENT] para [TASK DESCRIPTION].
+ Contexto: [relevant background].
+ Entregável: [specific output expected].
  Quality check: Evidence Collector to verify upon completion."
 
-# Common NEXUS-Micro configurations:
+# Configurações comuns NEXUS-Micro:
 #
 # Bug Fix:
 #   Backend Architect → API Tester → Evidence Collector
@@ -868,179 +868,179 @@ IF gate FAILS:
 #   UX Researcher → UX Architect → Frontend Developer → Evidence Collector
 ```
 
-### 15.4 Agent Activation Prompt Templates
+### 15.4 Templates de Prompt de Ativação de Agente
 
-#### For the Orchestrator (Pipeline Start)
+#### Para o Orchestrator (Início do Pipeline)
 ```
-You are the Agents Orchestrator running NEXUS pipeline for [PROJECT].
+Você é o Agents Orchestrator rodando o pipeline NEXUS para [PROJECT].
 
-Project spec: [path]
-Mode: [Full/Sprint/Micro]
-Current phase: [Phase N]
+Spec do projeto: [path]
+Modo: [Full/Sprint/Micro]
+Fase atual: [Phase N]
 
-Execute the NEXUS protocol:
-1. Read the project specification
-2. Activate Phase [N] agents per the NEXUS strategy
-3. Manage handoffs using the NEXUS Handoff Template
-4. Enforce quality gates before phase advancement
-5. Track all tasks with status reporting
-6. Run Dev↔QA loops for all implementation tasks
-7. Escalate after 3 failed attempts per task
+Execute o protocolo NEXUS:
+1. Leia a especificação do projeto
+2. Ative agentes da Fase [N] conforme a estratégia NEXUS
+3. Gerencie handoffs usando o Template de Handoff NEXUS
+4. Reforce quality gates antes do avanço de fase
+5. Acompanhe todas as tarefas com status reporting
+6. Rode loops Dev↔QA para todas as tarefas de implementação
+7. Escale após 3 tentativas falhas por tarefa
 
-Report format: NEXUS Pipeline Status Report (see template in strategy doc)
+Formato de relatório: NEXUS Pipeline Status Report (ver template no doc de estratégia)
 ```
 
-#### For Developer Agents (Task Implementation)
+#### Para Developer Agents (Implementação de Tarefa)
 ```
-You are [AGENT NAME] working within the NEXUS pipeline.
+Você é [AGENT NAME] trabalhando dentro do pipeline NEXUS.
 
-Phase: [Current Phase]
-Task: [Task ID and description from Sprint Prioritizer backlog]
-Architecture reference: [path to architecture doc]
+Fase: [Current Phase]
+Tarefa: [Task ID and description from Sprint Prioritizer backlog]
+Referência de arquitetura: [path to architecture doc]
 Design system: [path to CSS/design tokens]
 Brand guidelines: [path to brand doc]
 
-Implement this task following:
-1. The architecture specification exactly
-2. The design system tokens and patterns
-3. The brand guidelines for visual consistency
-4. Accessibility standards (WCAG 2.1 AA)
+Implemente esta tarefa seguindo:
+1. A especificação de arquitetura exatamente
+2. Os tokens e padrões do design system
+3. As brand guidelines para consistência visual
+4. Standards de acessibilidade (WCAG 2.1 AA)
 
-When complete, your work will be reviewed by Evidence Collector.
-Acceptance criteria: [specific criteria from task list]
+Quando terminar, seu trabalho será revisado pelo Evidence Collector.
+Critérios de aceitação: [specific criteria from task list]
 ```
 
-#### For QA Agents (Task Validation)
+#### Para QA Agents (Validação de Tarefa)
 ```
-You are [QA AGENT] validating work within the NEXUS pipeline.
+Você é [QA AGENT] validando trabalho dentro do pipeline NEXUS.
 
-Phase: [Current Phase]
-Task: [Task ID and description]
+Fase: [Current Phase]
+Tarefa: [Task ID and description]
 Developer: [Which agent implemented this]
-Attempt: [N] of 3 maximum
+Tentativa: [N] de 3 no máximo
 
-Validate against:
-1. Task acceptance criteria: [specific criteria]
-2. Architecture specification: [path]
+Valide contra:
+1. Critérios de aceitação da tarefa: [specific criteria]
+2. Especificação de arquitetura: [path]
 3. Brand guidelines: [path]
-4. Performance requirements: [specific thresholds]
+4. Requisitos de performance: [specific thresholds]
 
-Provide verdict: PASS or FAIL
-If FAIL: Include specific issues, evidence, and fix instructions
-Use the NEXUS QA Feedback Loop Protocol format
+Forneça veredito: PASS ou FAIL
+Se FAIL: inclua issues específicas, evidências e instruções de fix
+Use o formato NEXUS QA Feedback Loop Protocol
 ```
 
 ---
 
-## Appendix A: Division Quick Reference
+## Apêndice A: Referência Rápida por Divisão
 
-### Engineering Division — "Build It Right"
-| Agent | Superpower | Activation Trigger |
+### Divisão Engineering — "Build It Right"
+| Agente | Superpoder | Trigger de Ativação |
 |-------|-----------|-------------------|
-| Frontend Developer | React/Vue/Angular, Core Web Vitals, accessibility | Any UI implementation task |
-| Backend Architect | Scalable systems, database design, API architecture | Server-side architecture or API work |
-| Mobile App Builder | iOS/Android, React Native, Flutter | Mobile application development |
-| AI Engineer | ML models, LLMs, RAG systems, data pipelines | Any AI/ML feature |
-| DevOps Automator | CI/CD, IaC, Kubernetes, monitoring | Infrastructure or deployment work |
-| Rapid Prototyper | Next.js, Supabase, 3-day MVPs | Quick validation or proof-of-concept |
-| Senior Developer | Laravel/Livewire, premium implementations | Complex or premium feature work |
+| Frontend Developer | React/Vue/Angular, Core Web Vitals, acessibilidade | Qualquer tarefa de implementação de UI |
+| Backend Architect | Sistemas escaláveis, design de banco, arquitetura de API | Arquitetura server-side ou trabalho de API |
+| Mobile App Builder | iOS/Android, React Native, Flutter | Desenvolvimento de aplicação mobile |
+| AI Engineer | Modelos ML, LLMs, sistemas RAG, data pipelines | Qualquer feature IA/ML |
+| DevOps Automator | CI/CD, IaC, Kubernetes, monitoramento | Trabalho de infraestrutura ou deployment |
+| Rapid Prototyper | Next.js, Supabase, MVPs de 3 dias | Validação rápida ou proof-of-concept |
+| Senior Developer | Laravel/Livewire, implementações premium | Trabalho em feature complexa ou premium |
 
-### Design Division — "Make It Beautiful"
-| Agent | Superpower | Activation Trigger |
+### Divisão Design — "Make It Beautiful"
+| Agente | Superpoder | Trigger de Ativação |
 |-------|-----------|-------------------|
-| UI Designer | Visual design systems, component libraries | Interface design or component creation |
-| UX Researcher | User testing, behavior analysis, personas | User research or usability testing |
-| UX Architect | CSS systems, layout frameworks, technical UX | Technical foundation or architecture |
-| Brand Guardian | Brand identity, consistency, positioning | Brand strategy or consistency audit |
-| Visual Storyteller | Visual narratives, multimedia content | Visual content or storytelling needs |
-| Whimsy Injector | Micro-interactions, delight, personality | Adding joy and personality to UX |
-| Image Prompt Engineer | AI image generation prompts, photography | Photography prompt creation for AI tools |
+| UI Designer | Sistemas de design visual, bibliotecas de componentes | Design de interface ou criação de componentes |
+| UX Researcher | Testes com usuários, análise de comportamento, personas | Pesquisa com usuários ou testes de usabilidade |
+| UX Architect | Sistemas CSS, layout frameworks, UX técnico | Fundação técnica ou arquitetura |
+| Brand Guardian | Identidade de marca, consistência, posicionamento | Estratégia de marca ou auditoria de consistência |
+| Visual Storyteller | Narrativas visuais, conteúdo multimídia | Necessidades de conteúdo visual ou storytelling |
+| Whimsy Injector | Microinterações, delight, personalidade | Adicionar alegria e personalidade à UX |
+| Image Prompt Engineer | Prompts de geração de imagem por IA, fotografia | Criação de prompts fotográficos para ferramentas de IA |
 
-### Marketing Division — "Grow It Fast"
-| Agent | Superpower | Activation Trigger |
+### Divisão Marketing — "Grow It Fast"
+| Agente | Superpoder | Trigger de Ativação |
 |-------|-----------|-------------------|
-| Growth Hacker | Viral loops, funnel optimization, experiments | User acquisition or growth strategy |
-| Content Creator | Multi-platform content, editorial calendars | Content strategy or creation |
-| Twitter Engager | Real-time engagement, thought leadership | Twitter/X campaigns |
-| TikTok Strategist | Viral short-form video, algorithm optimization | TikTok growth strategy |
-| Instagram Curator | Visual storytelling, aesthetic development | Instagram campaigns |
-| Reddit Community Builder | Authentic engagement, value-driven content | Reddit community strategy |
-| App Store Optimizer | ASO, conversion optimization | Mobile app store presence |
-| Social Media Strategist | Cross-platform strategy, campaigns | Multi-platform social campaigns |
+| Growth Hacker | Viral loops, otimização de funil, experimentos | Aquisição de usuários ou estratégia de growth |
+| Content Creator | Conteúdo multiplataforma, calendários editoriais | Estratégia ou criação de conteúdo |
+| Twitter Engager | Engajamento em tempo real, thought leadership | Campanhas Twitter/X |
+| TikTok Strategist | Vídeo short-form viral, otimização de algoritmo | Estratégia de growth no TikTok |
+| Instagram Curator | Storytelling visual, desenvolvimento estético | Campanhas no Instagram |
+| Reddit Community Builder | Engajamento autêntico, conteúdo value-driven | Estratégia de comunidade Reddit |
+| App Store Optimizer | ASO, otimização de conversão | Presença em mobile app stores |
+| Social Media Strategist | Estratégia cross-platform, campanhas | Campanhas sociais multiplataforma |
 
-### Product Division — "Build the Right Thing"
-| Agent | Superpower | Activation Trigger |
+### Divisão Product — "Build the Right Thing"
+| Agente | Superpoder | Trigger de Ativação |
 |-------|-----------|-------------------|
-| Sprint Prioritizer | RICE scoring, agile planning, velocity | Sprint planning or backlog grooming |
-| Trend Researcher | Market intelligence, competitive analysis | Market research or opportunity assessment |
-| Feedback Synthesizer | User feedback analysis, sentiment analysis | User feedback processing |
+| Sprint Prioritizer | Pontuação RICE, planejamento agile, velocity | Sprint planning ou backlog grooming |
+| Trend Researcher | Inteligência de mercado, análise competitiva | Pesquisa de mercado ou avaliação de oportunidade |
+| Feedback Synthesizer | Análise de feedback de usuários, análise de sentimento | Processamento de feedback de usuários |
 
-### Project Management Division — "Keep It on Track"
-| Agent | Superpower | Activation Trigger |
+### Divisão Project Management — "Keep It on Track"
+| Agente | Superpoder | Trigger de Ativação |
 |-------|-----------|-------------------|
-| Studio Producer | Portfolio strategy, executive orchestration | Strategic planning or portfolio management |
-| Project Shepherd | Cross-functional coordination, stakeholder alignment | Complex project coordination |
-| Studio Operations | Day-to-day efficiency, process optimization | Operational support |
-| Experiment Tracker | A/B testing, hypothesis validation | Experiment management |
-| Senior Project Manager | Spec-to-task conversion, realistic scoping | Task planning or scope management |
+| Studio Producer | Estratégia de portfólio, orquestração executiva | Planejamento estratégico ou gestão de portfólio |
+| Project Shepherd | Coordenação cross-functional, alinhamento de stakeholders | Coordenação de projeto complexo |
+| Studio Operations | Eficiência do dia a dia, otimização de processo | Suporte operacional |
+| Experiment Tracker | Testes A/B, validação de hipóteses | Gestão de experimentos |
+| Senior Project Manager | Conversão de spec em tarefas, scoping realista | Planejamento de tarefas ou gestão de escopo |
 
-### Testing Division — "Prove It Works"
-| Agent | Superpower | Activation Trigger |
+### Divisão Testing — "Prove It Works"
+| Agente | Superpoder | Trigger de Ativação |
 |-------|-----------|-------------------|
-| Evidence Collector | Screenshot-based QA, visual proof | Any visual verification need |
-| Reality Checker | Evidence-based certification, skeptical assessment | Final integration testing |
-| Test Results Analyzer | Test evaluation, quality metrics | Test output analysis |
-| Performance Benchmarker | Load testing, performance optimization | Performance testing |
-| API Tester | API validation, integration testing | API endpoint testing |
-| Tool Evaluator | Technology assessment, tool selection | Technology evaluation |
-| Workflow Optimizer | Process analysis, efficiency improvement | Process optimization |
+| Evidence Collector | QA baseado em screenshots, prova visual | Qualquer necessidade de verificação visual |
+| Reality Checker | Certificação baseada em evidências, avaliação cética | Teste final de integração |
+| Test Results Analyzer | Avaliação de testes, métricas de qualidade | Análise de output de testes |
+| Performance Benchmarker | Load testing, otimização de performance | Teste de performance |
+| API Tester | Validação de API, testes de integração | Teste de endpoints de API |
+| Tool Evaluator | Avaliação de tecnologia, seleção de tools | Avaliação tecnológica |
+| Workflow Optimizer | Análise de processo, melhoria de eficiência | Otimização de processo |
 
-### Support Division — "Sustain It"
-| Agent | Superpower | Activation Trigger |
+### Divisão Support — "Sustain It"
+| Agente | Superpoder | Trigger de Ativação |
 |-------|-----------|-------------------|
-| Support Responder | Customer service, issue resolution | Customer support needs |
-| Analytics Reporter | Data analysis, dashboards, KPI tracking | Business intelligence or reporting |
-| Finance Tracker | Financial planning, budget management | Financial analysis or budgeting |
-| Infrastructure Maintainer | System reliability, performance optimization | Infrastructure management |
-| Legal Compliance Checker | Compliance, regulations, legal review | Legal or compliance needs |
-| Executive Summary Generator | C-suite communication, SCQA framework | Executive reporting |
+| Support Responder | Atendimento ao cliente, resolução de issues | Necessidades de customer support |
+| Analytics Reporter | Análise de dados, dashboards, tracking de KPIs | Business intelligence ou reporting |
+| Finance Tracker | Planejamento financeiro, gestão de orçamento | Análise financeira ou budgeting |
+| Infrastructure Maintainer | Confiabilidade de sistema, otimização de performance | Gestão de infraestrutura |
+| Legal Compliance Checker | Compliance, regulamentações, revisão legal | Necessidades legais ou de compliance |
+| Executive Summary Generator | Comunicação C-suite, framework SCQA | Reporting executivo |
 
-### Spatial Computing Division — "Immerse Them"
-| Agent | Superpower | Activation Trigger |
+### Divisão Spatial Computing — "Immerse Them"
+| Agente | Superpoder | Trigger de Ativação |
 |-------|-----------|-------------------|
-| XR Interface Architect | Spatial interaction design | AR/VR/XR interface design |
-| macOS Spatial/Metal Engineer | Swift, Metal, high-performance 3D | macOS spatial computing |
-| XR Immersive Developer | WebXR, browser-based AR/VR | Browser-based immersive experiences |
-| XR Cockpit Interaction Specialist | Cockpit-based controls | Immersive control interfaces |
-| visionOS Spatial Engineer | Apple Vision Pro development | Vision Pro applications |
-| Terminal Integration Specialist | CLI tools, terminal workflows | Developer tool integration |
+| XR Interface Architect | Design de interação espacial | Design de interfaces AR/VR/XR |
+| macOS Spatial/Metal Engineer | Swift, Metal, 3D de alta performance | Spatial computing em macOS |
+| XR Immersive Developer | WebXR, AR/VR baseada em browser | Experiências imersivas baseadas em browser |
+| XR Cockpit Interaction Specialist | Controles baseados em cockpit | Interfaces de controle imersivas |
+| visionOS Spatial Engineer | Desenvolvimento Apple Vision Pro | Aplicações Vision Pro |
+| Terminal Integration Specialist | CLI tools, workflows de terminal | Integração de developer tools |
 
-### Specialized Division — "Connect Everything"
-| Agent | Superpower | Activation Trigger |
+### Divisão Specialized — "Connect Everything"
+| Agente | Superpoder | Trigger de Ativação |
 |-------|-----------|-------------------|
-| Agents Orchestrator | Multi-agent pipeline management | Any multi-agent workflow |
-| Analytics Reporter | Business intelligence, deep analytics | Deep data analysis |
-| LSP/Index Engineer | Language Server Protocol, code intelligence | Code intelligence systems |
-| Sales Data Extraction Agent | Excel monitoring, sales metric extraction | Sales data ingestion |
-| Data Consolidation Agent | Sales data aggregation, dashboard reports | Territory and rep reporting |
-| Report Distribution Agent | Automated report delivery | Scheduled report distribution |
+| Agents Orchestrator | Gestão de pipeline multiagente | Qualquer workflow multiagente |
+| Analytics Reporter | Business intelligence, analytics profundo | Análise profunda de dados |
+| LSP/Index Engineer | Language Server Protocol, inteligência de código | Sistemas de inteligência de código |
+| Sales Data Extraction Agent | Monitoramento de Excel, extração de métricas de sales | Ingestão de dados de sales |
+| Data Consolidation Agent | Agregação de dados de sales, relatórios de dashboard | Reporting por território e rep |
+| Report Distribution Agent | Entrega automatizada de relatórios | Distribuição agendada de relatórios |
 
 ---
 
-## Appendix B: NEXUS Pipeline Status Report Template
+## Apêndice B: Template de NEXUS Pipeline Status Report
 
 ```markdown
 # NEXUS Pipeline Status Report
 
-## Pipeline Metadata
-- **Project**: [Name]
-- **Mode**: [Full / Sprint / Micro]
-- **Current Phase**: [0-6]
-- **Started**: [Timestamp]
-- **Estimated Completion**: [Timestamp]
+## Metadados do Pipeline
+- **Projeto**: [Nome]
+- **Modo**: [Full / Sprint / Micro]
+- **Fase Atual**: [0-6]
+- **Iniciado**: [Timestamp]
+- **Conclusão Estimada**: [Timestamp]
 
-## Phase Progress
-| Phase | Status | Completion | Gate Result |
+## Progresso por Fase
+| Fase | Status | Conclusão | Resultado do Gate |
 |-------|--------|------------|-------------|
 | 0 - Discovery | ✅ Complete | 100% | PASSED |
 | 1 - Strategy | ✅ Complete | 100% | PASSED |
@@ -1050,61 +1050,61 @@ Use the NEXUS QA Feedback Loop Protocol format
 | 5 - Launch | ⏳ Pending | 0% | — |
 | 6 - Operate | ⏳ Pending | 0% | — |
 
-## Current Phase Detail
-**Phase**: [N] - [Name]
-**Active Agents**: [List]
-**Tasks**: [Completed/Total]
-**Current Task**: [ID] - [Description]
-**QA Status**: [PASS/FAIL/IN_PROGRESS]
-**Retry Count**: [N/3]
+## Detalhe da Fase Atual
+**Fase**: [N] - [Nome]
+**Agentes Ativos**: [Lista]
+**Tarefas**: [Concluídas/Total]
+**Tarefa Atual**: [ID] - [Descrição]
+**Status de QA**: [PASS/FAIL/IN_PROGRESS]
+**Contagem de Retry**: [N/3]
 
-## Quality Metrics
-- Tasks passed first attempt: [X/Y] ([Z]%)
-- Average retries per task: [N]
-- Critical issues found: [Count]
-- Critical issues resolved: [Count]
+## Métricas de Qualidade
+- Tarefas aprovadas na primeira tentativa: [X/Y] ([Z]%)
+- Média de retries por tarefa: [N]
+- Issues críticas encontradas: [Count]
+- Issues críticas resolvidas: [Count]
 
-## Risk Register
-| Risk | Severity | Status | Owner |
+## Registro de Riscos
+| Risco | Severidade | Status | Owner |
 |------|----------|--------|-------|
-| [Description] | [P0-P3] | [Active/Mitigated/Closed] | [Agent] |
+| [Descrição] | [P0-P3] | [Active/Mitigated/Closed] | [Agente] |
 
-## Next Actions
-1. [Immediate next step]
-2. [Following step]
-3. [Upcoming milestone]
+## Próximas Ações
+1. [Próximo passo imediato]
+2. [Passo seguinte]
+3. [Milestone futuro]
 
 ---
-**Report Generated**: [Timestamp]
+**Relatório Gerado**: [Timestamp]
 **Orchestrator**: Agents Orchestrator
-**Pipeline Health**: [ON_TRACK / AT_RISK / BLOCKED]
+**Saúde do Pipeline**: [ON_TRACK / AT_RISK / BLOCKED]
 ```
 
 ---
 
-## Appendix C: NEXUS Glossary
+## Apêndice C: Glossário NEXUS
 
-| Term | Definition |
+| Termo | Definição |
 |------|-----------|
 | **NEXUS** | Network of EXperts, Unified in Strategy |
-| **Quality Gate** | Mandatory checkpoint between phases requiring evidence-based approval |
-| **Dev↔QA Loop** | Continuous development-testing cycle where each task must pass QA before proceeding |
-| **Handoff** | Structured transfer of work and context between agents |
-| **Gate Keeper** | Agent(s) with authority to approve or reject phase advancement |
-| **Escalation** | Routing a blocked task to higher authority after retry exhaustion |
-| **NEXUS-Full** | Complete pipeline activation with all agents |
-| **NEXUS-Sprint** | Focused pipeline with 15-25 agents for feature/MVP work |
-| **NEXUS-Micro** | Targeted activation of 5-10 agents for specific tasks |
-| **Pipeline Integrity** | Principle that no phase advances without passing its quality gate |
-| **Context Continuity** | Principle that every handoff carries full context |
-| **Evidence Over Claims** | Principle that quality assessments require proof, not assertions |
+| **Quality Gate** | Checkpoint obrigatório entre fases que exige aprovação baseada em evidências |
+| **Loop Dev↔QA** | Ciclo contínuo de desenvolvimento-teste em que cada tarefa precisa passar no QA antes de prosseguir |
+| **Handoff** | Transferência estruturada de trabalho e contexto entre agentes |
+| **Gate Keeper** | Agente(s) com autoridade para aprovar ou rejeitar avanço de fase |
+| **Escalonamento** | Roteamento de uma tarefa bloqueada para autoridade superior após esgotar retries |
+| **NEXUS-Full** | Ativação completa do pipeline com todos os agentes |
+| **NEXUS-Sprint** | Pipeline focado com 15-25 agentes para trabalho de feature/MVP |
+| **NEXUS-Micro** | Ativação direcionada de 5-10 agentes para tarefas específicas |
+| **Integridade de Pipeline** | Princípio de que nenhuma fase avança sem passar pelo seu quality gate |
+| **Continuidade de Contexto** | Princípio de que todo handoff carrega contexto completo |
+| **Evidência acima de Afirmações** | Princípio de que avaliações de qualidade exigem prova, não declarações |
 
 ---
 
 <div align="center">
 
-**🌐 NEXUS: 9 Divisions. 7 Phases. One Unified Strategy. 🌐**
+**🌐 NEXUS: 9 Divisões. 7 Fases. Uma Estratégia Unificada. 🌐**
 
-*From discovery to sustained operations — every agent knows their role, their timing, and their handoff.*
+*Do discovery às operações sustentadas — todo agente conhece seu papel, seu timing e seu handoff.*
 
 </div>

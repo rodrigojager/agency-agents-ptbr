@@ -1,43 +1,43 @@
-# Qwen Code Integration
+# Integração com Qwen Code
 
-Qwen Code uses project-scoped `.md` SubAgent files in `.qwen/agents/`.
+Qwen Code usa arquivos SubAgent `.md` com escopo de projeto em `.qwen/agents/`.
 
-The generated files come from `scripts/convert.sh --tool qwen`, which writes one
-SubAgent Markdown file per agency agent into `integrations/qwen/agents/`.
+Os arquivos gerados vêm de `scripts/convert.sh --tool qwen`, que grava um arquivo
+Markdown de SubAgent por agente da agency em `integrations/qwen/agents/`.
 
-## Generate
+## Gerar
 
-From the repository root:
+A partir da raiz do repositório:
 
 ```bash
 ./scripts/convert.sh --tool qwen
 ```
 
-## Install
+## Instalação
 
-Run the installer from your target project root:
+Execute o instalador a partir da raiz do seu projeto alvo:
 
 ```bash
 cd /your/project && /path/to/agency-agents/scripts/install.sh --tool qwen
 ```
 
-This copies the generated SubAgent files into:
+Isso copia os arquivos SubAgent gerados para:
 
 ```text
 .qwen/agents/
 ```
 
-## Refresh in Qwen Code
+## Atualizar no Qwen Code
 
-After installation:
+Após a instalação:
 
-- run `/agents manage` in Qwen Code to refresh the agent list, or
-- restart the current Qwen Code session
+- execute `/agents manage` no Qwen Code para atualizar a lista de agentes, ou
+- reinicie a sessão atual do Qwen Code
 
-## Notes
+## Observações
 
-- Qwen Code is project-scoped, not home-scoped
-- The generated Qwen files use minimal frontmatter: `name`, `description`, and
-  optional `tools`
-- If you update agents in this repo, regenerate the Qwen output before
-  reinstalling
+- Qwen Code tem escopo de projeto, não escopo home
+- Os arquivos Qwen gerados usam frontmatter mínimo: `name`, `description` e
+  `tools` opcional
+- Se você atualizar agentes neste repo, regenere o output Qwen antes de
+  reinstalar

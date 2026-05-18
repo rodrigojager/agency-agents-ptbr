@@ -1,318 +1,318 @@
-# 🔄 Phase 6 Playbook — Operate & Evolve
+# 🔄 Playbook Fase 6 — Operar & Evoluir
 
-> **Duration**: Ongoing | **Agents**: 12+ (rotating) | **Governance**: Studio Producer
+> **Duração**: Contínua | **Agentes**: 12+ (rotativos) | **Governança**: Studio Producer
 
 ---
 
-## Objective
+## Objetivo
 
-Sustained operations with continuous improvement. The product is live — now make it thrive. This phase has no end date; it runs as long as the product is in market.
+Operações sustentadas com melhoria contínua. O produto está live — agora faça ele prosperar. Esta fase não tem data final; ela roda enquanto o produto estiver no mercado.
 
-## Pre-Conditions
+## Pré-Condições
 
-- [ ] Phase 5 Quality Gate passed (stable launch)
-- [ ] Phase 5 Handoff Package received
-- [ ] Operational cadences established
-- [ ] Baseline metrics documented
+- [ ] Quality Gate da Fase 5 aprovado (launch estável)
+- [ ] Pacote de Handoff da Fase 5 recebido
+- [ ] Cadências operacionais estabelecidas
+- [ ] Métricas baseline documentadas
 
-## Operational Cadences
+## Cadências Operacionais
 
-### Continuous (Always Active)
+### Contínuo (Sempre Ativo)
 
-| Agent | Responsibility | SLA |
+| Agente | Responsabilidade | SLA |
 |-------|---------------|-----|
-| **Infrastructure Maintainer** | System uptime, performance, security | 99.9% uptime, < 30min MTTR |
-| **Support Responder** | Customer support, issue resolution | < 4hr first response |
-| **DevOps Automator** | Deployment pipeline, hotfixes | Multiple deploys/day capability |
+| **Infrastructure Maintainer** | Uptime, performance, segurança do sistema | 99,9% uptime, MTTR < 30min |
+| **Support Responder** | Suporte ao cliente, resolução de issues | Primeira resposta < 4h |
+| **DevOps Automator** | Pipeline de deployment, hotfixes | Capacidade de múltiplos deploys/dia |
 
-### Daily
+### Diário
 
-| Agent | Activity | Output |
+| Agente | Atividade | Output |
 |-------|----------|--------|
-| **Analytics Reporter** | KPI dashboard update | Daily metrics snapshot |
-| **Support Responder** | Issue triage and resolution | Support ticket summary |
-| **Infrastructure Maintainer** | System health check | Health status report |
+| **Analytics Reporter** | Update do dashboard de KPIs | Snapshot diário de métricas |
+| **Support Responder** | Triagem e resolução de issues | Sumário de tickets de support |
+| **Infrastructure Maintainer** | Health check do sistema | Relatório de status de saúde |
 
-### Weekly
+### Semanal
 
-| Agent | Activity | Output |
+| Agente | Atividade | Output |
 |-------|----------|--------|
-| **Analytics Reporter** | Weekly performance analysis | Weekly Analytics Report |
-| **Feedback Synthesizer** | User feedback synthesis | Weekly Feedback Summary |
-| **Sprint Prioritizer** | Backlog grooming + sprint planning | Sprint Plan |
-| **Growth Hacker** | Growth channel optimization | Growth Metrics Report |
-| **Project Shepherd** | Cross-team coordination | Weekly Status Update |
+| **Analytics Reporter** | Análise semanal de performance | Relatório Semanal de Analytics |
+| **Feedback Synthesizer** | Síntese de feedback de usuários | Sumário Semanal de Feedback |
+| **Sprint Prioritizer** | Backlog grooming + sprint planning | Plano de Sprint |
+| **Growth Hacker** | Otimização de canais de growth | Relatório de Métricas de Growth |
+| **Project Shepherd** | Coordenação cross-team | Update Semanal de Status |
 
-### Bi-Weekly
+### Quinzenal
 
-| Agent | Activity | Output |
+| Agente | Atividade | Output |
 |-------|----------|--------|
-| **Feedback Synthesizer** | Deep feedback analysis | Bi-Weekly Insights Report |
-| **Experiment Tracker** | A/B test analysis | Experiment Results Summary |
-| **Content Creator** | Content calendar execution | Published Content Report |
+| **Feedback Synthesizer** | Análise profunda de feedback | Relatório Quinzenal de Insights |
+| **Experiment Tracker** | Análise de testes A/B | Sumário de Resultados de Experimentos |
+| **Content Creator** | Execução do calendário de conteúdo | Relatório de Conteúdo Publicado |
 
-### Monthly
+### Mensal
 
-| Agent | Activity | Output |
+| Agente | Atividade | Output |
 |-------|----------|--------|
-| **Executive Summary Generator** | C-suite reporting | Monthly Executive Summary |
-| **Finance Tracker** | Financial performance review | Monthly Financial Report |
-| **Legal Compliance Checker** | Regulatory monitoring | Compliance Status Report |
-| **Trend Researcher** | Market intelligence update | Monthly Market Brief |
-| **Brand Guardian** | Brand consistency audit | Brand Health Report |
+| **Executive Summary Generator** | Reporting para C-suite | Sumário Executivo Mensal |
+| **Finance Tracker** | Revisão de performance financeira | Relatório Financeiro Mensal |
+| **Legal Compliance Checker** | Monitoramento regulatório | Relatório de Status de Compliance |
+| **Trend Researcher** | Update de inteligência de mercado | Brief Mensal de Mercado |
+| **Brand Guardian** | Auditoria de consistência de marca | Relatório de Saúde de Marca |
 
-### Quarterly
+### Trimestral
 
-| Agent | Activity | Output |
+| Agente | Atividade | Output |
 |-------|----------|--------|
-| **Studio Producer** | Strategic portfolio review | Quarterly Strategic Review |
-| **Workflow Optimizer** | Process efficiency audit | Optimization Report |
-| **Performance Benchmarker** | Performance regression testing | Quarterly Performance Report |
-| **Tool Evaluator** | Technology stack review | Tech Debt Assessment |
+| **Studio Producer** | Revisão estratégica de portfólio | Revisão Estratégica Trimestral |
+| **Workflow Optimizer** | Auditoria de eficiência de processo | Relatório de Otimização |
+| **Performance Benchmarker** | Testes de regressão de performance | Relatório Trimestral de Performance |
+| **Tool Evaluator** | Review da stack tecnológica | Avaliação de Tech Debt |
 
-## Continuous Improvement Loop
+## Loop de Melhoria Contínua
 
 ```
-MEASURE (Analytics Reporter)
+MEDIR (Analytics Reporter)
     │
     ▼
-ANALYZE (Feedback Synthesizer + Analytics Reporter)
+ANALISAR (Feedback Synthesizer + Analytics Reporter)
     │
     ▼
-PLAN (Sprint Prioritizer + Studio Producer)
+PLANEJAR (Sprint Prioritizer + Studio Producer)
     │
     ▼
-BUILD (Phase 3 Dev↔QA Loop — mini-cycles)
+CONSTRUIR (Loop Dev↔QA da Fase 3 — miniciclos)
     │
     ▼
-VALIDATE (Evidence Collector + Reality Checker)
+VALIDAR (Evidence Collector + Reality Checker)
     │
     ▼
 DEPLOY (DevOps Automator)
     │
     ▼
-MEASURE (back to start)
+MEDIR (voltar ao início)
 ```
 
-### Feature Development in Phase 6
+### Desenvolvimento de Features na Fase 6
 
-New features follow a compressed NEXUS cycle:
+Novas features seguem um ciclo NEXUS comprimido:
 
 ```
-1. Sprint Prioritizer selects feature from backlog
-2. Appropriate Developer Agent implements
-3. Evidence Collector validates (Dev↔QA loop)
-4. DevOps Automator deploys (feature flag or direct)
-5. Experiment Tracker monitors (A/B test if applicable)
-6. Analytics Reporter measures impact
-7. Feedback Synthesizer collects user response
+1. Sprint Prioritizer seleciona feature do backlog
+2. Developer Agent apropriado implementa
+3. Evidence Collector valida (loop Dev↔QA)
+4. DevOps Automator faz deploy (feature flag ou direto)
+5. Experiment Tracker monitora (teste A/B se aplicável)
+6. Analytics Reporter mede impacto
+7. Feedback Synthesizer coleta resposta dos usuários
 ```
 
-## Incident Response Protocol
+## Protocolo de Incident Response
 
-### Severity Levels
+### Níveis de Severidade
 
-| Level | Definition | Response Time | Decision Authority |
+| Nível | Definição | Tempo de Resposta | Autoridade de Decisão |
 |-------|-----------|--------------|-------------------|
-| **P0 — Critical** | Service down, data loss, security breach | Immediate | Studio Producer |
-| **P1 — High** | Major feature broken, significant degradation | < 1 hour | Project Shepherd |
-| **P2 — Medium** | Minor feature issue, workaround available | < 4 hours | Agents Orchestrator |
-| **P3 — Low** | Cosmetic issue, minor inconvenience | Next sprint | Sprint Prioritizer |
+| **P0 — Crítico** | Serviço fora, perda de dados, breach de segurança | Imediato | Studio Producer |
+| **P1 — Alto** | Feature principal quebrada, degradação significativa | < 1 hora | Project Shepherd |
+| **P2 — Médio** | Issue menor em feature, workaround disponível | < 4 horas | Agents Orchestrator |
+| **P3 — Baixo** | Issue cosmética, inconveniente menor | Próximo sprint | Sprint Prioritizer |
 
-### Incident Response Sequence
+### Sequência de Incident Response
 
 ```
-DETECTION (Infrastructure Maintainer or Support Responder)
+DETECÇÃO (Infrastructure Maintainer ou Support Responder)
     │
     ▼
-TRIAGE (Agents Orchestrator)
-    ├── Classify severity (P0-P3)
-    ├── Assign response team
-    └── Notify stakeholders
+TRIAGEM (Agents Orchestrator)
+    ├── Classificar severidade (P0-P3)
+    ├── Atribuir time de resposta
+    └── Notificar stakeholders
     │
     ▼
-RESPONSE
+RESPOSTA
     ├── P0: Infrastructure Maintainer + DevOps Automator + Backend Architect
     ├── P1: Relevant Developer Agent + DevOps Automator
     ├── P2: Relevant Developer Agent
-    └── P3: Added to sprint backlog
+    └── P3: Adicionado ao backlog do sprint
     │
     ▼
-RESOLUTION
-    ├── Fix implemented and deployed
-    ├── Evidence Collector verifies fix
-    └── Infrastructure Maintainer confirms stability
+RESOLUÇÃO
+    ├── Fix implementado e deployado
+    ├── Evidence Collector verifica o fix
+    └── Infrastructure Maintainer confirma estabilidade
     │
     ▼
 POST-MORTEM
-    ├── Workflow Optimizer leads retrospective
-    ├── Root cause analysis documented
-    ├── Prevention measures identified
-    └── Process improvements implemented
+    ├── Workflow Optimizer lidera retrospectiva
+    ├── Análise de causa raiz documentada
+    ├── Medidas de prevenção identificadas
+    └── Melhorias de processo implementadas
 ```
 
-## Growth Operations
+## Operações de Growth
 
-### Monthly Growth Review (Growth Hacker leads)
-
-```
-1. Channel Performance Analysis
-   - Acquisition by channel (organic, paid, referral, social)
-   - CAC by channel
-   - Conversion rates by funnel stage
-   - LTV:CAC ratio trends
-
-2. Experiment Results
-   - Completed A/B tests and outcomes
-   - Statistical significance validation
-   - Winner implementation status
-   - New experiment pipeline
-
-3. Retention Analysis
-   - Cohort retention curves
-   - Churn risk identification
-   - Re-engagement campaign results
-   - Feature adoption metrics
-
-4. Growth Roadmap Update
-   - Next month's growth experiments
-   - Channel budget reallocation
-   - New channel exploration
-   - Viral coefficient optimization
-```
-
-### Content Operations (Content Creator + Social Media Strategist)
+### Review Mensal de Growth (Growth Hacker lidera)
 
 ```
-Weekly:
-- Content calendar execution
-- Social media engagement
-- Community management
-- Performance tracking
+1. Análise de Performance por Canal
+   - Aquisição por canal (orgânico, pago, referral, social)
+   - CAC por canal
+   - Taxas de conversão por etapa do funil
+   - Tendências de ratio LTV:CAC
 
-Monthly:
-- Content performance review
-- Editorial calendar planning
-- Platform algorithm updates
-- Content strategy refinement
+2. Resultados de Experimentos
+   - Testes A/B concluídos e outcomes
+   - Validação de significância estatística
+   - Status de implementação do vencedor
+   - Pipeline de novos experimentos
 
-Platform-Specific:
-- Twitter Engager → Daily engagement, weekly threads
-- Instagram Curator → 3-5 posts/week, daily stories
-- TikTok Strategist → 3-5 videos/week
-- Reddit Community Builder → Daily authentic engagement
+3. Análise de Retenção
+   - Curvas de retenção por cohort
+   - Identificação de risco de churn
+   - Resultados de campanhas de re-engagement
+   - Métricas de adoção de features
+
+4. Update do Roadmap de Growth
+   - Experimentos de growth do próximo mês
+   - Realocação de orçamento por canal
+   - Exploração de novos canais
+   - Otimização de coeficiente viral
 ```
 
-## Financial Operations
-
-### Monthly Financial Review (Finance Tracker)
+### Operações de Conteúdo (Content Creator + Social Media Strategist)
 
 ```
-1. Revenue Analysis
-   - MRR/ARR tracking
-   - Revenue by segment/plan
-   - Expansion revenue
-   - Churn revenue impact
+Semanal:
+- Execução do calendário de conteúdo
+- Engajamento em social media
+- Gestão de comunidade
+- Tracking de performance
 
-2. Cost Analysis
-   - Infrastructure costs
-   - Marketing spend by channel
-   - Team/resource costs
-   - Tool and service costs
+Mensal:
+- Review de performance de conteúdo
+- Planejamento de calendário editorial
+- Updates de algoritmos de plataforma
+- Refinamento de estratégia de conteúdo
+
+Específico por Plataforma:
+- Twitter Engager → Engajamento diário, threads semanais
+- Instagram Curator → 3-5 posts/semana, stories diários
+- TikTok Strategist → 3-5 vídeos/semana
+- Reddit Community Builder → Engajamento autêntico diário
+```
+
+## Operações Financeiras
+
+### Review Financeiro Mensal (Finance Tracker)
+
+```
+1. Análise de Receita
+   - Tracking de MRR/ARR
+   - Receita por segmento/plano
+   - Receita de expansão
+   - Impacto de churn em receita
+
+2. Análise de Custos
+   - Custos de infraestrutura
+   - Marketing spend por canal
+   - Custos de time/recursos
+   - Custos de tools e serviços
 
 3. Unit Economics
-   - CAC trends
-   - LTV trends
-   - LTV:CAC ratio
+   - Tendências de CAC
+   - Tendências de LTV
+   - Ratio LTV:CAC
    - Payback period
 
 4. Forecasting
-   - Revenue forecast (3-month rolling)
-   - Cost forecast
-   - Cash flow projection
-   - Budget variance analysis
+   - Forecast de receita (rolling de 3 meses)
+   - Forecast de custos
+   - Projeção de cash flow
+   - Análise de budget variance
 ```
 
-## Compliance Operations
+## Operações de Compliance
 
-### Monthly Compliance Check (Legal Compliance Checker)
+### Checagem Mensal de Compliance (Legal Compliance Checker)
 
 ```
-1. Regulatory Monitoring
-   - New regulations affecting the product
-   - Existing regulation changes
-   - Enforcement actions in the industry
-   - Compliance deadline tracking
+1. Monitoramento Regulatório
+   - Novas regulamentações que afetam o produto
+   - Mudanças em regulamentações existentes
+   - Ações de enforcement no setor
+   - Tracking de prazos de compliance
 
 2. Privacy Compliance
-   - Data subject request handling
-   - Consent management effectiveness
-   - Data retention policy adherence
-   - Cross-border transfer compliance
+   - Tratamento de solicitações de titulares de dados
+   - Efetividade da gestão de consentimento
+   - Aderência à política de retenção de dados
+   - Compliance de transferência cross-border
 
 3. Security Compliance
-   - Vulnerability scan results
-   - Patch management status
-   - Access control review
-   - Incident log review
+   - Resultados de vulnerability scan
+   - Status de patch management
+   - Review de controle de acesso
+   - Review de incident log
 
-4. Audit Readiness
-   - Documentation currency
-   - Evidence collection status
-   - Training completion rates
-   - Policy acknowledgment tracking
+4. Prontidão para Auditoria
+   - Atualidade da documentação
+   - Status de coleta de evidências
+   - Taxas de conclusão de treinamento
+   - Tracking de aceite de políticas
 ```
 
-## Strategic Evolution
+## Evolução Estratégica
 
-### Quarterly Strategic Review (Studio Producer)
+### Revisão Estratégica Trimestral (Studio Producer)
 
 ```
-1. Market Position Assessment
-   - Competitive landscape changes (Trend Researcher input)
-   - Market share evolution
-   - Brand perception (Brand Guardian input)
-   - Customer satisfaction trends (Feedback Synthesizer input)
+1. Avaliação de Posição no Mercado
+   - Mudanças no cenário competitivo (input do Trend Researcher)
+   - Evolução de market share
+   - Percepção de marca (input do Brand Guardian)
+   - Tendências de satisfação do cliente (input do Feedback Synthesizer)
 
-2. Product Strategy
-   - Feature roadmap review
-   - Technology debt assessment (Tool Evaluator input)
-   - Platform expansion opportunities
-   - Partnership evaluation
+2. Estratégia de Produto
+   - Review do roadmap de features
+   - Avaliação de technology debt (input do Tool Evaluator)
+   - Oportunidades de expansão de plataforma
+   - Avaliação de parcerias
 
-3. Growth Strategy
-   - Channel effectiveness review
-   - New market opportunities
-   - Pricing strategy assessment
-   - Expansion planning
+3. Estratégia de Growth
+   - Review de efetividade dos canais
+   - Novas oportunidades de mercado
+   - Avaliação de estratégia de pricing
+   - Planejamento de expansão
 
-4. Organizational Health
-   - Process efficiency (Workflow Optimizer input)
-   - Team performance metrics
-   - Resource allocation optimization
-   - Capability development needs
+4. Saúde Organizacional
+   - Eficiência de processo (input do Workflow Optimizer)
+   - Métricas de performance do time
+   - Otimização de alocação de recursos
+   - Necessidades de desenvolvimento de capacidades
 
-Output: Quarterly Strategic Review → Updated roadmap and priorities
+Output: Revisão Estratégica Trimestral → roadmap e prioridades atualizados
 ```
 
-## Phase 6 Success Metrics
+## Métricas de Sucesso da Fase 6
 
-| Category | Metric | Target | Owner |
+| Categoria | Métrica | Meta | Owner |
 |----------|--------|--------|-------|
-| **Reliability** | System uptime | > 99.9% | Infrastructure Maintainer |
-| **Reliability** | MTTR | < 30 minutes | Infrastructure Maintainer |
-| **Growth** | MoM user growth | > 20% | Growth Hacker |
-| **Growth** | Activation rate | > 60% | Analytics Reporter |
-| **Retention** | Day 7 retention | > 40% | Analytics Reporter |
-| **Retention** | Day 30 retention | > 20% | Analytics Reporter |
-| **Financial** | LTV:CAC ratio | > 3:1 | Finance Tracker |
-| **Financial** | Portfolio ROI | > 25% | Studio Producer |
-| **Quality** | NPS score | > 50 | Feedback Synthesizer |
-| **Quality** | Support resolution time | < 4 hours | Support Responder |
-| **Compliance** | Regulatory adherence | > 98% | Legal Compliance Checker |
-| **Efficiency** | Deployment frequency | Multiple/day | DevOps Automator |
-| **Efficiency** | Process improvement | 20%/quarter | Workflow Optimizer |
+| **Reliability** | Uptime do sistema | > 99,9% | Infrastructure Maintainer |
+| **Reliability** | MTTR | < 30 minutos | Infrastructure Maintainer |
+| **Growth** | Crescimento MoM de usuários | > 20% | Growth Hacker |
+| **Growth** | Taxa de ativação | > 60% | Analytics Reporter |
+| **Retention** | Retenção Day 7 | > 40% | Analytics Reporter |
+| **Retention** | Retenção Day 30 | > 20% | Analytics Reporter |
+| **Financial** | Ratio LTV:CAC | > 3:1 | Finance Tracker |
+| **Financial** | ROI de portfólio | > 25% | Studio Producer |
+| **Quality** | Score NPS | > 50 | Feedback Synthesizer |
+| **Quality** | Tempo de resolução de support | < 4 horas | Support Responder |
+| **Compliance** | Aderência regulatória | > 98% | Legal Compliance Checker |
+| **Efficiency** | Frequência de deployment | Múltiplos/dia | DevOps Automator |
+| **Efficiency** | Melhoria de processo | 20%/trimestre | Workflow Optimizer |
 
 ---
 
-*Phase 6 has no end date. It runs as long as the product is in market, with continuous improvement cycles driving the product forward. The NEXUS pipeline can be re-activated (NEXUS-Sprint or NEXUS-Micro) for major new features or pivots.*
+*A Fase 6 não tem data final. Ela roda enquanto o produto estiver no mercado, com ciclos de melhoria contínua impulsionando o produto adiante. O pipeline NEXUS pode ser reativado (NEXUS-Sprint ou NEXUS-Micro) para grandes novas features ou pivots.*

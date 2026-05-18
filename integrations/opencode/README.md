@@ -1,23 +1,23 @@
-# OpenCode Integration
+# Integração com OpenCode
 
-OpenCode agents are `.md` files with YAML frontmatter stored in
-`.opencode/agents/`. The converter maps named colors to hex codes and adds
-`mode: subagent` so agents are invoked on-demand via `@agent-name` rather
-than cluttering the primary agent picker.
+Agentes OpenCode são arquivos `.md` com YAML frontmatter armazenados em
+`.opencode/agents/`. O conversor mapeia cores nomeadas para códigos hex e adiciona
+`mode: subagent` para que agentes sejam invocados sob demanda via `@agent-name`, em vez
+de poluir o seletor principal de agentes.
 
-## Install
+## Instalação
 
 ```bash
-# Run from your project root
+# Execute a partir da raiz do seu projeto
 cd /your/project
 /path/to/agency-agents/scripts/install.sh --tool opencode
 ```
 
-This creates `.opencode/agents/<slug>.md` files in your project directory.
+Isso cria arquivos `.opencode/agents/<slug>.md` no diretório do seu projeto.
 
-## Activate an Agent
+## Ativar um Agente
 
-In OpenCode, invoke a subagent with the `@` prefix:
+No OpenCode, invoque um subagent com o prefixo `@`:
 
 ```
 @frontend-developer help build this component.
@@ -27,11 +27,11 @@ In OpenCode, invoke a subagent with the `@` prefix:
 @reality-checker review this PR.
 ```
 
-You can also select agents from the OpenCode UI's agent picker.
+Você também pode selecionar agentes pela UI de seletor de agentes do OpenCode.
 
-## Agent Format
+## Formato do Agente
 
-Each generated agent file contains:
+Cada arquivo de agente gerado contém:
 
 ```yaml
 ---
@@ -42,21 +42,21 @@ color: "#00FFFF"
 ---
 ```
 
-- **mode: subagent** — agent is available on-demand, not shown in the primary Tab-cycle list
-- **color** — hex code (named colors from source files are converted automatically)
+- **mode: subagent** — agente fica disponível sob demanda, não aparece na lista principal percorrida com Tab
+- **color** — código hex (cores nomeadas dos arquivos fonte são convertidas automaticamente)
 
-## Project vs Global
+## Projeto vs Global
 
-Agents in `.opencode/agents/` are **project-scoped**. To make them available
-globally across all projects, first generate the agent files, then install
-with `--path`:
+Agentes em `.opencode/agents/` têm **escopo de projeto**. Para deixá-los disponíveis
+globalmente em todos os projetos, primeiro gere os arquivos de agentes e depois instale
+com `--path`:
 
 ```bash
 ./scripts/convert.sh --tool opencode
 ./scripts/install.sh --tool opencode --path ~/.config/opencode/agents
 ```
 
-## Regenerate
+## Regenerar
 
 ```bash
 ./scripts/convert.sh --tool opencode

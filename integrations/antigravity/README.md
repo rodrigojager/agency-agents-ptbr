@@ -1,42 +1,42 @@
-# Antigravity Integration
+# Integração com Antigravity
 
-Installs the full Agency roster as Antigravity skills. Each agent is prefixed
-with `agency-` to avoid conflicts with existing skills.
+Instala o roster completo da Agency como skills do Antigravity. Cada agente recebe o prefixo
+`agency-` para evitar conflitos com skills existentes.
 
-## Install
+## Instalação
 
 ```bash
 ./scripts/install.sh --tool antigravity
 ```
 
-This copies files from `integrations/antigravity/` to
+Isso copia arquivos de `integrations/antigravity/` para
 `~/.gemini/antigravity/skills/`.
 
-## Activate a Skill
+## Ativar uma Skill
 
-In Antigravity, activate an agent by its slug:
+No Antigravity, ative um agente pelo slug:
 
 ```
 Use the agency-frontend-developer skill to review this component.
 ```
 
-Available slugs follow the pattern `agency-<agent-name>`, e.g.:
+Os slugs disponíveis seguem o padrão `agency-<agent-name>`, por exemplo:
 - `agency-frontend-developer`
 - `agency-backend-architect`
 - `agency-reality-checker`
 - `agency-growth-hacker`
 
-## Regenerate
+## Regenerar
 
-After modifying agents, regenerate the skill files:
+Depois de modificar agentes, regenere os arquivos de skills:
 
 ```bash
 ./scripts/convert.sh --tool antigravity
 ```
 
-## File Format
+## Formato do Arquivo
 
-Each skill is a `SKILL.md` file with Antigravity-compatible frontmatter:
+Cada skill é um arquivo `SKILL.md` com frontmatter compatível com Antigravity:
 
 ```yaml
 ---

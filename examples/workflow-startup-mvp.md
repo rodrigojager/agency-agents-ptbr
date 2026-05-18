@@ -1,28 +1,28 @@
-# Multi-Agent Workflow: Startup MVP
+# Workflow Multi-Agent: MVP de Startup
 
-> A step-by-step example of how to coordinate multiple agents to go from idea to shipped MVP.
+> Um exemplo passo a passo de como coordenar múltiplos agentes para ir de ideia a MVP lançado.
 
-## The Scenario
+## O Cenário
 
-You're building a SaaS MVP — a team retrospective tool for remote teams. You have 4 weeks to ship a working product with user signups, a core feature, and a landing page.
+Você está construindo um MVP SaaS — uma ferramenta de retrospectiva de equipe para times remotos. Você tem 4 semanas para lançar um produto funcional com cadastros de usuários, uma feature central e uma landing page.
 
-## Agent Team
+## Time de Agentes
 
-| Agent | Role in this workflow |
+| Agente | Função neste workflow |
 |-------|---------------------|
-| Sprint Prioritizer | Break the project into weekly sprints |
-| UX Researcher | Validate the idea with quick user interviews |
-| Backend Architect | Design the API and data model |
-| Frontend Developer | Build the React app |
-| Rapid Prototyper | Get the first version running fast |
-| Growth Hacker | Plan launch strategy while building |
-| Reality Checker | Gate each milestone before moving on |
+| Sprint Prioritizer | Quebrar o projeto em sprints semanais |
+| UX Researcher | Validar a ideia com entrevistas rápidas com usuários |
+| Backend Architect | Desenhar a API e o modelo de dados |
+| Frontend Developer | Construir o app React |
+| Rapid Prototyper | Colocar a primeira versão rodando rápido |
+| Growth Hacker | Planejar estratégia de lançamento enquanto o build acontece |
+| Reality Checker | Validar cada milestone antes de avançar |
 
-## The Workflow
+## O Workflow
 
-### Week 1: Discovery + Architecture
+### Semana 1: Discovery + Arquitetura
 
-**Step 1 — Activate Sprint Prioritizer**
+**Etapa 1 — Ativar Sprint Prioritizer**
 
 ```
 Activate Sprint Prioritizer.
@@ -35,7 +35,7 @@ Constraints: solo developer, React + Node.js stack, deploy to Vercel + Railway.
 Break this into 4 weekly sprints with clear deliverables and acceptance criteria.
 ```
 
-**Step 2 — Activate UX Researcher (in parallel)**
+**Etapa 2 — Ativar UX Researcher (em paralelo)**
 
 ```
 Activate UX Researcher.
@@ -51,7 +51,7 @@ Run a quick competitive analysis and identify:
 Output a 1-page research brief.
 ```
 
-**Step 3 — Hand off to Backend Architect**
+**Etapa 3 — Handoff para Backend Architect**
 
 ```
 Activate Backend Architect.
@@ -69,9 +69,9 @@ Deliver:
 4. Auth strategy recommendation
 ```
 
-### Week 2: Build Core Features
+### Semana 2: Construir Features Centrais
 
-**Step 4 — Activate Frontend Developer + Rapid Prototyper**
+**Etapa 4 — Ativar Frontend Developer + Rapid Prototyper**
 
 ```
 Activate Frontend Developer.
@@ -87,7 +87,7 @@ Start with the Board view — it's the core experience.
 Focus on real-time: when one user adds a card, everyone sees it.
 ```
 
-**Step 5 — Reality Check at midpoint**
+**Etapa 5 — Reality Check no meio do caminho**
 
 ```
 Activate Reality Checker.
@@ -105,9 +105,9 @@ Evaluate:
 3. Any technical debt that will bite us at launch?
 ```
 
-### Week 3: Polish + Landing Page
+### Semana 3: Polish + Landing Page
 
-**Step 6 — Frontend Developer continues, Growth Hacker starts**
+**Etapa 6 — Frontend Developer continua, Growth Hacker começa**
 
 ```
 Activate Growth Hacker.
@@ -123,9 +123,9 @@ Create a launch plan:
 4. Metrics to track in week 1
 ```
 
-### Week 4: Launch
+### Semana 4: Launch
 
-**Step 7 — Final Reality Check**
+**Etapa 7 — Reality Check Final**
 
 ```
 Activate Reality Checker.
@@ -141,15 +141,15 @@ Run through the launch checklist and give a GO / NO-GO decision.
 Require evidence for each criterion.
 ```
 
-## Key Patterns
+## Padrões-Chave
 
-1. **Sequential handoffs**: Each agent's output becomes the next agent's input
-2. **Parallel work**: UX Researcher and Sprint Prioritizer can run simultaneously in Week 1
-3. **Quality gates**: Reality Checker at midpoint and before launch prevents shipping broken code
-4. **Context passing**: Always paste previous agent outputs into the next prompt — agents don't share memory
+1. **Handoffs sequenciais**: A saída de cada agente vira a entrada do agente seguinte
+2. **Trabalho paralelo**: UX Researcher e Sprint Prioritizer podem rodar simultaneamente na Semana 1
+3. **Quality gates**: Reality Checker no meio e antes do launch evita envio de código quebrado
+4. **Passagem de contexto**: Sempre cole as saídas dos agentes anteriores no próximo prompt — agentes não compartilham memória
 
-## Tips
+## Dicas
 
-- Copy-paste agent outputs between steps — don't summarize, use the full output
-- If a Reality Checker flags an issue, loop back to the relevant specialist to fix it
-- Keep the Orchestrator agent in mind for automating this flow once you're comfortable with the manual version
+- Copie e cole as saídas dos agentes entre etapas — não resuma, use a saída completa
+- Se um Reality Checker sinalizar uma issue, volte ao especialista relevante para corrigi-la
+- Tenha o agente Orchestrator em mente para automatizar esse fluxo quando você estiver confortável com a versão manual

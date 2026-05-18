@@ -1,47 +1,47 @@
-# Nexus Spatial: Full Agency Discovery Exercise
+# Nexus Spatial: Exercício de Discovery com a Agência Completa
 
-> **Exercise type:** Multi-agent product discovery
-> **Date:** March 5, 2026
-> **Agents deployed:** 8 (in parallel)
-> **Duration:** ~10 minutes wall-clock time
-> **Purpose:** Demonstrate full-agency orchestration from opportunity identification through comprehensive planning
-
----
-
-## Table of Contents
-
-1. [The Opportunity](#1-the-opportunity)
-2. [Market Validation](#2-market-validation)
-3. [Technical Architecture](#3-technical-architecture)
-4. [Brand Strategy](#4-brand-strategy)
-5. [Go-to-Market & Growth](#5-go-to-market--growth)
-6. [Customer Support Blueprint](#6-customer-support-blueprint)
-7. [UX Research & Design Direction](#7-ux-research--design-direction)
-8. [Project Execution Plan](#8-project-execution-plan)
-9. [Spatial Interface Architecture](#9-spatial-interface-architecture)
-10. [Cross-Agent Synthesis](#10-cross-agent-synthesis)
+> **Tipo de exercício:** Product discovery multi-agent
+> **Data:** 5 de março de 2026
+> **Agentes acionados:** 8 (em paralelo)
+> **Duração:** ~10 minutos de tempo real
+> **Objetivo:** Demonstrar orquestração full-agency desde identificação de oportunidade até planejamento abrangente
 
 ---
 
-## 1. The Opportunity
+## Sumário
 
-### How It Was Found
+1. [A Oportunidade](#1-a-oportunidade)
+2. [Validação de Mercado](#2-validação-de-mercado)
+3. [Arquitetura Técnica](#3-arquitetura-técnica)
+4. [Estratégia de Marca](#4-estratégia-de-marca)
+5. [Go-to-Market e Growth](#5-go-to-market-e-growth)
+6. [Blueprint de Customer Support](#6-blueprint-de-customer-support)
+7. [Pesquisa UX e Direção de Design](#7-pesquisa-ux-e-direção-de-design)
+8. [Plano de Execução do Projeto](#8-plano-de-execução-do-projeto)
+9. [Arquitetura de Interface Espacial](#9-arquitetura-de-interface-espacial)
+10. [Síntese Cross-Agent](#10-síntese-cross-agent)
 
-Web research across multiple sources identified three converging trends:
+---
 
-- **AI infrastructure/orchestration** is the fastest-growing software category (AI orchestration market valued at ~$13.5B in 2026, 22%+ CAGR)
-- **Spatial computing** (Vision Pro, WebXR) is maturing but lacks killer enterprise apps
-- Every existing AI workflow tool (LangSmith, n8n, Flowise, CrewAI) is a **flat 2D dashboard**
+## 1. A Oportunidade
 
-### The Concept: Nexus Spatial
+### Como Foi Encontrada
 
-An AI Agent Command Center in spatial computing -- a VisionOS + WebXR application that provides an immersive 3D command center for orchestrating, monitoring, and interacting with AI agents. Users visualize agent pipelines as 3D node graphs, monitor real-time outputs in spatial panels, build workflows with drag-and-drop in 3D space, and collaborate in shared spatial environments.
+Pesquisa web em múltiplas fontes identificou três tendências convergentes:
 
-### Why This Agency Is Uniquely Positioned
+- **Infraestrutura/orquestração de IA** é a categoria de software de crescimento mais rápido (mercado de orquestração de IA avaliado em ~$13,5B em 2026, CAGR de 22%+)
+- **Spatial computing** (Vision Pro, WebXR) está amadurecendo, mas ainda carece de killer apps enterprise
+- Toda ferramenta existente de workflow de IA (LangSmith, n8n, Flowise, CrewAI) é um **dashboard 2D plano**
 
-The agency has deep spatial computing expertise (XR developers, VisionOS engineers, Metal specialists, interface architects) alongside a full engineering, design, marketing, and operations stack -- a rare combination for a product that demands both spatial computing mastery and enterprise software rigor.
+### O Conceito: Nexus Spatial
 
-### Sources
+Um AI Agent Command Center em spatial computing -- uma aplicação VisionOS + WebXR que fornece um command center 3D imersivo para orquestrar, monitorar e interagir com agentes de IA. Usuários visualizam pipelines de agentes como grafos de nós 3D, monitoram saídas em tempo real em painéis espaciais, constroem workflows com drag-and-drop em espaço 3D e colaboram em ambientes espaciais compartilhados.
+
+### Por Que Esta Agência Está Unicamente Bem Posicionada
+
+A agência tem expertise profunda em spatial computing (desenvolvedores XR, engenheiros VisionOS, especialistas Metal, arquitetos de interface) junto com uma stack completa de engenharia, design, marketing e operações -- uma combinação rara para um produto que exige tanto domínio de spatial computing quanto rigor de software enterprise.
+
+### Fontes
 
 - [Profitable SaaS Ideas 2026 (273K+ Reviews)](https://bigideasdb.com/profitable-saas-micro-saas-ideas-2026)
 - [2026 SaaS and AI Revolution: 20 Top Trends](https://fungies.io/the-2026-saas-and-ai-revolution-20-top-trends/)
@@ -51,82 +51,82 @@ The agency has deep spatial computing expertise (XR developers, VisionOS enginee
 
 ---
 
-## 2. Market Validation
+## 2. Validação de Mercado
 
-**Agent:** Product Trend Researcher
+**Agente:** Product Trend Researcher
 
-### Verdict: CONDITIONAL GO -- 2D-First, Spatial-Second
+### Veredito: CONDITIONAL GO -- 2D-First, Spatial-Second
 
-### Market Size
+### Tamanho de Mercado
 
-| Segment | 2026 Value | Growth |
+| Segmento | Valor em 2026 | Crescimento |
 |---------|-----------|--------|
-| AI Orchestration Tools | $13.5B | 22.3% CAGR |
-| Autonomous AI Agents | $8.5B | 45.8% CAGR to $50.3B by 2030 |
-| Extended Reality | $10.64B | 40.95% CAGR |
-| Spatial Computing (broad) | $170-220B | Varies by definition |
+| Ferramentas de Orquestração de IA | $13,5B | CAGR de 22,3% |
+| Agentes de IA Autônomos | $8,5B | CAGR de 45,8% até $50,3B em 2030 |
+| Extended Reality | $10,64B | CAGR de 40,95% |
+| Spatial Computing (amplo) | $170-220B | Varia conforme definição |
 
-### Competitive Landscape
+### Cenário Competitivo
 
-**AI Agent Orchestration (all 2D):**
+**Orquestração de Agentes de IA (todos 2D):**
 
-| Tool | Strength | UX Gap |
+| Ferramenta | Força | Gap de UX |
 |------|----------|--------|
-| LangChain/LangSmith | Graph-based orchestration, $39/user/mo | Flat dashboard; complex graphs unreadable at scale |
-| CrewAI | 100K+ developers, fast execution | CLI-first, minimal visual tooling |
-| Microsoft Agent Framework | Enterprise integration | Embedded in Azure portal, no standalone UI |
-| n8n | Visual workflow builder, $20-50/mo | 2D canvas struggles with agent relationships |
-| Flowise | Drag-and-drop AI flows | Limited to linear flows, no multi-agent monitoring |
+| LangChain/LangSmith | Orquestração baseada em grafos, $39/usuário/mês | Dashboard plano; grafos complexos ilegíveis em escala |
+| CrewAI | 100K+ desenvolvedores, execução rápida | CLI-first, ferramental visual mínimo |
+| Microsoft Agent Framework | Integração enterprise | Embutido no portal Azure, sem UI standalone |
+| n8n | Visual workflow builder, $20-50/mês | Canvas 2D sofre com relações entre agentes |
+| Flowise | Fluxos de IA drag-and-drop | Limitado a fluxos lineares, sem monitoramento multi-agent |
 
-**"Mission Control" Products (emerging, all 2D):**
-- cmd-deck: Kanban board for AI coding agents
-- Supervity Agent Command Center: Enterprise observability
-- OpenClaw Command Center: Agent fleet management
-- Mission Control AI: Synthetic workers management
-- Mission Control HQ: Squad-based coordination
+**Produtos de "Mission Control" (emergentes, todos 2D):**
+- cmd-deck: Kanban board para agentes de codificação de IA
+- Supervity Agent Command Center: Observabilidade enterprise
+- OpenClaw Command Center: Gestão de frotas de agentes
+- Mission Control AI: Gestão de synthetic workers
+- Mission Control HQ: Coordenação baseada em squads
 
-**The gap:** Products are either spatial-but-not-AI-focused, or AI-focused-but-flat-2D. No product sits at the intersection.
+**O gap:** Produtos são ou espaciais mas não focados em IA, ou focados em IA mas 2D planos. Nenhum produto está na interseção.
 
-### Vision Pro Reality Check
+### Reality Check do Vision Pro
 
-- Installed base: ~1M units globally (sales declined 95% from launch)
-- Apple has shifted focus to lightweight AR glasses
-- Only ~3,000 VisionOS-specific apps exist
-- **Implication:** Do NOT lead with VisionOS. Lead with web, add WebXR, native VisionOS last.
+- Base instalada: ~1M de unidades globalmente (vendas caíram 95% desde o lançamento)
+- Apple mudou foco para óculos AR leves
+- Existem apenas ~3.000 apps específicos para VisionOS
+- **Implicação:** NÃO liderar com VisionOS. Liderar com web, adicionar WebXR, deixar VisionOS nativo por último.
 
-### WebXR as the Distribution Unlock
+### WebXR como Desbloqueio de Distribuição
 
-- Safari adopted WebXR Device API in late 2025
-- 40% increase in WebXR adoption in 2026
-- WebGPU delivers near-native rendering in browsers
-- Android XR supports WebXR and OpenXR standards
+- Safari adotou WebXR Device API no fim de 2025
+- Adoção de WebXR cresceu 40% em 2026
+- WebGPU entrega renderização quase nativa em browsers
+- Android XR dá suporte aos padrões WebXR e OpenXR
 
-### Target Personas and Pricing
+### Personas-Alvo e Pricing
 
-| Tier | Price | Target |
+| Tier | Preço | Alvo |
 |------|-------|--------|
-| Explorer | Free | Developers, solo builders (3 agents, WebXR viewer) |
-| Pro | $99/user/month | Small teams (25 agents, collaboration) |
-| Team | $249/user/month | Mid-market AI teams (unlimited agents, analytics) |
-| Enterprise | Custom ($2K-10K/mo) | Large enterprises (SSO, RBAC, on-prem, SLA) |
+| Explorer | Free | Desenvolvedores, solo builders (3 agentes, viewer WebXR) |
+| Pro | $99/usuário/mês | Times pequenos (25 agentes, colaboração) |
+| Team | $249/usuário/mês | Times de IA mid-market (agentes ilimitados, analytics) |
+| Enterprise | Custom ($2K-10K/mês) | Grandes empresas (SSO, RBAC, on-prem, SLA) |
 
-### Recommended Phased Strategy
+### Estratégia Faseada Recomendada
 
-1. **Months 1-6:** Build a premium 2D web dashboard with Three.js 2.5D capabilities. Target: 50 paying teams, $60K MRR.
-2. **Months 6-12:** Add optional WebXR spatial mode (browser-based). Target: 200 teams, $300K MRR.
-3. **Months 12-18:** Native VisionOS app only if spatial demand is validated. Target: 500 teams, $1M+ MRR.
+1. **Meses 1-6:** Construir um dashboard web 2D premium com capacidades Three.js 2.5D. Meta: 50 times pagantes, $60K MRR.
+2. **Meses 6-12:** Adicionar modo espacial WebXR opcional (baseado em browser). Meta: 200 times, $300K MRR.
+3. **Meses 12-18:** App VisionOS nativo somente se demanda espacial for validada. Meta: 500 times, $1M+ MRR.
 
-### Key Risks
+### Principais Riscos
 
-| Risk | Severity |
+| Risco | Severidade |
 |------|----------|
-| Vision Pro installed base is critically small | HIGH |
-| "Spatial solution in search of a problem" -- is 3D actually 10x better than 2D? | HIGH |
-| Crowded "mission control" positioning (5+ products already) | MODERATE |
-| Enterprise spatial computing adoption still early | MODERATE |
-| Integration complexity across AI frameworks | MODERATE |
+| Base instalada do Vision Pro é criticamente pequena | ALTA |
+| "Solução espacial em busca de problema" -- 3D é realmente 10x melhor que 2D? | ALTA |
+| Posicionamento "mission control" já concorrido (5+ produtos existentes) | MODERADA |
+| Adoção enterprise de spatial computing ainda inicial | MODERADA |
+| Complexidade de integração entre frameworks de IA | MODERADA |
 
-### Sources
+### Fontes
 
 - [MarketsandMarkets - AI Orchestration Market](https://www.marketsandmarkets.com/Market-Reports/ai-orchestration-market-148121911.html)
 - [Deloitte - AI Agent Orchestration Predictions 2026](https://www.deloitte.com/us/en/insights/industry/technology/technology-media-and-telecom-predictions/2026/ai-agent-orchestration.html)
@@ -136,13 +136,13 @@ The agency has deep spatial computing expertise (XR developers, VisionOS enginee
 
 ---
 
-## 3. Technical Architecture
+## 3. Arquitetura Técnica
 
-**Agent:** Backend Architect
+**Agente:** Backend Architect
 
-### System Overview
+### Visão Geral do Sistema
 
-An 8-service architecture with clear ownership boundaries, designed for horizontal scaling and provider-agnostic AI integration.
+Uma arquitetura de 8 serviços com fronteiras claras de ownership, desenhada para scaling horizontal e integração de IA agnóstica a providers.
 
 ```
 +------------------------------------------------------------------+
@@ -174,28 +174,28 @@ An 8-service architecture with clear ownership boundaries, designed for horizont
 
 ### Tech Stack
 
-| Component | Technology | Rationale |
+| Componente | Tecnologia | Racional |
 |-----------|------------|-----------|
-| Orchestration Engine | **Rust** | Sub-ms scheduling, zero GC pauses, memory safety for agent sandboxing |
-| API Services | TypeScript / NestJS | Developer velocity for CRUD-heavy services |
-| VisionOS Client | Swift 6, SwiftUI, RealityKit | First-class spatial computing with Liquid Glass |
-| WebXR Client | TypeScript, React Three Fiber | Production-grade WebXR with React component model |
-| Message Broker | NATS JetStream | Lightweight, exactly-once delivery, simpler than Kafka |
-| Collaboration | Yjs (CRDT) + WebRTC | Conflict-free concurrent 3D graph editing |
-| Primary Database | PostgreSQL 16 | JSONB for flexible configs, Row-Level Security for tenant isolation |
+| Orchestration Engine | **Rust** | Scheduling sub-ms, zero pausas de GC, memory safety para sandboxing de agentes |
+| API Services | TypeScript / NestJS | Velocidade de desenvolvimento para serviços CRUD-heavy |
+| Cliente VisionOS | Swift 6, SwiftUI, RealityKit | Spatial computing first-class com Liquid Glass |
+| Cliente WebXR | TypeScript, React Three Fiber | WebXR production-grade com modelo de componentes React |
+| Message Broker | NATS JetStream | Leve, entrega exactly-once, mais simples que Kafka |
+| Colaboração | Yjs (CRDT) + WebRTC | Edição concorrente de grafo 3D sem conflitos |
+| Banco Primário | PostgreSQL 16 | JSONB para configs flexíveis, Row-Level Security para isolamento de tenants |
 
-### Core Data Model
+### Modelo de Dados Central
 
-14 tables covering:
-- **Identity & Access:** users, workspaces, team_memberships, api_keys
+14 tabelas cobrindo:
+- **Identidade e Acesso:** users, workspaces, team_memberships, api_keys
 - **Workflows:** workflows, workflow_versions, nodes, edges
-- **Executions:** executions, execution_steps, step_output_chunks
-- **Collaboration:** collaboration_sessions, session_participants
-- **Credentials:** provider_credentials (AES-256-GCM encrypted)
+- **Execuções:** executions, execution_steps, step_output_chunks
+- **Colaboração:** collaboration_sessions, session_participants
+- **Credenciais:** provider_credentials (criptografadas com AES-256-GCM)
 - **Billing:** subscriptions, usage_records
 - **Audit:** audit_log (append-only)
 
-### Node Type Registry
+### Registro de Tipos de Nó
 
 ```
 Built-in Node Types:
@@ -212,76 +212,76 @@ Built-in Node Types:
   delay             -- Timed pause
 ```
 
-### WebSocket Channels
+### Canais WebSocket
 
-Real-time streaming via WSS with:
-- Per-channel sequence numbers for ordering
-- Gap detection with replay requests
-- Snapshot recovery when >1000 events behind
-- Client-side throttling for lower-powered devices
+Streaming em tempo real via WSS com:
+- Números de sequência por canal para ordenação
+- Detecção de gaps com solicitações de replay
+- Recuperação por snapshot quando >1000 eventos atrasado
+- Throttling client-side para dispositivos de menor potência
 
-### Security Architecture
+### Arquitetura de Segurança
 
-| Layer | Mechanism |
+| Camada | Mecanismo |
 |-------|-----------|
-| User Auth | OAuth 2.0 (GitHub, Google, Apple) + email/password + optional TOTP MFA |
-| API Keys | SHA-256 hashed, scoped, optional expiry |
+| Auth de Usuário | OAuth 2.0 (GitHub, Google, Apple) + email/senha + TOTP MFA opcional |
+| API Keys | Hash SHA-256, escopo definido, expiração opcional |
 | Service-to-Service | mTLS via service mesh |
-| WebSocket Auth | One-time tickets with 30-second expiry |
-| Credential Storage | Envelope encryption (AES-256-GCM + AWS KMS) |
-| Code Sandboxing | gVisor/Firecracker microVMs (no network, 256MB RAM, 30s CPU) |
-| Tenant Isolation | PostgreSQL Row-Level Security + S3 IAM policies + NATS subject scoping |
+| Auth WebSocket | Tickets de uso único com expiração de 30 segundos |
+| Armazenamento de Credenciais | Envelope encryption (AES-256-GCM + AWS KMS) |
+| Code Sandboxing | microVMs gVisor/Firecracker (sem rede, 256MB RAM, 30s CPU) |
+| Isolamento de Tenant | PostgreSQL Row-Level Security + policies IAM S3 + scoping de subjects NATS |
 
-### Scaling Targets
+### Metas de Scaling
 
-| Metric | Year 1 | Year 2 |
+| Métrica | Ano 1 | Ano 2 |
 |--------|--------|--------|
-| Concurrent agent executions | 5,000 | 50,000 |
-| WebSocket connections | 10,000 | 100,000 |
-| P95 API latency | < 150ms | < 100ms |
-| P95 WS event latency | < 80ms | < 50ms |
+| Execuções concorrentes de agentes | 5.000 | 50.000 |
+| Conexões WebSocket | 10.000 | 100.000 |
+| Latência P95 de API | < 150ms | < 100ms |
+| Latência P95 de evento WS | < 80ms | < 50ms |
 
-### MVP Phases
+### Fases do MVP
 
-1. **Weeks 1-6:** 2D web editor, sequential execution, OpenAI + Anthropic adapters
-2. **Weeks 7-12:** WebXR 3D mode, parallel execution, hand tracking, RBAC
-3. **Weeks 13-20:** Multi-user collaboration, VisionOS native, billing
-4. **Weeks 21-30:** Enterprise SSO, plugin SDK, SOC 2, scale hardening
+1. **Semanas 1-6:** Editor web 2D, execução sequencial, adapters OpenAI + Anthropic
+2. **Semanas 7-12:** Modo WebXR 3D, execução paralela, hand tracking, RBAC
+3. **Semanas 13-20:** Colaboração multi-user, VisionOS nativo, billing
+4. **Semanas 21-30:** SSO enterprise, plugin SDK, SOC 2, hardening de escala
 
 ---
 
-## 4. Brand Strategy
+## 4. Estratégia de Marca
 
-**Agent:** Brand Guardian
+**Agente:** Brand Guardian
 
-### Positioning
+### Posicionamento
 
-**Category creation over category competition.** Nexus Spatial defines a new category -- **Spatial AI Operations (SpatialAIOps)** -- rather than fighting for position in the crowded AI observability dashboard space.
+**Criação de categoria acima de competição em categoria.** Nexus Spatial define uma nova categoria -- **Spatial AI Operations (SpatialAIOps)** -- em vez de disputar posição no espaço concorrido de dashboards de observabilidade de IA.
 
-**Positioning statement:** For technical teams managing complex AI agent workflows, Nexus Spatial is the immersive 3D command center that provides spatial awareness of agent orchestration, unlike flat 2D dashboards, because spatial computing transforms monitoring from reading dashboards to inhabiting your infrastructure.
+**Declaração de posicionamento:** Para times técnicos que gerenciam workflows complexos de agentes de IA, Nexus Spatial é o command center 3D imersivo que fornece consciência espacial da orquestração de agentes, diferente de dashboards 2D planos, porque spatial computing transforma monitoramento de leitura de dashboards em habitar sua infraestrutura.
 
-### Name Validation
+### Validação do Nome
 
-"Nexus Spatial" is **validated as strong:**
-- "Nexus" connects to the NEXUS orchestration framework (Network of EXperts, Unified in Strategy)
-- "Nexus" independently means "central connection point" -- perfect for a command center
-- "Spatial" is the industry-standard descriptor Apple and the industry have normalized
-- Phonetically balanced: three syllables, then two
-- **Action needed:** Trademark clearance in Nice Classes 9, 42, and 38
+"Nexus Spatial" é **validado como forte:**
+- "Nexus" conecta ao framework de orquestração NEXUS (Network of EXperts, Unified in Strategy)
+- "Nexus" também significa independentemente "ponto central de conexão" -- perfeito para um command center
+- "Spatial" é o descritor padrão da indústria que Apple e o mercado normalizaram
+- Foneticamente equilibrado: três sílabas, depois duas
+- **Ação necessária:** Clearance de trademark nas Classes Nice 9, 42 e 38
 
-### Brand Personality: The Commander
+### Personalidade da Marca: O Comandante
 
-| Trait | Expression | Avoids |
+| Traço | Expressão | Evita |
 |-------|------------|--------|
-| **Authoritative** | Clear, direct, technically precise | Hype, superlatives, vague futurism |
-| **Composed** | Clean design, measured pacing, white space | Urgency for urgency's sake, chaos |
-| **Pioneering** | Quiet pride, understated references to the new paradigm | "Revolutionary," "game-changing" |
-| **Precise** | Exact specs, real metrics, honest requirements | Vague claims, marketing buzzwords |
-| **Approachable** | Natural interaction language, spatial metaphors | Condescension, gatekeeping |
+| **Autoritativa** | Clara, direta, tecnicamente precisa | Hype, superlativos, futurismo vago |
+| **Composta** | Design limpo, ritmo medido, white space | Urgência pela urgência, caos |
+| **Pioneira** | Orgulho discreto, referências sutis ao novo paradigma | "Revolucionário", "game-changing" |
+| **Precisa** | Specs exatas, métricas reais, requisitos honestos | Claims vagos, buzzwords de marketing |
+| **Acessível** | Linguagem natural de interação, metáforas espaciais | Condescendência, gatekeeping |
 
-### Taglines (Ranked)
+### Taglines (Ranqueadas)
 
-1. **"Mission Control for the Agent Era"** -- RECOMMENDED PRIMARY
+1. **"Mission Control for the Agent Era"** -- PRIMÁRIA RECOMENDADA
 2. "See Your Agents in Space"
 3. "Orchestrate in Three Dimensions"
 4. "Where AI Operations Become Spatial"
@@ -289,39 +289,39 @@ Real-time streaming via WSS with:
 6. "The Dimension Your Dashboards Are Missing"
 7. "AI Agents Deserve More Than Flat Screens"
 
-### Color System
+### Sistema de Cores
 
-| Color | Hex | Usage |
+| Cor | Hex | Uso |
 |-------|-----|-------|
-| Deep Space Indigo | `#1B1F3B` | Foundational dark canvas, backgrounds |
-| Nexus Blue | `#4A7BF7` | Signature brand, primary actions |
-| Signal Cyan | `#00D4FF` | Spatial highlights, data connections |
-| Command Green | `#00E676` | Healthy systems, success |
-| Alert Amber | `#FFB300` | Warnings, attention needed |
-| Critical Red | `#FF3D71` | Errors, failures |
+| Deep Space Indigo | `#1B1F3B` | Canvas escuro fundamental, backgrounds |
+| Nexus Blue | `#4A7BF7` | Marca assinatura, ações primárias |
+| Signal Cyan | `#00D4FF` | Destaques espaciais, conexões de dados |
+| Command Green | `#00E676` | Sistemas saudáveis, sucesso |
+| Alert Amber | `#FFB300` | Avisos, atenção necessária |
+| Critical Red | `#FF3D71` | Erros, falhas |
 
-Usage ratio: Deep Space Indigo 60%, Nexus Blue 25%, Signal Cyan 10%, Semantic 5%.
+Proporção de uso: Deep Space Indigo 60%, Nexus Blue 25%, Signal Cyan 10%, Semânticas 5%.
 
-### Typography
+### Tipografia
 
-- **Primary:** Inter (UI, body, labels)
-- **Monospace:** JetBrains Mono (code, logs, agent output)
-- **Display:** Space Grotesk (marketing headlines only)
+- **Primária:** Inter (UI, corpo, labels)
+- **Monospace:** JetBrains Mono (código, logs, saída de agentes)
+- **Display:** Space Grotesk (apenas headlines de marketing)
 
-### Logo Concepts
+### Conceitos de Logo
 
-Three directions for exploration:
+Três direções para exploração:
 
-1. **The Spatial Nexus Mark** -- Convergent lines meeting at a glowing central node with subtle perspective depth
-2. **The Dimensional Window** -- Stylized viewport with perspective lines creating the effect of looking into 3D space
-3. **The Orbital Array** -- Orbital rings around a central point suggesting coordinated agents in motion
+1. **The Spatial Nexus Mark** -- Linhas convergentes se encontrando em um nó central luminoso com profundidade sutil de perspectiva
+2. **The Dimensional Window** -- Viewport estilizado com linhas de perspectiva criando o efeito de olhar para um espaço 3D
+3. **The Orbital Array** -- Anéis orbitais ao redor de um ponto central sugerindo agentes coordenados em movimento
 
-### Brand Values
+### Valores da Marca
 
-- **Spatial Truthfulness** -- Honest representation of system state, no cosmetic smoothing
-- **Operational Gravity** -- Built for production, not demos
-- **Dimensional Generosity** -- WebXR ensures spatial value is accessible to everyone
-- **Composure Under Complexity** -- The more complex the system, the calmer the interface
+- **Spatial Truthfulness** -- Representação honesta do estado do sistema, sem suavização cosmética
+- **Operational Gravity** -- Construído para produção, não demos
+- **Dimensional Generosity** -- WebXR garante que valor espacial seja acessível a todos
+- **Composure Under Complexity** -- Quanto mais complexo o sistema, mais calma a interface
 
 ### Design Tokens
 
@@ -349,90 +349,90 @@ Three directions for exploration:
 
 ---
 
-## 5. Go-to-Market & Growth
+## 5. Go-to-Market e Growth
 
-**Agent:** Growth Hacker
+**Agente:** Growth Hacker
 
 ### North Star Metric
 
-**Weekly Active Pipelines (WAP)** -- unique agent pipelines with at least one spatial interaction in the past 7 days. Captures both creation and engagement, correlates with value, and isn't gameable.
+**Weekly Active Pipelines (WAP)** -- pipelines únicos de agentes com pelo menos uma interação espacial nos últimos 7 dias. Captura criação e engajamento, se correlaciona com valor e não é facilmente manipulável.
 
 ### Pricing
 
-| Tier | Annual | Monthly | Target |
+| Tier | Anual | Mensal | Alvo |
 |------|--------|---------|--------|
-| Explorer | Free | Free | 3 pipelines, WebXR preview, community |
-| Pro | $29/user/mo | $39/user/mo | Unlimited pipelines, VisionOS, 30-day history |
-| Team | $59/user/mo | $79/user/mo | Collaboration, RBAC, SSO, 90-day history |
-| Enterprise | Custom (~$150+) | Custom | Dedicated infra, SLA, on-prem option |
+| Explorer | Free | Free | 3 pipelines, preview WebXR, comunidade |
+| Pro | $29/usuário/mês | $39/usuário/mês | Pipelines ilimitados, VisionOS, histórico de 30 dias |
+| Team | $59/usuário/mês | $79/usuário/mês | Colaboração, RBAC, SSO, histórico de 90 dias |
+| Enterprise | Custom (~$150+) | Custom | Infra dedicada, SLA, opção on-prem |
 
-Strategy: 14-day reverse trial (Pro features, then downgrade to Free). Target 5-8% free-to-paid conversion.
+Estratégia: reverse trial de 14 dias (features Pro, depois downgrade para Free). Meta de conversão free-to-paid de 5-8%.
 
-### 3-Phase GTM
+### GTM em 3 Fases
 
-**Phase 1: Founder-Led Sales (Months 1-3)**
-- Target: Individual AI engineers at startups who use LangChain/CrewAI and own Vision Pro
-- Tactics: DM 200 high-profile AI engineers, weekly build-in-public posts, 30-second demo clips
-- Channels: X/Twitter, LinkedIn, AI-focused Discord servers, Reddit
+**Fase 1: Founder-Led Sales (Meses 1-3)**
+- Alvo: Engenheiros de IA individuais em startups que usam LangChain/CrewAI e possuem Vision Pro
+- Táticas: DM para 200 engenheiros de IA de alto perfil, posts semanais build-in-public, demos de 30 segundos
+- Canais: X/Twitter, LinkedIn, servidores Discord focados em IA, Reddit
 
-**Phase 2: Developer Community (Months 4-6)**
-- Product Hunt launch (timed for this phase, not Phase 1)
-- Hacker News Show HN, Dev.to articles, conference talks
-- Integration announcements with popular AI frameworks
+**Fase 2: Comunidade de Desenvolvedores (Meses 4-6)**
+- Lançamento no Product Hunt (programado para esta fase, não Fase 1)
+- Hacker News Show HN, artigos Dev.to, palestras em conferências
+- Anúncios de integração com frameworks populares de IA
 
-**Phase 3: Enterprise (Months 7-12)**
-- Apple enterprise referral pipeline, LinkedIn ABM campaigns
-- Enterprise case studies, analyst briefings (Gartner, Forrester)
-- First enterprise AE hire, SOC 2 compliance
+**Fase 3: Enterprise (Meses 7-12)**
+- Pipeline de referral enterprise da Apple, campanhas LinkedIn ABM
+- Estudos de caso enterprise, briefings com analistas (Gartner, Forrester)
+- Primeira contratação de AE enterprise, compliance SOC 2
 
 ### Growth Loops
 
-1. **"Wow Factor" Demo Loop** -- Spatial demos are inherently shareable. One-click "Share Spatial Preview" generates a WebXR link or video. Target K = 0.3-0.5.
-2. **Template Marketplace** -- Power users publish pipeline templates, discoverable via search, driving new signups.
-3. **Collaboration Seat Expansion** -- One engineer adopts, shares with teammates, team expands to paid plan (Slack/Figma playbook).
-4. **Integration-Driven Discovery** -- Listings in LangChain, n8n, OpenAI/Anthropic partner directories.
+1. **Loop de Demo "Wow Factor"** -- Demos espaciais são inerentemente compartilháveis. "Share Spatial Preview" com um clique gera link WebXR ou vídeo. Meta K = 0,3-0,5.
+2. **Template Marketplace** -- Power users publicam templates de pipeline, descobertos via busca, gerando novos signups.
+3. **Expansão de Seats por Colaboração** -- Um engenheiro adota, compartilha com colegas, o time expande para plano pago (playbook Slack/Figma).
+4. **Descoberta por Integrações** -- Listagens nos diretórios de parceiros LangChain, n8n, OpenAI/Anthropic.
 
-### Open-Source Strategy
+### Estratégia Open-Source
 
 **Open-source (Apache 2.0):**
-- `nexus-spatial-sdk` -- TypeScript/Python SDK for connecting agent frameworks
-- `nexus-webxr-components` -- React Three Fiber component library for 3D pipelines
-- `nexus-agent-schemas` -- Standardized schemas for representing agent pipelines in 3D
+- `nexus-spatial-sdk` -- SDK TypeScript/Python para conectar frameworks de agentes
+- `nexus-webxr-components` -- Biblioteca de componentes React Three Fiber para pipelines 3D
+- `nexus-agent-schemas` -- Schemas padronizados para representar pipelines de agentes em 3D
 
-**Keep proprietary:** VisionOS native app, collaboration engine, enterprise features, hosted infrastructure.
+**Manter proprietário:** App VisionOS nativo, engine de colaboração, features enterprise, infraestrutura hosted.
 
-### Revenue Targets
+### Metas de Receita
 
-| Metric | Month 6 | Month 12 |
+| Métrica | Mês 6 | Mês 12 |
 |--------|---------|----------|
 | MRR | $8K-15K | $50K-80K |
-| Free accounts | 5,000 | 15,000 |
-| Paid seats | 300 | 1,200 |
-| Discord members | 2,000 | 5,000 |
-| GitHub stars (SDK) | 500 | 2,000 |
+| Contas free | 5.000 | 15.000 |
+| Seats pagos | 300 | 1.200 |
+| Membros no Discord | 2.000 | 5.000 |
+| GitHub stars (SDK) | 500 | 2.000 |
 
-### First $50K Budget
+### Primeiro Budget de $50K
 
-| Category | Amount | % |
+| Categoria | Valor | % |
 |----------|--------|---|
-| Content Production | $12,000 | 24% |
-| Developer Relations | $10,000 | 20% |
-| Paid Acquisition Testing | $8,000 | 16% |
-| Community & Tools | $5,000 | 10% |
-| Product Hunt & Launch | $3,000 | 6% |
-| Open Source Maintenance | $3,000 | 6% |
-| PR & Outreach | $4,000 | 8% |
-| Partnerships | $2,000 | 4% |
-| Reserve | $3,000 | 6% |
+| Produção de Conteúdo | $12.000 | 24% |
+| Developer Relations | $10.000 | 20% |
+| Testes de Aquisição Paga | $8.000 | 16% |
+| Comunidade e Ferramentas | $5.000 | 10% |
+| Product Hunt e Launch | $3.000 | 6% |
+| Manutenção Open Source | $3.000 | 6% |
+| PR e Outreach | $4.000 | 8% |
+| Parcerias | $2.000 | 4% |
+| Reserva | $3.000 | 6% |
 
-### Key Partnerships
+### Principais Parcerias
 
-- **Tier 1 (Critical):** Anthropic, OpenAI -- first-class API integrations, partner program listings
-- **Tier 2 (Adoption):** LangChain, CrewAI, n8n -- framework integrations, community cross-pollination
-- **Tier 3 (Platform):** Apple -- Vision Pro developer kit, App Store featuring, WWDC
-- **Tier 4 (Ecosystem):** GitHub, Hugging Face, Docker -- developer platform integrations
+- **Tier 1 (Crítico):** Anthropic, OpenAI -- integrações de API first-class, listagens em partner programs
+- **Tier 2 (Adoção):** LangChain, CrewAI, n8n -- integrações com frameworks, cross-pollination de comunidades
+- **Tier 3 (Plataforma):** Apple -- developer kit Vision Pro, destaque na App Store, WWDC
+- **Tier 4 (Ecossistema):** GitHub, Hugging Face, Docker -- integrações com plataformas de desenvolvedores
 
-### Sources
+### Fontes
 
 - [AI Orchestration Market Size - MarketsandMarkets](https://www.marketsandmarkets.com/Market-Reports/ai-orchestration-market-148121911.html)
 - [Spatial Computing Market - Precedence Research](https://www.precedenceresearch.com/spatial-computing-market)
@@ -441,74 +441,74 @@ Strategy: 14-day reverse trial (Pro features, then downgrade to Free). Target 5-
 
 ---
 
-## 6. Customer Support Blueprint
+## 6. Blueprint de Customer Support
 
-**Agent:** Support Responder
+**Agente:** Support Responder
 
-### Support Tier Structure
+### Estrutura de Tiers de Suporte
 
-| Attribute | Explorer (Free) | Builder (Pro) | Command (Enterprise) |
+| Atributo | Explorer (Free) | Builder (Pro) | Command (Enterprise) |
 |-----------|-----------------|---------------|---------------------|
-| First Response SLA | Best effort (48h) | 4 hours (business hours) | 30 min (P1), 2h (P2) |
-| Resolution SLA | 5 business days | 24h (P1/P2), 72h (P3) | 4h (P1), 12h (P2) |
-| Channels | Community, KB, AI assistant | + Live chat, email, video (2/mo) | + Dedicated Slack, named CSE, 24/7 |
-| Scope | General questions, docs | Technical troubleshooting, integrations | Full integration, custom design, compliance |
+| SLA de Primeira Resposta | Best effort (48h) | 4 horas (horário comercial) | 30 min (P1), 2h (P2) |
+| SLA de Resolução | 5 dias úteis | 24h (P1/P2), 72h (P3) | 4h (P1), 12h (P2) |
+| Canais | Comunidade, KB, assistente de IA | + Live chat, email, vídeo (2/mês) | + Slack dedicado, CSE nomeado, 24/7 |
+| Escopo | Perguntas gerais, docs | Troubleshooting técnico, integrações | Integração completa, design customizado, compliance |
 
-### Priority Definitions
+### Definições de Prioridade
 
-- **P1 Critical:** Orchestration down, data loss risk, security breach
-- **P2 High:** Major feature degraded, workaround exists
-- **P3 Medium:** Non-blocking issues, minor glitches
-- **P4 Low:** Feature requests, cosmetic issues
+- **P1 Crítica:** Orquestração fora do ar, risco de perda de dados, violação de segurança
+- **P2 Alta:** Feature principal degradada, workaround existe
+- **P3 Média:** Issues não bloqueantes, glitches menores
+- **P4 Baixa:** Feature requests, issues cosméticas
 
-### The Nexus Guide: AI-Powered In-Product Support
+### The Nexus Guide: Suporte In-Product com IA
 
-The standout design decision: the support agent lives as a visible node **inside the user's spatial workspace**. It has full context of the user's layout, active agents, and recent errors.
+A decisão de design de destaque: o agente de suporte vive como um nó visível **dentro do workspace espacial do usuário**. Ele tem contexto completo do layout do usuário, agentes ativos e erros recentes.
 
-**Capabilities:**
-- Natural language Q&A about features
-- Real-time agent diagnostics ("Why is Agent X slow?")
-- Configuration suggestions ("Your topology would perform better as a mesh")
-- Guided spatial troubleshooting walkthroughs
-- Ticket creation with automatic context attachment
+**Capacidades:**
+- Q&A em linguagem natural sobre features
+- Diagnósticos de agentes em tempo real ("Por que o Agente X está lento?")
+- Sugestões de configuração ("Sua topologia performaria melhor como uma mesh")
+- Walkthroughs guiados de troubleshooting espacial
+- Criação de tickets com anexação automática de contexto
 
 **Self-Healing:**
 
-| Scenario | Detection | Auto-Resolution |
+| Cenário | Detecção | Auto-Resolução |
 |----------|-----------|-----------------|
-| Agent infinite loop | CPU/token spike | Kill and restart with last good config |
-| Rendering frame drop | FPS below threshold | Reduce visual fidelity, suggest closing panels |
-| Credential expiry | API 401 responses | Prompt re-auth, pause agents gracefully |
-| Communication timeout | Latency spike | Reroute messages through alternate path |
+| Loop infinito de agente | Spike de CPU/tokens | Encerrar e reiniciar com última config boa |
+| Queda de frames de renderização | FPS abaixo do limite | Reduzir fidelidade visual, sugerir fechar painéis |
+| Expiração de credenciais | Respostas API 401 | Solicitar re-auth, pausar agentes de forma graciosa |
+| Timeout de comunicação | Spike de latência | Rerotear mensagens por caminho alternativo |
 
-### Onboarding Flow
+### Fluxo de Onboarding
 
-Adaptive onboarding based on user profiling:
+Onboarding adaptativo baseado no perfil do usuário:
 
-| AI Experience | Spatial Experience | Path |
+| Experiência com IA | Experiência Espacial | Caminho |
 |---------------|-------------------|------|
-| Low | Low | Full guided tour (20 min) |
-| High | Low | Spatial-focused (12 min) |
-| Low | High | Agent-focused (12 min) |
-| High | High | Express setup (5 min) |
+| Baixa | Baixa | Tour guiado completo (20 min) |
+| Alta | Baixa | Focado em espacial (12 min) |
+| Baixa | Alta | Focado em agentes (12 min) |
+| Alta | Alta | Setup expresso (5 min) |
 
-Critical first step: 60-second spatial calibration (hand tracking, gaze, comfort check) before any product interaction.
+Primeiro passo crítico: calibração espacial de 60 segundos (hand tracking, gaze, comfort check) antes de qualquer interação com o produto.
 
-**Activation Milestone** (user is "onboarded" when they have):
-- Created at least one custom agent
-- Connected two or more agents in a topology
-- Anchored at least one monitoring dashboard
-- Returned for a third session
+**Marco de Ativação** (usuário está "onboarded" quando):
+- Criou pelo menos um agente customizado
+- Conectou dois ou mais agentes em uma topologia
+- Ancorou pelo menos um dashboard de monitoramento
+- Retornou para uma terceira sessão
 
-### Team Build
+### Construção do Time
 
-| Phase | Headcount | Roles |
+| Fase | Headcount | Funções |
 |-------|-----------|-------|
-| Months 0-6 | 4 | Head of CX, 2 Support Engineers, Technical Writer |
-| Months 6-12 | 8 | + 2 Support Engineers, CSE, Community Manager, Ops Analyst |
-| Months 12-24 | 16 | + 4 Engineers (24/7), Spatial Specialist, Integration Specialist, KB Manager, Engineering Manager |
+| Meses 0-6 | 4 | Head of CX, 2 Support Engineers, Technical Writer |
+| Meses 6-12 | 8 | + 2 Support Engineers, CSE, Community Manager, Ops Analyst |
+| Meses 12-24 | 16 | + 4 Engineers (24/7), Spatial Specialist, Integration Specialist, KB Manager, Engineering Manager |
 
-### Community: Discord-First
+### Comunidade: Discord-First
 
 ```
 NEXUS SPATIAL DISCORD
@@ -521,169 +521,169 @@ NEXUS SPATIAL DISCORD
   ENTERPRISE: per-customer private channels
 ```
 
-**Champions Program ("Nexus Navigators"):** 5-10 initial power users with Navigator badge, direct Slack with product team, free Pro tier, early feature access, and annual summit.
+**Champions Program ("Nexus Navigators"):** 5-10 power users iniciais com badge Navigator, Slack direto com o time de produto, tier Pro gratuito, acesso antecipado a features e summit anual.
 
 ---
 
-## 7. UX Research & Design Direction
+## 7. Pesquisa UX e Direção de Design
 
-**Agent:** UX Researcher
+**Agente:** UX Researcher
 
-### User Personas
+### Personas de Usuário
 
-**Maya Chen -- AI Platform Engineer (32, San Francisco)**
-- Manages 15-30 active agent workflows, uses n8n + LangSmith
-- Spends 40% of time debugging agent failures via log inspection
-- Skeptical of spatial computing: "Is this actually faster, or just cooler?"
-- Primary need: Reduce mean-time-to-diagnosis from 45 min to under 10
+**Maya Chen -- AI Platform Engineer (32, São Francisco)**
+- Gerencia 15-30 workflows ativos de agentes, usa n8n + LangSmith
+- Gasta 40% do tempo debugando falhas de agentes por inspeção de logs
+- Cética sobre spatial computing: "Isso é realmente mais rápido, ou só mais legal?"
+- Necessidade primária: Reduzir mean-time-to-diagnosis de 45 min para menos de 10
 
-**David Okoro -- Technical Product Manager (38, London)**
-- Reviews and approves agent workflow designs, presents to C-suite
-- Cannot meaningfully contribute to workflow reviews because tools require code-level understanding
-- Primary need: Understand and communicate agent architectures without reading code
+**David Okoro -- Technical Product Manager (38, Londres)**
+- Revisa e aprova designs de workflows de agentes, apresenta para C-suite
+- Não consegue contribuir significativamente para reviews de workflow porque ferramentas exigem entendimento em nível de código
+- Necessidade primária: Entender e comunicar arquiteturas de agentes sem ler código
 
-**Dr. Amara Osei -- Research Scientist (45, Zurich)**
-- Designs multi-agent research workflows with A/B comparisons
-- Has 12 variations of the same pipeline with no good way to compare
-- Primary need: Side-by-side comparison of variant pipelines in 3D space
+**Dr. Amara Osei -- Research Scientist (45, Zurique)**
+- Desenha workflows de pesquisa multi-agent com comparações A/B
+- Tem 12 variações do mesmo pipeline sem uma boa forma de comparar
+- Necessidade primária: Comparação lado a lado de variantes de pipelines em espaço 3D
 
 **Jordan Rivera -- Creative Technologist (27, Austin)**
-- Daily Vision Pro user, builds AI-powered art installations
-- Wants tools that feel like instruments, not dashboards
-- Primary need: Build agent workflows quickly with immediate spatial feedback
+- Usuário diário de Vision Pro, constrói instalações artísticas com IA
+- Quer ferramentas que pareçam instrumentos, não dashboards
+- Necessidade primária: Construir workflows de agentes rapidamente com feedback espacial imediato
 
-### Key Finding: Debugging Is the Killer Use Case
+### Achado Principal: Debugging É o Killer Use Case
 
-Spatial overlay of runtime traces on workflow structure solves a real, quantified pain point that no 2D tool handles well. This workflow should receive the most design and engineering investment.
+Sobreposição espacial de runtime traces na estrutura do workflow resolve uma dor real e quantificada que nenhuma ferramenta 2D trata bem. Esse workflow deve receber o maior investimento de design e engenharia.
 
-### Critical Design Insight
+### Insight Crítico de Design
 
-Spatial adds value for **structural** tasks (placing, connecting, rearranging nodes) but creates friction for **parameter** tasks (text entry, configuration). The interface must seamlessly blend spatial and 2D modes -- 2D panels anchored to spatial positions.
+Espacial agrega valor para tarefas **estruturais** (posicionar, conectar, reorganizar nós), mas cria fricção para tarefas de **parâmetros** (entrada de texto, configuração). A interface deve misturar modos espacial e 2D de forma fluida -- painéis 2D ancorados em posições espaciais.
 
-### 7 Design Principles
+### 7 Princípios de Design
 
-1. **Spatial Earns Its Place** -- If 2D is clearer, use 2D. Every review should ask: "Would this be better flat?"
-2. **Glanceable Before Inspectable** -- Critical info perceivable in under 2 seconds via color, size, motion, position
-3. **Hands-Free Is the Baseline** -- Gaze + voice covers all read/navigate operations; hands add precision but aren't required
-4. **Respect Cognitive Gravity** -- Extend 2D mental models (left-to-right flow), don't replace them; z-axis adds layering
-5. **Progressive Spatial Complexity** -- New users start nearly-2D; spatial capabilities reveal as confidence grows
-6. **Physical Metaphors, Digital Capabilities** -- Nodes are "picked up" (physical) but also duplicated and versioned (digital)
-7. **Silence Is a Feature** -- Healthy systems feel calm; color and motion signal deviation from normal
+1. **Spatial Earns Its Place** -- Se 2D for mais claro, use 2D. Toda review deve perguntar: "Isso seria melhor plano?"
+2. **Glanceable Before Inspectable** -- Informação crítica perceptível em menos de 2 segundos por cor, tamanho, movimento e posição
+3. **Hands-Free Is the Baseline** -- Gaze + voz cobre todas as operações de leitura/navegação; mãos adicionam precisão, mas não são obrigatórias
+4. **Respect Cognitive Gravity** -- Estenda modelos mentais 2D (fluxo esquerda-para-direita), não os substitua; eixo z adiciona camadas
+5. **Progressive Spatial Complexity** -- Novos usuários começam quase-2D; capacidades espaciais aparecem conforme a confiança cresce
+6. **Physical Metaphors, Digital Capabilities** -- Nós são "pegos" (físico), mas também duplicados e versionados (digital)
+7. **Silence Is a Feature** -- Sistemas saudáveis parecem calmos; cor e movimento sinalizam desvio do normal
 
-### Navigation Paradigm: 4-Level Semantic Zoom
+### Paradigma de Navegação: Semantic Zoom em 4 Níveis
 
-| Level | What You See |
+| Nível | O Que Você Vê |
 |-------|-------------|
-| Fleet View | All workflows as abstract shapes, color-coded by status |
-| Workflow View | Node graph with labels and connections |
-| Node View | Expanded configuration, recent I/O, status metrics |
-| Trace View | Full execution trace with data inspection |
+| Fleet View | Todos os workflows como formas abstratas, codificadas por cor conforme status |
+| Workflow View | Grafo de nós com labels e conexões |
+| Node View | Configuração expandida, I/O recente, métricas de status |
+| Trace View | Trace completo de execução com inspeção de dados |
 
-### Competitive UX Summary
+### Resumo de UX Competitiva
 
-| Capability | n8n | Flowise | LangSmith | Langflow | Nexus Spatial Target |
+| Capacidade | n8n | Flowise | LangSmith | Langflow | Meta Nexus Spatial |
 |-----------|-----|---------|-----------|----------|---------------------|
-| Visual workflow building | A | B+ | N/A | A | A+ (spatial) |
-| Debugging/tracing | C+ | C | A | B | A+ (spatial overlay) |
-| Monitoring | B | C | A | B | A (spatial fleet) |
-| Collaboration | D | D | C | D | A (spatial co-presence) |
-| Large workflow scalability | C | C | B | C | A (3D space) |
+| Construção visual de workflow | A | B+ | N/A | A | A+ (espacial) |
+| Debugging/tracing | C+ | C | A | B | A+ (overlay espacial) |
+| Monitoramento | B | C | A | B | A (spatial fleet) |
+| Colaboração | D | D | C | D | A (co-presença espacial) |
+| Escalabilidade de workflows grandes | C | C | B | C | A (espaço 3D) |
 
-### Accessibility Requirements
+### Requisitos de Acessibilidade
 
-- Every interaction achievable through at least two modalities
-- No information conveyed by color alone
-- High-contrast mode, reduced-motion mode, depth-flattening mode
-- Screen reader compatibility with spatial element descriptions
-- Session length warnings every 20-30 minutes
-- All core tasks completable seated, one-handed, within 30-degree movement cone
+- Toda interação alcançável por pelo menos duas modalidades
+- Nenhuma informação transmitida apenas por cor
+- Modo high-contrast, modo reduced-motion, modo depth-flattening
+- Compatibilidade com screen reader com descrições de elementos espaciais
+- Avisos de duração de sessão a cada 20-30 minutos
+- Todas as tarefas centrais concluíveis sentado, com uma mão, dentro de um cone de movimento de 30 graus
 
-### Research Plan (16 Weeks)
+### Plano de Pesquisa (16 Semanas)
 
-| Phase | Weeks | Studies |
+| Fase | Semanas | Estudos |
 |-------|-------|---------|
-| Foundational | 1-4 | Mental model interviews (15-20 participants), competitive task analysis |
-| Concept Validation | 5-8 | Wizard-of-Oz spatial prototype testing, 3D card sort for IA |
-| Usability Testing | 9-14 | First-use experience (20 users), 4-week longitudinal diary study, paired collaboration testing |
-| Accessibility Audit | 12-16 | Expert heuristic evaluation, testing with users with disabilities |
+| Foundational | 1-4 | Entrevistas de modelo mental (15-20 participantes), análise competitiva de tarefas |
+| Concept Validation | 5-8 | Teste de protótipo espacial Wizard-of-Oz, card sort 3D para IA |
+| Usability Testing | 9-14 | Experiência de primeiro uso (20 usuários), diary study longitudinal de 4 semanas, teste de colaboração em pares |
+| Accessibility Audit | 12-16 | Avaliação heurística especialista, testes com usuários com deficiência |
 
 ---
 
-## 8. Project Execution Plan
+## 8. Plano de Execução do Projeto
 
-**Agent:** Project Shepherd
+**Agente:** Project Shepherd
 
-### Timeline: 35 Weeks (March 9 -- November 6, 2026)
+### Timeline: 35 Semanas (9 de março -- 6 de novembro de 2026)
 
-| Phase | Weeks | Duration | Goal |
+| Fase | Semanas | Duração | Objetivo |
 |-------|-------|----------|------|
-| Discovery & Research | W1-3 | 3 weeks | Validate feasibility, define scope |
-| Foundation | W4-9 | 6 weeks | Core infrastructure, both platform shells, design system |
-| MVP Build | W10-19 | 10 weeks | Single-user agent command center with orchestration |
-| Beta | W20-27 | 8 weeks | Collaboration, polish, harden, 50-100 beta users |
-| Launch | W28-31 | 4 weeks | App Store + web launch, marketing push |
-| Scale | W32-35+ | Ongoing | Plugin marketplace, advanced features, growth |
+| Discovery e Pesquisa | W1-3 | 3 semanas | Validar viabilidade, definir escopo |
+| Foundation | W4-9 | 6 semanas | Infraestrutura central, shells das duas plataformas, design system |
+| Build do MVP | W10-19 | 10 semanas | Agent command center single-user com orquestração |
+| Beta | W20-27 | 8 semanas | Colaboração, polish, hardening, 50-100 beta users |
+| Launch | W28-31 | 4 semanas | Launch na App Store + web, push de marketing |
+| Scale | W32-35+ | Contínuo | Plugin marketplace, features avançadas, growth |
 
-### Critical Milestone: Week 12 (May 29)
+### Marco Crítico: Semana 12 (29 de maio)
 
-**First end-to-end workflow execution.** A user creates and runs a 3-node agent workflow in 3D. This is the moment the product proves its core value proposition. If this slips, everything downstream shifts.
+**Primeira execução end-to-end de workflow.** Um usuário cria e roda um workflow de agentes com 3 nós em 3D. Este é o momento em que o produto prova sua proposta de valor central. Se isso atrasar, tudo a jusante muda.
 
-### First 6 Sprints (65 Tickets)
+### Primeiros 6 Sprints (65 Tickets)
 
-**Sprint 1 (Mar 9-20):** VisionOS SDK audit, WebXR compatibility matrix, orchestration engine feasibility, stakeholder interviews, throwaway prototypes for both platforms.
+**Sprint 1 (9-20 mar):** Auditoria do SDK VisionOS, matriz de compatibilidade WebXR, viabilidade do orchestration engine, entrevistas com stakeholders, protótipos descartáveis para ambas as plataformas.
 
-**Sprint 2 (Mar 23 - Apr 3):** Architecture decision records, MVP scope lock with MoSCoW, PRD v1.0, spatial UI pattern research, interaction model definition, design system kickoff.
+**Sprint 2 (23 mar - 3 abr):** Architecture decision records, lock de escopo do MVP com MoSCoW, PRD v1.0, pesquisa de padrões de UI espacial, definição do modelo de interação, kickoff do design system.
 
-**Sprint 3 (Apr 6-17):** Monorepo setup, auth service (OAuth2), database schema, API gateway, VisionOS Xcode project init, WebXR project init, CI/CD pipelines.
+**Sprint 3 (6-17 abr):** Setup de monorepo, auth service (OAuth2), schema de banco, API gateway, init do projeto Xcode VisionOS, init do projeto WebXR, pipelines CI/CD.
 
-**Sprint 4 (Apr 20 - May 1):** WebSocket server + client SDKs, spatial window management, 3D component library, hand tracking input layer, teams CRUD, integration tests.
+**Sprint 4 (20 abr - 1 mai):** Servidor WebSocket + client SDKs, gestão de janelas espaciais, biblioteca de componentes 3D, camada de input de hand tracking, CRUD de times, integration tests.
 
-**Sprint 5 (May 4-15):** Orchestration engine core (Rust), agent state machine, node graph renderers (both platforms), plugin interface v0, OpenAI provider plugin.
+**Sprint 5 (4-15 mai):** Core do orchestration engine (Rust), state machine de agentes, renderers de grafo de nós (ambas as plataformas), interface de plugin v0, plugin provider OpenAI.
 
-**Sprint 6 (May 18-29):** Workflow persistence + versioning, DAG execution, real-time execution visualization, Anthropic provider plugin, eye tracking integration, spatial audio.
+**Sprint 6 (18-29 mai):** Persistência + versionamento de workflows, execução DAG, visualização de execução em tempo real, plugin provider Anthropic, integração de eye tracking, spatial audio.
 
-### Team Allocation
+### Alocação de Times
 
-5 squads operating across phases:
+5 squads operando ao longo das fases:
 
-| Squad | Core Members | Active Phases |
+| Squad | Membros Centrais | Fases Ativas |
 |-------|-------------|---------------|
-| Core Architecture | Backend Architect, XR Interface Architect, Senior Dev, VisionOS Engineer | Discovery through MVP |
-| Spatial Experience | XR Immersive Dev, XR Cockpit Specialist, Metal Engineer, UX Architect, UI Designer | Foundation through Beta |
-| Orchestration | AI Engineer, Backend Architect, Senior Dev, API Tester | MVP through Beta |
-| Platform Delivery | Frontend Dev, Mobile App Builder, VisionOS Engineer, DevOps | MVP through Launch |
-| Launch | Growth Hacker, Content Creator, App Store Optimizer, Visual Storyteller, Brand Guardian | Beta through Scale |
+| Core Architecture | Backend Architect, XR Interface Architect, Senior Dev, VisionOS Engineer | Discovery até MVP |
+| Spatial Experience | XR Immersive Dev, XR Cockpit Specialist, Metal Engineer, UX Architect, UI Designer | Foundation até Beta |
+| Orchestration | AI Engineer, Backend Architect, Senior Dev, API Tester | MVP até Beta |
+| Platform Delivery | Frontend Dev, Mobile App Builder, VisionOS Engineer, DevOps | MVP até Launch |
+| Launch | Growth Hacker, Content Creator, App Store Optimizer, Visual Storyteller, Brand Guardian | Beta até Scale |
 
-### Top 5 Risks
+### Top 5 Riscos
 
-| Risk | Probability | Impact | Mitigation |
+| Risco | Probabilidade | Impacto | Mitigação |
 |------|------------|--------|------------|
-| Apple rejects VisionOS app | Medium | Critical | Engage Apple Developer Relations Week 4, pre-review by Week 20 |
-| WebXR browser fragmentation | High | High | Browser support matrix Week 1, automated cross-browser tests |
-| Multi-user sync conflicts | Medium | High | CRDT-based sync (Yjs) from the start, prototype in Foundation |
-| Orchestration can't scale | Medium | Critical | Horizontal scaling from day one, load test at 10x by Week 22 |
-| RealityKit performance for 100+ nodes | Medium | High | Profile early, implement LOD culling, instanced rendering |
+| Apple rejeita app VisionOS | Média | Crítico | Engajar Apple Developer Relations na Semana 4, pre-review até Semana 20 |
+| Fragmentação de browsers WebXR | Alta | Alto | Matriz de suporte de browsers na Semana 1, testes cross-browser automatizados |
+| Conflitos de sync multi-user | Média | Alto | Sync baseado em CRDT (Yjs) desde o início, protótipo em Foundation |
+| Orquestração não escala | Média | Crítico | Scaling horizontal desde o dia um, load test a 10x até Semana 22 |
+| Performance RealityKit para 100+ nós | Média | Alto | Fazer profiling cedo, implementar LOD culling, renderização instanciada |
 
-### Budget: $121,500 -- $155,500 (Non-Personnel)
+### Budget: $121.500 -- $155.500 (Não-Pessoal)
 
-| Category | Estimated Cost |
+| Categoria | Custo Estimado |
 |----------|---------------|
-| Cloud infrastructure (35 weeks) | $35,000 - $45,000 |
-| Hardware (3 Vision Pro, 2 Quest 3, Mac Studio) | $17,500 |
-| Licenses and services | $15,000 - $20,000 |
-| External services (legal, security, PR) | $30,000 - $45,000 |
-| AI API costs (dev/test) | $8,000 |
-| Contingency (15%) | $16,000 - $20,000 |
+| Infraestrutura cloud (35 semanas) | $35.000 - $45.000 |
+| Hardware (3 Vision Pro, 2 Quest 3, Mac Studio) | $17.500 |
+| Licenças e serviços | $15.000 - $20.000 |
+| Serviços externos (jurídico, segurança, PR) | $30.000 - $45.000 |
+| Custos de API de IA (dev/teste) | $8.000 |
+| Contingência (15%) | $16.000 - $20.000 |
 
 ---
 
-## 9. Spatial Interface Architecture
+## 9. Arquitetura de Interface Espacial
 
-**Agent:** XR Interface Architect
+**Agente:** XR Interface Architect
 
-### The Command Theater
+### O Command Theater
 
-The workspace is organized as a curved theater around the user:
+O workspace é organizado como um teatro curvo ao redor do usuário:
 
 ```
                         OVERVIEW CANOPY
@@ -704,22 +704,22 @@ The workspace is organized as a curved theater around the user:
                    \_________________________ /
 ```
 
-- **Focus Arc** (120 degrees, 1.2-2.0m): Primary node graph workspace
-- **Overview Canopy** (above, 2.5-4.0m): Miniature pipeline topology + health heatmap
-- **Utility Rails** (left/right flanks): Agent library, monitoring, logs
-- **Shelf** (below sightline, 0.8-1.0m): Run/stop, undo/redo, quick tools
+- **Focus Arc** (120 graus, 1,2-2,0m): Workspace primário do grafo de nós
+- **Overview Canopy** (acima, 2,5-4,0m): Topologia miniaturizada do pipeline + health heatmap
+- **Utility Rails** (flancos esquerdo/direito): Biblioteca de agentes, monitoramento, logs
+- **Shelf** (abaixo da linha de visão, 0,8-1,0m): Run/stop, undo/redo, ferramentas rápidas
 
-### Three-Layer Depth System
+### Sistema de Profundidade em Três Camadas
 
-| Layer | Depth | Content | Opacity |
+| Camada | Profundidade | Conteúdo | Opacidade |
 |-------|-------|---------|---------|
-| Foreground | 0.8 - 1.2m | Active panels, inspectors, modals | 100% |
-| Midground | 1.2 - 2.5m | Node graph, connections, workspace | 100% |
-| Background | 2.5 - 5.0m | Overview map, ambient status | 40-70% |
+| Foreground | 0,8 - 1,2m | Painéis ativos, inspectors, modals | 100% |
+| Midground | 1,2 - 2,5m | Grafo de nós, conexões, workspace | 100% |
+| Background | 2,5 - 5,0m | Mapa overview, status ambiente | 40-70% |
 
-### Node Graph in 3D
+### Grafo de Nós em 3D
 
-**Data flows toward the user.** Nodes arrange along the z-axis by execution order:
+**Dados fluem em direção ao usuário.** Nós se organizam ao longo do eixo z por ordem de execução:
 
 ```
 USER (here)
@@ -730,123 +730,123 @@ USER (here)
   z=1.2m   [Input Nodes]      -- Triggers
 ```
 
-Parallel branches spread horizontally (x-axis). Conditional branches spread vertically (y-axis).
+Branches paralelos se espalham horizontalmente (eixo x). Branches condicionais se espalham verticalmente (eixo y).
 
-**Node representation (3 LODs):**
-- **LOD-0** (resting, >1.5m): 12x8cm frosted glass rectangle with type icon, name, status glow
-- **LOD-1** (hover, 400ms gaze): Expands to 14x10cm, reveals ports, last-run info
-- **LOD-2** (selected): Slides to foreground, expands to 30x40cm detail panel with live config editing
+**Representação de nós (3 LODs):**
+- **LOD-0** (repouso, >1,5m): Retângulo de vidro fosco 12x8cm com ícone de tipo, nome e brilho de status
+- **LOD-1** (hover, 400ms de gaze): Expande para 14x10cm, revela portas e informações da última execução
+- **LOD-2** (selecionado): Desliza para foreground, expande para painel de detalhe 30x40cm com edição de config ao vivo
 
-**Connections as luminous tubes:**
-- 4mm diameter at rest, 8mm when carrying data
-- Color-coded by data type (white=text, cyan=structured, magenta=images, amber=audio, green=tool calls)
-- Animated particles show flow direction and speed
-- Auto-bundle when >3 run parallel between same layers
+**Conexões como tubos luminosos:**
+- 4mm de diâmetro em repouso, 8mm quando carregando dados
+- Codificação por cor conforme tipo de dado (branco=texto, cyan=estruturado, magenta=imagens, amber=áudio, verde=tool calls)
+- Partículas animadas mostram direção e velocidade do fluxo
+- Auto-bundle quando >3 rodam em paralelo entre as mesmas camadas
 
-### 7 Agent States
+### 7 Estados de Agente
 
-| State | Edge Glow | Interior | Sound | Particles |
+| Estado | Brilho da Aresta | Interior | Som | Partículas |
 |-------|-----------|----------|-------|-----------|
-| Idle | Steady green, low | Static frosted glass | None | None |
-| Queued | Pulsing amber, 1Hz | Faint rotation | None | Slow drift at input |
-| Running | Steady blue, medium | Animated shimmer | Soft spatial hum | Rapid flow on connections |
-| Streaming | Blue + output stream | Shimmer + text fragments | Hum | Text fragments flowing forward |
-| Completed | Flash white, then green | Static | Completion chime | None |
-| Error | Pulsing red, 2Hz | Red tint | Alert tone (once) | None |
-| Paused | Steady amber | Freeze-frame + pause icon | None | Frozen in place |
+| Idle | Verde estável, baixo | Vidro fosco estático | Nenhum | Nenhuma |
+| Queued | Amber pulsando, 1Hz | Rotação sutil | Nenhum | Drift lento na entrada |
+| Running | Azul estável, médio | Shimmer animado | Hum espacial suave | Fluxo rápido nas conexões |
+| Streaming | Azul + stream de saída | Shimmer + fragmentos de texto | Hum | Fragmentos de texto fluindo para frente |
+| Completed | Flash branco, depois verde | Estático | Chime de conclusão | Nenhuma |
+| Error | Vermelho pulsando, 2Hz | Tom vermelho | Tom de alerta (uma vez) | Nenhuma |
+| Paused | Amber estável | Freeze-frame + ícone de pausa | Nenhum | Congeladas no lugar |
 
-### Interaction Model
+### Modelo de Interação
 
-| Action | VisionOS | WebXR Controllers | Voice |
+| Ação | VisionOS | Controllers WebXR | Voz |
 |--------|----------|-------------------|-------|
-| Select node | Gaze + pinch | Point ray + trigger | "Select [name]" |
-| Move node | Pinch + drag | Grip + move | -- |
-| Connect ports | Pinch port + drag | Trigger port + drag | "Connect [A] to [B]" |
-| Pan workspace | Two-hand drag | Thumbstick | "Pan left/right" |
-| Zoom | Two-hand spread/pinch | Thumbstick push/pull | "Zoom in/out" |
-| Inspect node | Pinch + pull toward self | Double-trigger | "Inspect [name]" |
-| Run pipeline | Tap Shelf button | Trigger button | "Run pipeline" |
-| Undo | Two-finger double-tap | B button | "Undo" |
+| Selecionar nó | Gaze + pinch | Point ray + trigger | "Select [name]" |
+| Mover nó | Pinch + drag | Grip + move | -- |
+| Conectar portas | Pinch na porta + drag | Trigger na porta + drag | "Connect [A] to [B]" |
+| Pan do workspace | Drag com duas mãos | Thumbstick | "Pan left/right" |
+| Zoom | Spread/pinch com duas mãos | Push/pull no thumbstick | "Zoom in/out" |
+| Inspecionar nó | Pinch + puxar para si | Double-trigger | "Inspect [name]" |
+| Rodar pipeline | Toque no botão Shelf | Botão trigger | "Run pipeline" |
+| Undo | Double-tap com dois dedos | Botão B | "Undo" |
 
-### Collaboration Presence
+### Presença de Colaboração
 
-Each collaborator represented by:
-- **Head proxy:** Translucent sphere with profile image, rotates with head orientation
-- **Hand proxies:** Ghosted hand models showing pinch/grab states
-- **Gaze cone:** Subtle 10-degree cone showing where they're looking
-- **Name label:** Billboard-rendered, shows current action ("editing Node X")
+Cada colaborador representado por:
+- **Head proxy:** Esfera translúcida com imagem de perfil, gira com a orientação da cabeça
+- **Hand proxies:** Modelos de mão fantasmados mostrando estados de pinch/grab
+- **Gaze cone:** Cone sutil de 10 graus mostrando para onde estão olhando
+- **Name label:** Renderizado como billboard, mostra ação atual ("editing Node X")
 
-**Conflict resolution:** First editor gets write lock; second sees "locked by [name]" with option to request access or duplicate the node.
+**Resolução de conflitos:** Primeiro editor recebe write lock; o segundo vê "locked by [name]" com opção de solicitar acesso ou duplicar o nó.
 
-### Adaptive Layout
+### Layout Adaptativo
 
-| Environment | Node Scale | Max LOD-2 Nodes | Graph Z-Spread |
+| Ambiente | Escala dos Nós | Máx. Nós LOD-2 | Z-Spread do Grafo |
 |-------------|-----------|-----------------|----------------|
-| VisionOS Window | 4x3cm | 5 | 0.05m/layer |
-| VisionOS Immersive | 12x8cm | 15 | 0.3m/layer |
-| WebXR Desktop | 120x80px | 8 (overlays) | Perspective projection |
-| WebXR Immersive | 12x8cm | 12 | 0.3m/layer |
+| VisionOS Window | 4x3cm | 5 | 0,05m/camada |
+| VisionOS Immersive | 12x8cm | 15 | 0,3m/camada |
+| WebXR Desktop | 120x80px | 8 (overlays) | Projeção em perspectiva |
+| WebXR Immersive | 12x8cm | 12 | 0,3m/camada |
 
-### Transition Choreography
+### Coreografia de Transição
 
-All transitions serve wayfinding. Maximum 600ms for major transitions, 200ms for minor, 0ms for selection.
+Todas as transições servem wayfinding. Máximo de 600ms para transições grandes, 200ms para menores, 0ms para seleção.
 
-| Transition | Duration | Key Motion |
+| Transição | Duração | Movimento-Chave |
 |-----------|----------|------------|
-| Overview to Focus | 600ms | Camera drifts to target, other regions fade to 30% |
-| Focus to Detail | 500ms | Node slides forward, expands, connections highlight |
-| Detail to Overview | 600ms | Panel collapses, node retreats, full topology visible |
-| Zone Switch | 500ms | Current slides out laterally, new slides in |
-| Window to Immersive | 1000ms | Borders dissolve, nodes expand to full spatial positions |
+| Overview para Focus | 600ms | Câmera deriva até o alvo, outras regiões desvanecem para 30% |
+| Focus para Detail | 500ms | Nó desliza para frente, expande, conexões destacam |
+| Detail para Overview | 600ms | Painel colapsa, nó recua, topologia completa fica visível |
+| Troca de Zona | 500ms | Atual desliza lateralmente para fora, nova desliza para dentro |
+| Window para Immersive | 1000ms | Bordas dissolvem, nós expandem para posições espaciais completas |
 
-### Comfort Measures
+### Medidas de Conforto
 
-- No camera-initiated movement without user action
-- Stable horizon (horizontal plane never tilts)
-- Primary interaction within 0.8-2.5m, +/-15 degrees of eye line
-- Rest prompt after 45 minutes (ambient lighting shift, not modal)
-- Peripheral vignette during fast movement
-- All frequently-used controls accessible with arms at sides (wrist/finger only)
+- Nenhum movimento iniciado por câmera sem ação do usuário
+- Horizonte estável (plano horizontal nunca inclina)
+- Interação primária entre 0,8-2,5m, +/-15 graus da linha dos olhos
+- Prompt de descanso após 45 minutos (mudança de iluminação ambiente, não modal)
+- Vinheta periférica durante movimento rápido
+- Todos os controles usados com frequência acessíveis com braços ao lado do corpo (apenas punho/dedos)
 
 ---
 
-## 10. Cross-Agent Synthesis
+## 10. Síntese Cross-Agent
 
-### Points of Agreement Across All 8 Agents
+### Pontos de Acordo Entre Todos os 8 Agentes
 
-1. **2D-first, spatial-second.** Every agent independently arrived at this conclusion. Build a great web dashboard first, then progressively add spatial capabilities.
+1. **2D-first, spatial-second.** Todo agente chegou independentemente a esta conclusão. Construa primeiro um ótimo dashboard web, depois adicione capacidades espaciais progressivamente.
 
-2. **Debugging is the killer use case.** The Product Researcher, UX Researcher, and XR Interface Architect all converged on this: spatial overlay of runtime traces on workflow structure is where 3D genuinely beats 2D.
+2. **Debugging é o killer use case.** Product Researcher, UX Researcher e XR Interface Architect convergiram nisso: overlay espacial de runtime traces sobre a estrutura do workflow é onde 3D realmente supera 2D.
 
-3. **WebXR over VisionOS for initial reach.** Vision Pro's ~1M installed base cannot sustain a business. WebXR in the browser is the distribution unlock.
+3. **WebXR acima de VisionOS para alcance inicial.** A base instalada de ~1M do Vision Pro não sustenta um negócio. WebXR no browser é o desbloqueio de distribuição.
 
-4. **The "war room" collaboration scenario.** Multiple agents highlighted collaborative incident response as the strongest spatial value proposition -- teams entering a shared 3D space to debug a failing pipeline together.
+4. **O cenário de colaboração "war room".** Múltiplos agentes destacaram resposta colaborativa a incidentes como a proposta de valor espacial mais forte -- times entrando em um espaço 3D compartilhado para debugar juntos um pipeline com falha.
 
-5. **Progressive disclosure is essential.** UX Research, Spatial UI, and Support all emphasized that spatial complexity must be revealed gradually, never dumped on a first-time user.
+5. **Progressive disclosure é essencial.** UX Research, Spatial UI e Support enfatizaram que complexidade espacial deve ser revelada gradualmente, nunca despejada sobre um usuário de primeira viagem.
 
-6. **Voice as the power-user accelerator.** Both the UX Researcher and XR Interface Architect identified voice commands as the "command line of spatial computing" -- essential for accessibility and expert efficiency.
+6. **Voz como acelerador de power users.** UX Researcher e XR Interface Architect identificaram comandos de voz como a "linha de comando do spatial computing" -- essencial para acessibilidade e eficiência de especialistas.
 
-### Key Tensions to Resolve
+### Tensões-Chave a Resolver
 
-| Tension | Position A | Position B | Resolution Needed |
+| Tensão | Posição A | Posição B | Resolução Necessária |
 |---------|-----------|-----------|-------------------|
-| **Pricing** | Growth Hacker: $29-59/user/mo | Trend Researcher: $99-249/user/mo | A/B test in beta |
-| **VisionOS priority** | Architecture: Phase 3 (Week 13+) | Spatial UI: Full spec ready | Build WebXR first, VisionOS when validated |
-| **Orchestration language** | Architecture: Rust | Project Plan: Not specified | Rust is correct for performance-critical DAG execution |
-| **MVP scope** | Architecture: 2D only in Phase 1 | Brand: Lead with spatial | 2D first, but ensure spatial is in every demo |
-| **Community platform** | Support: Discord-first | Marketing: Discord + open-source | Both -- Discord for community, GitHub for developer engagement |
+| **Pricing** | Growth Hacker: $29-59/usuário/mês | Trend Researcher: $99-249/usuário/mês | A/B test no beta |
+| **Prioridade VisionOS** | Arquitetura: Fase 3 (Semana 13+) | Spatial UI: Spec completa pronta | Construir WebXR primeiro, VisionOS quando validado |
+| **Linguagem de orquestração** | Arquitetura: Rust | Plano de Projeto: Não especificado | Rust é correto para execução DAG crítica de performance |
+| **Escopo do MVP** | Arquitetura: Apenas 2D na Fase 1 | Marca: Liderar com espacial | 2D primeiro, mas garantir espacial em toda demo |
+| **Plataforma de comunidade** | Support: Discord-first | Marketing: Discord + open-source | Ambos -- Discord para comunidade, GitHub para engajamento developer |
 
-### What This Exercise Demonstrates
+### O Que Este Exercício Demonstra
 
-This discovery document was produced by 8 specialized agents running in parallel, each bringing deep domain expertise to a shared objective. The agents independently arrived at consistent conclusions while surfacing domain-specific insights that would be difficult for any single generalist to produce:
+Este documento de discovery foi produzido por 8 agentes especializados rodando em paralelo, cada um trazendo expertise profunda de domínio para um objetivo compartilhado. Os agentes chegaram independentemente a conclusões consistentes enquanto trouxeram insights específicos de domínio que seriam difíceis para qualquer generalista produzir sozinho:
 
-- The **Product Trend Researcher** found the sobering Vision Pro sales data that reframed the entire strategy
-- The **Backend Architect** designed a Rust orchestration engine that no marketing-focused team would have considered
-- The **Brand Guardian** created a category ("SpatialAIOps") rather than competing in an existing one
-- The **UX Researcher** identified that spatial computing creates friction for parameter tasks -- a counterintuitive finding
-- The **XR Interface Architect** designed the "data flows toward you" topology that maps to natural spatial cognition
-- The **Project Shepherd** identified the three critical bottleneck roles that could derail the entire timeline
-- The **Growth Hacker** designed viral loops specific to spatial computing's inherent shareability
-- The **Support Responder** turned the product's own AI capabilities into a support differentiator
+- O **Product Trend Researcher** encontrou os dados sóbrios de vendas do Vision Pro que reestruturaram a estratégia inteira
+- O **Backend Architect** desenhou um orchestration engine em Rust que um time focado em marketing dificilmente teria considerado
+- O **Brand Guardian** criou uma categoria ("SpatialAIOps") em vez de competir em uma já existente
+- O **UX Researcher** identificou que spatial computing cria fricção em tarefas de parâmetros -- um achado contraintuitivo
+- O **XR Interface Architect** desenhou a topologia "dados fluem em sua direção", que mapeia cognição espacial natural
+- O **Project Shepherd** identificou os três papéis-gargalo críticos que poderiam descarrilar toda a timeline
+- O **Growth Hacker** desenhou loops virais específicos à compartilhabilidade inerente do spatial computing
+- O **Support Responder** transformou as próprias capacidades de IA do produto em um diferencial de suporte
 
-The result is a comprehensive, cross-functional product plan that could serve as the basis for actual development -- produced in a single session by an agency of AI agents working in concert.
+O resultado é um plano de produto abrangente e cross-functional que poderia servir como base para desenvolvimento real -- produzido em uma única sessão por uma agência de agentes de IA trabalhando em conjunto.
